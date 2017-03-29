@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #4B85AD;">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>water</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" opacity="0.15">
+        <g id="water" stroke="#E8F1F6" stroke-width="30">
+            <path d="M140,2.22044605e-16 C140,2.22044605e-16 156,34 156,66 C156,98 130.274914,100.344768 130,137 C129.725086,173.655232 140,200 140,200" id="Line"></path>
+            <path d="M56.0054199,0 C56.0054199,0 72.0054199,34 72.0054199,66 C72.0054199,98 46.2803341,100.344768 46.0054199,137 C45.7305057,173.655232 56.0054199,200 56.0054199,200" id="Line"></path>
+        </g>
+    </g>
+</svg>

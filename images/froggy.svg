@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210px" height="275px" viewBox="0 0 210 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>frog-green</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-2186.000000, -1077.000000)">
+            <g id="frog-green" transform="translate(2173.000000, 1077.000000)">
+                <rect id="Rectangle-30" fill="#FFFFFF" x="49" y="47" width="138" height="138" rx="9"></rect>
+                <circle id="Oval" fill="#FFFFFF" cx="114" cy="37" r="37"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="50" cy="47" r="37"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="178" cy="47" r="37"></circle>
+                <circle id="Oval-29" fill="#86D035" cx="73" cy="141" r="24"></circle>
+                <circle id="Oval-29" fill="#86D035" cx="163" cy="141" r="24"></circle>
+                <g id="frog-green-+-Rectangle-30" transform="translate(0.000000, 171.000000)" fill="#75B92A">
+                    <ellipse id="frog-green" transform="translate(46.538193, 57.026578) rotate(-27.000000) translate(-46.538193, -57.026578) " cx="46.5381931" cy="57.0265777" rx="26.5" ry="50.5"></ellipse>
+                    <rect id="Rectangle-30" x="13" y="89" width="56" height="15" rx="7.5"></rect>
+                </g>
+                <g id="frog-green-+-Rectangle-30" transform="translate(189.000000, 228.500000) scale(-1, 1) translate(-189.000000, -228.500000) translate(142.000000, 171.000000)" fill="#75B92A">
+                    <ellipse id="frog-green" transform="translate(46.538193, 57.026578) rotate(-27.000000) translate(-46.538193, -57.026578) " cx="46.5381931" cy="57.0265777" rx="26.5" ry="50.5"></ellipse>
+                    <rect id="Rectangle-30" x="13" y="89" width="56" height="15" rx="7.5"></rect>
+                </g>
+                <rect id="Rectangle-30" fill="#86D035" x="49" y="137" width="138" height="138" rx="9"></rect>
+                <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" cx="73" cy="141" r="12"></circle>
+                <circle id="Oval-37" stroke="#FFFFFF" stroke-width="5" fill="#000000" cx="163" cy="141" r="12"></circle>
+                <rect id="Rectangle-33" fill="#B5E97C" x="62" y="189" width="110" height="70" rx="9"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,533 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+html[lang="fa"] #docs,
+html[lang="fa"] #instructions,
+html[lang="fa"] #credits .translate,
+a[href="#fa"] {
+  direction: rtl;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+body {
+  display: flex;
+  min-width: 600px;
+  margin: 0;
+  background-color: #5DA449;
+  box-shadow: inset 20% 20% 20% rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'PT Sans', sans-serif;
+}
+
+#sidebar {
+  width: 50%;
+  min-width: 300px;
+  position: relative;
+  padding: 2em 2em 4em;
+  font-size: 15px;
+}
+
+#view {
+  min-height: 100vh;
+  padding: 1em;
+}
+
+h1 {
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  font-family: 'Autour One', cursive;
+  font-size: 30px;
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+code {
+  padding: 0 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+li {
+  line-height: 1.5;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a:hover {
+  color: #fff;
+}
+
+.help {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.tooltip {
+  position: absolute;
+  max-width: 300px;
+  padding: 0 1em 1em;
+  background-color: #2c3e50;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  z-index: 30;
+}
+
+.tooltip:after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  width: 0; 
+  height: 0; 
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #2c3e50;
+}
+
+#share {
+  display: none;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.fb-like {
+  z-index: 20;
+  vertical-align: top;
+}
+
+#editor {
+  position: relative;
+  margin-top: 2em;
+}
+
+#editor,
+pre {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #aaa;
+}
+
+#css {
+  height: 375px;
+  position: relative;
+  padding: 10px 10px 10px 40px;
+  background-color: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.line-numbers {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 6px;
+  text-align: right;
+  background-color: #999;
+  color: #D5D5D5;
+}
+
+#code {
+  display: block;
+  width: calc(100% - 16px);
+  height: 24px;
+  margin-left: 16px;
+  border: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+
+#level-counter {
+  float: right;
+  position: relative;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#levelsWrapper {
+  display: none;
+  top: 30px;
+  right: 20px;
+  max-width: 160px;
+  padding: 1em 0.5em;
+  margin-top: 12px;
+}
+
+#levelsWrapper:after {
+  left: calc(50% - 12px);
+}
+
+#levels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.level-marker {
+  float: left;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  line-height: 26px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid transparent;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.level-marker.current,
+.level-marker:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.level-marker.solved {
+  background-color: #228B24;
+  background-color: #5DA449;
+}
+
+#level-indicator,
+.arrow {
+  float: left;
+  height: 30px;
+}
+
+#level-indicator {
+  display: inline-block;
+  width: 144px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#labelLevel {
+  margin-left: 5px;
+}
+
+.caret {
+  display: inline-block;
+  margin-left: 2px;
+}
+
+#level-indicator:hover,
+.arrow:not(.disabled):hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#labelReset {
+  margin-top: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.arrow {
+  display: inline-block;
+  font-family: 'Comic Sans MS';
+  padding: 0.25em 0.4em 0.2em;
+  cursor: pointer;
+}
+
+.arrow.left {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.arrow.right {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.arrow.left:not(.disabled):hover,
+.arrow.right:not(.disabled):hover {
+  border-color: transparent;
+}
+
+.arrow.disabled {
+  opacity: 0.5;
+}
+
+button {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  background-color: #D11606;
+  background-color: #DA931E;
+  border: none;
+  border-radius: 4px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+button:active {
+  outline: none;
+}
+
+button:not(.disabled):hover {
+  background-color: #F12D22;
+  background-color: #C97B00;
+}
+
+#next {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+#next:not(.disabled) {
+  animation: pulse 2s linear infinite;
+}
+
+#next.disabled {
+  opacity: 0.5;
+}
+
+#credits {
+  width: 100%;
+  min-width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 2em;
+  line-height: 1.5em;
+  padding: 0 2em;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.languages {
+  word-break: keep-all;
+}
+
+#board {
+  position: relative;
+  width: 50vw;
+  height: 50vw;
+  min-width: 300px;
+  min-height: 300px;
+  overflow: hidden;
+  border: 12px solid #6D5720;
+  border-radius: 12px;
+}
+
+#garden,
+#plants,
+#soil,
+#overlay {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // padding: 3px;
+}
+
+#plants {
+  z-index: 30;
+}
+
+#soil {
+  background-color: #523D1F;
+  // background-color: #B56F28;
+  overflow: hidden;
+  // border-radius: 6px;
+}
+
+.plot {
+  width: 100%;
+  height: 100%;
+  background-color: #6F532A;
+  background-color: #836B32;
+  background-image: url('../images/dirt.svg');
+  background-size: calc(10vw - 4px);
+}
+
+#overlay .plot {
+  z-index: 50;
+  background: none;
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.05), inset -2px -2px 0 #665235;
+}
+
+#garden {
+  z-index: 20;
+}
+
+.plant,
+.treatment {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.plant .bg,
+.treatment .bg {
+  width: 100%;
+  height: 100%;
+  background-position: left top;
+  background-size: calc(10vw - 4px);
+  // background-repeat: no-repeat;
+  // border-radius: 3px;
+}
+
+.treatment .bg {
+}
+
+.plant.carrot .bg {
+  background-image: url("../images/carrots.svg");
+}
+
+.plant.weed .bg {
+  background-image: url("../images/weeds.svg");
+}
+
+.plant.carrot.correct .bg {
+  background-image: url("../images/carrots-correct.svg");
+  // transition: all 5s;
+}
+
+.plant.weed.correct .bg {
+  background-image: url("../images/weeds-correct.svg");
+  // transition: all 0.4s;
+}
+
+.win .plant.carrot .bg {
+  // background-image: url("../images/carrots-win.png");
+  // transition: all 5s;
+}
+
+.treatment.carrot .bg {
+  background-color: rgba(81, 140, 179, 1);
+  background-image: url("../images/water.svg");
+  animation: scroll 6s linear infinite;
+}
+
+.treatment.weed .bg {
+  background-color: #63393E;
+  background-image: url("../images/poison.svg");
+  animation: scroll 6s linear infinite;
+}
+
+#plants.win, #soil.win, #overlay.win {
+  // grid-template: 100% / 100%;
+}
+
+#overlay.win:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18%;
+  left: 41%;
+  width: 8%;
+  height: 8%;
+  background-image: url("../images/froggy.svg");
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: 110;
+  animation: bounce 2s linear infinite;
+}
+
+#overlay.win:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/carrots-win.png");
+  background-size: 100% 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+#garden.win {
+  display: none;
+}
+
+.grid-column-start-1 {
+  grid-column-start: 1;
+}
+
+.grid-column-start-2 {
+  grid-column-start: 2;
+}
+
+.grid-column-start-5 {
+  grid-column-start: 5;
+}
+
+.grid-column-end-6 {
+  grid-column-end: 6;
+}
+
+.grid-column-4 {
+  grid-column: 4;
+  grid-row: 1 / 6;
+}
+
+.grid-template-columns-repeat-8-12 {
+  grid-template-columns: repeat(8, 12.5%) !important;
+}
+
+.grid-template-columns-50px-1fr-1fr-1fr-50px {
+  grid-template-columns: 50px 1fr 1fr 1fr 50px !important;
+}
+
+.grid-template-rows-50px-0-0-0-1fr {
+  grid-template-rows: 50px 0 0 0 1fr !important;
+}
+
+.grid-area-1-1-6-2 {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+.grid-area-5-1-6-6 {
+  grid-area: 5 / 1 / 6 / 6;
+}
+
+.grid-area-1-5-6-6 {
+  grid-area: 1 / 5 / 6 / 6;
+}
+
+.grid-template-2 {
+  grid-template: 1fr 50px / 20% 1fr !important;
+}
+
+@keyframes scroll {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 calc(10vw - 4px); }
+}

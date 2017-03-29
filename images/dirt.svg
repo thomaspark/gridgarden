@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #836B32;">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>dirt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.03">
+        <g id="dirt" fill="#FFFFFF">
+            <path d="M46,69 C59.8071187,69 71,63.8512746 71,57.5 C71,51.1487254 59.8071187,41 46,41 C32.1928813,41 21,51.1487254 21,57.5 C21,63.8512746 32.1928813,69 46,69 Z" id="Oval"></path>
+            <path d="M87.5,170 C104.344685,170 118,163.731986 118,156 C118,148.268014 104.344685,140 87.5,140 C70.6553151,140 57,148.268014 57,156 C57,163.731986 70.6553151,170 87.5,170 Z" id="Oval"></path>
+            <path d="M100,52 C109.941125,52 118,48.1944204 118,43.5 C118,38.8055796 109.941125,33 100,33 C90.0588745,33 82,38.8055796 82,43.5 C82,48.1944204 90.0588745,52 100,52 Z" id="Oval"></path>
+            <path d="M171,131 C180.388841,131 185,127.418278 185,123 C185,118.581722 180.388841,113 171,113 C161.611159,113 157,118.581722 157,123 C157,127.418278 161.611159,131 171,131 Z" id="Oval"></path>
+        </g>
+    </g>
+</svg>
