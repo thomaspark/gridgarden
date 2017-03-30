@@ -407,11 +407,12 @@ var game = {
 };
 
 $(document).ready(function() {
+  game.start();
+
   var d = document.documentElement.style;
 
   if (!('gridArea' in d)) {
-    alert('Grid Garden requires a browser that supports CSS grid, such as the latest Firefox, Chrome, or Safari.');
+    $('#editor, #level-counter, #instructions').hide();
+    $('<div>Oh no, Grid Garden doesn\'t work on this browser. It requires a browser that supports CSS grid, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!</div>').insertAfter($('#editor'));
   }
-
-  game.start();
 });
