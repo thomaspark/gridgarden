@@ -96,6 +96,10 @@ a:hover {
   border-bottom: 12px solid #2c3e50;
 }
 
+.tooltip code {
+  margin-right: 0.5em;
+}
+
 #share {
   display: none;
   margin-top: 3em;
