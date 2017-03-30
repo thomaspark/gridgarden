@@ -2,7 +2,7 @@ var levels = [
   {
     name: 'grid-column-start 1',
     instructions: {
-      'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the 3rd column from the left.</p>',
+      'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -13,7 +13,7 @@ var levels = [
   {
     name: 'grid-column-start 2',
     instructions: {
-      'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Remember that this CSS property accepts number values.',
+      'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.',
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -24,7 +24,7 @@ var levels = [
   {
     name: 'grid-column-end 1',
     instructions: {
-      'en': '<p>When <code>grid-column-start</code> is used alone, the grid item by default will span exactly one column. However, you can extend the item across multiple columns by adding the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>, water all of your carrots while avoiding the dirt. We don\'t want to waste any water!</p>',
+      'en': '<p>When <code>grid-column-start</code> is used alone, the grid item by default will span exactly one column. However, you can extend the item across multiple columns by adding the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>, water all of your carrots while avoiding the dirt. We don\'t want to waste any water! Note that the carrots start at the 1st vertical grid line and end at the 4th.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -48,7 +48,7 @@ var levels = [
   {
     name: 'grid-column-end 3',
     instructions: {
-      'en': '<p>If you want to count columns from the right instead of the left, you can give <code>grid-column-start</code> and <code>grid-column-end</code> negative values.</p><p>Try setting <code>grid-column-end</code> to a negative value.</p>',
+      'en': '<p>If you want to count grid lines from the right instead of the left, you can give <code>grid-column-start</code> and <code>grid-column-end</code> negative values. For example, you can set it to -1 to specify the first grid line from the right.</p><p>Try setting <code>grid-column-end</code> to a negative value.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -71,7 +71,7 @@ var levels = [
   {
     name: 'grid-column-end 4',
     instructions: {
-      'en': '<p>Instead of defining a grid item based on the start and end positions of the columns, you can define it based on your desired width using the <code>span</code> keyword. Keep in mind that <code>span</code> only works with positive values.</p><p>For example, water these carrots with the rule <code>grid-column-end: span 2;</code>.</p>',
+      'en': '<p>Instead of defining a grid item based on the start and end positions of the grid lines, you can define it based on your desired column width using the <code>span</code> keyword. Keep in mind that <code>span</code> only works with positive values.</p><p>For example, water these carrots with the rule <code>grid-column-end: span 2;</code>.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
@@ -107,7 +107,7 @@ var levels = [
   {
     name: 'grid-column 1',
     instructions: {
-      'en': '<p>Typing both <code>grid-column-start</code> and <code>grid-column-end</code> every time can get tiring. Fortunately, <code>grid-column</code> is a shorthand property that can accept both values at once, separated by a slash.</p><p>For example, <code>grid-column: 2 / 4;</code> will set the grid item to start on the left edge of the second column and end on the left edge of the fourth column.</p>',
+      'en': '<p>Typing both <code>grid-column-start</code> and <code>grid-column-end</code> every time can get tiring. Fortunately, <code>grid-column</code> is a shorthand property that can accept both values at once, separated by a slash.</p><p>For example, <code>grid-column: 2 / 4;</code> will set the grid item to start on the 2nd vertical grid line and end on the 4th grid line.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -207,7 +207,7 @@ var levels = [
   {
     name: 'grid-template-columns 1',
     instructions: {
-      'en': '<p>Up to this point, you\'ve had your garden set up as a grid with five columns, each 20% of the full width, and five rows, each 20% of the full height.</p><p>This was done with the rules <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> and <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Each rule has five values which create five columns, each set to 20% of the overall width of the garden.</p><p>But you can set the grid up however you like. Give <code>grid-template-columns</code> a new value to water your carrots. You\'ll want to set the width of the first column to be 50%.',
+      'en': '<p>Up to this point, you\'ve had your garden set up as a grid with five columns, each 20% of the full width, and five rows, each 20% of the full height.</p><p>This was done with the rules <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> and <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Each rule has five values which create five columns, each set to 20% of the overall width of the garden.</p><p>But you can set the grid up however you like. Give <code>grid-template-columns</code> a new value to water your carrots. You\'ll want to set the width of the 1st column to be 50%.',
     },
     board: 'c',
     style: {'grid-template-columns': '50% 50%'},
@@ -239,7 +239,7 @@ var levels = [
   {
     name: 'grid-template-rows 1',
     instructions: {
-      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your fifth row, so you\'ll need to create five rows in total.',
+      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.',
     },
     board: 'c',
     classes: {'#plants': 'grid-template-rows-50px-0-0-0-1fr', '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-5-1-6-6'},
