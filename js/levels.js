@@ -201,7 +201,7 @@ var levels = [
     board: 'cwccc',
     selector: '> :nth-child(2)',
     style: {'order': '2'},
-    before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  order: 0;\n}\n\n#poison {\n",
+    before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n#poison {\n",
     after: "}"
   },
   {
