@@ -1,3 +1,7 @@
+Parse.initialize("FwVMmzHookZZ5j9F9ILc2E5MT5ufabuV7hCXKSeu");
+Parse.serverURL = 'http://129.25.12.218:1337/parse';
+var Submission = Parse.Object.extend("CSSGridGarden");
+
 var game = {
   language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
@@ -319,12 +323,23 @@ var game = {
       }
     });
 
+    var submission = new Submission();
+
     if (correct) {
       ga('send', {
         hitType: 'event',
         eventCategory: level.name,
         eventAction: 'correct',
         eventLabel: $('#code').val()
+      });
+
+      submission.save({
+        timeStamp: (new Date()).getTime(),
+        user: game.user,
+        levelName: level.name,
+        changed: game.changed,
+        input: $('#code').val(),
+        result: 'correct'
       });
             
       if ($.inArray(level.name, game.solved) === -1) {
@@ -339,6 +354,15 @@ var game = {
         eventCategory: level.name,
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
+      });
+
+      submission.save({
+        timeStamp: (new Date()).getTime(),
+        user: game.user,
+        levelName: level.name,
+        changed: game.changed,
+        input: $('#code').val(),
+        result: 'incorrect'
       });
 
       $('#next').addClass('disabled');
