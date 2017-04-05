@@ -87,6 +87,7 @@ var levels = [
     name: 'grid-column-end 5',
     instructions: {
       'en': '<p>Try using <code>grid-column-end</code> with the <code>span</code> keyword again to water your carrots.</p>',
+      'pl': '<p>Spróbuj użyć ponownie <code>grid-column-end</code> z słowem kluczowym <code>span</code>, aby podlać swoje marchewki.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -166,6 +167,7 @@ var levels = [
     name: 'grid-column-row 2',
     instructions: {
       'en': '<p>You can also use <code>grid-column</code> and <code>grid-row</code> together to span larger areas within the grid. Give it a try!</p>',
+      'pl': '<p>Możesz także użyć <code>grid-column</code> i <code>grid-row</code> razem, aby pokryć większą powierzchnię within the grid. Spróbuj!</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
