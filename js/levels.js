@@ -3,6 +3,7 @@ var levels = [
     name: 'grid-column-start 1',
     instructions: {
       'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
+      'pl': '<p>Witaj w grze Grid Garden, w której pisząc kod CSS rozwijasz swój ogród z marchewkami! Podlewaj tylko pola z marchewkami używając właściwości <code>grid-column-start</code>.</p><p>Na przykład, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -61,6 +62,7 @@ var levels = [
     name: 'grid-column-start 3',
     instructions: {
       'en': '<p>Now try setting <code>grid-column-start</code> to a negative value.</p>',
+      'pl': '<p>Teraz spróbuj ustawić <code>grid-column-start</code> na negatywną wartość.</p>',
     },
     board: 'w',
     selector: '> :nth-child(1)',
