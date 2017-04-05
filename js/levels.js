@@ -27,7 +27,7 @@ var levels = [
     name: 'grid-column-end 1',
     instructions: {
       'en': '<p>When <code>grid-column-start</code> is used alone, the grid item by default will span exactly one column. However, you can extend the item across multiple columns by adding the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>, water all of your carrots while avoiding the dirt. We don\'t want to waste any water! Note that the carrots start at the 1st vertical grid line and end at the 4th.</p>',
-      'pl': '<p>Kiedy właściwość <code>grid-column-start</code> jest użyta pojedynczo, przedmiot domyślnie zajmie dokładnie jedną kolumnę. Jednakże, możesz rozszerzyć przedmiot na wiele kolumn dodając właściwość <code>grid-column-end</code>.</p><p>Używając <code>grid-column-end</code>, podlej tylko pola z marchewkami. Nie chcemy zmarnować ani kropli wody! Zauważ, że marchewki zaczynają się od pierwszej pionowej linii i kończą na czwartej.</p>',
+      'pl': '<p>Kiedy właściwość <code>grid-column-start</code> jest użyta pojedynczo, element domyślnie zajmie dokładnie jedną kolumnę. Jednakże, możesz rozszerzyć element na wiele kolumn dodając właściwość <code>grid-column-end</code>.</p><p>Używając <code>grid-column-end</code>, podlej tylko pola z marchewkami. Nie chcemy zmarnować ani kropli wody! Zauważ, że marchewki zaczynają się od pierwszej pionowej linii i kończą na czwartej.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -78,7 +78,7 @@ var levels = [
     name: 'grid-column-end 4',
     instructions: {
       'en': '<p>Instead of defining a grid item based on the start and end positions of the grid lines, you can define it based on your desired column width using the <code>span</code> keyword. Keep in mind that <code>span</code> only works with positive values.</p><p>For example, water these carrots with the rule <code>grid-column-end: span 2;</code>.</p>',
-      'pl': '<p>Zamiast definiować przedmiot na podstawie początkowej i końcowej linii, możesz go zdefiniować na podstawie pożądanej szerokości z użyciem słowa kluczowego <code>span</code>. Miej na uwadze, że <code>span</code> działa tylko z pozytywnymi wartościami.</p><p>Na przykład, podlej te marchewki poleceniem <code>grid-column-end: span 2;</code>.</p>',
+      'pl': '<p>Zamiast definiować element na podstawie początkowej i końcowej linii, możesz go zdefiniować na podstawie pożądanej szerokości z użyciem słowa kluczowego <code>span</code>. Miej na uwadze, że <code>span</code> działa tylko z pozytywnymi wartościami.</p><p>Na przykład, podlej te marchewki poleceniem <code>grid-column-end: span 2;</code>.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
@@ -104,7 +104,7 @@ var levels = [
     name: 'grid-column-start 4',
     instructions: {
       'en': '<p>You can also use the <code>span</code> keyword with <code>grid-column-start</code> to set your item\'s width relative to the end position.</p>',
-      'pl': '<p>Możesz także użyć słowa kluczowego <code>span</code> z <code>grid-column-start</code> aby ustawić szerokość twojego przedmiotu względem końcowej pozycji.</p>',
+      'pl': '<p>Możesz także użyć słowa kluczowego <code>span</code> z <code>grid-column-start</code> aby ustawić szerokość twojego elementu względem końcowej pozycji.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
@@ -117,7 +117,7 @@ var levels = [
     name: 'grid-column 1',
     instructions: {
       'en': '<p>Typing both <code>grid-column-start</code> and <code>grid-column-end</code> every time can get tiring. Fortunately, <code>grid-column</code> is a shorthand property that can accept both values at once, separated by a slash.</p><p>For example, <code>grid-column: 2 / 4;</code> will set the grid item to start on the 2nd vertical grid line and end on the 4th grid line.</p>',
-      'pl': '<p>Wpisywanie obu <code>grid-column-start</code> i <code>grid-column-end</code> za każdym razem, może być męczące. Na szczęście, <code>grid-column</code> jest skróconą właściwością, która akceptuje obie wartości naraz, rozdzielone przez ukośnik.</p><p>Na przykład, <code>grid-column: 2 / 4;</code> ustawi początek przedmiotu na 2 linię pionową, a koniec na 4 linię.</p>',
+      'pl': '<p>Wpisywanie obu <code>grid-column-start</code> i <code>grid-column-end</code> za każdym razem, może być męczące. Na szczęście, <code>grid-column</code> jest skróconą właściwością, która akceptuje obie wartości naraz, rozdzielone przez ukośnik.</p><p>Na przykład, <code>grid-column: 2 / 4;</code> ustawi początek elementu na 2 linię pionową, a koniec na 4 linię.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -141,6 +141,7 @@ var levels = [
     name: 'grid-row-start 1',
     instructions: {
       'en': '<p>One of the things that sets CSS grids apart from flexbox is that you can easily position items in two dimensions: columns and rows. <code>grid-row-start</code> works much like <code>grid-column-start</code> except along the vertical axis.</p><p>Use <code>grid-row-start</code> to water these carrots.</p>',
+      'pl': '<p>Jedną z rzeczy, która rozróżnia CSS grid od flexboxa jest to, że możesz w łatwy sposób ustawiać elementy w dwóch wymiarach: kolumnach i wierszach. <code>grid-row-start</code> działa podobnie jak <code>grid-column-start</code> z wyjątkiem osi pionowej.</p><p>Użyj <code>grid-row-start</code> aby podlać marchewki.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -188,6 +189,7 @@ var levels = [
     name: 'grid-area 1',
     instructions: {
       'en': '<p>If typing out both <code>grid-column</code> and <code>grid-row</code> is too much for you, there\'s yet another shorthand for that. <code>grid-area</code> accepts four values separated by slashes: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, followed by <code>grid-column-end</code>.</p><p>One example of this would be <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
+      'pl': '<p>Jeżeli pisanie obu <code>grid-column</code> i <code>grid-row</code> to dla ciebie za dużo, istnieje skrócona wersja tych właściwości. <code>grid-area</code> akceptuje cztery wartości rozdzielone przez ukośnik: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code> oraz <code>grid-column-end</code>.</p><p>Jednym z przykładów jest <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -199,7 +201,7 @@ var levels = [
     name: 'grid-area 2',
     instructions: {
       'en': '<p>How about multiple items? You can overlap them without any trouble. Use <code>grid-area</code> to define a second area that covers all of the unwatered carrots.</p>',
-      'pl': '<p>A co z wieloma przedmiotami? Możesz je nakładać bez problemu. Użyj <code>grid-area</code> aby zdefiniować drugą powierzchnię, która pokryje nie podlane marchewki.</p>',
+      'pl': '<p>A co z wieloma elementami? Możesz je nakładać bez problemu. Użyj <code>grid-area</code> aby zdefiniować drugą powierzchnię, która pokryje nie podlane marchewki.</p>',
     },
     board: 'cc',
     classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
@@ -211,7 +213,8 @@ var levels = [
   {
     name: 'order 1',
     instructions: {
-      'en': '<p>If grid items aren\'t explicity placed with <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., they are automatically placed row by row according to their order in the source code. We can override this using the <code>order</code> property.</p><p>By default, all grid items have an <code>order</code> of 0, but this can be set to any positive or negative value.</p><p>Right now, the carrots in the second column are being poisoned and the weeds in the last column are being watered. Change the <code>order</code> value of the poison to fix this right away!</p>',
+      'en': '<p>If grid items aren\'t explicitly placed with <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., they are automatically placed row by row according to their order in the source code. We can override this using the <code>order</code> property.</p><p>By default, all grid items have an <code>order</code> of 0, but this can be set to any positive or negative value.</p><p>Right now, the carrots in the second column are being poisoned and the weeds in the last column are being watered. Change the <code>order</code> value of the poison to fix this right away!</p>',
+      'pl': '<p>Jeżeli elementy nie są jednoznacznie umiejscowione w grid przez <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, itd., są one automatycznie umiejscowione wiersz za wierszem według kolejności jaka znajduje się w kodzie źródłowym. Możemy to nadpisać z użyciem właściwości <code>order</code>.</p><p>Domyślnie, wszystkie elementy grid mają wartość <code>order</code> ustawioną na 0, ale może to zostać ustawione na dowolną liczbę dodatnią lub ujemną.</p><p>Teraz, marchewki w drugiej kolumnie są traktowane trucizną, a chwasty w ostatniej kolumnie są podlewane. Zmień wartość <code>order</code> trucizny, aby naprawić to jak najszybciej!</p>',
     },
     board: 'cwccc',
     selector: '> :nth-child(2)',
@@ -223,6 +226,7 @@ var levels = [
     name: 'grid-template-columns 1',
     instructions: {
       'en': '<p>Up to this point, you\'ve had your garden set up as a grid with five columns, each 20% of the full width, and five rows, each 20% of the full height.</p><p>This was done with the rules <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> and <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Each rule has five values which create five columns, each set to 20% of the overall width of the garden.</p><p>But you can set the grid up however you like. Give <code>grid-template-columns</code> a new value to water your carrots. You\'ll want to set the width of the 1st column to be 50%.',
+      'pl': '<p>Do tego pory, twój ogród składał się z siatki z pięcioma kolumnami, każda po 20% pełnej szerokości, i pięciu rzędów, każdy po 20% pełnej wysokości.</p><p>To było zrobione według zasad <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> i <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Każda zasada ma pięć wartości, które tworzą 5 kolumn - każda z nich tworzy 20% szerokości ogrodu.</p><p>Ale możesz ustawić siatkę w dowolny sposób. Ustaw nową wartość <code>grid-template-columns</code>, aby nawodnić swoje marchewki. Będziesz chciał ustawić szerokość pierwszej kolumny na 50%.',
     },
     board: 'c',
     style: {'grid-template-columns': '50% 50%'},
@@ -233,6 +237,7 @@ var levels = [
     name: 'grid-template-columns 2',
     instructions: {
       'en': '<p>Specifying a bunch of columns with identical widths can get tedious. Luckily there\'s a <code>repeat</code> function to help with that.</p><p>For example, we previously defined five 20% columns with the rule <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. This can be simplified as <code>grid-template-columns: repeat(5, 20%);</code></p><p>Using <code>grid-template-columns</code> with the <code>repeat</code> function, create eight columns each with 12.5% width. This way you won\'t overwater your garden.</p>',
+      'pl': '<p>Definiowanie wielu kolumn o takiej samej szerokości może być nużące. Na szczęście istnieje funkcja <code>repeat</code>, która może nam w tym pomóc.</p><p>Na przykład, wcześniej zdefiniowaliśmy 5 kolumn o szerokości 20% przy pomocy zasady <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. To może być uproszczone jako <code>grid-template-columns: repeat(5, 20%);</code></p><p>Używając <code>grid-template-columns</code> z funkcją <code>repeat</code>, stwórz 8 kolumn - każda po 12.5% szerokości. W ten sposób nie przesadzisz z nawodnieniem ogrodu.</p>',
     },
     board: 'c',
     classes: {'#plants': 'grid-template-columns-repeat-8-12'},
@@ -244,6 +249,7 @@ var levels = [
     name: 'grid-template-columns 3',
     instructions: {
       'en': '<p><code>grid-template-columns</code> doesn\'t just accept values in percentages, but also length units like pixels and ems. You can even mix different units together.</p><p>Another unit that grid introduces is the fractional unit <code>fr</code>, which stretches to take up one equal share of the leftover space.</p><p>Here the carrots form a 50 pixel column on the left, and the weeds a 50 pixel column on the right. Use <code>fr</code> to make three columns that take up the leftover space in between.</p>',
+      'pl': '<p><code>grid-template-columns</code> nie tylko akceptuje wartości podane w procentach, ale również jednostki takie jak pixele i em-y. Możesz nawet mieszać różne jednostki razem.</p><p>Kolejną jednostką wprowadzoną przez grid jest ułamek <code>fr</code>, która zajmuje równą część pozostałej powierzchni.</p><p>Marchewki tworzą 50 pixelową kolumnę po lewej stronie, a chwasty 50 pixelową kolumnę po prawej stronie. Użyj jednostki <code>fr</code> by stworzyć 3 kolumny, które zajmują pozostałe miejsce.</p>',
     },
     board: 'cw',
     classes: {'#plants': 'grid-template-columns-50px-1fr-1fr-1fr-50px', '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-1-1-6-2', '#plants > :nth-child(2), #garden > :nth-child(2)': 'grid-area-1-5-6-6'},
