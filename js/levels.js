@@ -3,7 +3,7 @@ var levels = [
     name: 'grid-column-start 1',
     instructions: {
       'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
-      'pl': '<p>Witaj w grze Grid Garden, w której pisząc kod CSS rozwijasz swój ogród z marchewkami! Podlewaj tylko pola z marchewkami używając właściwości <code>grid-column-start</code>.</p><p>Na przykład, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
+      'pl': '<p>Witaj w grze Grid Garden, w której pisząc kod CSS rozwijasz swój ogród z marchewkami! Podlewaj tylko pola z marchewkami używając właściwości <code>grid-column-start</code>.</p><p>Na przykład, <code>grid-column-start: 3;</code> nawodni obszar zaczynający się od 3-ej pionowej linii, co jest innym sposobem na powiedzenie 3-cia od lewej pionowa granica.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -15,6 +15,7 @@ var levels = [
     name: 'grid-column-start 2',
     instructions: {
       'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.',
+      'pl': '<p>O nie, wygląda na to, że chwasty urosły w rogu twojego ogrodu. Użyj <code>grid-column-start</code> by je otruć. Zauważ, że chwasty zaczynają się od 5-ej pionowej linii.',
     },
     board: 'w',
     selector: '> :nth-child(1)',
