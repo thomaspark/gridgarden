@@ -3,7 +3,7 @@ var levels = [
     name: 'grid-column-start 1',
     instructions: {
       'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
-      'pl': '<p>Witaj w grze Grid Garden, w której pisząc kod CSS rozwijasz swój ogród z marchewkami! Podlewaj tylko pola z marchewkami używając właściwości <code>grid-column-start</code>.</p><p>Na przykład, <code>grid-column-start: 3;</code> nawodni obszar zaczynający się od 3-ej pionowej linii, co jest innym sposobem na powiedzenie 3-cia od lewej pionowa granica.</p>',
+      'pl': '<p>Witaj w grze Grid Garden, w której pisząc kod CSS rozwijasz swój ogród z marchewkami! Podlewaj tylko pola z marchewkami używając właściwości <code>grid-column-start</code>.</p><p>Na przykład, <code>grid-column-start: 3;</code> nawodni obszar zaczynający się od trzeciej pionowej linii, co jest innym sposobem na powiedzenie trzecia od lewej pionowa granica.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -15,7 +15,7 @@ var levels = [
     name: 'grid-column-start 2',
     instructions: {
       'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.',
-      'pl': '<p>O nie, wygląda na to, że chwasty urosły w rogu twojego ogrodu. Użyj <code>grid-column-start</code> by je otruć. Zauważ, że chwasty zaczynają się od 5-ej pionowej linii.',
+      'pl': '<p>O nie, wygląda na to, że chwasty urosły w rogu twojego ogrodu. Użyj <code>grid-column-start</code> by je otruć. Zauważ, że chwasty zaczynają się od piątej pionowej linii.',
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -27,6 +27,7 @@ var levels = [
     name: 'grid-column-end 1',
     instructions: {
       'en': '<p>When <code>grid-column-start</code> is used alone, the grid item by default will span exactly one column. However, you can extend the item across multiple columns by adding the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>, water all of your carrots while avoiding the dirt. We don\'t want to waste any water! Note that the carrots start at the 1st vertical grid line and end at the 4th.</p>',
+      'pl': '<p>Kiedy właściwość <code>grid-column-start</code> jest użyta pojedynczo, przedmiot domyślnie zajmie dokładnie jedną kolumnę. Jednakże, możesz rozszerzyć przedmiot na wiele kolumn dodając właściwość <code>grid-column-end</code>.</p><p>Używając <code>grid-column-end</code>, podlej tylko pola z marchewkami. Nie chcemy zmarnować ani kropli wody! Zauważ, że marchewki zaczynają się od pierwszej pionowej linii i kończą na czwartej.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -51,6 +52,7 @@ var levels = [
     name: 'grid-column-end 3',
     instructions: {
       'en': '<p>If you want to count grid lines from the right instead of the left, you can give <code>grid-column-start</code> and <code>grid-column-end</code> negative values. For example, you can set it to -1 to specify the first grid line from the right.</p><p>Try setting <code>grid-column-end</code> to a negative value.</p>',
+      'pl': '<p>Jeżeli chcesz liczyć linie od prawej zamiast od lewej, możesz ustawić wartości <code>grid-column-start</code> i <code>grid-column-end</code> na negatywne. Na przykład, możesz ustawić wartość na -1 aby wybrać pierwszą linię od prawej.</p><p>Spróbuj ustawić <code>grid-column-end</code> na negatywną wartość.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -113,6 +115,7 @@ var levels = [
     name: 'grid-column 1',
     instructions: {
       'en': '<p>Typing both <code>grid-column-start</code> and <code>grid-column-end</code> every time can get tiring. Fortunately, <code>grid-column</code> is a shorthand property that can accept both values at once, separated by a slash.</p><p>For example, <code>grid-column: 2 / 4;</code> will set the grid item to start on the 2nd vertical grid line and end on the 4th grid line.</p>',
+      'pl': '<p>Wpisywanie obu <code>grid-column-start</code> i <code>grid-column-end</code> za każdym razem, może być męczące. Na szczęście, <code>grid-column</code> jest skróconą właściwością, która akceptuje obie wartości naraz, rozdzielone przez ukośnik.</p><p>Na przykład, <code>grid-column: 2 / 4;</code> ustawi początek przedmiotu na 2 linię pionową, a koniec na 4 linię.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -159,6 +162,7 @@ var levels = [
     name: 'grid-column-row 1',
     instructions: {
       'en': '<p>Use <code>grid-column</code> and <code>grid-row</code> at the same time to set position in both dimensions.</p>',
+      'pl': '<p>Użyj <code>grid-column</code> i <code>grid-row</code> razem, aby ustawić pozycję w dwóch wymiarach.</p>',
     },
     board: 'w',
     selector: '> :nth-child(1)',
