@@ -40,6 +40,7 @@ var levels = [
     name: 'grid-column-end 2',
     instructions: {
       'en': '<p>When pairing <code>grid-column-start</code> and <code>grid-column-end</code>, you might assume that the end value has to be greater than the start value. But this turns out not the case!</p><p>Try setting <code>grid-column-end</code> to a value less than 5 to water your carrots.</p>',
+      'pl': '<p>Kiedy używasz razem <code>grid-column-start</code> i <code>grid-column-end</code>, możesz zakładać że końcowa wartość musi być większa od początkowej. Ale okazuje się, że to nieprawda!</p><p>Spróbuj ustawić <code>grid-column-end</code> na wartość mniejszą niż 5 aby podlać swoje marchewki.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
@@ -77,6 +78,7 @@ var levels = [
     name: 'grid-column-end 4',
     instructions: {
       'en': '<p>Instead of defining a grid item based on the start and end positions of the grid lines, you can define it based on your desired column width using the <code>span</code> keyword. Keep in mind that <code>span</code> only works with positive values.</p><p>For example, water these carrots with the rule <code>grid-column-end: span 2;</code>.</p>',
+      'pl': '<p>Zamiast definiować przedmiot na podstawie początkowej i końcowej linii, możesz go zdefiniować na podstawie pożądanej szerokości z użyciem słowa kluczowego <code>span</code>. Miej na uwadze, że <code>span</code> działa tylko z pozytywnymi wartościami.</p><p>Na przykład, podlej te marchewki poleceniem <code>grid-column-end: span 2;</code>.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
