@@ -193,6 +193,7 @@ var levels = [
     name: 'grid-area 2',
     instructions: {
       'en': '<p>How about multiple items? You can overlap them without any trouble. Use <code>grid-area</code> to define a second area that covers all of the unwatered carrots.</p>',
+      'pl': '<p>A co z wieloma przedmiotami? Możesz je nakładać bez problemu. Użyj <code>grid-area</code> aby zdefiniować drugą powierzchnię, która pokryje nie podlane marchewki.</p>',
     },
     board: 'cc',
     classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
@@ -248,6 +249,7 @@ var levels = [
     name: 'grid-template-rows 1',
     instructions: {
       'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.',
+      'pl': '<p><code>grid-template-rows</code> działa w podobny sposób jak <code>grid-template-columns</code>.</p><p>Użyj <code>grid-template-rows</code> aby nawodnić 50 pixeli od góry twojego ogrodu. Zauważ, że woda jest ustawiona tak aby wypełnić tylko 5 rząd, dlatego będziesz musiał stworzyć łącznie 5 rzędów.',
     },
     board: 'c',
     classes: {'#plants': 'grid-template-rows-50px-0-0-0-1fr', '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-5-1-6-6'},
@@ -259,6 +261,7 @@ var levels = [
     name: 'grid-template 1',
     instructions: {
       'en': '<p><code>grid-template</code> is a shorthand property that combines <code>grid-template-rows</code> and <code>grid-template-columns</code>.</p><p>Try using <code>grid-template</code> to water an area that includes the top 60% and left 200 pixels of your garden.</p>',
+      'pl': '<p><code>grid-template</code> jest skróconą właściwością, która łączy <code>grid-template-rows</code> i <code>grid-template-columns</code>.</p><p>Spróbuj użyć <code>grid-template</code> aby nawodnić powierzchnię która zawiera 60% od góry i 200 pixeli od lewej twojego ogrodu.</p>',
     },
     board: 'c',
     style: {'grid-template': '60% 1fr / 200px 1fr'},
