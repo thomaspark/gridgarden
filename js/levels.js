@@ -100,6 +100,7 @@ var levels = [
     name: 'grid-column-start 4',
     instructions: {
       'en': '<p>You can also use the <code>span</code> keyword with <code>grid-column-start</code> to set your item\'s width relative to the end position.</p>',
+      'pl': '<p>Możesz także użyć słowa kluczowego <code>span</code> z <code>grid-column-start</code> aby ustawić szerokość twojego przedmiotu względem końcowej pozycji.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
@@ -123,6 +124,7 @@ var levels = [
     name: 'grid-column 2',
     instructions: {
       'en': '<p>Try using <code>grid-column</code> to water these carrots. The <code>span</code> keyword also works with this shorthand property so give it a try!</p>',
+      'pl': '<p>Spróbuj użyć <code>grid-column</code> aby podlać te marchewki. Słowo kluczowe <code>span</code> działa także ze skróconą formą tej właściwości, więc wypróbuj to!</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -145,6 +147,7 @@ var levels = [
     name: 'grid-row-start 2',
     instructions: {
       'en': '<p>Now give the shorthand property <code>grid-row</code> a try.</p>',
+      'pl': '<p>Teraz spróbuj użyć skróconej właściwości <code>grid-row</code>.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -266,6 +269,7 @@ var levels = [
     name: 'grid-template 2',
     instructions: {
       'en': '<p>Your garden is looking great. Here you\'ve left a 50 pixel path at the bottom of your garden and filled the rest with carrots.</p><p>Unfortunately, the left 20% of your carrots have been overrun with weeds. Use CSS grid one last time to treat your garden.</p>',
+      'pl': '<p>Twój ogród wygląda świetnie. Tutaj pozostawiłeś 50 pixelową ścieżkę na spodzie swojego ogrodu, a reszcie posadziłeś marchewki.</p><p>Niestety, 20% od lewej twoich marchewek zostało zarośnięte przez chwasty. Użyj CSS grid ostatni raz aby uzdrowić swój ogród.</p>',
     },
     board: 'wc',
     classes: {'#plants': 'grid-template-2'},
