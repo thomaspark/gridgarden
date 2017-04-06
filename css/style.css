@@ -22,7 +22,29 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-family: 'PT Sans', sans-serif;
 }
+/*new from Dan Weatherbee*/
+#myProgress {
+  width: 100%;
+  background-color: green;
+}
 
+#myBar {
+  width: 1%;
+  height: 10px;
+  background-color: #4CAF50;
+}
+
+#myBar,
+#myProgress{
+  border-radius: 50%;
+}
+
+.shadow {
+  box-shadow: 5px 3px 5px #333333;
+  -webkit-box-shadow: 5px 3px 5px #333333;
+  -moz-box-shadow: 5px 3px 5px #333333;
+}
+/*new from Dan Weatherbee end */
 #sidebar {
   width: 50%;
   min-width: 300px;
@@ -89,8 +111,8 @@ a:hover {
   position: absolute;
   top: -12px;
   left: 12px;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #2c3e50;
