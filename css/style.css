@@ -490,12 +490,33 @@ button:not(.disabled):hover {
   grid-template-columns: repeat(8, 12.5%) !important;
 }
 
+.grid-template-columns-100px-3em-40p {
+  grid-template-columns: 100px 3em 40% !important;
+}
+
+.grid-template-columns-1fr-5fr {
+  grid-template-columns: 1fr 5fr !important;
+}
+
+.grid-template-columns-75px-2fr-1fr {
+  grid-template-columns: 75px 2fr 1fr !important;
+}
+
 .grid-template-columns-50px-1fr-1fr-1fr-50px {
   grid-template-columns: 50px 1fr 1fr 1fr 50px !important;
 }
 
 .grid-template-rows-50px-0-0-0-1fr {
   grid-template-rows: 50px 0 0 0 1fr !important;
+}
+
+.grid-template-rows-100p {
+  grid-template-rows: 100% !important;
+}
+
+.grid-template-columns-6 {
+  grid-template-columns: 75px 3fr 2fr !important;
+  grid-template-rows: 100% !important;
 }
 
 .grid-area-1-1-6-2 {
