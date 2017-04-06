@@ -1,49 +1,72 @@
+/*
+Mixed Quotations single and double.
+Using single only for consistency and to enable string concatenation
+for more human readable code for the developer.
+*/
+
 var levels = [
   {
     name: 'grid-column-start 1',
     instructions: {
-      'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
+      'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden!' +
+      ' Water only the areas that have carrots by using the <code>grid-column-start</code> property.' +
+      '</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line,' +
+      ' which is another way of saying the 3rd vertical border from the left in the grid.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
     style: {'grid-column-start': '3'},
-    before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
-    after: "}"
+    before: '#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  ' +
+    'grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n',
+    after: '}'
   },
   {
     name: 'grid-column-start 2',
     instructions: {
-      'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.',
+      'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden.' +
+      ' Use <code>grid-column-start</code> to poison them.' +
+      ' Note that the weeds start at the 5th vertical grid line.',
     },
     board: 'w',
     selector: '> :nth-child(1)',
     style: {'grid-column-start': '5'},
-    before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
-    after: "}"
+    before: '#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  ' +
+    'grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n',
+    after: '}'
   },
   {
     name: 'grid-column-end 1',
     instructions: {
-      'en': '<p>When <code>grid-column-start</code> is used alone, the grid item by default will span exactly one column. However, you can extend the item across multiple columns by adding the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>, water all of your carrots while avoiding the dirt. We don\'t want to waste any water! Note that the carrots start at the 1st vertical grid line and end at the 4th.</p>',
+      'en': '<p>When <code>grid-column-start</code> is used alone,' +
+      ' the grid item by default will span exactly one column. However,' +
+      ' you can extend the item across multiple columns by adding' +
+      ' the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>,' +
+      ' water all of your carrots while avoiding the dirt. We don\'t want to waste any water!' +
+      ' Note that the carrots start at the 1st vertical grid line and end at the 4th.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
     selector: '> :nth-child(1)',
     style: {'grid-column-end': '4'},
-    before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
-    after: "}"
+    before: '#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;' +
+    '\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n',
+    after: '}'
   },
   {
     name: 'grid-column-end 2',
     instructions: {
-      'en': '<p>When pairing <code>grid-column-start</code> and <code>grid-column-end</code>, you might assume that the end value has to be greater than the start value. But this turns out not the case!</p><p>Try setting <code>grid-column-end</code> to a value less than 5 to water your carrots.</p>',
+      'en': '<p>When pairing <code>grid-column-start</code> and <code>grid-column-end</code>,' +
+      ' you might assume that the end value has to be greater than the start value.' +
+      ' But this turns out not the case!</p><p>Try setting <code>grid-column-end</code>' +
+      ' to a value less than 5 to water your carrots.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
     selector: '> :nth-child(1)',
     style: {'grid-column-end': '2'},
-    before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 5;\n",
-    after: "}"
+    before: '#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;' +
+    '\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 5;\n',
+    after: '}'
   },
   {
     name: 'grid-column-end 3',
@@ -55,7 +78,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column-end': '-2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-column-start 3',
@@ -66,7 +89,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column-start': '-3'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-column-end 4',
@@ -78,7 +101,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column-end': 'span 2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 2;\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-column-end 5',
@@ -90,7 +113,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column-end': 'span 5'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-column-start 4',
@@ -113,7 +136,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column': '4 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-column 2',
@@ -124,7 +147,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column': '2 / 5'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-row-start 1',
@@ -135,7 +158,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-row-start': '3'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-row-start 2',
@@ -146,7 +169,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-row': '3 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-column-row 1',
@@ -157,7 +180,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column': '2', 'grid-row': '5'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-column-row 2',
@@ -168,7 +191,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-column': '2 / 6', 'grid-row': '1 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-area 1',
@@ -179,7 +202,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-area': '1 / 2 / 4 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'grid-area 2',
@@ -191,7 +214,7 @@ var levels = [
     selector: '> :nth-child(1)',
     style: {'grid-area': '2 / 3 / 5 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water-1 {\n  grid-area: 1 / 4 / 6 / 5;\n}\n\n#water-2 {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'order 1',
@@ -202,7 +225,7 @@ var levels = [
     selector: '> :nth-child(2)',
     style: {'order': '2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n#poison {\n",
-    after: "}"
+    after: '}'
   },
   {
     name: 'order 2',
@@ -310,7 +333,7 @@ var levels = [
     classes: {'#plants': 'grid-template-2'},
     style: {'grid-template': '1fr 50px / 20% 1fr'},
     before: "#garden {\n  display: grid;\n",
-    after: "}"
+    after: '}'
   }
 ];
 
@@ -323,5 +346,5 @@ var levelWin = {
   classes: {'#garden, #plants, #overlay': 'win'},
   style: {},
   before: "#pond {\n  display: flex;\n",
-  after: "}"
+  after: '}'
 };

@@ -12,7 +12,7 @@ var game = {
 
   start: function() {
     game.translate();
-
+    createGrid();
     $('#level-counter .total').text(levels.length);
     $('#editor').show();
     $('#share').hide();
@@ -51,6 +51,7 @@ var game = {
           game.next();
         }
       }, 2500);
+      move();
     });
 
     $('#code').on('keydown', function(e) {
@@ -286,8 +287,8 @@ var game = {
 
     game.saveAnswer();
   },
-  
-  check: function() {    
+
+  check: function() {
     game.applyStyles();
 
     var level = levels[game.level];
@@ -342,7 +343,7 @@ var game = {
         input: $('#code').val(),
         result: 'correct'
       });
-            
+
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
