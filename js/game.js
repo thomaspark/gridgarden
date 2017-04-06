@@ -436,7 +436,8 @@ $(document).ready(function() {
   var d = document.documentElement.style;
 
   if (!('gridArea' in d)) {
+    var warning = messages.warningUnsupported[game.language] || messages.warningUnsupported.en;
     $('#editor, #level-counter, #instructions').hide();
-    $('<div>Oh no, Grid Garden doesn\'t work on this browser. It requires a browser that supports CSS grid, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!</div>').insertAfter($('#editor'));
+    $('<div>' + warning + '</div>').insertAfter($('#editor'));
   }
 });
