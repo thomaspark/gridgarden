@@ -297,10 +297,11 @@ var game = {
 
     $('.treatment').each(function() {
       var position = $(this).position();
-      position.top = Math.floor(position.top);
-      position.left = Math.floor(position.left);
-      position.width = Math.floor($(this).width());
-      position.height = Math.floor($(this).height());
+
+      position.top = Math.round(position.top);
+      position.left = Math.round(position.left);
+      position.width = Math.round(parseFloat(window.getComputedStyle(this).width));
+      position.height = Math.round(parseFloat(window.getComputedStyle(this).height));
 
       var key = JSON.stringify(position);
       var val = $(this).data('color');
@@ -310,10 +311,10 @@ var game = {
     $('.plant').each(function() {
       var position = $(this).position();
 
-      position.top = Math.floor(position.top);
-      position.left = Math.floor(position.left);
-      position.width = Math.floor($(this).width());
-      position.height = Math.floor($(this).height());
+      position.top = Math.round(position.top);
+      position.left = Math.round(position.left);
+      position.width = Math.round(parseFloat(window.getComputedStyle(this).width));
+      position.height = Math.round(parseFloat(window.getComputedStyle(this).height));
 
       var key = JSON.stringify(position);
       var val = $(this).data('color');
