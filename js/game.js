@@ -79,7 +79,7 @@ var game = {
           }
         }
       }
-    }).on('input', game.debounce(game.check, 500))
+    }).on('input', game.debounce(game.check, 200))
     .on('input', function() {
       game.changed = true;
     });
