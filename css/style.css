@@ -150,7 +150,7 @@ pre {
   height: 375px;
   position: relative;
   padding: 10px 10px 10px 40px;
-  background-color: #ddd;
+  background-color: black;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -163,7 +163,8 @@ pre {
   padding: 10px 6px;
   text-align: right;
   background-color: #999;
-  color: #D5D5D5;
+  color: black;
+  border: 1px solid;
 }
 
 #code {
@@ -177,6 +178,10 @@ pre {
   outline: none;
   resize: none;
   overflow: auto;
+  color: lawngreen;
+  background-color: black;
+  border: 1px solid;
+  border-color: red;
 }
 
 #level-counter {

@@ -6,6 +6,8 @@ for code efficiency.
 var $;
 var overlayElem = $('#overlay');
 var soilElem = $('#soil');
+var lineNumbersElem = $('.line-numbers');
+
 var createGrid = function() {
     "use strict";
 
@@ -13,7 +15,10 @@ var createGrid = function() {
         overlayElem.append('<span class="plot"></span>');
         soilElem.append('<span class="plot"></span>');
     }
-
+    for (var i = 1; i < 14; i++) {
+        lineNumbersElem.append(i + '<br>');
+    }
+    lineNumbersElem.append(14);
 };
 
 
