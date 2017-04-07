@@ -19,6 +19,14 @@ Thomas Park
 * [Homepage](http://thomaspark.co)
 * [GitHub](https://github.com/thomaspark)
 
+## Translators
+
+My gratitude to these contributors for their translations.
+
+* French by [Forresst](https://github.com/forresst)
+
+Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/gridgarden/), add your translations, and submit a pull request.
+
 ## Copyright and License
 
 Copyright 2017 Thomas Park. Code released under [the MIT License](https://github.com/thomaspark/gridgarden/blob/gh-pages/LICENSE). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
