@@ -82,7 +82,7 @@ a:hover {
   border-radius: 4px;
   font-size: 12px;
   line-height: 1.5;
-  z-index: 30;
+  z-index: 60;
 }
 
 .tooltip:after {
@@ -316,8 +316,8 @@ button:not(.disabled):hover {
 }
 
 #credits {
+  margin-top: 1.5em;
   line-height: 1.5em;
-  padding: 0 2em;
   text-align: center;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
