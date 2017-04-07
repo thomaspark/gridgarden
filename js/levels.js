@@ -213,13 +213,24 @@ var levels = [
   {
     name: 'order 1',
     instructions: {
-      'en': '<p>If grid items aren\'t explicity placed with <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., they are automatically placed row by row according to their order in the source code. We can override this using the <code>order</code> property.</p><p>By default, all grid items have an <code>order</code> of 0, but this can be set to any positive or negative value.</p><p>Right now, the carrots in the second column are being poisoned and the weeds in the last column are being watered. Change the <code>order</code> value of the poison to fix this right away!</p>',
+      'en': '<p>If grid items aren\'t explicity placed with <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., they are automatically placed row by row according to their order in the source code. We can override this using the <code>order</code> property, which is one of the advantages of grid over table-based layout.</p><p>By default, all grid items have an <code>order</code> of 0, but this can be set to any positive or negative value, similar to <code>z-index</code>.</p><p>Right now, the carrots in the second column are being poisoned and the weeds in the last column are being watered. Change the <code>order</code> value of the poison to fix this right away!</p>',
       'fr': '<p>Si les éléments de la grille ne sont pas explicitement positionnés avec <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., ils sont automatiquement positionnés rangée par rangée selon leur ordre dans le code source. Nous pouvons remplacer ceci en utilisant la propriété <code>order</code>.</p><p>Par défaut, tous les éléments de la grille ont <code>order</code> à 0, mais cela peut être défini sur n\'importe quelle valeur positive ou négative.</p><p>À l\'heure actuelle, les carottes dans la deuxième colonne sont empoisonnées et les mauvaises herbes dans la dernière colonne sont arrosées. Changez la valeur de <code>order</code> du poison pour résoudre ce problème immédiatement !</p>'
     },
     board: 'cwccc',
     selector: '> :nth-child(2)',
     style: {'order': '2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n#poison {\n",
+    after: "}"
+  },
+  {
+    name: 'order 2',
+    instructions: {
+      'en': '<p>Now the water and poison are alternating, even though all of the weeds are at the start of your garden. Set the <code>order</code> of the poisons to remedy this.</p>',
+    },
+    board: 'wcwcwcwcwc',
+    selector: '> :nth-child(odd)',
+    style: {'order': '-1'},
+    before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n.poison {\n",
     after: "}"
   },
   {
@@ -246,9 +257,31 @@ var levels = [
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column: 1;\n  grid-row: 1;\n}"
   },
   {
+    name: 'grid-template-columns 4',
+    instructions: {
+      'en': '<p><code>grid-template-columns</code> doesn\'t just accept values in percentages, but also length units like pixels and ems. You can even mix different units together.</p><p>Here, set three columns to <code>100px</code>, <code>3em</code>, and <code>40%</code> respectively.</p>',
+    },
+    board: 'cwc',
+    classes: {'#plants': 'grid-template-columns-100px-3em-40p'},
+    style: {'grid-template-columns': '100px 3em 40%;'},
+    before: "#garden {\n  display: grid;\n",
+    after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}"
+  },
+  {
+    name: 'grid-template-columns 5',
+    instructions: {
+      'en': '<p>Grid also introduces a new unit, the fractional <code>fr</code>. Each <code>fr</code> unit allocates one share of the available space. For example, if two elements are set to <code>1fr</code> and <code>3fr</code> respectively, the space is divided into 4 equal shares; the first element occupies 1/4 and the second element 3/4 of any leftover space.</p><p>Here, weeds make up the left 1/6 of your your first row and carrots the remaining 5/6. Create two columns with these widths using <code>fr</code> units.</p>',
+    },
+    board: 'wc',
+    classes: {'#plants': 'grid-template-columns-1fr-5fr'},
+    style: {'grid-template-columns': '1fr 5fr;'},
+    before: "#garden {\n  display: grid;\n",
+    after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}"
+  },
+  {
     name: 'grid-template-columns 3',
     instructions: {
-      'en': '<p><code>grid-template-columns</code> doesn\'t just accept values in percentages, but also length units like pixels and ems. You can even mix different units together.</p><p>Another unit that grid introduces is the fractional unit <code>fr</code>, which stretches to take up one equal share of the leftover space.</p><p>Here the carrots form a 50 pixel column on the left, and the weeds a 50 pixel column on the right. Use <code>fr</code> to make three columns that take up the leftover space in between.</p>',
+      'en': '<p>When columns are set with pixels, percentages, or ems, any other columns set with <code>fr</code> will divvy up the space that\'s left over.</p><p>Here the carrots form a 50 pixel column on the left, and the weeds a 50 pixel column on the right. With <code>grid-template-columns</code>, create these two columns, and use <code>fr</code> to make three more columns that take up the remaining space in between.</p>',
       'fr': '<p><code>grid-template-columns</code> n\'accepte pas seulement les valeurs en pourcentage, mais aussi les unités de longueur comme les pixels et les ems. Vous pouvez même mélanger différentes unités ensemble.</p><p>Une autre unité que la grille introduit est l\'unité fractionnaire <code>fr</code>, qui s\'étire pour prendre une part égale de l\'espace restant.</p><p>Ici, les carottes forment une colonne de 50 pixels sur la gauche et les mauvaises herbes, une colonne de 50 pixels sur la droite. Utilisez <code>fr</code> pour créer trois colonnes qui occupent l\'espace restant entre les deux.</p>'
     },
     board: 'cw',
@@ -256,6 +289,17 @@ var levels = [
     style: {'grid-template-columns': '50px 1fr 1fr 1fr 50px;'},
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-area: 1 / 1 / 6 / 2;\n}\n\n#poison {\n  grid-area: 1 / 5 / 6 / 6;\n}"
+  },
+  {
+    name: 'grid-template-columns 6',
+    instructions: {
+      'en': '<p>Now there is a 75 pixel column of weeds on the left side of your garden. 3/5 of the remaining space is growing carrots, while 2/5 has been overrun with weeds.</p><p>Use <code>grid-template-columns</code> with a combination of <code>px</code> and <code>fr</code> units to make the necessary columns.</p>',
+    },
+    board: 'wcw',
+    classes: {'#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p'},
+    style: {'grid-template-columns': '75px 3fr 2fr;'},
+    before: "#garden {\n  display: grid;\n",
+    after: "  grid-template-rows: 100%;\n}"
   },
   {
     name: 'grid-template-rows 1',
@@ -272,7 +316,7 @@ var levels = [
   {
     name: 'grid-template 1',
     instructions: {
-      'en': '<p><code>grid-template</code> is a shorthand property that combines <code>grid-template-rows</code> and <code>grid-template-columns</code>.</p><p>Try using <code>grid-template</code> to water an area that includes the top 60% and left 200 pixels of your garden.</p>',
+      'en': '<p><code>grid-template</code> is a shorthand property that combines <code>grid-template-rows</code> and <code>grid-template-columns</code>.</p><p>For example, <code>grid-template: 50% 50% / 200px;</code> will create a grid with two rows that are 50% each, and one column that is 200 pixels wide.</p><p>Try using <code>grid-template</code> to water an area that includes the top 60% and left 200 pixels of your garden.</p>',
       'fr': '<p><code>grid-template</code> est la propriété raccourcie qui combine <code>grid-template-rows</code> et <code>grid-template-columns</code>.</p><p>Essayez à l\'aide de <code>grid-template</code> d\'arroser une région comprenant 60% du haut et 200 pixels à gauche de votre jardin.</p>'
     },
     board: 'c',
@@ -297,7 +341,7 @@ var levels = [
 var levelWin = {
   name: 'win',
   instructions: {
-    'en': '<p>You win! By the power of CSS grid, you were able to grow enough carrots for Froggy to bake his world famous 20-carrot cake. What, were you expecting a different hoppy friend?</p><p>If you enjoyed Grid Garden, be sure to check out <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> to learn about another powerful new feature of CSS layout. You can also keep up-to-date with my other projects on <a href="http://thomaspark.co">my blog</a> or <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Want to support Garden Grid? Try out the topnotch web design and coding courses offered by <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. And spread the word to your friends and family about Grid Garden!</p>',
+    'en': '<p>You win! By the power of CSS grid, you were able to grow enough carrots for Froggy to bake his world famous 20-carrot cake. What, were you expecting a different hoppy friend?</p><p>If you enjoyed Grid Garden, be sure to check out <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> to learn about another powerful new feature of CSS layout. You can also keep up-to-date with my other projects on <a href="http://thomaspark.co">my blog</a> or <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Want to support Grid Garden? Try out the topnotch web design and coding courses offered by <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. And spread the word to your friends and family about Grid Garden!</p>',
     'fr': '<p>Vous avez gagné ! Par la puissance de la grille CSS, vous avez pu cultiver suffisamment de carottes pour Froggy pour faire cuire son célèbre gâteau de 20-carottes. Quoi, vous vous attendiez à un ami différent ?</p><p>Si vous avez apprécié Grid Garden, veuillez consulter <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> pour en savoir plus sur une nouvelle fonctionnalité puissante sur la mise en page CSS. Vous pouvez également vous tenir au courant de mes autres projets sur <a href="http://thomaspark.co">mon blog</a> ou sur <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Vous voulez soutenir Garden Grid ? Essayez les cours de conception et de codage proposés par <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Et passez le mot à vos amis et à votre famille au sujet de Grid Garden !</p>'
   },
   board: '',
