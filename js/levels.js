@@ -308,8 +308,8 @@ var levels = [
   {
     name: 'grid-template-rows 1',
     instructions: {
-      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.',
-      'fr': '<p><code>grid-template-rows</code> fonctionne de la même manière que <code>grid-template-columns</code>.</p><p>Utilisez <code>grid-template-rows</code> pour tout arroser sauf les 50 premiers pixels de votre jardin. Remarquez que l\'eau est définie pour remplir uniquement votre 5ème rangée, donc vous devrez créer 5 lignes au total.'
+      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.</p><p>Hint: 0s are totally valid values.</p>',
+      'fr': '<p><code>grid-template-rows</code> fonctionne de la même manière que <code>grid-template-columns</code>.</p><p>Utilisez <code>grid-template-rows</code> pour tout arroser sauf les 50 premiers pixels de votre jardin. Remarquez que l\'eau est définie pour remplir uniquement votre 5ème rangée, donc vous devrez créer 5 lignes au total.</p><p>Astuce: 0s sont des valeurs tout à fait valables.</p>'
     },
     board: 'c',
     classes: {'#plants': 'grid-template-rows-50px-0-0-0-1fr', '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-5-1-6-6'},
