@@ -217,6 +217,7 @@ var messages = {
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
-    'fr': 'Oh non, Grid Garden ne fonctionne pas avec ce navigateur. Il nécessite <a href="http://caniuse.com/#feat=css-grid">un navigateur compatible avec grid CSS</a>, telle que la dernière version de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> ou <a href="http://www.apple.com/safari/">Safari</a>. Utilisez un de cela pour faire du jardinage !'
+    'fr': 'Oh non, Grid Garden ne fonctionne pas avec ce navigateur. Il nécessite <a href="http://caniuse.com/#feat=css-grid">un navigateur compatible avec grid CSS</a>, telle que la dernière version de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> ou <a href="http://www.apple.com/safari/">Safari</a>. Utilisez un de cela pour faire du jardinage !',
+    'pt-br': 'Ah não! Grid Garden não tem suporte para esse navegador. É necessário <a href="http://caniuse.com/#feat=css-grid">um navegador com suporte a CSS grid</a>, assim como a última versão do <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ou <a href="http://www.apple.com/safari/">Safari</a>. Use um deles para começar a fazer a horta.'
   }
 };
