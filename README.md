@@ -25,6 +25,7 @@ My gratitude to these contributors for their translations.
 
 * French by [Forresst](https://github.com/forresst)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
+* Russian by [Zaurbek Zhakupov](https://github.com/Zooll8)
 
 Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/gridgarden/), add your translations, and submit a pull request.
 
