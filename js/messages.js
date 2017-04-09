@@ -1,4 +1,31 @@
 var messages = {
+  languageActive: {
+    'en': 'English',
+    'sr': 'Српски',
+    'bg': 'Български',
+    'de': 'Deutsch',
+    'fr': 'Français',
+    'pt-br': 'Português',
+    'es': 'Español',
+    'ru': 'Русский',
+    'fa': 'فارسی',
+    'zh-cn': '简体中文',
+    'zh-tw': '繁體中文',
+    'tr': 'Türkçe',
+    'it': 'Italiano',
+    'ko': '한국어',
+    'lt': 'Lietuvių',
+    'vi': 'Tiếng Việt',
+    'pl': 'Polski',
+    'cs': 'Česky',
+    'ja': '日本語',
+    'hu': 'Magyar',
+    'eo': 'Esperanto',
+    'sv': 'Svenska',
+    'uk': 'Українська',
+    'hi': 'हिंदी',
+    'nl': 'Nederlands',
+  },
   next: {
     'en': 'Next',
     'sr': 'Следећи',
@@ -187,5 +214,9 @@ var messages = {
     'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
     'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
+  },
+  warningUnsupported: {
+    'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
+    'fr': 'Oh non, Grid Garden ne fonctionne pas avec ce navigateur. Il nécessite <a href="http://caniuse.com/#feat=css-grid">un navigateur compatible avec grid CSS</a>, telle que la dernière version de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> ou <a href="http://www.apple.com/safari/">Safari</a>. Utilisez un de cela pour faire du jardinage !'
   }
 };
