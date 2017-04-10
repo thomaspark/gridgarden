@@ -24,6 +24,7 @@ Thomas Park
 My gratitude to these contributors for their translations.
 
 * French by [Forresst](https://github.com/forresst)
+* Polish by [Jawa the Cat](https://github.com/jaworek)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
 * Russian by [Zaurbek Zhakupov](https://github.com/Zooll8)
 
