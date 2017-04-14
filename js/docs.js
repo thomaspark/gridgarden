@@ -48,7 +48,7 @@ var docs = {
     'es': '<p>Define la posición final de un elemento respecto a las filas de la cuadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
-    'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code>',
+    'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fr': '<p>Définit la position du début d\'un élément de la grille sur les lignes de la grille.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'pt-br': '<p>Especifica a posição inicial do item de acordo com as linhas da grade.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ru': '<p>Определяет начальную позицию grid элемента внутри grid строк.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',

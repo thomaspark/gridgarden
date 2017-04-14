@@ -18,11 +18,11 @@ var levels = [
   {
     name: 'grid-column-start 2',
     instructions: {
-      'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.',
-      'fr': '<p>Houlà, il semblerait que les mauvaises herbes poussent dans le coin de votre jardin. Utilisez <code>grid-column-start</code> pour les empoisonner. Remarquez que les mauvaises herbes commencent à la 5ème ligne verticale de la grille.',
-      'pt-br': '<p>Opa, parece que há ervas daninhas crescendo no canto da sua horta. Use <code>grid-column-start</code> para envenená-las. Note que as ervas daninhas começam na 5ª linha vertical da grade.',
-      'ru': '<p>Оу, кажется будто сорняки растут прямо в углу вашего сада. Используйте <code>grid-column-start</code> чтобы отравить их. Помните что сорняки начинаются на 5-ой вертикальной grid линии',
-      'pl': '<p>O nie, wygląda na to, że chwasty urosły w rogu twojego ogrodu. Użyj <code>grid-column-start</code> by je otruć. Zauważ, że chwasty zaczynają się od piątej pionowej linii.',
+      'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.</p>',
+      'fr': '<p>Houlà, il semblerait que les mauvaises herbes poussent dans le coin de votre jardin. Utilisez <code>grid-column-start</code> pour les empoisonner. Remarquez que les mauvaises herbes commencent à la 5ème ligne verticale de la grille.</p>',
+      'pt-br': '<p>Opa, parece que há ervas daninhas crescendo no canto da sua horta. Use <code>grid-column-start</code> para envenená-las. Note que as ervas daninhas começam na 5ª linha vertical da grade.</p>',
+      'ru': '<p>Оу, кажется будто сорняки растут прямо в углу вашего сада. Используйте <code>grid-column-start</code> чтобы отравить их. Помните что сорняки начинаются на 5-ой вертикальной grid линии.</p>',
+      'pl': '<p>O nie, wygląda na to, że chwasty urosły w rogu twojego ogrodu. Użyj <code>grid-column-start</code> by je otruć. Zauważ, że chwasty zaczynają się od piątej pionowej linii.</p>',
       'es': '<p>Oh oh, parece que hay malas hierbas creciendo en la esquina de tu jardín. Usa <code>grid-column-start</code> para envenenarlas. Fíjate en que las malas hierbas comienzan en el quinto borde vertical de la cuadrícula.</p>',
     },
     board: 'w',
@@ -408,11 +408,11 @@ var levels = [
   {
     name: 'grid-template-rows 1',
     instructions: {
-      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.',
-      'fr': '<p><code>grid-template-rows</code> fonctionne de la même manière que <code>grid-template-columns</code>.</p><p>Utilisez <code>grid-template-rows</code> pour tout arroser sauf les 50 premiers pixels de votre jardin. Remarquez que l\'eau est définie pour remplir uniquement votre 5ème rangée, donc vous devrez créer 5 lignes au total.',
-      'pt-br': '<p><code>grid-template-rows</code> funciona da mesma forma que <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> para irrigar toda sua horta menos os 50 pixels do topo. Note que a água está definida para irrigar apenas sua 5ª linha, então você precisará criar 5 linhas no total.',
-      'ru': '<p><code>grid-template-rows</code> работает точно так же, как и <code>grid-template-columns</code>.</p><p>Используйте <code>grid-template-rows</code> чтобы полить все, кроме верхних 50 пикселей вашего сада. Помните, что вода на данный момент заполняет только 5-ую строку, так что вам понадобиться создать в сумме 5 строк.',
-      'pl': '<p><code>grid-template-rows</code> działa w podobny sposób jak <code>grid-template-columns</code>.</p><p>Użyj <code>grid-template-rows</code> aby nawodnić 50 pixeli od góry twojego ogrodu. Zauważ, że woda jest ustawiona tak aby wypełnić tylko 5 rząd, dlatego będziesz musiał stworzyć łącznie 5 rzędów.',
+      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.</p>',
+      'fr': '<p><code>grid-template-rows</code> fonctionne de la même manière que <code>grid-template-columns</code>.</p><p>Utilisez <code>grid-template-rows</code> pour tout arroser sauf les 50 premiers pixels de votre jardin. Remarquez que l\'eau est définie pour remplir uniquement votre 5ème rangée, donc vous devrez créer 5 lignes au total.</p>',
+      'pt-br': '<p><code>grid-template-rows</code> funciona da mesma forma que <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> para irrigar toda sua horta menos os 50 pixels do topo. Note que a água está definida para irrigar apenas sua 5ª linha, então você precisará criar 5 linhas no total.</p>',
+      'ru': '<p><code>grid-template-rows</code> работает точно так же, как и <code>grid-template-columns</code>.</p><p>Используйте <code>grid-template-rows</code> чтобы полить все, кроме верхних 50 пикселей вашего сада. Помните, что вода на данный момент заполняет только 5-ую строку, так что вам понадобиться создать в сумме 5 строк.</p>',
+      'pl': '<p><code>grid-template-rows</code> działa w podobny sposób jak <code>grid-template-columns</code>.</p><p>Użyj <code>grid-template-rows</code> aby nawodnić 50 pixeli od góry twojego ogrodu. Zauważ, że woda jest ustawiona tak aby wypełnić tylko 5 rząd, dlatego będziesz musiał stworzyć łącznie 5 rzędów.</p>',
       'es': '<p><code>grid-template-rows</code> funciona exactamente igual que <cod>grid-template-columns</code>.</p><p>Usa <code>grid-template-rows</code> para regar todo excepto los 50 píxeles de la parte superior de tu jardín. Fíjate que el agua se ha establecido para que llene solo la 5ª fila, por lo que tendrás que crear 5 filas en total.</p>',
     },
     board: 'c',
