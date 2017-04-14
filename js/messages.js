@@ -195,7 +195,7 @@ var messages = {
     'de': 'Bist su sicher, dass du das Spiel zurücksetzen möchtest?\n\nDein gespeicherter Fortschritt geht dabei verloren und du musst das Spiel von neuem starten.',
     'fr': 'Êtes-vous certain de vouloir réinitialiser la partie?\n\nVotre progrès sauvegardé sera perdu et vous recommencerez au début du jeu.',
     'pt-br': 'Você tem certeza que quer reinicializar o jogo?\n\nSeu progresso salvo será perdido e você voltará ao começo do jogo.',
-    'es': 'Estás seguro, ¿Quieres reiniciar el juego?\n\nTu progreso se perderá y serás enviado al inicio del juego.',
+    'es': '¿Seguro que quieres reiniciar el juego?\n\nTu progreso se perderá y serás enviado al inicio del juego.',
     'ru': 'Вы действительно хотите сбросить игру?\n\nВаш прогресс будет потерян и вы вернетесь к началу игры.',
     'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.',
     'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
@@ -221,5 +221,6 @@ var messages = {
     'pt-br': 'Ah não! Grid Garden não tem suporte para esse navegador. É necessário <a href="http://caniuse.com/#feat=css-grid">um navegador com suporte a CSS grid</a>, assim como a última versão do <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ou <a href="http://www.apple.com/safari/">Safari</a>. Use um deles para começar a fazer a horta.',
     'ru': 'О нет, Grid Garden не работает в вашем браузере. Для полноценной работы вам необходим <a href="http://caniuse.com/#feat=css-grid">браузер который поддерживает CSS grid</a>, такой, как последняя версия <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> или <a href="http://www.apple.com/safari/">Safari</a>. Используйте один из них что-бы начать садоводство!',
     'pl': 'O nie, Grid Garden nie działa w tej przeglądarce. Wymagana jest <a href="http://caniuse.com/#feat=css-grid">przeglądarka, która wspiera CSS Grid</a>, takie jak najnowsza wersja <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> lub <a href="http://www.apple.com/safari/">Safari</a>. Użyj jednej z nich aby rozpocząć uprawianie ogródka!',
+    'es': 'Oh no, Grid Garden no funciona en este navegador. Requiere <a href="http://caniuse.com/#feat=css-grid">un navegador compatible con CSS Grid</a>, como la última versión de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Usa uno de estos para comenzar con la jardinería.'
   }
 };
