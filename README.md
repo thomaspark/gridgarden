@@ -29,6 +29,7 @@ My gratitude to these contributors for their translations.
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
 * Russian by [Zaurbek Zhakupov](https://github.com/Zooll8)
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
+* Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 
 Don't see your language on the list? Add it!
 

@@ -7,6 +7,7 @@ var docs = {
     'ru': '<p>Определяет позицию и размер grid элемента внутри grid сетки.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'pl': '<p>Definiuje pozycję i wielkość elementu grid wewnątrz siatki grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'es': '<p>Define la posición y el tamaño de un elemento en la cuadrícula.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'sv': '<p>Specifierar ett gridelements position och storlek inuti rutnätet.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -16,6 +17,7 @@ var docs = {
     'ru': '<p>Определяет позицию grid элемента внутри grid столбцов.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'pl': '<p>Definiuje pozycję elementu grid w kolumnie grid.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'es': '<p>Define la posición de un elemento respecto a las columnas de la cuadrícula.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'sv': '<p>Specifierar ett gridelements position inuti rutnätets kolumner.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -25,6 +27,7 @@ var docs = {
     'ru': '<p>Определяет конечную позицию grid элемента внутри grid столбцов.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'pl': '<p>Definuje pozycję końcową elementu grid w kolumnie grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'es': '<p>Define la posición final de un elemento respecto a las columnas de la cuadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sv': '<p>Specifierar ett gridelements slutposition inuti rutnätets kolumner.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -34,6 +37,7 @@ var docs = {
     'ru': '<p>Определяет начальную позицию grid элемента внутри grid столбцов.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'pl': '<p>Definiuje pozycję początkową elementu grid w kolumnie grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'es': '<p>Define la posición inicial de un elemento respecto a las columnas de la cuadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sv': '<p>Specifierar ett gridelements startposition inuti rutnätet.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -43,6 +47,7 @@ var docs = {
     'ru': '<p>Определяет позицию grid элемента внутри grid строк.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'pl': '<p>Definiuje pozycję elementu grid w wierszu grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'es': '<p>Define la posición de un elemento respecto a las filas de la cuadrícula.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'sv': '<p>Specifierar ett gridelements position inuti rutnätets rader.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -52,6 +57,7 @@ var docs = {
     'ru': '<p>Определяет конечную позицию grid элемента внутри grid строк.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'pl': '<p>Definiuje pozycję końcową w wierszu grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'es': '<p>Define la posición final de un elemento respecto a las filas de la cuadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sv': '<p>Specifierar ett gridelements slutposition inuti rutnätets rader.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -61,6 +67,7 @@ var docs = {
     'ru': '<p>Определяет начальную позицию grid элемента внутри grid строк.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'pl': '<p>Definiuje pozycję początkową elementu grid w wierszu grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'es': '<p>Define la posición inicial de un elemento respecto a las filas de la cuadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sv': '<p>Specifierar ett gridelements startposition inuti rutnätets rader.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -70,6 +77,7 @@ var docs = {
     'ru': '<p>Определяет размер и названия для grid строк и столбцов.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'pl': '<p>Definiuje wielkość i nazwy wierszy i kolumn grid.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'es': '<p>Define el tamaño y nombres de las filas y las columnas de la cuadrícula.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'sv': '<p>Specifierar storlek och namn för rutnätets rader och kolumner.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -79,6 +87,7 @@ var docs = {
     'ru': '<p>Определяет названные grid зоны.</p><p><code>&lt;grid-name&gt;</code></p>',
     'pl': '<p>Definiuje nazwy powierzchni grid.</p><p><code>&lt;grid-name&gt;</code></p>',
     'es': '<p>Define las áreas de la cuadrícula nombradas.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'sv': '<p>Specifierar namngivna grid områden.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -88,6 +97,7 @@ var docs = {
     'ru': '<p>Определяет размер и названия для grid столбцов.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'pl': '<p>Definiuje wielkość i nazwy kolumn grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'es': '<p>Especifica el tamaño y los nombres de las columnas de la cuadrícula.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'sv': '<p>Specifierar storlek och namn för rutnätets kolumner.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -97,6 +107,7 @@ var docs = {
     'ru': '<p>Определяет размер и названия для grid строк.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'pl': '<p>Definiuje wielkość i nazwy wierszy grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'es': '<p>Define el tamaño y los nombres de las filas de la cuadrícula.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'sv': '<p>Specifierar storlek och namn för rutnätets rader.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -106,5 +117,6 @@ var docs = {
     'ru': '<p>Определяет порядок grid элемента.</p><p><code>&lt;integer&gt;</code></p>',
     'pl': '<p>Definiuje kolejność elementu grid.</p><p><code>&lt;integer&gt;</code></p>',
     'es': '<p>Define el orden del elemento de la cuadrícula.</p><p><code>&lt;integer&gt;</code></p>',
+    'sv': '<p>Specifierar ett grid elements sorteringsorder.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
