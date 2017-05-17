@@ -225,6 +225,7 @@ var messages = {
     'sv': 'Åh nej, Grid Garden fungerar inte i den här webbläsaren. Webbläsaren <a href="http://caniuse.com/#feat=css-grid">behöver stödja CSS grid</a>, som till exempel senaste versionen av <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, eller <a href="http://www.apple.com/safari/">Safari</a>. Använd någon av dom för att börja odla morötter!',
   },
   flexboxFroggy: {
-    'en': 'Want to learn CSS flexbox? Play'
+    'en': 'Want to learn CSS flexbox? Play',
+    'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à'
   }
 };
