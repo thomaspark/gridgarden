@@ -10,6 +10,7 @@ var levels = [
       'pl': '<p>Witaj w grze Grid Garden, w której pisząc kod CSS rozwijasz swój ogród z marchewkami! Podlewaj tylko pola z marchewkami używając właściwości <code>grid-column-start</code>.</p><p>Na przykład, <code>grid-column-start: 3;</code> nawodni obszar zaczynający się od trzeciej pionowej linii, co jest innym sposobem na powiedzenie trzecia od lewej pionowa granica.</p>',
       'es': '<p>¡Bienvenido a Grid Garden, donde escribirás tu código CSS para cultivar tu jardín de zanahorias! Riega solo las áreas que tienen zanahorias usando la propiedad <code>grid-column-start</code>.</p><p>Por ejemplo, <code>grid-column-start: 3;</code> regará el área comenzando por la tercera línea vertical, que es otra manera de decir el 3er borde vertical contando desde la izquierda de la cuadrícula.</p>',
       'sv': '<p>Välkommen till Grid Garden där du kan skriva CSS kod för att odla din trädgård med morötter! Vattna bara dom områden som har morötter genom att använda egenskapen <code>grid-column-start</code>.</p><p>T.e.x. <code>grid-column-start: 3;</code> kommer vattna området som startar på tredje vertikala gridlinjen, vilket är samma sak som att säga den tredje vertikala gridlinjen från vänster.</p>',
+      'fa': '<p>به باغ گرید خوش آمدید, اینجا کد CSS می نویسید تا هویج های خود را پرورش دهید! تنها کافی است آب را با استفاده از <code>grid-column-start</code> به بخش هایی که هویج دارند برسانید.</p><p>برای مثال, <code>;grid-column-start: 3</code> ناحیه ای را که از سومین خط عمودی گرید شروع می شود آبیاری می کند , به عبارت دیگر سومین مرز عمودی از چپ در گرید.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -28,6 +29,7 @@ var levels = [
       'pl': '<p>O nie, wygląda na to, że chwasty urosły w rogu twojego ogrodu. Użyj <code>grid-column-start</code> by je otruć. Zauważ, że chwasty zaczynają się od piątej pionowej linii.</p>',
       'es': '<p>Oh oh, parece que hay malas hierbas creciendo en la esquina de tu jardín. Usa <code>grid-column-start</code> para envenenarlas. Fíjate en que las malas hierbas comienzan en el quinto borde vertical de la cuadrícula.</p>',
       'sv': '<p>Åh nej, det ser ut som att det växer ogräs i trädgården. Använd <code>grid-column-start</code> för att förgifta dom. Notera att ogräset börjar på femte vertikala gridlinjen.</p>',
+	  'fa': '<p>ای وای, انگار در گوشه ی باغت علف های هرز رشد کرده اند. از <code>grid-column-start</code> برای سمپاشی آن استفاده کن. دقت کن که علف های هرز از پنجمین خط عمودی گرید شروع می شوند.</p>'
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -46,6 +48,7 @@ var levels = [
       'pl': '<p>Kiedy właściwość <code>grid-column-start</code> jest użyta pojedynczo, element domyślnie zajmie dokładnie jedną kolumnę. Jednakże, możesz rozszerzyć element na wiele kolumn dodając właściwość <code>grid-column-end</code>.</p><p>Używając <code>grid-column-end</code>, podlej tylko pola z marchewkami. Nie chcemy zmarnować ani kropli wody! Zauważ, że marchewki zaczynają się od pierwszej pionowej linii i kończą na czwartej.</p>',
       'es': '<p>Cuando <code>grid-column-start</code> se usa solo, la expansión por defecto del elemento en la cuadrícula será de exactamente una columna. No obstante, puedes extender el elemento varias columnas añadiendo la propiedad <code>grid-column-end</code>.</p><p>Usando <code>grid-column-end</code>, riega todas las zanahorias evitando que se forme barro. ¡No queremos malgastar agua! Fíjate en que las zanahorias comienzan en el 1er borde vertical y terminan en el 4º.</p>',
       'sv': '<p>När <code>grid-column-start</code> används så kommer elementet sträcka sig exakt en kolumn. Du kan ändra det genom att sätta egenskapen <code>grid-column-end</code>.</p><p>Använd <code>grid-column-end</code> för att vattna dina morötter, men undvik att vattna där det inte finns. Vi vill inte slösa på vatten! Notera att morötterna startar på första vertikala gridlinjen och slutar på fjärde.</p>',
+	  'fa': '<p>وقتی <code>grid-column-start</code> به تنهایی استفاده شود, آیتم گرید به صورت پیش فرض دقیقا یک ستون را پوشش می دهد. هرچند, شما می توانید با اضافه کردن <code>grid-column-end</code> آیتم را در امتداد چندین ستون گسترش دهید.</p><p>با استفاده از <code>grid-column-end</code>, هویج هایتان را آبیاری کنید. ما نمی خواهیم آب را هدر بدهیم پس روی خاک آب ندهید!  توجه کنید که هویج ها از اولین خط عمودی گرید شروع می شوند و در چهارمین خط عمودی به پایان می رسند.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -65,6 +68,7 @@ var levels = [
       'pl': '<p>Kiedy używasz razem <code>grid-column-start</code> i <code>grid-column-end</code>, możesz zakładać że końcowa wartość musi być większa od początkowej. Ale okazuje się, że to nieprawda!</p><p>Spróbuj ustawić <code>grid-column-end</code> na wartość mniejszą niż 5 aby podlać swoje marchewki.</p>',
       'es': '<p>Al emparejar <code>grid-column-start</code> y <code>grid-column-end</code>, podrías asumir que el valor final tiene que ser mayor que el valor inicial. ¡Pero no es el caso!</p><p>Intenta establecer <code>grid-column-end</code> a un valor inferior a 5 para regar tus zanahorias.</p>',
       'sv': '<p>När man parar ihop <code>grid-column-start</code> med <code>grid-column-end</code> kan man anta att at slutvärdet måste vara högre än startvärdet. Så är dock inte fallet!</p><p>Testa sätt <code>grid-column-end</code> till ett värde lägre än 5 för att vattna dina morötter.</p>',
+	  'fa': '<p>وقتی <code>grid-column-start</code> و <code>grid-column-end</code> در کنار هم استفاده می شوند, ممکن است فرض کنید که مقدار پایانی حتما باید بزرگتر از مقدار شروع باشد. اما اینگونه نیست!</p><p>این دفعه به <code>grid-column-end</code> یک مقدار کمتر از 5 بدهید تا هویج ها را آبیاری کنید.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
@@ -84,6 +88,7 @@ var levels = [
       'pl': '<p>Jeżeli chcesz liczyć linie od prawej zamiast od lewej, możesz ustawić wartości <code>grid-column-start</code> i <code>grid-column-end</code> na negatywne. Na przykład, możesz ustawić wartość na -1 aby wybrać pierwszą linię od prawej.</p><p>Spróbuj ustawić <code>grid-column-end</code> na negatywną wartość.</p>',
       'es': '<p>Si prefieres contar las líneas de la cuadrícula comenzando por la derecha, puedes dar a <code>grid-column-start</code> y <code>grid-column-end</code> valores negativos. Por ejemplo, puedes establecerlos a -1 para indicar la primera línea comenzando por la derecha.</p><p>Intenta establecer <code>grid-column-end</code> a un valor negativo.</p>',
       'sv': '<p>Ifall du vill räkna gridlinjer från höger istället för vänster kan du använda negativa värden för <code>grid-column-start</code> och <code>grid-column-end</code>.</p><p>Försök sätta <code>grid-column-end</code> till ett negativt värde.',
+	  'fa': '<p>اگر می خواهید خطوط گرید را به جای چپ از راست بشمارید, می توانید به  <code>grid-column-start</code> و <code>grid-column-end</code> مقدار منفی بدهید. برای مثال, برای مشخص کردن اولین خط گرید از راست می توانید به آن 1- بدهید.</p><p>این بار به <code>grid-column-end</code> یک مقدار منفی بدهید.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -103,6 +108,7 @@ var levels = [
       'pl': '<p>Teraz spróbuj ustawić <code>grid-column-start</code> na negatywną wartość.</p>',
       'es': '<p>Ahora intenta establecer <code>grid-column-start</code> a un valor negativo.</p>',
       'sv': '<p>Testa nu att sätta <code>grid-column-start</code> till ett negativt värde.</p>',
+	  'fa': '<p>حالا به <code>grid-column-start</code> مقدار منفی بدهید.</p>'
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -121,6 +127,7 @@ var levels = [
       'pl': '<p>Zamiast definiować element na podstawie początkowej i końcowej linii, możesz go zdefiniować na podstawie pożądanej szerokości z użyciem słowa kluczowego <code>span</code>. Miej na uwadze, że <code>span</code> działa tylko z pozytywnymi wartościami.</p><p>Na przykład, podlej te marchewki poleceniem <code>grid-column-end: span 2;</code>.</p>',
       'es': '<p>En lugar de definir un elemento en la cuadrícula basado en la posicion inicial y final, puedes definirlo basado en la longitud de columnas deseada usando la palabra clave <code>span</code>. Ten presente que <code>span</code> solo funciona con valores positivos.</p><p>Por ejemplo, riega las zanahorias usando <code>grid-column-end: span 2;</code>.</p>',
       'sv': '<p>Istället för att definiera ett grid element baserat på start- och slutvärden kan man definiera det baserat på önskad kolumnbredd genom att sätta <code>span</code>. Kom ihåg att <code>span</code> dock bara fungerar med positiva värden.</p><p>Till exempel, vattna dom här morötterna med <code>grid-column-end: span 2;</code>.</p>',
+	  'fa': '<p>شما می توانید به جای تعریف گرید بر اساس موقعیت شروع و پایان خطوط گرید, با استفاده از کلمه کلیدی <code>span</code> آن را بر اساس عرض ستون تعریف کنید. توجه کنید که <code>span</code> فقط با مقادیر مثبت کار می کند.</p><p>برای مثال, این هویج ها را با دستور <code>;grid-column-end: span 2</code> آبیاری کنید.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
@@ -140,6 +147,7 @@ var levels = [
       'pl': '<p>Spróbuj użyć ponownie <code>grid-column-end</code> z słowem kluczowym <code>span</code>, aby podlać swoje marchewki.</p>',
       'es': '<p>Intenta usar <code>grid-column-end</code> con la palabra clave <code>span</code> de nuevo para regar tus zanahorias.</p>',
       'sv': '<p>Testa använda <code>grid-column-end</code> med <code>span</code> igen för att vattna dina morötter.</p>',
+	  'fa': '<p> دوباره از <code>grid-column-end</code> به همراه کلمه کلیدی <code>span</code> برای آبیاری هویج ها استفاده کنید.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -159,6 +167,7 @@ var levels = [
       'pl': '<p>Możesz także użyć słowa kluczowego <code>span</code> z <code>grid-column-start</code> aby ustawić szerokość twojego elementu względem końcowej pozycji.</p>',
       'es': '<p>También puedes usar la palabra clave <code>span</code> con <code>grid-column-start</code> para establecer la anchura del elemento en relación a la posición final.</p>',
       'sv': '<p>Du kan också använda <code>span</code> med <code>grid-column-start</code> för att sätta elementets längd relativt till slutvärdet.</p>',
+	  'fa': '<p>همچنین می توانید از کلمه کلیدی <code>span</code> به همراه <code>grid-column-start</code> برای تنظیم عرض آیتم خود متناسب با موقعیت پایانی استفاده نمایید.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
@@ -178,6 +187,7 @@ var levels = [
       'pl': '<p>Wpisywanie obu <code>grid-column-start</code> i <code>grid-column-end</code> za każdym razem, może być męczące. Na szczęście, <code>grid-column</code> jest skróconą właściwością, która akceptuje obie wartości naraz, rozdzielone przez ukośnik.</p><p>Na przykład, <code>grid-column: 2 / 4;</code> ustawi początek elementu na 2 linię pionową, a koniec na 4 linię.</p>',
       'es': '<p>Escribir ambos <code>grid-column-start</code> y <code>grid-column-end</code> cada vez puede resultar cansado. Afortunadamente, <code>grid-column</code> es una propiedad abreviada que acepta ambos valores a la vez, separados por una barra oblicua.</p><p>Por ejemplo, <code>grid-colum: 2 / 4;</code> establecerá el comienzo del elemento de la cuadrícula en la 2ª línea vertical de esta, y su final en la 4ª línea vertical.</p>',
       'sv': '<p>Att skriva <code>grid-column-start</code> och <code>grid-column-end</code> varje gång kan bli lite tröttsamt. Därför finns <code>grid-column</code>, en förenklad variant där du kan definiera båda två på en gång separerade med ett slashtecken.</p><p>Till exempel, <code>grid-column: 2 / 4;</code> sätter grid elementet att starta på andra vertikala gridlinjen och sluta på fjärde.</p>',
+	  'fa': '<p>هر بار تایپ کردن هردوی <code>grid-column-start</code> و <code>grid-column-end</code> خسته کننده است. خوشبختانه, <code>grid-column</code> یک روش کوتاه شده است که می تواند هر دو مقدار را یکجا و به شکل جدا شده با یک اسلش بگیرد.</p><p>برای مثال, <code>;grid-column: 2 / 4</code> آیتم گرید را از خط عمودی دوم گرید شروع و در خط عمودی چهارم گرید تمام می کند.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -196,6 +206,7 @@ var levels = [
       'pl': '<p>Spróbuj użyć <code>grid-column</code> aby podlać te marchewki. Słowo kluczowe <code>span</code> działa także ze skróconą formą tej właściwości, więc wypróbuj to!</p>',
       'es': '<p>Intenta usar <code>grid-column</code> para regar las zanahorias. La palabra clave <code>span</code> también funciona con esta propiedad abreviada así que ¡dale una oportunidad!</p>',
       'sv': '<p>Testa att använda <code>grid-column</code> för att vattna dom här morötterna. <code>span</code> fungerar också med den här förenklade varianten så testa även det!</p>',
+	  'fa': '<p>با استفاده از <code>grid-column</code> هویج ها را آبیاری کنید. کلمه کلیدی <code>span</code> با این شیوه کوتاه شده نیز کار می کند, امتحان کن!</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -214,6 +225,7 @@ var levels = [
       'pl': '<p>Jedną z rzeczy, która rozróżnia CSS grid od flexboxa jest to, że możesz w łatwy sposób ustawiać elementy w dwóch wymiarach: kolumnach i wierszach. <code>grid-row-start</code> działa podobnie jak <code>grid-column-start</code> z wyjątkiem osi pionowej.</p><p>Użyj <code>grid-row-start</code> aby podlać marchewki.</p>',
       'es': '<p>Una de las cosas que diferencia las cuadrículas de CSS de flexbox es que puedes posicionar los elementos fácilmente en 2 dimensiones: columnas y filas. <code>grid-row-start</code> funciona de manera semejante a <code>grid-column-start</code> pero a lo largo del eje vertical.</p><p>Usa <code>grid-row-start</code> para regar las zanahorias.</p>',
       'sv': '<p>En sak som gör CSS Grid annorlunda från Flexbox är att man kan positionera element i två dimensioner; kolumner och rader. <code>grid-row-start</code> fungerar som <code>grid-column-start</code> men sätter värden på den vertikala axeln.</p><p>Använd <code>grid-row-start</code> för att vattna dom här morötterna.</p>',
+	  'fa': '<p>یکی از مواردی که گرید را در سی اس اس از فلکس باکس متمایز می کند این است که می توان به راحتی آیتم ها را در دو بعد جابجا کرد: ستونی و سطری. <code>grid-row-start</code> بسیار شبیه به <code>grid-column-start</code> عمل می کند اما در محور عمودی.</p><p>از <code>grid-row-start</code> برای آبیاری هویج ها استفاده کنید.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -232,6 +244,7 @@ var levels = [
       'pl': '<p>Teraz spróbuj użyć skróconej właściwości <code>grid-row</code>.</p>',
       'es': '<p>Ahora dale una oportunidad a la propiedad abreviada <code>grid-row</code>.</p>',
       'sv': '<p>Testa nu med den förenklade varianten <code>grid-row</code>.</p>',
+	  'fa': '<p>حالا از روش کوتاه شده <code>grid-row</code> استفاده کنید.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -250,6 +263,7 @@ var levels = [
       'pl': '<p>Użyj <code>grid-column</code> i <code>grid-row</code> razem, aby ustawić pozycję w dwóch wymiarach.</p>',
       'es': '<p>Usa <code>grid-colum</code> y <code>grid-row</code> a la vez para establecer una posición en ambas dimensiones.</p>',
       'sv': '<p>Använd <code>grid-colum</code> och <code>grid-row</code> samtidigt för att sätta positionen längs båda axlarna.</p>',
+	  'fa': '<p>از هردوی <code>grid-column</code> و <code>grid-row</code> با هم برای جابجایی در هر دو بعد استفاده کنید.</p>'
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -268,6 +282,7 @@ var levels = [
       'pl': '<p>Możesz także użyć <code>grid-column</code> i <code>grid-row</code> razem, aby pokryć większą powierzchnię wewnątrz siatki grid. Spróbuj!</p>',
       'es': '<p>También puedes usar <code>grid-column</code> y <code>grid-row</code> juntos para abarcar áreas más extensas en la cuadrícula. ¡Inténtalo!</p>',
       'sv': '<p>Du kan också sätta <code>grid-column</code> och <code>grid-row</code> tillsammans för att täcka större ytor inuti rutnätet. Testa!</p>',
+	  'fa': '<p>همچنین می توانید از<code>grid-column</code> و <code>grid-row</code> باهم برای پوشش نواحی بزرگتر با گرید استفاده کنید. امتحان کن!</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -286,6 +301,7 @@ var levels = [
       'pl': '<p>Jeżeli pisanie obu <code>grid-column</code> i <code>grid-row</code> to dla ciebie za dużo, istnieje skrócona wersja tych właściwości. <code>grid-area</code> akceptuje cztery wartości rozdzielone przez ukośnik: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code> oraz <code>grid-column-end</code>.</p><p>Jednym z przykładów jest <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'es': '<p>Si escribir <code>grid-column</code> y <code>grid-row</code> se te hace demasiado pesado, aquí tienes otra propiedad abreviada. <code>grid-area</code> admite cuatro valores separados por barras oblicuas: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, seguido de <code>grid-column-end</code>.</p><p>Un ejemplo de esto podría ser <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'sv': '<p>Ifall du tycker att skriva både <code>grid-column</code> och <code>grid-row</code> är för mycket så kan du använda en ännu enklare variant! <code>grid-area</code> tar emot fyra värden separerade med slashtecken: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code> och <code>grid-column-end</code>.</p><p>Ett exempel skulle kunna vara <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
+	  'fa': '<p>اگر تایپ همزمان <code>grid-column</code> و <code>grid-row</code> برایتان خیلی سخت است, روش کوتاه شده دیگری برای این مورد هم وجود دارد. <code>grid-area</code> چهار مقدار جداشده با اسلش را می پذیرد: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, و در نهایت <code>grid-column-end</code>.</p><p>یک مثال این شیوه به این شکل است: <code>;grid-area: 1 / 1 / 3 / 6</code>.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -304,6 +320,7 @@ var levels = [
       'pl': '<p>A co z wieloma elementami? Możesz je nakładać bez problemu. Użyj <code>grid-area</code> aby zdefiniować drugą powierzchnię, która pokryje nie podlane marchewki.</p>',
       'es': '<p>¿Y qué me dices de múltiples elementos? Puedes superponerlos sin problema. Usa <code>grid-area</code> para definir una segunda área que cubra todas las zanahorias que están sin regar.</p>',
       'sv': '<p>Vad gör vi med multipla element? Dom kan överlappa utan problem. Använd <code>grid-area</code> för att definiera ett andra område som täcker all dina morötter.</p>',
+	  'fa': '<p>در مورد چندین آیتم جطور؟ می توانید بدون دردسر آنها را روی هم بیاندازید. از <code>grid-area</code> برای تعریف ناحیه دومی که هویج های آبیاری نشده را پوشش دهد استفاده کنید.</p>'
     },
     board: 'cc',
     classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
@@ -323,6 +340,7 @@ var levels = [
       'pl': '<p>Jeżeli elementy nie są jednoznacznie umiejscowione w grid przez <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, itd., są one automatycznie umiejscowione według kolejności jaka znajduje się w kodzie źródłowym. Możemy to nadpisać z użyciem właściwości <code>order</code>, co jest jedną z zalet układu grid nad układem table.</p><p>Domyślnie, wszystkie elementy grid mają wartość <code>order</code> ustawioną na 0, ale może to zostać ustawione na dowolną liczbę dodatnią lub ujemną, similar to <code>z-index</code>.</p><p>Teraz, marchewki w drugiej kolumnie są traktowane trucizną, a chwasty w ostatniej kolumnie są podlewane. Zmień wartość <code>order</code> trucizny, aby naprawić to jak najszybciej!</p>',
       'es': '<p>Si los elementos de la cuadrícula no se sitúan explícitamente con <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., se sitúan automáticamente de acuerdo al orden en el código fuente. Puedes sobrescribir esto usando la propiedad <code>order</code>, que es una de las ventajas de la cuadrícula frente al diseño basado en tablas.</p><p>Por defecto, el valor de <code>order</code> de todos los elementos es igual a 0, pero puede ser establecido a cualquier valor positivo o negativo, de manera similar a <code>z-index</code>.</p><p>Ahora mismo, las zanahorias en la segunda columna están siendo envenenadas y las malas hierbas en la última columna, regadas. !Cambia el valor de <code>order</code> del veneno para solucionar esto!</p>',
       'sv': '<p>Ifall grid element inte är specifikt satta med <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code> etc., så är dom automatiskt placerade enligt hur dom kommer i källkoden. Vi kan skriva över detta genom att använda egenskapen <code>order</code>, vilket är en av CSS Grid’s stora fördelar.</p><p>Som standard har alla grid element ett <code>order</code> värde av 0, men det kan sättas till positiva eller negativa värden likt <code>z-index</code>.</p><p>Just nu blir morötterna i andra kolumnen förgiftade medan ogräset i sista kolumnen blir vattnade! Ändra <code>order</code> av giftet för att fixa det här.</p>',
+	  'fa': '<p>اگر آیتم های گرید با استفاده از  <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code> و... جابجا نشده باشند , به صورت خودکار با توجه به ترتیبشان در سورس کد قرار داده می شوند. می توان این چیدمان را با استفاده از  <code>order</code> که یکی از برتری های گرید نسبت به جدول بندی می  باشد, تغییر داد.</p><p>به طور پیش فرض,  <code>order</code> برای همه ی آیتم های گرید مقدار 0 می باشد, اما می توان مقادیر مثبت یا منفی به آن نسبت داد, همانند  <code>z-index</code>.</p><p>در حال حاضر, هویج ها در ستون دوم سمپاشی و علف های هرز در ستون آخر آبیاری می شوند. مقدار <code>order</code> را طوری تغییر دهید که این مشکل را برطرف کند!</p>'
     },
     board: 'cwccc',
     selector: '> :nth-child(2)',
@@ -341,6 +359,7 @@ var levels = [
       'pl': '<p>Teraz woda i trucizna występują na przemian, chociaż wszystkie chwasty są na początku Twojego ogrodu. Ustaw właściwość <code>order</code> trucizny aby temu zaradzić temu.</p>',
       'es': '<p>Ahora el veneno y el agua se alternan, a pesar de que todas las malas hierbas están al comienzo de tu jardín. Cambia el valor de <code>order</code> de los venenos para solucionar esto.</p>',
       'sv': '<p>Nu alternerar gift och vatten även om allt ogräs är på första raden. Sätt <code>order</code> för giftet för att lösa det här.</p>',
+	  'fa': '<p>حالا آب و سموم با هم جابجا شده اند در حالی که همه ی علف های هرز در ابتدای باغ شما هستند. مقدار <code>order</code> را برای سموم تغییر دهید و چاره ای بیندیشید.</p>'
     },
     board: 'wcwcwcwcwc',
     selector: '> :nth-child(odd)',
@@ -359,6 +378,7 @@ var levels = [
       'pl': '<p>Do tego pory, twój ogród składał się z siatki z pięcioma kolumnami, każda po 20% pełnej szerokości, i pięciu rzędów, każdy po 20% pełnej wysokości.</p><p>To było zrobione według zasad <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> i <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Każda zasada ma pięć wartości, które tworzą 5 kolumn - każda z nich tworzy 20% szerokości ogrodu.</p><p>Ale możesz ustawić siatkę w dowolny sposób. Ustaw nową wartość <code>grid-template-columns</code>, aby nawodnić swoje marchewki. Będziesz chciał ustawić szerokość pierwszej kolumny na 50%.',
       'es': '<p>Hasta este momento, has tenido un jardín formado por cinco columnas, cada una ocupando el 20% de la anchura total, y cinco filas, cada una ocupando el 20% de la altura total.</p><p>Esto ha sido establecido con las propiedades <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> y <code>grid-template-rows: 20% 20% 20% 20% 20%;</code>. Cada propiedad tiene cinco valores que crean cinco columnas, cada una establecida al 20% de la anchura total del jardín.</p><p>Pero puedes establecer los valores en la cuadrícula como quieras. Da a <code>grid-template-columns</code> un nuevo valor para regar tus zanahorias. Querrás que la anchura de la primera columna sea del 50%.</p>',
       'sv': '<p>Hittills har du haft din trädgård uppsatt som ett rutnät med fem kolumner där varje kolumn har 20% bredd, och fem rader där varje rad har 20% höjd.</p><p>Det gjordes med <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> and <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Varje regel har fem värden som skapar fem kolumner.</p><p>Men du kan sätta upp rutnätet precis som du vill. Ge <code>grid-template-columns</code> ett nytt värde för att vattna dina morötter. Du behöver sätta bredden på första kolumnen till 50%.</p>',
+	  'fa': '<p>تا اینجای کار, باغ شما بصورت یک گرید با 5 ستون که هرکدام 20 درصد پهنای کل و 5 سطر که هرکدام 20 درصد درازای کل بودند, ایجاد شده بود.</p><p>دستورات <code>;grid-template-columns: 20% 20% 20% 20% 20%</code> و <code>;grid-template-rows: 20% 20% 20% 20% 20%</code> این شکل را پدید آورده بودند. هر دستور 5 مقدار دارد که پنج ستونی را که هرکدام 20 درصد پهنای کل باغ هستند را ایجاد می کنند.</p><p> اما می توانید گرید را طوری که دوست دارید تنظیم کنید.مقدار جدیدی به <code>grid-template-columns</code> بدهید که هویج ها را آبیاری کنید. برای این کار باید عرض ستون اول را 50 درصد قرار دهید.'
     },
     board: 'c',
     style: {'grid-template-columns': '50% 50%'},
@@ -376,6 +396,7 @@ var levels = [
       'pl': '<p>Definiowanie wielu kolumn o takiej samej szerokości może być nużące. Na szczęście istnieje funkcja <code>repeat</code>, która może nam w tym pomóc.</p><p>Na przykład, wcześniej zdefiniowaliśmy 5 kolumn o szerokości 20% przy pomocy zasady <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. To może być uproszczone jako <code>grid-template-columns: repeat(5, 20%);</code></p><p>Używając <code>grid-template-columns</code> z funkcją <code>repeat</code>, stwórz 8 kolumn - każda po 12.5% szerokości. W ten sposób nie przesadzisz z nawodnieniem ogrodu.</p>',
       'es': '<p>Especificar un puñado de columnas con la misma anchura puede ser aburrido. Afortunadamente hay una función <code>repeat</code> que te ayudará con eso.</p><p>Por ejemplo, previamente hemos definido cinco columnas al 20% de anchura mediante <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Esto puedes simplificarse como <code>grid-template-columns: repeat(5, 20%);</code></p><p>Usando <code>grid-template-columns</code> con la función <code>repeat</code>, crea ocho columnas, cada una con una anchura del 12.5%. De esta manera no inundarás tu jardín.</p>',
       'sv': '<p>Att specifiera ett gäng kolumner med samma värden kan kännas lite redundant. Det finns en <code>repeat</code> funktion som hjälper med detta.</p><p>Till exempel, tidigare angav vi fem kolumner med 20% bredd med <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Vi kan förenkla genom att använda: <code>grid-template-columns: repeat(5, 20%);</code>.</p><p>Använd nu <code>grid-template-columns</code> med <code>repeat</code> funktionen för att sätta kolumnerna till 12.5% bredd. På så sätt vattnar vi inte där vi inte behöver.</p>',
+	  'fa': '<p>Specifying a bunch of columns with identical widths can get tedious. Luckily there\'s a <code>repeat</code> function to help with that.</p><p>For example, we previously defined five 20% columns with the rule <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. This can be simplified as <code>grid-template-columns: repeat(5, 20%);</code></p><p>Using <code>grid-template-columns</code> with the <code>repeat</code> function, create eight columns each with 12.5% width. This way you won\'t overwater your garden.</p>'
     },
     board: 'c',
     classes: {'#plants': 'grid-template-columns-repeat-8-12'},
