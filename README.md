@@ -23,6 +23,7 @@ Thomas Park
 
 My gratitude to these contributors for their translations.
 
+* Farsi by [leonine90](https://github.com/leonine90)
 * French by [Forresst](https://github.com/forresst)
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
