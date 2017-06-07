@@ -34,7 +34,7 @@ My gratitude to these contributors for their translations.
 
 Don't see your language on the list? Add it!
 
-Text to be translated is found in `docs.js`, `levels.js`, and `messages.js`. 
+Text to be translated is found in `docs.js`, `levels.js`, and ``.
 
 Fork the [repo](https://github.com/thomaspark/gridgarden/), add your translations, and submit a pull request.
 
