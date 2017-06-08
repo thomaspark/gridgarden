@@ -23,6 +23,7 @@ Thomas Park
 
 My gratitude to these contributors for their translations.
 
+* Chinese Simplified by [Jin](https://github.com/winar-jin)
 * Farsi by [leonine90](https://github.com/leonine90)
 * French by [Forresst](https://github.com/forresst)
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
