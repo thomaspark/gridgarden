@@ -103,13 +103,28 @@ a:hover {
 
 #share {
   display: none;
-  margin-top: 3em;
+  margin-bottom: 3em;
   text-align: center;
 }
 
 .fb-like {
   z-index: 20;
   vertical-align: top;
+}
+
+.img-next {
+  text-align: center;
+}
+
+.img-next img {
+  display: inline-block;
+  margin: 1em;
+  width: 200px;
+  opacity: 0.9;
+}
+
+.img-next img:hover {
+  opacity: 1;
 }
 
 #editor {
@@ -315,7 +330,7 @@ button:not(.disabled):hover {
   opacity: 0.5;
 }
 
-#credits {
+.credits {
   margin-top: 1.5em;
   line-height: 1.5em;
   text-align: center;
@@ -439,6 +454,8 @@ button:not(.disabled):hover {
 }
 
 .treatment .bg {
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  border-width: 3px 5px 5px 3px;
 }
 
 .plant.carrot .bg {

@@ -23,9 +23,21 @@ Thomas Park
 
 My gratitude to these contributors for their translations.
 
+* Chinese Simplified by [Jin](https://github.com/winar-jin)
+* Farsi by [leonine90](https://github.com/leonine90)
 * French by [Forresst](https://github.com/forresst)
+* German by [Rafael Schwemmer](https://github.com/schwemmer)
+* Polish by [Jawa the Cat](https://github.com/jaworek)
+* Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
+* Russian by [Zaurbek Zhakupov](https://github.com/Zooll8)
+* Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
+* Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 
-Don't see your language on the list? Contribute a translation! Fork the [repo](https://github.com/thomaspark/gridgarden/), add your translations, and submit a pull request.
+Don't see your language on the list? Add it!
+
+Text to be translated is found in `docs.js`, `levels.js`, and `messages.js`.
+
+Fork the [repo](https://github.com/thomaspark/gridgarden/), add your translations, and submit a pull request.
 
 ## Copyright and License
 
