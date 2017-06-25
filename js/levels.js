@@ -334,7 +334,7 @@ var levels = [
       'de': '<p>Wie wäre es mit mehreren Elementen? Diese können sich problemlos überlagern. Verwende <code>grid-area</code> um einen zweiten Bereich zu definieren, welcher alle ungewässerten Karotten überlagert.</p>',
       'pt-br': '<p>Que tal múltiplos itens? Você pode sobrepor-los sem problemas. Use <code>grid-area</code> para definir uma área secundária que cobre todas as cenouras não irrigadas.</p>',
       'ru': '<p>Как насчет множества элементов? Вы можете накладывать их друг на друга без каких либо проблем. Используйте <code>grid-area</code> чтобы определить вторую зону, которая займет всю не политую морковь.</p>',
-      'pl': '<p>A co z wieloma elementami? Możesz je nakładać bez problemu. Użyj <code>grid-area</code> aby zdefiniować drugą powierzchnię, która pokryje nie podlane marchewki.</p>',
+      'pl': '<p>A co z wieloma elementami? Możesz je nakładać bez problemu. Użyj <code>grid-area</code> aby zdefiniować drugą powierzchnię, która pokryje niepodlane marchewki.</p>',
       'es': '<p>¿Y qué me dices de múltiples elementos? Puedes superponerlos sin problema. Usa <code>grid-area</code> para definir una segunda área que cubra todas las zanahorias que están sin regar.</p>',
       'sv': '<p>Vad gör vi med multipla element? Dom kan överlappa utan problem. Använd <code>grid-area</code> för att definiera ett andra område som täcker all dina morötter.</p>',
       'fa': '<p>در مورد چندین آیتم جطور؟ می توانید بدون دردسر آنها را روی هم بیاندازید. از <code>grid-area</code> برای تعریف ناحیه دومی که هویج های آبیاری نشده را پوشش دهد استفاده کنید.</p>'
