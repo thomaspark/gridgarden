@@ -66,7 +66,7 @@ var messages = {
     'zh-cn': 'Grid Garden的作者是',
     'zh-tw': 'Grid Garden的作者是',
     'tr': 'Grid Garden\'nin yaratıcısı:',
-    'it': 'Grid Garden e\' stato creato da',
+    'it': 'Grid Garden è stato creato da',
     'ko': 'Grid Garden는 다음에 의해 개발되었습니다',
     'lt': 'Grid Garden kūrėjas',
     'vi': 'Grid Garden được tạo ra bởi',
@@ -224,10 +224,12 @@ var messages = {
     'pl': 'O nie, Grid Garden nie działa w tej przeglądarce. Wymagana jest <a href="http://caniuse.com/#feat=css-grid">przeglądarka, która wspiera CSS Grid</a>, takie jak najnowsza wersja <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> lub <a href="http://www.apple.com/safari/">Safari</a>. Użyj jednej z nich aby rozpocząć uprawianie ogródka!',
     'es': 'Oh no, Grid Garden no funciona en este navegador. Requiere <a href="http://caniuse.com/#feat=css-grid">un navegador compatible con CSS Grid</a>, como la última versión de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Usa uno de estos para comenzar con la jardinería.',
     'sv': 'Åh nej, Grid Garden fungerar inte i den här webbläsaren. Webbläsaren <a href="http://caniuse.com/#feat=css-grid">behöver stödja CSS grid</a>, som till exempel senaste versionen av <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, eller <a href="http://www.apple.com/safari/">Safari</a>. Använd någon av dom för att börja odla morötter!',
+    'it': 'Oh no, Grid Garden non funziona con questo browser. È necessario <a href="http://caniuse.com/#feat=css-grid">un browser che supporta CSS grid</a>, come l\'ultima versione di <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Usa uno di questi per iniziare con il giardinaggio!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
     'zh-cn': '想学习CSS Flex布局么？那就快开始吧',
-    'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à'
+    'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à',
+    'it': 'Vuoi imparare CSS flexbox? Gioca a',
   }
 };
