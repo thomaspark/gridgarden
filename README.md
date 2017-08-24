@@ -28,12 +28,12 @@ My gratitude to these contributors for their translations.
 * French by [Forresst](https://github.com/forresst)
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
 * Italian by [sirLisko](https://github.com/sirLisko)
+* Korean by [YunHak Kwon](https://github.com/tienne)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
 * Russian by [Zaurbek Zhakupov](https://github.com/zzhakupov)
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
-* Korean by [YunHak Kwon](https://github.com/tienne)
 
 Don't see your language on the list? Add it!
 
