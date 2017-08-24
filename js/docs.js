@@ -11,6 +11,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements position och storlek inuti rutnätet.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'fa': '<p>موقعیت و اندازه یک آیتم گرید را در گرید مشخص می کند.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'it': '<p>Specifica la posizione e la dimensione di un elemento nella griglia.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ko': '<p>그리드 요소의 크기와 위치를 지정합니다.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -24,6 +25,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements position inuti rutnätets kolumner.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'fa': '<p>موقعیت آیتم گرید در یک ستون گرید را مشخص می کند.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'it': '<p>Specifica la posizione di un elemente rispetto alle colonne della griglia.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ko': '<p>그리드 요소의 열(column) 위치를 지정합니다.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -37,6 +39,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements slutposition inuti rutnätets kolumner.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه پایان آیتم گرید در یک ستون گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione finale di un elemento rispetto alle colonne della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ko': '<p>그리드 요소의 마지막 열(column) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -50,6 +53,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements startposition inuti rutnätet.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه شروع آیتم گرید در یک ستون گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione iniziale di un elemento rispetto alle colonne della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ko': '<p>그리드 요소의 시작 열(column) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -63,6 +67,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements position inuti rutnätets rader.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'fa': '<p>موقعیت آیتم گرید در یک سطر گرید را مشخص می کند.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'it': '<p>Specifica la posizione di un elemente rispetto alle righe della griglia.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'ko': '<p>그리드 요소의 행(row) 위치를 지정합니다.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -76,6 +81,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements slutposition inuti rutnätets rader.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه پایان آیتم گرید در یک سطر گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione finale di un elemento rispetto alle righe della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ko': '<p>그리드 요소의 마지막 행(row) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -89,6 +95,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements startposition inuti rutnätets rader.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه شروع آیتم گرید در یک سطر گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione iniziale di un elemento rispetto alle righe della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ko': '<p>그리드 요소의 시작 행(row) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -102,6 +109,7 @@ var docs = {
     'sv': '<p>Specifierar storlek och namn för rutnätets rader och kolumner.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'fa': '<p>اندازه و نام سطرها و ستون های گرید را مشخص می کند.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'it': '<p>Specifica la dimensione e i nomi delle righe e delle colonne della griglia.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'ko': '<p>그리드의 행(row)과 열(column)에 대한 크기와 명칭을 지정합니다.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -115,6 +123,7 @@ var docs = {
     'sv': '<p>Specifierar namngivna grid områden.</p><p><code>&lt;grid-name&gt;</code></p>',
     'fa': '<p>ناحیه های گرید را مشخص می کند.</p><p><code>&lt;grid-name&gt;</code></p>',
     'it': '<p>Specifica le aree denominate della griglia.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'ko': '<p>명시된 그리드의 영역을 지정합니다.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -128,6 +137,7 @@ var docs = {
     'sv': '<p>Specifierar storlek och namn för rutnätets kolumner.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'fa': '<p>اندازه و نام ستون های گرید را مشخص می کند.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'it': '<p>Specifica la dimensione e i nomi delle colonne della griglia.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ko': '<p>그리드의 열(column) 크기와 명칭을 지정합니다.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -141,6 +151,7 @@ var docs = {
     'sv': '<p>Specifierar storlek och namn för rutnätets rader.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'fa': '<p>اندازه و نام سطرهای گرید را مشخص می کند.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'it': '<p>Specifica la dimensione e i nomi delle righe della griglia.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ko': '<p>그리드의 행(row) 크기와 명칭을 지정합니다.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -154,5 +165,6 @@ var docs = {
     'sv': '<p>Specifierar ett grid elements sorteringsorder.</p><p><code>&lt;integer&gt;</code></p>',
     'fa': '<p>ترتیب آیتم های گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code></p>',
     'it': '<p>Specifica l\'ordine degli elementi della griglia.</p><p><code>&lt;integer&gt;</code></p>',
+    'ko': '<p>그리드 요소의 순서를 지정합니다.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
