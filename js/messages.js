@@ -225,11 +225,13 @@ var messages = {
     'es': 'Oh no, Grid Garden no funciona en este navegador. Requiere <a href="http://caniuse.com/#feat=css-grid">un navegador compatible con CSS Grid</a>, como la última versión de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Usa uno de estos para comenzar con la jardinería.',
     'sv': 'Åh nej, Grid Garden fungerar inte i den här webbläsaren. Webbläsaren <a href="http://caniuse.com/#feat=css-grid">behöver stödja CSS grid</a>, som till exempel senaste versionen av <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, eller <a href="http://www.apple.com/safari/">Safari</a>. Använd någon av dom för att börja odla morötter!',
     'it': 'Oh no, Grid Garden non funziona con questo browser. È necessario <a href="http://caniuse.com/#feat=css-grid">un browser che supporta CSS grid</a>, come l\'ultima versione di <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Usa uno di questi per iniziare con il giardinaggio!',
+    'ko': '이런.., Grid Garden은 사용하고 계신 브라우저에서 작동하지 않습니다. 사용하시는 브라우저가 <a href="http://caniuse.com/#feat=css-grid">CSS grid을 지원하는 브라우저</a>, 혹은 최신 버전의 <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. 브라우저를 사용하실 경우만 정원을 가꾸어보실 수 있습니다!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
     'zh-cn': '想学习CSS Flex布局么？那就快开始吧',
     'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à',
     'it': 'Vuoi imparare CSS flexbox? Gioca a',
+    'ko': 'CSS flexbox를 배워볼려면? 여기를 클릭',
   }
 };
