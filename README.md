@@ -31,6 +31,7 @@ My gratitude to these contributors for their translations.
 * Korean by [YunHak Kwon](https://github.com/tienne)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
+* Romanian by [Vlad](https://github.com/pckltr)
 * Russian by [Zaurbek Zhakupov](https://github.com/zzhakupov)
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
