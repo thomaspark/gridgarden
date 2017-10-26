@@ -3,6 +3,7 @@ var levels = [
     name: 'grid-column-start 1',
     instructions: {
       'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
+      'ro': '<p>Bine ai venit la Grid Garden, unde scrii cod CSS pentru a crește grădina de morcovi! Udă doar zonele care au morcovi folosind proprietatea <code>grid-column-start</code>.</p><p>De exemplu, <code>grid-column-start: 3;</code> va uda zona începând de la a treia linie verticală a grilei, adică a treia linie verticală de la stânga în grilă.</p>',
       'zh-cn': '<p>欢迎来到网格花园，在这里你可以通过书写CSS代码来栽种你的胡萝卜花园！使用<code>grid-column-start</code> 属性来给胡萝卜浇水。</p><p>比如说， <code>grid-column-start: 3;</code>将会给第三列的网格开始的区域浇水，这也是描述网格中从左起第三列边界的另一种方法。</p>',
       'fr': '<p>Bienvenue dans Grid Garden, où vous écrivez du code CSS pour cultiver votre jardin de carotte ! Arrosez seulement les régions qui ont des carottes en utilisant la propriété <code>grid-column-start</code>.</p><p>Par exemple, <code>grid-column-start: 3;</code> arrosera la région commençant à la 3ème ligne verticale de la grille, une autre manière de le dire, c\'est la 3ème bordure verticale en partant de la gauche dans la grille.</p>',
       'de': '<p>Willkommen bei Grid Garden, wo du CSS Code schreibst, um deinen Karotten Garten zu kultivieren! Wässerfe nur die Abschnitte, welche Karotten enthalten, indem Du die <code>grid-column-start</code> Eigenschaft nutzt.</p><p>Zum Beispiel <code>grid-column-start: 3;</code> wässert den Abschnitt auf der dritten vertikalen Rasterlinie, mit anderen Worten: die 3. vertikale Spalte von links im Raster.</p>',
@@ -25,6 +26,7 @@ var levels = [
     name: 'grid-column-start 2',
     instructions: {
       'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.</p>',
+      'ro': '<p>Ah, se pare că au început să crească buruieni în colțul grădinii tale. Folosește <code>grid-column-start</code> să le otrăvești. Notează că buruienile încep la a cincea linie verticală din grilă.</p>',
       'zh-cn': '<p>Uh no, 在你的花园的角落里好像长着一些杂草。用<code>grid-column-start</code>来除掉杂草。注意，杂草从第五个网格列开始。</p>',
       'fr': '<p>Houlà, il semblerait que les mauvaises herbes poussent dans le coin de votre jardin. Utilisez <code>grid-column-start</code> pour les empoisonner. Remarquez que les mauvaises herbes commencent à la 5ème ligne verticale de la grille.</p>',
       'de': '<p>Oje, sieht aus als würde in der Ecke des Gartens Unkraut wachsen. Benutze <code>grid-column-start</code> um es zu vergiften. Beachte, dass das Unkraut in der fünften vertikalen Rasterline beginnt.</p>',
@@ -47,6 +49,7 @@ var levels = [
     name: 'grid-column-end 1',
     instructions: {
       'en': '<p>When <code>grid-column-start</code> is used alone, the grid item by default will span exactly one column. However, you can extend the item across multiple columns by adding the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>, water all of your carrots while avoiding the dirt. We don\'t want to waste any water! Note that the carrots start at the 1st vertical grid line and end at the 4th.</p>',
+      'ro': '<p>Când proprietatea <code>grid-column-start</code> este folosită singură, în mod implicit elementul grilei se va întinde pe o coloană. Poți să extinzi elementul pe mai multe coloane adăugând proprietatea <code>grid-column-end</code>.</p><p>Folosind <code>grid-column-end</code>, udă toți morcovii ocolind pământul. Nu vrem să risipim apă! Notează că morcovii încep la prima linie verticală în grilă și se termină la a patra.</p>',
       'zh-cn': '<p>若仅使用<code>grid-column-start</code>，网格默认只占一列。然而，你可以使用<code>grid-column-end</code>属性将网格拓展到多列。</p><p>使用<code>grid-column-end</code>, 将你的所有萝卜浇水，但不要将水浇到土地上哦，我们要节约用水！注意，萝卜从第一列开始，第四列结束。</p>',
       'fr': '<p>Lorsque <code>grid-column-start</code> est utilisé individuellement, l\'élément de la grille s\'étendera par défaut sur une colonne exactement. Pourtant, vous pouvez étendre l\'élément sur plusieurs colonnes en ajoutant la propriété <code>grid-column-end</code>.</p><p>En utilisant <code>grid-column-end</code>, arrosez toutes vos carottes tout en évitant la boue. Nous ne voulons pas gaspiller d\'eau ! Remarquez que les carottes commencent à la 1ère ligne verticale de la grille et terminent à la 4ème.</p>',
       'de': '<p>Wenn <code>grid-column-start</code> alleine benutzt wird, umfasst das Rasterelement standardmäßig genau eine Spalte. Du kannst den Umfang des Elements jedoch auf mehrere Spalten erweitern durch die <code>grid-column-end</code> Eigenschaft.</p><p>Benutze <code>grid-column-end</code> um alle Karotten zu wässern. Vermeide dabei die Erdabschnitte, wir wollen kein Wasser verschwenden! Beachte, dass die Karotten auf der ersten vertikalen Rasterlinie beginnen und auf der vierten aufhören.</p>',
@@ -70,6 +73,7 @@ var levels = [
     name: 'grid-column-end 2',
     instructions: {
       'en': '<p>When pairing <code>grid-column-start</code> and <code>grid-column-end</code>, you might assume that the end value has to be greater than the start value. But this turns out not the case!</p><p>Try setting <code>grid-column-end</code> to a value less than 5 to water your carrots.</p>',
+      'ro': '<p>Când combini <code>grid-column-start</code> și <code>grid-column-end</code>, s-ar putea să presupui că valoarea de la sfârșit trebuie să fie mai mare decât cea de la început. Nu este cazul!</p><p>Încearcă să setezi <code>grid-column-end</code> la o valoare mai mică decât 5 ca să uzi morcovii tăi.</p>',
       'zh-cn': '<p>当将<code>grid-column-start</code>和<code>grid-column-end</code>一起使用时，你也许已经注意到结束的值比起始的值大。但事实证明并非如此！</p><p>尝试设置<code>grid-column-end</code>的值小于5，以此来给胡萝卜浇水。</p>',
       'fr': '<p>En associant <code>grid-column-start</code> et <code>grid-column-end</code>, vous pouvez penser que la valeur de fin doit être supérieure à la valeur de début. Mais ce n\'est pas le cas !</p><p>Essayez de définir <code>grid-column-end</code> avec une valeur inférieure à 5 pour arroser vos carottes.</p>',
       'de': '<p>Beim gemeinsamen Einsatz von <code>grid-column-start</code> und <code>grid-column-end</code> könnte man annehmen, dass der Endwert grösser als der Startwert sein muss. Es zeigt sich aber, dass dies nicht der Fall ist!</p><p>Versuche <code>grid-column-end</code> auf einen Wert kleiner als 5 einzustellen um deine Karotten zu wässern.</p>',
@@ -93,6 +97,7 @@ var levels = [
     name: 'grid-column-end 3',
     instructions: {
       'en': '<p>If you want to count grid lines from the right instead of the left, you can give <code>grid-column-start</code> and <code>grid-column-end</code> negative values. For example, you can set it to -1 to specify the first grid line from the right.</p><p>Try setting <code>grid-column-end</code> to a negative value.</p>',
+      'ro': '<p>Dacă vrei să numeri liniile grilei de la dreapta în loc de stânga, poți să le dai <code>grid-column-start</code> și <code>grid-column-end</code> valori negative. De exemplu, poți să le setezi -1 pentru a specifica prima linie a grilei din dreapta.</p><p>Încearcă să setezi <code>grid-column-end</code> la o valoare negativă.</p>',
       'zh-cn': '<p>如果你想要从右边数网格的列数而不是从左边数，你可以设置<code>grid-column-start</code>和<code>grid-column-end</code>为负值。比如说，你可以设置他为-1来指定为右边的第一列。</p><p>尝试将<code>grid-column-end</code>设置为负值。</p>',
       'fr': '<p>Si vous souhaitez compter les lignes de la grille à partir de la droite plutôt que de la gauche, vous pouvez donner des valeurs négatives à <code>grid-column-start</code> et à <code>grid-column-end</code>. Par exemple, vous pouvez le définir à -1 pour spécifier la première ligne de la grille en partant de la droite.</p><p>Essayez de définir <code>grid-column-end</code> avec une valeur négative.</p>',
       'de': '<p>Falls du die Rasterlinien von rechts statt von links zählen willst, kannst du für <code>grid-column-start</code> und <code>grid-column-end</code> negative Werte einstellen. Du kannst sie zum Beispiel auf -1 setzen um die erste Rasterlinie von rechts anzusprechen.</p><p>Versuche <code>grid-column-end</code> auf einen negativen Wert zu setzen.</p>',
@@ -116,6 +121,7 @@ var levels = [
     name: 'grid-column-start 3',
     instructions: {
       'en': '<p>Now try setting <code>grid-column-start</code> to a negative value.</p>',
+      'ro': '<p>Acum încearcă să setezi <code>grid-column-start</code> la o valoare negativă.</p>',
       'zh-cn': '<p>现在尝试设置<code>grid-column-start</code>为负值。</p>',
       'fr': '<p>Maintenant essayez de définir <code>grid-column-start</code> avec une valeur négative.</p>',
       'de': '<p>Versuche nun, <code>grid-column-start</code> auf einen negativen Wert zu setzen.</p>',
@@ -138,6 +144,7 @@ var levels = [
     name: 'grid-column-end 4',
     instructions: {
       'en': '<p>Instead of defining a grid item based on the start and end positions of the grid lines, you can define it based on your desired column width using the <code>span</code> keyword. Keep in mind that <code>span</code> only works with positive values.</p><p>For example, water these carrots with the rule <code>grid-column-end: span 2;</code>.</p>',
+      'ro': '<p>În loc să definești un element al grilei bazându-te pe pozițiile de început și de sfârșit, poți să le definești bazându-te pe lățimea dorită a coloanei folosind cuvântul cheie <code>span</code>. Ține minte că <code>span</code> funcționează doar cu valori pozitive.</p><p>De exemplu, udă acești morcovi cu proprietatea <code>grid-column-end: span 2;</code>.</p>',
       'zh-cn': '<p>你可以根据网格的开始和结束位置来定义一个网格项，你也可以用<code>span</code>关键词来指定你所要跨越的宽度。请注意<code>span</code>只能是正值。</p><p>比如说，你可以通过<code>grid-column-end: span 2;</code>来给这些胡萝卜浇水。</p>',
       'fr': '<p>Au lieu de définir un élément de la grille basé sur les positions de début et de fin des lignes de la grille, vous pouvez le définir en fonction de la largeur de colonne désirée à l\'aide du mot clé <code>span</code>. Gardez à l\'esprit que <code>span</code> fonctionne uniquement avec des valeurs positives.</p><p>Par exemple, arrosez ces carottes avec la règle <code>grid-column-end: span 2;</code>.</p>',
       'de': '<p>Anstatt ein Rasterelement basierend auf Start- und Endposition der Rasterlinien zu definieren, kannst du es anhand der gewünschten Spaltenbreite mit dem Schlüsselwort <code>span</code> definieren. Denk daran, dass <code>span</code> nur mit positiven Werten funktioniert.</p><p>Wässere zum Beispiel diese Karotten mit der Regel <code>grid-column-end: span 2;</code>.</p>',
@@ -161,6 +168,7 @@ var levels = [
     name: 'grid-column-end 5',
     instructions: {
       'en': '<p>Try using <code>grid-column-end</code> with the <code>span</code> keyword again to water your carrots.</p>',
+      'ro': '<p>Încearcă să folosești <code>grid-column-end</code> cu <code>span</code> din nou pentru a uda morcovii.</p>',
       'zh-cn': '<p>尝试在<code>grid-column-end</code>属性中使用<code>span</code>关键字来给胡萝卜浇水。</p>',
       'fr': '<p>Essayer l\'utilisation de <code>grid-column-end</code> avec encore le mot clé <code>span</code> pour arroser vos carottes.</p>',
       'de': '<p>Versuche, <code>grid-column-end</code> wieder mit dem Schlüsselwort <code>span</code> einzusetzen, um deine Karotten zu wässern.</p>',

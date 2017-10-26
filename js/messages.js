@@ -1,6 +1,7 @@
 var messages = {
   languageActive: {
     'en': 'English',
+    'ro': 'Română',
     'sr': 'Српски',
     'bg': 'Български',
     'de': 'Deutsch',
@@ -28,6 +29,7 @@ var messages = {
   },
   next: {
     'en': 'Next',
+    'ro': 'Următoarea',
     'sr': 'Следећи',
     'bg': 'Следващо',
     'de': 'Weiter',
@@ -55,6 +57,7 @@ var messages = {
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
+    'ro': 'Grid Garden este creat de',
     'sr': 'Grid Garden је направио',
     'bg': 'Grid Garden е създадена от',
     'de': 'Grid Garden wurde gemacht von',
@@ -82,6 +85,7 @@ var messages = {
   },
   labelLevel: {
     'en': 'Level',
+    'ro': 'Nivelul',
     'sr': 'Ниво',
     'bg': 'Ниво',
     'de': 'Level',
@@ -109,6 +113,7 @@ var messages = {
   },
   labelOf: {
     'en': 'of',
+    'ro': 'din',
     'sr': 'од',
     'bg': 'от',
     'de': 'von',
@@ -136,6 +141,7 @@ var messages = {
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
+    'ro': 'Grid Garden - Un joc pentru a învăța CSS grid',
     'sr': 'Grid Garden - Игра за учење CSS grid-а',
     'bg': 'Grid Garden - Игра за учене на CSS grid',
     'de': 'Grid Garden - Ein Spiel, um CSS Grid zu lernen',
@@ -163,6 +169,7 @@ var messages = {
   },
   labelReset: {
     'en': 'Reset',
+    'ro': 'Resetează',
     'sr': 'Ресет',
     'bg': 'Анулиране',
     'de': 'Zurücksetzen',
@@ -190,6 +197,7 @@ var messages = {
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
+    'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău salvat va fi pierdut și vei începe jocul de la primul nivel',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
     'bg': 'Сигурни ли сте, че искате да анулирате играта?\n\nВашият резултат ще бъде загубен и ще бъдете препратени към началото на играта.',
     'de': 'Bist du sicher, dass du das Spiel zurücksetzen möchtest?\n\nDein gespeicherter Fortschritt geht dabei verloren und du musst das Spiel von neuem starten.',
@@ -217,6 +225,7 @@ var messages = {
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
+    'ro': 'O, nu, Grid Garden nu funcționează în acest browser. Are nevoie de <a href="http://caniuse.com/#feat=css-grid">un browser care suportă CSS grid</a>, de exemplu, ultima versiune a <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, sau <a href="http://www.apple.com/safari/">Safari</a>. Folosește unul dintre aceștia pentru a grădinări!',
     'zh-cn': '抱歉，Grid Garden无法在此浏览器运行。你需要在支持<a href="http://caniuse.com/#feat=css-grid">CSS grid</a>的浏览器中运行，比如最新版本的<a href="https://www.mozilla.org/firefox/">Firefox</a>，<a href="https://www.google.com/chrome/">Chrome</a>，或者<a href="http://www.apple.com/safari/">Safari</a>。快使用以上这些浏览器开始游戏吧！',
     'fr': 'Oh non, Grid Garden ne fonctionne pas avec ce navigateur. Il nécessite <a href="http://caniuse.com/#feat=css-grid">un navigateur compatible avec grid CSS</a>, telle que la dernière version de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> ou <a href="http://www.apple.com/safari/">Safari</a>. Utilisez un de cela pour faire du jardinage !',
     'pt-br': 'Ah não! Grid Garden não tem suporte para esse navegador. É necessário <a href="http://caniuse.com/#feat=css-grid">um navegador com suporte a CSS grid</a>, assim como a última versão do <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ou <a href="http://www.apple.com/safari/">Safari</a>. Use um deles para começar a fazer a horta.',
@@ -229,6 +238,7 @@ var messages = {
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
+    'ro': 'Vrei să înveți CSS flexbox? Joacă',
     'zh-cn': '想学习CSS Flex布局么？那就快开始吧',
     'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à',
     'it': 'Vuoi imparare CSS flexbox? Gioca a',
