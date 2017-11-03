@@ -243,5 +243,6 @@ var messages = {
     'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à',
     'it': 'Vuoi imparare CSS flexbox? Gioca a',
     'ko': 'CSS flexbox를 배워볼려면? 여기를 클릭',
+    'nl': 'Wil je CSS flexbox leren? Speel',
   }
 };
