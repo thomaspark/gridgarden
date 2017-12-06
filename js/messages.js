@@ -26,6 +26,7 @@ var messages = {
     'uk': 'Українська',
     'hi': 'हिंदी',
     'nl': 'Nederlands',
+    'el': 'Ελληνικά',
   },
   next: {
     'en': 'Next',
@@ -54,6 +55,7 @@ var messages = {
     'uk': 'Наступний',
     'hi': 'अगला',
     'nl': 'Volgende',
+    'el': 'Επόμενο',
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
@@ -82,6 +84,7 @@ var messages = {
     'uk': 'Гру Grid Garden створено',
     'hi': 'Grid Garden के निर्माणकर्ता ',
     'nl': 'Grid Garden is gemaakt door',
+    'el': 'Το Grid Garden δημιουργήθηκε από',
   },
   labelLevel: {
     'en': 'Level',
@@ -110,6 +113,7 @@ var messages = {
     'uk': 'Рівень',
     'hi': 'स्तर',
     'nl': 'Niveau',
+    'el': 'Επίπεδο',
   },
   labelOf: {
     'en': 'of',
@@ -138,6 +142,7 @@ var messages = {
     'uk': 'з',
     'hi': '/',
     'nl': 'van',
+    'el': 'από',
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -166,6 +171,7 @@ var messages = {
     'uk': 'Grid Garden - гра для вивчення CSS grid',
     'hi': 'Grid Garden - CSS Grid सीखने के लिए एक खेल',
     'nl': 'Grid Garden - Een spel om CSS grid te leren',
+    'el': 'Grid Garden - Ένα παιχνίδι για την εκμάθηση του CSS Grid',
   },
   labelReset: {
     'en': 'Reset',
@@ -194,6 +200,7 @@ var messages = {
     'uk': 'Скинути',
     'hi': 'रीसेट',
     'nl': 'Resetten',
+    'el': 'Επαναφορά',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -222,6 +229,7 @@ var messages = {
     'uk': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
     'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
+    'el': 'Είστε σίγουροι ότι θέλετε να επαναφέρετε το παιχνίδι;\n\nΗ αποθηκευμένη σας πρόοδος θα χαθεί και θα βρεθείτε στην αρχή του παιχνιδιού.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -235,6 +243,7 @@ var messages = {
     'sv': 'Åh nej, Grid Garden fungerar inte i den här webbläsaren. Webbläsaren <a href="http://caniuse.com/#feat=css-grid">behöver stödja CSS grid</a>, som till exempel senaste versionen av <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, eller <a href="http://www.apple.com/safari/">Safari</a>. Använd någon av dom för att börja odla morötter!',
     'it': 'Oh no, Grid Garden non funziona con questo browser. È necessario <a href="http://caniuse.com/#feat=css-grid">un browser che supporta CSS grid</a>, come l\'ultima versione di <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Usa uno di questi per iniziare con il giardinaggio!',
     'ko': '이런.., Grid Garden은 사용하고 계신 브라우저에서 작동하지 않습니다. 사용하시는 브라우저가 <a href="http://caniuse.com/#feat=css-grid">CSS grid을 지원하는 브라우저</a>, 혹은 최신 버전의 <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. 브라우저를 사용하실 경우만 정원을 가꾸어보실 수 있습니다!',
+    'el': 'Ωχ όχι, το Grid Garden δεν λειτουργεί σ\' αυτόν τον περιηγητή. Απαιτεί <a href="http://caniuse.com/#feat=css-grid">έναν περιηγητή που υποστηρίζει το CSS Grid</a>, όπως την τελευταία έκδοση του <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ή <a href="http://www.apple.com/safari/">Safari</a>. Χρησιμοποιήστε έναν από αυτούς για να αρχίσετε την κηπουρική!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -244,5 +253,6 @@ var messages = {
     'it': 'Vuoi imparare CSS flexbox? Gioca a',
     'ko': 'CSS flexbox를 배워볼려면? 여기를 클릭',
     'nl': 'Wil je CSS flexbox leren? Speel',
+    'el': 'Θέλετε να μάθετε CSS Flexbox; Παίξτε',
   }
 };
