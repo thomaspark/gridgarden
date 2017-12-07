@@ -28,6 +28,7 @@ My gratitude to these contributors for their translations.
 * Farsi by [leonine90](https://github.com/leonine90)
 * French by [Forresst](https://github.com/forresst)
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
+* Greek by [lmintmate](https://github.com/lmintmate)
 * Italian by [sirLisko](https://github.com/sirLisko)
 * Korean by [YunHak Kwon](https://github.com/tienne)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
