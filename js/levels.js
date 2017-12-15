@@ -349,6 +349,7 @@ var levels = [
       'en': '<p>Use <code>grid-column</code> and <code>grid-row</code> at the same time to set position in both dimensions.</p>',
       'ro': '<p>Folosește <code>grid-column</code> și <code>grid-row</code> în același timp pentru a seta poziția în ambele dimensiuni.</p>',
       'zh-cn': '<p>同时使用<code>grid-column</code>和<code>grid-row</code>来设置网格项在行和列中的位置。</p>',
+      'tr': '<p><code>grid-column</code> ve <code>grid-row</code> özelliklerini aynı anda kullanarak pozisyonu iki boyutta da ayarlayın.</p>',
       'fr': '<p>Utilisez <code>grid-column</code> et <code>grid-row</code> en même temps pour définir la position dans les deux dimensions.</p>',
       'de': '<p>Benutze <code>grid-column</code> und <code>grid-row</code> gleichzeitig um die Position in beiden Dimensionen festzulegen.</p>',
       'nl': '<p>Gebruik <code>grid-column</code> en <code>grid-row</code> tegelijkertijd om de positie in beide dimenties in te stellen.</p>',
