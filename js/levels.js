@@ -138,6 +138,7 @@ var levels = [
       'en': '<p>Now try setting <code>grid-column-start</code> to a negative value.</p>',
       'ro': '<p>Acum încearcă să setezi <code>grid-column-start</code> la o valoare negativă.</p>',
       'zh-cn': '<p>现在尝试设置<code>grid-column-start</code>为负值。</p>',
+      'tr': '<p>Şimdi <code>grid-column-start</code> özelliğine negatif bir değer verin.</p>',
       'fr': '<p>Maintenant essayez de définir <code>grid-column-start</code> avec une valeur négative.</p>',
       'de': '<p>Versuche nun, <code>grid-column-start</code> auf einen negativen Wert zu setzen.</p>',
       'nl': '<p>Probeer nu <code>grid-column-start</code> een negatieve waarde te geven.</p>',
