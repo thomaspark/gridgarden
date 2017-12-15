@@ -271,6 +271,7 @@ var levels = [
       'en': '<p>Try using <code>grid-column</code> to water these carrots. The <code>span</code> keyword also works with this shorthand property so give it a try!</p>',
       'ro': '<p>Încearcă să folosești <code>grid-column</code> pentru a uda acești morcovi. Cuvântul cheie <code>span</code> funcționează de asemenea cu această prescurtare așa că încearcă și tu!</p>',
       'zh-cn': '<p>尝试使用<code>grid-column</code>来给胡萝卜浇水。<code>span</code>关键字在这个简写中也是可以使用的，所以你也可以试一下哟！</p>',
+      'tr': '<p><code>grid-column</code> özelliğini kullanarak bu havuçları sulayın. <code>span</code> anahtar kelimesi de bu kısayol ile çalışıyor. Deneyin!</p>',
       'fr': '<p>Essayer l\'utilisation de <code>grid-column</code> pour arroser ces carottes. Le mot clé <code>span</code> fonctionne également avec cette propriété raccourcie, essayez-le !</p>',
       'de': '<p>Versuche <code>grid-column</code> zu benutzen, um diese Karotten zu wässern. Das Schlüsselwort <code>span</code> funktioniert ebenfalls mit dieser Kurzschrift-Eigenschaft also versuch es!</p>',
       'nl': '<p>Probeer <code>grid-column</code> te gebruiken om de wortels water te geven. Het <code>span</code> sleutelwoord werkt ook met deze shorthand property, dus probeer dat eens!</p>',
