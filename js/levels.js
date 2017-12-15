@@ -480,6 +480,7 @@ var levels = [
       'en': '<p>Now the water and poison are alternating, even though all of the weeds are at the start of your garden. Set the <code>order</code> of the poisons to remedy this.</p>',
       'ro': '<p>Acum apa și otrava alternează, chiar dacă toate buruienile sunt la începutul grădinii tale. Schimbă valoarea proprietății <code>order</code> a otravei pentru a repara acest lucru.</p>',
       'zh-cn': '<p>现在水和中毒的土地是交替出现的，并且所有的杂草都出现在每一列的开始。设置中毒土地的正确<code>order</code>值来修复它们吧！</p>',
+      'tr': '<p>Artık yabani otların hepsi bahçenizin başında olsa da, su ve zehir değişiyor. Bunu düzeltmek için zehirlerin <code>order</code> değerlerini ayarlayın.</p>',
       'fr': '<p>Maintenant l’eau et poison se sont alternés, même si toutes les mauvaises herbes sont au début de votre jardin. Définissez <code>order</code> des poisons pour y remédier.</p>',
       'de': '<p>Nun wechseln sich Wasser und Gift ab, obwohl alles Unkraut sich am Anfang des Gartens befindet. Setze den <code>order</code> Wert für Gift um Abhilfe zu schaffen.</p>',
       'nl': '<p>Nu wisselen het water en het gif af, ook al staat al het onkruid aan het begin van je tuin. Stel de <code>order</code> van het vergif in om dit op te lossen.</p>',
