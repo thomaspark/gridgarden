@@ -31,6 +31,7 @@ var levels = [
       'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.</p>',
       'ro': '<p>Ah, se pare că au început să crească buruieni în colțul grădinii tale. Folosește <code>grid-column-start</code> să le otrăvești. Notează că buruienile încep la a cincea linie verticală din grid.</p>',
       'zh-cn': '<p>Uh no, 在你的花园的角落里好像长着一些杂草。用<code>grid-column-start</code>来除掉杂草。注意，杂草从第五个网格列开始。</p>',
+      'tr': '<p>Hayda!, sanki bahçenizin köşesinde yabani otlar büyüyor. Onları zehirlemek için <code>grid-column-start</code> kullanın. Yabani otların, 5. dikey Grid çizgisinden başlayacağına dikkat edin.</p>',
       'fr': '<p>Houlà, il semblerait que les mauvaises herbes poussent dans le coin de votre jardin. Utilisez <code>grid-column-start</code> pour les empoisonner. Remarquez que les mauvaises herbes commencent à la 5ème ligne verticale de la grille.</p>',
       'de': '<p>Oje, sieht aus als würde in der Ecke des Gartens Unkraut wachsen. Benutze <code>grid-column-start</code> um es zu vergiften. Beachte, dass das Unkraut in der fünften vertikalen Rasterline beginnt.</p>',
       'nl': '<p>Oh oh, het lijkt erop dat er onkruid groeit in de hoek van je tuin. Gebruik <code>grid-column-start</code> om het te vergiftigen. Onthoud dat het onkruid begint op de 5e verticale grid lijn.</p>',
