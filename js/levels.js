@@ -191,6 +191,7 @@ var levels = [
       'en': '<p>Try using <code>grid-column-end</code> with the <code>span</code> keyword again to water your carrots.</p>',
       'ro': '<p>Încearcă să folosești <code>grid-column-end</code> cu <code>span</code> din nou pentru a uda morcovii.</p>',
       'zh-cn': '<p>尝试在<code>grid-column-end</code>属性中使用<code>span</code>关键字来给胡萝卜浇水。</p>',
+      'tr': '<p>Havuçlarınızı suya koymak için <code>span</code> anahtar kelimesini tekrar <code>grid-column-end</code> ile kullanmayı deneyin.</p> ',
       'fr': '<p>Essayer l\'utilisation de <code>grid-column-end</code> avec encore le mot clé <code>span</code> pour arroser vos carottes.</p>',
       'de': '<p>Versuche, <code>grid-column-end</code> wieder mit dem Schlüsselwort <code>span</code> einzusetzen, um deine Karotten zu wässern.</p>',
       'nl': '<p>Probeer <code>grid-column-end</code> opnieuw met het sleutelwoord <code>span</code> in te vullen om je wortels water te geven.</p>',
