@@ -375,6 +375,7 @@ var levels = [
       'en': '<p>You can also use <code>grid-column</code> and <code>grid-row</code> together to span larger areas within the grid. Give it a try!</p>',
       'ro': '<p>Poți, de asemenea, folosi <code>grid-column</code> și <code>grid-row</code> împreună pentru a acoperi zone mai mari în grid. Încearcă și tu!</p>',
       'zh-cn': '<p>你也可以使用<code>grid-column</code>和<code>grid-row</code>一起来定义一个较大区域的网格。试一下吧！</p>',
+      'tr': '<p><code>grid-column</code> ve <code>grid-row</code> özelliklerini aynı anda kullanarak da grid içerisindeki daha fazla alana yayılabilirsiniz. Deneyin!</p>',
       'fr': '<p>Vous pouvez aussi utiliser <code>grid-column</code> et <code>grid-row</code> ensemble pour étendre des zones plus vastes dans de la grille. Essayez !</p>',
       'de': '<p>Du kannst auch <code>grid-column</code> und <code>grid-row</code> zusammen einsetzen um grössere Bereich im Raster zu erfassen. Versuche es!</p>',
       'nl': '<p>Je kan ook <code>grid-column</code> en <code>grid-row</code> samen gebruiken om grotere gebieden van het grid in te vullen. Probeer het uit!</p>',
