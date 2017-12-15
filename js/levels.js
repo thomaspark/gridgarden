@@ -427,6 +427,7 @@ var levels = [
       'en': '<p>How about multiple items? You can overlap them without any trouble. Use <code>grid-area</code> to define a second area that covers all of the unwatered carrots.</p>',
       'ro': '<p>Ce se întamplă cu elemente multiple? Poți să le suprapui fară nicio problemă. Folosește <code>grid-area</code> pentru a defini o a doua zonă care acoperă toți morcovii care nu sunt udați.</p>',
       'zh-cn': '<p>如果我们有很多个网格项呢？你可以任意覆盖它们不用有任何担心。用<code>grid-area</code>定义第二个网格项为所有未浇水的胡萝卜浇水。</p>',
+      'tr': '<p>Ya birden fazla öğe olursa?  Onları herhangi bir sorun yaşamadan örtüştürebilirsiniz. <code>grid-area</code> özelliğini kullanarak, sulanmamış tüm havuçların üzerini kaplayacak ikinci bir alan tanımlayın.</p>',
       'fr': '<p>Que diriez-vous de plusieurs éléments ? Vous pouvez les chevaucher sans problème. Utilisez <code>grid-area</code> pour définir une deuxième région qui couvre toutes les carottes non arrosées.</p>',
       'de': '<p>Wie wäre es mit mehreren Elementen? Diese können sich problemlos überlagern. Verwende <code>grid-area</code> um einen zweiten Bereich zu definieren, welcher alle ungewässerten Karotten überlagert.</p>',
       'nl': '<p>Hoe zit het met meerdere items? Je kan ze zonder problemen overlappen. Gebruik <code>grid-area</code> om een tweede gebied te definiëren die alle ongewaterde wortels bedekt.</p>',
