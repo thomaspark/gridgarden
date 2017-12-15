@@ -218,6 +218,7 @@ var levels = [
       'en': '<p>You can also use the <code>span</code> keyword with <code>grid-column-start</code> to set your item\'s width relative to the end position.</p>',
       'ro': '<p>Poți folosi, de asemenea, cuvântul cheie <code>span</code> cu <code>grid-column-start</code> pentru a seta lățimea elementului relativă la poziția de sfârșit.</p>',
       'zh-cn': '<p>你也可以将<code>span</code>关键字和<code>grid-column-start</code>一起使用，相对于结束位置来设置其宽度。</p>',
+      'tr': '<p>Öğenizin son konumuna göre genişliğini ayarlamak için <code>span</code> anahtar kelimesini <code>grid-column-start</code> ile birlikte de kullanabilirsiniz.</p>',
       'fr': '<p>Vous pouvez également utiliser le mot clé <code>span</code> avec <code>grid-column-start</code> pour définir la largeur de votre élément par rapport à la position de fin.</p>',
       'de': '<p>Du kannst das Schlüsselwort <code>span</code> auch mit <code>grid-column-start</code> verwenden um die Breite deines Rasterelements relativ zur Endposition anzugeben.</p>',
       'nl': '<p>Je kan ook het <code>span</code> sleutelwoord gebruiken met <code>grid-column-start</code> om je item\'s breedte relatief te maken aan je eind positie.</p>',
