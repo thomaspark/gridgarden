@@ -323,6 +323,7 @@ var levels = [
       'en': '<p>Now give the shorthand property <code>grid-row</code> a try.</p>',
       'ro': '<p>Acum încearcă și varianta prescurată <code>grid-row</code>.</p>',
       'zh-cn': '<p>现在你可以试一试缩写<code>grid-row</code>属性。</p>',
+      'tr': '<p>Şimdi kısayol özelliği olan: <code>grid-row</code> özelliğini deneyin.</p>',
       'fr': '<p>Maintenant, essayer en prenant la propriété raccourcie <code>grid-row</code>.</p>',
       'de': '<p>Versuche nun die Kurzschrift-Eigenschaft <code>grid-row</code>.</p>',
       'nl': '<p>Probeer nu de shorthand property <code>grid-row</code> uit.</p>',
