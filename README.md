@@ -37,6 +37,7 @@ My gratitude to these contributors for their translations.
 * Russian by [Zaurbek Zhakupov](https://github.com/zzhakupov)
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
+* Turkish by [serdar](https://github.com/yigitserdar)
 
 Don't see your language on the list? Add it!
 
