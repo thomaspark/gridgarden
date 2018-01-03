@@ -19,7 +19,6 @@ var messages = {
     'vi': 'Tiếng Việt',
     'pl': 'Polski',
     'cs': 'Česky',
-    'ja': '日本語',
     'hu': 'Magyar',
     'eo': 'Esperanto',
     'sv': 'Svenska',
@@ -27,6 +26,7 @@ var messages = {
     'hi': 'हिंदी',
     'nl': 'Nederlands',
     'el': 'Ελληνικά',
+    'ja': '日本語',
   },
   next: {
     'en': 'Next',
@@ -48,7 +48,6 @@ var messages = {
     'vi': 'Kế Tiếp',
     'pl': 'Dalej',
     'cs': 'Pokračovat',
-    'ja': '次へ',
     'hu': 'Következő',
     'eo': 'Sekva',
     'sv': 'Nästa',
@@ -56,6 +55,7 @@ var messages = {
     'hi': 'अगला',
     'nl': 'Volgende',
     'el': 'Επόμενο',
+    'ja': '次へ',
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
@@ -77,7 +77,6 @@ var messages = {
     'vi': 'Grid Garden được tạo ra bởi',
     'pl': 'Grid Garden jest wytworem',
     'cs': 'Grid Garden vytvořil',
-    'ja': 'Grid Garden is created by',
     'hu': 'A Grid Garden-t készítette',
     'eo': 'Grid Garden far',
     'sv': 'Grid Garden skapades av',
@@ -85,6 +84,7 @@ var messages = {
     'hi': 'Grid Garden के निर्माणकर्ता ',
     'nl': 'Grid Garden is gemaakt door',
     'el': 'Το Grid Garden δημιουργήθηκε από',
+    'ja': 'Grid ガーデンの作者:',
   },
   labelLevel: {
     'en': 'Level',
@@ -106,7 +106,6 @@ var messages = {
     'vi': 'Cấp',
     'pl': 'Poziom',
     'cs': 'Úroveň',
-    'ja': 'Lv.',
     'hu': 'Szint',
     'eo': 'Nivelo',
     'sv': 'Nivå',
@@ -114,6 +113,7 @@ var messages = {
     'hi': 'स्तर',
     'nl': 'Niveau',
     'el': 'Επίπεδο',
+    'ja': 'レベル',
   },
   labelOf: {
     'en': 'of',
@@ -135,7 +135,6 @@ var messages = {
     'vi': 'của',
     'pl': 'z',
     'cs': 'z',
-    'ja': '/',
     'hu': '/',
     'eo': 'de',
     'sv': 'av',
@@ -143,6 +142,7 @@ var messages = {
     'hi': '/',
     'nl': 'van',
     'el': 'από',
+    'ja': '/',
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -164,7 +164,6 @@ var messages = {
     'vi': 'Grid Garden - Một trò chơi để học CSS grid',
     'pl': 'Grid Garden - Gra wprowadzająca do CSS grid"',
     'cs': 'Grid Garden - CSS grid hrou',
-    'ja': 'Grid Garden - CSS grid学習ゲーム',
     'hu': 'Grid Garden - Játékos CSS grid tanulás',
     'eo': 'Grid Garden - Ludo por lerni CSS grid-on',
     'sv': 'Grid Garden - Ett spel för att lära sig CSS grid',
@@ -172,6 +171,7 @@ var messages = {
     'hi': 'Grid Garden - CSS Grid सीखने के लिए एक खेल',
     'nl': 'Grid Garden - Een spel om CSS grid te leren',
     'el': 'Grid Garden - Ένα παιχνίδι για την εκμάθηση του CSS Grid',
+    'ja': 'Grid Garden - CSS grid が学べるゲーム',
   },
   labelReset: {
     'en': 'Reset',
@@ -193,7 +193,6 @@ var messages = {
     'vi': 'Thiết lập lại',
     'pl': 'Uruchom ponownie',
     'cs': 'Nová hra',
-    'ja': 'リセット',
     'hu': 'Újrakezd',
     'eo': 'Rekomenci',
     'sv': 'Återställ',
@@ -201,6 +200,7 @@ var messages = {
     'hi': 'रीसेट',
     'nl': 'Resetten',
     'el': 'Επαναφορά',
+    'ja': 'リセット',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -222,7 +222,6 @@ var messages = {
     'vi': 'Bạn có chắc chắn là bạn muốn thiết lập lại trò chơi không? Toàn bộ tiến trình của bạn sẽ bị mất và bạn sẽ được chuyển đến đầu của trò chơi.',
     'pl': 'Na pewno chcesz uruchomić grę ponownie?\n\nUtracisz dotychczasowe postępy, a także powrócisz do początku gry.',
     'cs': 'Opravdu chcete restartovat hru?\n\nSoučasný postup bude smazán, začnete znovu od prvního levelu.',
-    'ja': '本当にゲームをリセットしますか？\n\nここまで進めたゲームの情報は全て失われ、ゲームの最初へ移動します。',
     'hu': 'Biztosan előlről akarod kezdeni a játékot?\n\nAz eddig elért eredményed elveszik és a játék elején fogod találni magad.',
     'eo': 'Ĉu vi vere volas rekomenci la ludon?\n\nPerdiĝos via progresado kaj vi devos rekomenci al la komenco de la ludo.',
     'sv': 'Är du säker på att du vill börja om?\n\nDin nivå kommer att återställas och du kommer att börja om från början.',
@@ -230,6 +229,7 @@ var messages = {
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप सुनिश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
     'nl': 'Bent u zeker dat u het spel wilt resetten?\n\nJe vooruitgang zal verloren gaan, en je zal helemaal opnieuw moeten beginnen.',
     'el': 'Είστε σίγουροι ότι θέλετε να επαναφέρετε το παιχνίδι;\n\nΗ αποθηκευμένη σας πρόοδος θα χαθεί και θα βρεθείτε στην αρχή του παιχνιδιού.',
+    'ja': '本当にゲームをリセットしますか？\n\nここまで進めたゲームのデータは全て失われ、ゲームの最初へ移動します。',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -245,6 +245,7 @@ var messages = {
     'it': 'Oh no, Grid Garden non funziona con questo browser. È necessario <a href="http://caniuse.com/#feat=css-grid">un browser che supporta CSS grid</a>, come l\'ultima versione di <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Usa uno di questi per iniziare con il giardinaggio!',
     'ko': '이런.., Grid Garden은 사용하고 계신 브라우저에서 작동하지 않습니다. 사용하시는 브라우저가 <a href="http://caniuse.com/#feat=css-grid">CSS grid을 지원하는 브라우저</a>, 혹은 최신 버전의 <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. 브라우저를 사용하실 경우만 정원을 가꾸어보실 수 있습니다!',
     'el': 'Ωχ όχι, το Grid Garden δεν λειτουργεί σ\' αυτόν τον περιηγητή. Απαιτεί <a href="http://caniuse.com/#feat=css-grid">έναν περιηγητή που υποστηρίζει το CSS Grid</a>, όπως την τελευταία έκδοση του <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ή <a href="http://www.apple.com/safari/">Safari</a>. Χρησιμοποιήστε έναν από αυτούς για να αρχίσετε την κηπουρική!',
+    'ja': 'おっと、このブラウザでは Grid ガーデンは上手く動かないようです。動作には、最新版の <a href="https://www.mozilla.org/firefox/">Firefox</a> や <a href="https://www.google.com/chrome/">Chrome</a>、<a href="http://www.apple.com/safari/">Safari</a> などの <a href="http://caniuse.com/#feat=css-grid">CSS グリッドをサポートするブラウザー</a>が必要です。ガーデニングを始めるにはこのどれかを使ってください！',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -256,5 +257,6 @@ var messages = {
     'ko': 'CSS flexbox를 배워볼려면? 여기를 클릭',
     'nl': 'Wil je CSS flexbox leren? Speel',
     'el': 'Θέλετε να μάθετε CSS Flexbox; Παίξτε',
+    'ja': 'CSS flexbox の勉強もしたいですか？ このゲームで遊びましょう',
   }
 };

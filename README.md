@@ -30,6 +30,7 @@ My gratitude to these contributors for their translations.
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
 * Greek by [lmintmate](https://github.com/lmintmate)
 * Italian by [sirLisko](https://github.com/sirLisko)
+* Japanese by [shuuji3](https://github.com/shuuji3)
 * Korean by [YunHak Kwon](https://github.com/tienne)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
