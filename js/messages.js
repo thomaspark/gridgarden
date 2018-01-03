@@ -84,7 +84,7 @@ var messages = {
     'hi': 'Grid Garden के निर्माणकर्ता ',
     'nl': 'Grid Garden is gemaakt door',
     'el': 'Το Grid Garden δημιουργήθηκε από',
-    'ja': 'Grid Garden の作者:',
+    'ja': 'Grid ガーデンの作者:',
   },
   labelLevel: {
     'en': 'Level',
@@ -257,6 +257,6 @@ var messages = {
     'ko': 'CSS flexbox를 배워볼려면? 여기를 클릭',
     'nl': 'Wil je CSS flexbox leren? Speel',
     'el': 'Θέλετε να μάθετε CSS Flexbox; Παίξτε',
-    'ja': 'CSS flexbox を勉強をしたいですか？ それなら遊びましょう',
+    'ja': 'CSS flexbox の勉強もしたいですか？ このゲームで遊びましょう',
   }
 };
