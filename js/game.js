@@ -14,7 +14,7 @@ var game = {
     // navigator.language can include '-'
     // ref: https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
     var requestLang = window.navigator.language.split('-')[0];
-    if (messages.languageActive.hasOwnProperty(requestLang)) {
+    if (window.location.hash === '' && requestLang !== 'en' && messages.languageActive.hasOwnProperty(requestLang)) {
       game.language = requestLang;
       window.location.hash = requestLang;
     }
