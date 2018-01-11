@@ -234,7 +234,8 @@ var messages = {
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
     'ro': 'O, nu, Grid Garden nu funcționează în acest browser. Are nevoie de <a href="http://caniuse.com/#feat=css-grid">un browser care suportă CSS grid</a>, de exemplu, ultima versiune a <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, sau <a href="http://www.apple.com/safari/">Safari</a>. Folosește unul dintre aceștia pentru a grădinări!',
-    'zh-cn': '抱歉，Grid Garden无法在此浏览器运行。你需要在支持<a href="http://caniuse.com/#feat=css-grid">CSS grid</a>的浏览器中运行，比如最新版本的<a href="https://www.mozilla.org/firefox/">Firefox</a>，<a href="https://www.google.com/chrome/">Chrome</a>，或者<a href="http://www.apple.com/safari/">Safari</a>。快使用以上这些浏览器开始游戏吧！',
+    'zh-cn': '抱歉，Grid Garden无法在此浏览器运行。你需要在支持<a href="http://caniuse.com/#feat=css-grid">CSS grid</a>的浏览器中运行，比如最新版本的<a href="https://www.mozilla.org/firefox/">Firefox</a>、<a href="https://www.google.com/chrome/">Chrome</a>或者<a href="http://www.apple.com/safari/">Safari</a>。快使用以上这些浏览器开始游戏吧！',
+    'zh-tw': '抱歉，Grid Garden無法在此瀏覽器運行，你需要在支持<a href="http://caniuse.com/#feat=css-grid">CSS grid</a>的瀏覽器中運行，比如最新版本的<a href="https://www.mozilla.org/firefox/">Firefox</a>、<a href="https://www.google.com/chrome/">Chrome</a>或者<a href="http://www.apple.com/safari/">Safari</a>。快使用以上這些瀏覽器開始遊戲吧！',
     'tr': 'Hayır! Grid Garden bu tarayıcıda çalışmıyor. <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ya da <a href="http://www.apple.com/safari/">Safari</a> gibi son sürümlere sahip olan ve <a href="http://caniuse.com/#feat=css-grid">CSS Grid destekleyen</a> bir internet tarayıcıya ihtiyaç duyuyor.',
     'fr': 'Oh non, Grid Garden ne fonctionne pas avec ce navigateur. Il nécessite <a href="http://caniuse.com/#feat=css-grid">un navigateur compatible avec grid CSS</a>, telle que la dernière version de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> ou <a href="http://www.apple.com/safari/">Safari</a>. Utilisez un de cela pour faire du jardinage !',
     'pt-br': 'Ah não! Grid Garden não tem suporte para esse navegador. É necessário <a href="http://caniuse.com/#feat=css-grid">um navegador com suporte a CSS grid</a>, assim como a última versão do <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ou <a href="http://www.apple.com/safari/">Safari</a>. Use um deles para começar a fazer a horta.',
@@ -250,7 +251,8 @@ var messages = {
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
     'ro': 'Vrei să înveți CSS flexbox? Joacă',
-    'zh-cn': '想学习CSS Flex布局么？那就快开始吧',
+    'zh-cn': '想学习CSS Flexbox布局么？那就快开始吧',
+    'zh-tw': '想學習CSS Flexbox佈局嗎？那就快開始吧！',
     'tr': 'CSS flexbox öğrenmek ister misin? Oyna',
     'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à',
     'it': 'Vuoi imparare CSS flexbox? Gioca a',
