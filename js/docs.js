@@ -18,6 +18,7 @@ var docs = {
     'ko': '<p>그리드 요소의 크기와 위치를 지정합니다.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'el': '<p>Προσδιορίζει την θέση και μέγεθος ενός αντικειμένου του πλέγματος μέσα στο πλέγμα.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ja': '<p>グリッドアイテムのグリット内の位置とサイズを指定します。</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ua': '<p>Визначає позицію і розмір grid елемента всередині grid сітки.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -38,6 +39,7 @@ var docs = {
     'ko': '<p>그리드 요소의 열(column) 위치를 지정합니다.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'el': '<p>Προσδιορίζει την θέση ενός αντικειμένου του πλέγματος μέσα στις στήλες του πλέγματος.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ja': '<p>グリッドアイテムの列の位置を指定します。</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ua': '<p>Визначає позицію grid елемента всередині grid стовпців.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -58,6 +60,7 @@ var docs = {
     'ko': '<p>그리드 요소의 마지막 열(column) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'el': '<p>Προσδιορίζει την τελική θέση ενός αντικειμένου του πλέγματος μέσα στις στήλες του πλέγματος.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ja': '<p>グリッドアイテムの列の終了位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ua': '<p>Визначає кінцеву позицію grid елемента всередині grid стовпців.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -78,6 +81,7 @@ var docs = {
     'ko': '<p>그리드 요소의 시작 열(column) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'el': '<p>Προσδιορίζει την αρχική θέση ενός αντικειμένου του πλέγματος μέσα στις στήλες του πλέγματος.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ja': '<p>グリッドアイテムの列の開始位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ua': '<p>Визначає початкову позицію grid елемента всередині grid стовпців.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -98,6 +102,7 @@ var docs = {
     'ko': '<p>그리드 요소의 행(row) 위치를 지정합니다.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'el': '<p>Προσδιορίζει την θέση ενός αντικειμένου του πλέγματος μέσα στις σειρές του πλέγματος.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ja': '<p>グリッドアイテムの行の位置を指定します。</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'ua': '<p>Визначає позицію grid елемента всередині grid рядків.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -118,6 +123,7 @@ var docs = {
     'ko': '<p>그리드 요소의 마지막 행(row) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'el': '<p>Προσδιορίζει την τελική θέση ενός αντικειμένου του πλέγματος μέσα στις σειρές του πλέγματος.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ja': '<p>グリッドアイテムの行の終了位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ua': '<p>Визначає кінцеву позицію grid елемента всередині grid рядків.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -138,6 +144,7 @@ var docs = {
     'ko': '<p>그리드 요소의 시작 행(row) 위치를 지정합니다.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'el': '<p>Προσδιορίζει την αρχική θέση ενός αντικειμένου του πλέγματος μέσα στις σειρές του πλέγματος.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ja': '<p>グリッドアイテムの行の開始位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ua': '<p>Визначає початкову позицію grid елемента всередині grid рядків.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -158,6 +165,7 @@ var docs = {
     'ko': '<p>그리드의 행(row)과 열(column)에 대한 크기와 명칭을 지정합니다.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'el': '<p>Προσδιορίζει το μέγεθος και τα ονόματα των σειρών και στηλών του πλέγματος.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ja': '<p>グリッドの行と列のサイズと名前を指定します。</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'ua': '<p>Визначає розмір і назви для grid рядків і стовпців.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -178,6 +186,7 @@ var docs = {
     'ko': '<p>명시된 그리드의 영역을 지정합니다.</p><p><code>&lt;grid-name&gt;</code></p>',
     'el': '<p>Προσδιορίζει κατονομασμένες περιοχές του πλέγματος.</p><p><code>&lt;grid-name&gt;</code></p>',
     'ja': '<p>グリッドの領域を指定します。</p><p><code>&lt;grid-name&gt;</code></p>',
+    'ua': '<p>Визначає названі grid зони.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -198,6 +207,7 @@ var docs = {
     'ko': '<p>그리드의 열(column) 크기와 명칭을 지정합니다.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'el': '<p>Προσδιορίζει το μέγεθος και τα ονόματα των στηλών του πλέγματος.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ja': '<p>グリッドの列のサイズと名前を指定します。</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ua': '<p>Визначає розмір і назви для grid стовпців.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -218,6 +228,7 @@ var docs = {
     'ko': '<p>그리드의 행(row) 크기와 명칭을 지정합니다.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'el': '<p>Προσδιορίζει το μέγεθος και τα ονόματα των σειρών του πλέγματος.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ja': '<p>グリッドの行のサイズと名前を指定します。</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ua': '<p>Визначає розмір і назви для grid рядків.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -238,5 +249,6 @@ var docs = {
     'ko': '<p>그리드 요소의 순서를 지정합니다.</p><p><code>&lt;integer&gt;</code></p>',
     'el': '<p>Προσδιορίζει την σειρά του αντικειμένου στο πλέγμα.</p><p><code>&lt;integer&gt;</code></p>',
     'ja': '<p>グリッドアイテムの順序を指定します。</p><p><code>&lt;integer&gt;</code></p>',
+    'ua': '<p>Визначає порядок grid елемента.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
