@@ -20,6 +20,7 @@ var docs = {
     'ja': '<p>グリッドアイテムのグリット内の位置とサイズを指定します。</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ua': '<p>Визначає позицію і розмір grid елемента всередині grid сітки.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'no': '<p>Spesifiserer posisjonen til gridelementet og dets størrelse på rutenettet.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'pt-pt': '<p>Especifica a posição e o tamanho de um elemento na grelha.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -42,6 +43,7 @@ var docs = {
     'ja': '<p>グリッドアイテムの列の位置を指定します。</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ua': '<p>Визначає позицію grid елемента всередині grid стовпців.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'no': '<p>Spesifiserer posisjonen til gridelementet i kolonnene på rutenettet.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'pt-pt': '<p>Especifica a posição de um elemento em respeito às colunas da grelha.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>'
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -64,6 +66,7 @@ var docs = {
     'ja': '<p>グリッドアイテムの列の終了位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ua': '<p>Визначає кінцеву позицію grid елемента всередині grid стовпців.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'no': '<p>Spesifiserer sluttposisjonen til gridelementet i kolonnene på rutenettet.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'pt-pt': '<p>Especifica a posição final de um elemento em respeito às colunas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -86,6 +89,7 @@ var docs = {
     'ja': '<p>グリッドアイテムの列の開始位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ua': '<p>Визначає початкову позицію grid елемента всередині grid стовпців.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'no': '<p>Spesifiserer startposisjonen til gridelementet på rutenettet.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'pt-pt': '<p>Especifica a posição inicial de um elemento em respeito às colunas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -107,7 +111,8 @@ var docs = {
     'el': '<p>Προσδιορίζει την θέση ενός αντικειμένου του πλέγματος μέσα στις σειρές του πλέγματος.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ja': '<p>グリッドアイテムの行の位置を指定します。</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ua': '<p>Визначає позицію grid елемента всередині grid рядків.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
-    'no': '<p>Spesifiserer posisjonen til gridelementet i radene på rutenettet.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>'
+    'no': '<p>Spesifiserer posisjonen til gridelementet i radene på rutenettet.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'pt-pt': '<p>Especifica a posição de um elemento em respeito às linhas da grelha.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -130,6 +135,7 @@ var docs = {
     'ja': '<p>グリッドアイテムの行の終了位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ua': '<p>Визначає кінцеву позицію grid елемента всередині grid рядків.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'no': '<p>Spesifiserer sluttposisjonen til gridelementet i radene på rutenettet.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'pt-pt': '<p>Especifica a posição final de um elemento em respeito às linhas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -152,6 +158,7 @@ var docs = {
     'ja': '<p>グリッドアイテムの行の開始位置を指定します。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ua': '<p>Визначає початкову позицію grid елемента всередині grid рядків.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'no': '<p>Spesifiserer startposisjonen til gridelementet i radene på rutenettet.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'pt-pt': '<p>Especifica a posição inicial de um elemento em respeito às linhas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -174,6 +181,7 @@ var docs = {
     'ja': '<p>グリッドの行と列のサイズと名前を指定します。</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ua': '<p>Визначає розмір і назви для grid рядків і стовпців.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'no': '<p>Spesifiserer størrelsene og navnene på radene og kolonnene til rutenettet.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'pt-pt': '<p>Especifica as dimensões e nomes das linhas e colunas da grelha.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -196,6 +204,7 @@ var docs = {
     'ja': '<p>グリッドの領域を指定します。</p><p><code>&lt;grid-name&gt;</code></p>',
     'ua': '<p>Визначає названі grid зони.</p><p><code>&lt;grid-name&gt;</code></p>',
     'no': '<p>Spesifiserer navngitte områder på rutenettet.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'pt-pt': '<p>Especifica as áreas nomeadas da grelha.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -218,6 +227,7 @@ var docs = {
     'ja': '<p>グリッドの列のサイズと名前を指定します。</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ua': '<p>Визначає розмір і назви для grid стовпців.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'no': '<p>Spesifiserer størrelsene og navnene på kolonnene til rutenettet.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'pt-pt': '<p>Especifica as dimensões e nomes das colunas da grelha.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -240,6 +250,7 @@ var docs = {
     'ja': '<p>グリッドの行のサイズと名前を指定します。</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ua': '<p>Визначає розмір і назви для grid рядків.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'no': '<p>Spesifiserer størrelsene og navnene på radene til rutenettet.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'pt-pt': '<p>Especifica as dimensões e nomes das linhas da grelha.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -262,5 +273,6 @@ var docs = {
     'ja': '<p>グリッドアイテムの順序を指定します。</p><p><code>&lt;integer&gt;</code></p>',
     'ua': '<p>Визначає порядок grid елемента.</p><p><code>&lt;integer&gt;</code></p>',
     'no': '<p>Spesifiserer rekkefølgen til gridelementet.</p><p><code>&lt;integer&gt;</code></p>',
+    'pt-pt': '<p>Especifica a ordem do elemento da grelha.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };

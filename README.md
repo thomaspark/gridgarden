@@ -36,6 +36,7 @@ My gratitude to these contributors for their translations.
 * Norwegian by [Victoria Bergquist](https://github.com/vicbergquist)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
+* Portuguese (Portugal) by [João Bagio](https://github.com/jbagio)
 * Romanian by [Vlad](https://github.com/pckltr)
 * Russian by [Zaurbek Zhakupov](https://github.com/zzhakupov)
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
