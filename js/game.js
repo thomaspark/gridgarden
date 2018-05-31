@@ -105,11 +105,23 @@ var game = {
       }
     });
 
-    $('#language').on('click', function() {
-      $('#language .tooltip').toggle();
-    }).on('click', 'a', function() {
+    $('#language .toggle').on('click', function() {
+      $('.tooltip').hide();
+      $('#language .tooltip').show();
+    });
+
+    $('#language a').on('click', function() {
+      $('.tooltip').hide();
       var language = $(this).text();
       $('#language .toggle').text(language);
+    });
+
+    $('body').on('click', function() {
+      $('.tooltip').hide();
+    });
+
+    $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
+      e.stopPropagation();
     });
 
     $(window).on('beforeunload', function() {
@@ -167,7 +179,8 @@ var game = {
     });
 
     $('#level-indicator').on('click', function() {
-      $('#levelsWrapper').toggle();
+      $('.tooltip').hide();
+      $('#levelsWrapper').show();
     });
 
     $('.arrow.left').on('click', function() {

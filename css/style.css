@@ -199,6 +199,7 @@ pre {
   max-width: 160px;
   padding: 1em 0.5em;
   margin-top: 12px;
+  z-index: 80;
 }
 
 #levelsWrapper:after {
@@ -371,6 +372,7 @@ button:not(.disabled):hover {
   left: 0px;
   width: 200px;
   padding: 1em;
+  z-index: 80;
 }
 
 #language .tooltip:after {
