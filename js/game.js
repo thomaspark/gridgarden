@@ -106,8 +106,8 @@ var game = {
     });
 
     $('#language .toggle').on('click', function() {
-      $('.tooltip').hide();
-      $('#language .tooltip').show();
+      $('#levelsWrapper').hide();
+      $('#language .tooltip').toggle();
     });
 
     $('#language a').on('click', function() {
@@ -179,8 +179,8 @@ var game = {
     });
 
     $('#level-indicator').on('click', function() {
-      $('.tooltip').hide();
-      $('#levelsWrapper').show();
+      $('#language .tooltip').hide();
+      $('#levelsWrapper').toggle();
     });
 
     $('.arrow.left').on('click', function() {
