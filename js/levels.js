@@ -23,6 +23,7 @@ var levels = [
       'ua': '<p>Ласкаво просимо в Grid Garden, місце де ви пишете CSS код для того щоб виростити ваш морквяний сад. Поливайте тільки ті зони на яких є морква використовуючи властивість <code>grid-column-start</code>.</p><p>Наприклад, <code>grid-column-start: 3;</code> покриє водою зону, що починається на 3-ій вертикальній grid лінії, що є альтернативним способом сказати - 3-тя вертикальна межа починаючи зліва на grid сітці.</p>',
       'no': '<p>Velkommen til Grid Garden, hvor du skriver CSS-kode for å kultivere gulrothagen din! Vann kun de områdene som har gulrøtter i seg ved å bruke egenskapen <code>grid-column-start</code>.</p><p>For eksempel, <code>grid-column-start: 3;</code> vanner det området som starter på den tredje vertikale rutelinjen, som er det samme som den tredje vertikale grenselinjen fra venstre på rutenettet.<img src="http://code.org/api/hour/begin_codepip_grid.png"></p>',
       'pt-pt': '<p>Bem-vindo/a ao Grid Garden, onde escreves código CSS para cultivar a tua horta de cenouras! Rega apenas as áreas com cenouras utilizando a propriedade <code>grid-column-start</code>.</p><p>Por exemplo, <code>grid-column-start: 3;</code> regará a área que começa na 3ª linha vertical da grelha, que por outras palavras é a 3ª borda vertical contando desde a esquerda da grelha.</p>',
+      'bg': '<p>Добре дошли в Grid Garden - мястото, където пишете CSS код, за да развиете Вашата морковена градина! Поливайте само зоните, в които има моркови, използвайки <code>grid-column-start</code> свойството.</p><p>Например, <code>grid-column-start: 3;</code> ще полее зоната, която започва от 3-тата вертикална линия на решетката или с други думи 3-тата вертикална граница от ляво на решетката.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -54,6 +55,7 @@ var levels = [
       'ua': '<p>Оу, здається ніби бур\'яни ростуть прямо в кутку вашого саду. Використовуйте <code>grid-column-start</code> щоб отруїти їх. Пам\'ятайте, що бур\'яни починаються на 5-ій вертикальній grid лінії.</p>',
       'no': '<p>Å nei, det ser ut til at ugress vokser i hjørnet av hagen din. Bruk <code>grid-column-start</code> for å forgifte ugresset. Merk at ugresset starter på den femte vertikale rutelinjen.</p>',
       'pt-pt': '<p>Oh não, parece que há ervas daninhas a crescer no canto da tua horta! Utiliza <code>grid-column-start</code> para envenená-las. Observa que as ervas daninhas começam na 5ª linha vertical da grelha.</p>',
+      'bg': '<p>О не, изглежда сякаш растат плевели в ъгъла на Вашата градина. Използвайте <code>grid-column-start</code>, за да ги отровите. Забележете, че плевелите започват от 5-ата колона на решетката.</p>',
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -85,6 +87,7 @@ var levels = [
       'ua': '<p>Коли ви використовуєте тільки <code>grid-column-start</code>, grid елемент за замовчуванням "захопить" тільки один стовпець. Однак, ви можете збільшити елемент між декількома стовпцями якщо додасте властивість <code>grid-column-end</code>.</p><p>Використовуючи <code>grid-column-end</code>, полийте всю вашу моркву, при цьому уникаючи порожні ділянки. Ми не хочемо використовувати воду марно! Пам\'ятайте, що морква починається на 1-ій вертикальній grid лінії і закінчується на 4-ій.',
       'no': '<p>Når <code>grid-column-start</code> brukes alene, strekker gridelementet seg nøyaktig over en kolonne som standard. Dette kan endres ved å bruke <code>grid-column-end</code> i tillegg, slik at elementet heller strekker seg over flere kolonner.</p><p>Vann alle gulrøttene dine med <code>grid-column-end</code>, samtidig som du unngår å vanne områder der det kun er jord. Vi vil ikke kaste bort noe vann! Merk at gulrøttene starter på den første vertikale rutelinjen og slutter på den fjerde.</p>',
       'pt-pt': '<p>Quando a propriedade <code>grid-column-start</code> é utilizada sozinha, por defeito o elemento da grelha ocupará exactamente uma coluna. No entanto, podes estender o elemento por múltiplas colunas adicionando a propriedade <code>grid-column-end</code>.</p><p>Utiliza <code>grid-column-end</code> para regar todas as tuas cenouras, evitando o terreno vazio. Não queremos desperdiçar água! Observa que as cenouras começam na 1ª linha vertical da grelha e terminam na 4ª.</p>',
+      'bg': '<p>Когато използвате <code>grid-column-start</code> самостоятелно, grid-елементът по подразбиране ще обхваща точно една колона. Въпреки това, можете да разширите елемента на няколкото колони, използвайки <code>grid-column-end</code> свойството.</p><p>Използвайки <code>grid-column-end</code>, ще полеете всички Ваши моркови, докато избягвате замърсяването. Не искаме да губим каквато и да било вода! Забележете, че морковите започват от 1-вата колона на Вашата решетка и завършват в 4-тата.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -117,6 +120,7 @@ var levels = [
       'ua': '<p>Коли ви з\'єднували <code>grid-column-start</code> і <code>grid-column-end</code>, ви могли подумати що кінцеве значення має бути більше ніж початкове значення. Виявляється, це не так!</p><p>Спробуйте надати <code>grid-column-end</code> значення менше ніж 5 щоб полити вашу моркву.',
       'no': '<p>Når du bruker <code>grid-column-start</code> og <code>grid-column-end</code> sammen, går du kanskje ut i fra at sluttverdien må være høyere enn startverdien. Dette er ikke tilfellet!</p><p>Prøv å gi <code>grid-column-end</code> en verdi som er mindre enn 5 for å vanne gulrøttene dine.</p>',
       'pt-pt': '<p>Emparelhando <code>grid-column-start</code> e <code>grid-column-end</code>, poderás assumir que o valor final tem que ser superior ao valor inicial. Mas não é o caso!</p><p>Tenta estabelecer <code>grid-column-end</code> com um valor inferior a 5 para regar as tuas cenouras.</p>',
+      'bg': '<p>Когато използвате заедно <code>grid-column-start</code> и <code>grid-column-end</code>, може да приемете, че крайната стойност трябва да бъде по-голяма от началната. Но това не е съвсем така!</p><p>Пробвайте да зададете стойност на <code>grid-column-end</code> по-малка от 5, за да полеете Вашите моркови.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
@@ -149,6 +153,7 @@ var levels = [
       'ua': '<p>Якщо ви хочете порахувати grid рядки справа наліво замість зліва направо, ви можете надати <code>grid-column-start</code> і <code>grid-column-end</code> від\'ємні значення. Наприклад, ви можете надати значення рівне -1, щоб вказати 1-й grid рядок, починаючи справа.</p><p>Спробуйте надати <code>grid-column-end</code> від\'ємне значення.</p>',
       'no': '<p>Hvis du vil telle rutelinjene fra høyre i stedet for fra venstre, kan du gi <code>grid-column-start</code> og <code>grid-column-end</code> negative verdier. Du kan for eksempel skrive -1 for å spesifisere den første rutelinjen fra høyre.</p><p>Prøv å gi <code>grid-column-end</code> en negativ verdi.</p>',
       'pt-pt': '<p>Se quiseres contar as linhas da grelha começando da direita ao invés da esquerda, podes atribuir valores negativos a <code>grid-column-start</code> e <code>grid-column-end</code>. Por exemplo, podes indicar -1 para especificar a primeira linha da grelha desde a direita.</p><p>Experimenta atribuir um valor negativo a <code>grid-column-end</code>.</p>',
+      'bg': '<p>Ако искате да броите grid-линиите от дясно наляво, може да дадете на <code>grid-column-start</code> и <code>grid-column-end</code> отрицателни стойности. Например, стойността -1 ще отговаря на 1-вата grid-линия от дясно наляво.</p><p>Пробвайте да зададете негативна стойност на <code>grid-column-end</code>.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -181,6 +186,7 @@ var levels = [
       'ua': '<p>Тепер спробуйте привласнити <code>grid-column-start</code> від\'ємне значення.</p>',
       'no': '<p>Prøv nå å gi <code>grid-column-start</code> en negativ verdi.</p>',
       'pt-pt': '<p>Agora experimenta estabelecer <code>grid-column-start</code> com um valor negativo.</p>',
+      'bg': '<p>Сега пробвайте да зададете негативна стойност на <code>grid-column-start</code>.</p>'
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -212,6 +218,7 @@ var levels = [
       'ua': '<p>Замість визначення grid елемента базуючись на початковій і кінцевій позиціях grid рядків, ви можете визначати їх за допомогою необхідної вам широти рядків, використовуючи <code>span</code>. Пам\'ятайте, що <code>span</code> працює тільки з позитивними значеннями.</p><p>Для прикладу, полийте цю моркву використовуючи свойсво <code>grid-column-end: span 2;</code>.</p>',
       'no': '<p>I stedet for å definere et gridelement basert på start- og sluttposisjonene til rutelinjene, kan du heller definere det basert på ønsket kolonnebredde ved å bruke egenskapen <code>span</code>. Husk at <code>span</code> kun fungerer med positive verdier.</p><p>For eksempel, vann disse gulrøttene med egenskapen og verdien <code>grid-column-end: span 2;</code>.</p>',
       'pt-pt': '<p>Em vez de definires um elemento da grelha baseado nas posições iniciais e finais das linhas, podes defini-lo com base numa largura de coluna desejada, através da palavra-chave <code>span</code>. Tem presente que <code>span</code> apenas funciona com valores positivos.</p><p>Por exemplo, rega estas cenouras com a regra <code>grid-column-end: span 2;</code>.</p>',
+      'bg': '<p>Вместо да дефинирате grid-елемент според начална и крайна позиция на grid-линиите, може да го направите базирано на желаната широчина на колоната, използвайки ключовата дума <code>span</code>. Не забравяйте, че <code>span</code> работи само с положителни числа.</p><p>Например, полейте тези моркови, използвайки <code>grid-column-end: span 2;</code>.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
@@ -244,6 +251,7 @@ var levels = [
       'ua': '<p>Спробуй знову використовувати <code>grid-column-end</code> разом з <code>span</code> для того, щоб полити вашу моркву.</p>',
       'no': '<p>Prøv å bruke <code>grid-column-end</code> med verdien <code>span</code> en gang til for å vanne gulrøttene dine.</p>',
       'pt-pt': '<p>Tenta utilizar a propriedade <code>grid-column-end</code> com a palavra-chave <code>span</code> novamente para regar as tuas cenouras.</p>',
+      'bg': '<p>Опитайте да използвате <code>grid-column-end</code> заедно с ключовата дума <code>span</code> отново, за да полеете Вашите моркови.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -276,6 +284,7 @@ var levels = [
       'ua': '<p>Ви також можете використовувати <code>span</code> разом з <code>grid-column-start</code> для того, щоб привласнити значення широти вашого grid елемента щодо кінцевої позиції.',
       'no': '<p>Du kan også bruke <code>span</code> med <code>grid-column-start</code> for å gi elementet ditt en bredde som er relativ til sluttposisjonen.</p>',
       'pt-pt': '<p>Também podes utilizar a palavra-chave <code>span</code> com a propriedade <code>grid-column-start</code> para estabelecer a largura do teu elemento relativa à posição final.</p>',
+      'bg': '<p>Също така може да използвате ключовата дума <code>span</code> заедно с <code>grid-column-start</code>, за да зададете широчина на елемента релативно на крайната позиция.</p>'
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
@@ -308,6 +317,7 @@ var levels = [
       'ua': '<p>Друкувати разом <code>grid-column-start</code> і <code>grid-column-end</code> кожен раз трохи втомлює. На щастя, <code>grid-column</code> є короткою властивістю яке приймає обидва значення відразу через слеш  "/"  .</p><p>Наприклад, <code>grid-column: 2 / 4;</code> скаже grid елементу початися на 2-ій вертикальній grid лінії і закінчитися на 4-ій вертикальній grid лінії.</p>',
       'no': '<p>Det kan bli slitsomt å skrive <code>grid-column-start</code> og <code>grid-column-end</code> hver gang. Heldigvis er <code>grid-column</code> en forkortet egenskap som du kan bruke for å skrive begge verdiene sammen, skilt med en skråstrek.</p><p>For eksempel, <code>grid-column: 2 / 4;</code> forteller gridelementet at det skal starte på den andre vertikale rutelinjen og slutte på den fjerde rutelinjen.</p>',
       'pt-pt': '<p>Escrevendo sempre ambas <code>grid-column-start</code> e <code>grid-column-end</code> pode tornar-se cansativo. Felizmente, <code>grid-column</code> é uma propriedade abreviada que aceita os dois valores de uma só vez, separados por "/".</p><p>Por exemplo, <code>grid-column: 2 / 4;</code> estabelecerá que o elemento comece na 2ª linha vertical da grelha e termine na 4ª linha.</p>',
+      'bg': '<p>Писането всеки път на двете свойства <code>grid-column-start</code> и <code>grid-column-end</code> е доста неприятно. За целта може да използвате <code>grid-column</code>. Това свойство приема 2 стойности разделени с наклонена черта и е по-кратък начин за изписването на горните две свойства.</p><p>Например, <code>grid-column: 2 / 4;</code> ще разположи grid-елемента, започвайки от 2-рата колона и завършвайки на 4-тата  grid-линия.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -339,6 +349,7 @@ var levels = [
       'ua': '<p>Спробуйте використовувати <code>grid-column</code> щоб полити цю моркву. <code>span</code> також працює з цією короткою властивістю, так що пробуйте!',
       'no': '<p>Prøv å bruke <code>grid-column</code> til å vanne disse gulrøttene. Verdien <code>span</code> fungerer også med denne forkortede egenskapen, så prøv deg frem!</p>',
       'pt-pt': '<p>Tenta utilizar <code>grid-column</code> para irrigar as cenouras. A palavra-chave <code>span</code> também funciona com esta propriedade abreviada, por isso experimenta-a!</p>',
+      'bg': '<p>Използвайте <code>grid-column</code>, за да полеете тези моркови. Ключовата дума <code>span</code> работи и с това свойство, така че опитайте да я приложите!</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -370,6 +381,7 @@ var levels = [
       'ua': "<p>Одна з речей яка розрізняє CSS grid'и від flexbox'а це те що ви можете легко позиціонувати елементи в двох напрямках: стовпців і рядках. <code>grid-row-start</code> працює майже як <code>grid-column-start</code>, але тільки на вертикальній осі.</p><p>Використовуйте <code>grid-row-start</code> щоб полити цю моркву.</p>",
       'no': '<p>En av tingene som gjør CSS grid annerledes fra Flexbox, er muligheten til å posisjonere elementer todimensjonalt i kolonner og rader. <code>grid-row-start</code> fungerer likt som <code>grid-column-start</code>, men plasserer heller elementer på den vertikale aksen.</p><p>Bruk <code>grid-row-start</code> til å vanne disse gulrøttene.</p>',
       'pt-pt': '<p>Uma das coisas que diferencia as técnicas \'CSS Grid\' e \'Flexbox\' é que podes facilmente posicionar elementos em duas dimensões: colunas e linhas. <code>grid-row-start</code> é semelhante a <code>grid-column-start</code> mas refere-se ao eixo vertical.</p><p>Utiliza <code>grid-row-start</code> para irrigar estas cenouras.</p>',
+      'bg': '<p>Едно от нещата, което различава CSS grid от flexbox е лесното позициониране на елементи в две измерения: колони и редове. <code>grid-row-start</code> работи почти като <code>grid-column-start</code> освен по вертикалните оси.</p><p>Използвайте <code>grid-row-start</code>, за да полеете тези моркови.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -401,6 +413,7 @@ var levels = [
       'ua': '<p>А тепер спробуйте використовувати коротку властивість <code>grid-row</code>.</p>',
       'no': '<p>Prøv nå med den forkortede egenskapen <code>grid-row</code>.</p>',
       'pt-pt': '<p>Agora experimenta a propriedade abreviada <code>grid-row</code>.</p>',
+      'bg': '<p>Сега опитайте да използвате съкратената версия <code>grid-row</code>.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -432,6 +445,7 @@ var levels = [
       'ua': '<p>Використовуйте <code>grid-column</code> і <code>grid-row</code> одночасно, для того щоб позиціонувати елемент в двох напрямках.',
       'no': '<p>Bruk <code>grid-column</code> og <code>grid-row</code> samtidig for å plassere elementer todimensjonalt.</p>',
       'pt-pt': '<p>Utiliza <code>grid-column</code> e <code>grid-row</code> juntas para estabelecer uma posição nas duas dimensões.</p>',
+      'bg': '<p>Използвайте <code>grid-column</code> и <code>grid-row</code> заедно, за да определите позицията на grid-елемента в две измерения.</p>'
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -463,6 +477,7 @@ var levels = [
       'ua': '<p>Ви також можете використовувати <code>grid-column</code> і <code>grid-row</code> разом для того щоб охопити більш великі зони всередині grid сітки. Пробуйте!</p>',
       'no': '<p>Du kan også bruke <code>grid-column</code> og <code>grid-row</code> sammen for å dekke større områder på rutenettet. Prøv deg frem!</p>',
       'pt-pt': '<p>Também podes juntar <code>grid-column</code> e <code>grid-row</code> para abranger áreas maiores dentro da grelha. Experimenta!</p>',
+      'bg': '<p>Можете също да използвате <code>grid-column</code> и <code>grid-row</code> заедно, за да обхванете по-голяма зона от решетката. Опитайте!</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -494,6 +509,7 @@ var levels = [
       'ua': '<p>Якщо для вас надрукувати <code>grid-column</code> і <code>grid-row</code> забагато, є інша коротка властивість для цього. <code>grid-area</code> приймає 4 значення, розділені слешем " / ": <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code> та <code>grid-column-end</code>.</p><p>Прикладом для цього буде <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'no': '<p>Hvis du synes det blir for mye å skrive både <code>grid-column</code> og <code>grid-row</code>, finnes det nok en fortkortet egenskap for dette. <code>grid-area</code> godtar fire verdier skilt med skråstreker: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, og <code>grid-column-end</code>.</p><p>Et eksempel på dette er <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'pt-pt': '<p>Se escrever <code>grid-column</code> e <code>grid-row</code> é demasiado longo para ti, existe também uma propriedade abreviada para o efeito. <code>grid-area</code> aceita quatro valores separados por " / ": <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, seguida por <code>grid-column-end</code>.</p><p>Um exemplo seria <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
+      'bg': '<p>Ако писането на <code>grid-column</code> и <code>grid-row</code> е прекалено за вас, отново може да използвате съкратено свойство. <code>grid-area</code> приема четири стойности разделени с наклонена черта: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, последвани от <code>grid-column-end</code>.</p><p>Например <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -525,6 +541,7 @@ var levels = [
       'ua': '<p>Як щодо безлічі елементів? Ви можете накладати їх один на одного без будь-яких проблем. Використовуйте <code>grid-area</code> щоб визначити другу зону, яка займе всю не политу моркву.</p>',
       'no': '<p>Hva kan vi gjøre hvis vi har flere elementer? Du kan overlappe dem uten problemer. Bruk <code>grid-area</code> for å definere enda et område som dekker alle gulrøttene som ikke er vannet.</p>',
       'pt-pt': '<p>E que tal múltiplos elementos? Podes sobrepô-los sem qualquer problema. Utiliza <code>grid-area</code> para definir uma segunda área que cubra todas as cenouras ainda por regar.</p>',
+      'bg': '<p>Как да се справим с множество от елементи? Можете да ги разположите един над друг без никакви проблеми. Използвайте <code>grid-area</code>, за да дефинирате втора зона, която да покрие всички непокрити моркови с вода.</p>'
     },
     board: 'cc',
     classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
@@ -557,6 +574,7 @@ var levels = [
       'ua': "<p>Якщо grid елементи не мають конкретного розташування з <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code> і т.д., вони автоматично розміщуються слідуючи порядку написаному в коді. Ми можемо перезаписати це за допомогою властивості <code>order</code>, яке є одним з переваг grid'а перед табличною розміткою.</p><p>За замовчуванням, всі grid елементи мають <code>order</code> рівний 0, але цій властивості можна привласнити будь-яке позитивне або негативне значення, приблизно як <code>z-index</code>.</p><p>На даний момент, морква у 2-му стовпці отруєна і бур'яни в останньому стовпці поливаються. Змініть значення властивості <code>order</code> отрути, щоб виправити це прямо зараз!</p>",
       'no': '<p>Hvis gridelementer ikke er tydelig plassert med <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, osv., blir de plassert automatisk i henhold til rekkefølgen i kildekoden. Vi kan overskrive dette med egenskapen <code>order</code>, som er en av de store fordelene CSS grid har sammenlignet med tabellbaserte layouts.</p><p>Som standard har alle gridelementer en <code>order</code>-verdi på 0, men dette kan endres til en hvilken som helst positiv eller negativ verdi, mye likt som <code>z-index</code>.</p><p>For øyeblikket, blir gulrøttene i den andre kolonnen forgiftet og ugresset i den siste kolonnen blir vannet. Endre verdien til <code>order</code> for å fikse dette med en gang!</p>',
       'pt-pt': '<p>Se os elementos da grelha não forem explicitamente colocados com <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., serão automaticamente colocados de acordo com a ordem no código-fonte. Podemos sobrepor esta regra utilizando a propriedade <code>order</code>, a qual é uma das vantagens de layouts baseados em \'CSS Grid\' ao invés de tabelas!</p><p>Por defeito, todos os elementos da grelha têm uma <code>order</code> de 0, mas esta pode ser estabelecida com qualquer valor positivo ou negativo, semelhante a <code>z-index</code>.</p><p>Neste momento, as cenouras na segunda coluna estão a ser envenenadas e as ervas daninhas na última coluna estão a ser regadas. Altera o valor da <code>order</code> do veneno para solucionar isto!</p>',
+      'bg': '<p>Ако grid-елементите не са експлицитно разположени с <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, и т.н., те автоматично се подреждат според реда им в кода. Ние може дам пренапишем тази функционалност използвайки <code>order</code> свойството, което е едно от предимствата да се използва CSS grid пред табличните laytout-и.</p><p>По подразбиране всички grid-елементи притежават <code>order</code> равен на 0, но това може да бъде променено на всяко едно позитивно или негативно число, подобно на <code>z-index</code>.</p><p>В момента, морковите във втората колона биват отравяни, а плевелите са поляти с вода. Променете <code>order</code> стойността на отровата, така че да поправите това!</p>'
     },
     board: 'cwccc',
     selector: '> :nth-child(2)',
@@ -588,6 +606,7 @@ var levels = [
       'ua': '<p>Тепер вода і отрута міняються місцями, хоча всі бур\'яни знаходяться на початку саду. Дайте правильне значення <code>order</code> отрути так, щоб виправити це.</p>',
       'no': '<p>Nå alternerer giften og vannet, selv om alt ugresset er i begynnelsen av hagen din. Angi <code>order</code> for å fikse dette.</p>',
       'pt-pt': '<p>Agora a água e o veneno alternam, no entanto todas as ervas daninhas estão no começo da tua horta. Estabelece a <code>order</code> dos venenos para solucionar isto.</p>',
+      'bg': '<p>Сега водата и отровата се редуват, въпреки че всички плевели са в началото на Вашата градина. Определете <code>order</code> стойността на отровата, за да предотвратите това.</p>'
     },
     board: 'wcwcwcwcwc',
     selector: '> :nth-child(odd)',
@@ -619,6 +638,7 @@ var levels = [
       'ua': '<p>До цього моменту ваш сад мав grid сітку з п\'ятьма стовпцями по 20% широти, і п\'ятьма рядками, кожен по 20% висоти.</p><p>Це було зроблено завдяки властивостям <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> і <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Кожна властивість має п\'ять значень, які створюють 5 стовпців, де ширина кожного дорівнює 20% від загальної широти саду.</p><p>Але ви можете змінювати grid сітку як вам заманеться. Дайте <code>grid-template-columns</code> нове значення, щоб полити вашу моркву. Вам необхідно поставити значення широти 1-го стовпчика  50%.',
       'no': '<p>Hittil har du hatt en hage med et rutenett bestående av fem kolonner på 20% av hele bredden og fem rader på 20% av hele høyden.</p><p>Dette ble definert med reglene <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> og <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Hver regel har fem verdier som lager fem kolonner på 20% av hele hagebredden.</p><p>Men du kan lage et rutenett akkurat som du vil. Gi <code>grid-template-columns</code> en ny verdi for å vanne gulrøttene dine. Den første kolonnen bør ha en bredde på 50%.',
       'pt-pt': '<p>Até este ponto, a tua horta estava definida como uma grelha com cinco colunas, cada uma com 20% da largura total, e cinco linhas, cada uma com 20% da altura total.</p><p>Tal foi estabelecido através das regras <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> e <code>grid-template-rows: 20% 20% 20% 20% 20%;</code>. Cada regra tem cinco valores que criam cinco colunas, cada uma com 20% da largura total da horta.</p><p>Mas podes definir a grelha como preferires. Atribui um novo valor a <code>grid-template-columns</code> para regar as tuas cenouras. Deverás estabelecer a 1ª coluna com uma largura de 50%.',
+      'bg': '<p>До този момент Вие имахте градина разположена в 5 колони от CSS grid-а, всяка по 20% от общата широчина и 5 реда, всеки по 20% от общата височина.</p><p>Това беше така, заради свойствата <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> и <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Всяко свойство притежава 5 стойности, които създават 5 колони, всяка от по 20% от общата широчина на градината.</p><p>Вие можете да определите как да изглежа Вашият CSS grid. Задайте нови стойности на <code>grid-template-columns</code>, така че да покриете морковите с вода. Задайте широчината на първата колона да бъде 50% от общата широчина.'
     },
     board: 'c',
     style: {'grid-template-columns': '50% 50%'},
@@ -649,6 +669,7 @@ var levels = [
       'ua': '<p>Визначати декілька стовпців з однаковою широтою може бути трохи виснажливим. На щастя, є функція <code>repeat</code> яка покликана допомогти з цим.</p><p>Наприклад, раніше ми визначили п\'ять стовпців по 20% широти за допомогою <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Це можна спростити до <code>grid-template-columns: repeat(5, 20%);</code></p><pВикористовуючи <code>grid-template-columns</code> разом з функцією <code>repeat</code>, створіть 8 стовпців по 12.5% широти кожен. Таким чином, ви не будете використовувати більше води ніж потрібно.</p>',
       'no': '<p>Det kan bli kjedelig å spesifisere en haug av kolonner med identiske bredder. Heldigvis finnes det en <code>repeat</code>-funksjon som kan hjelpe med dette.</p><p>For eksempel, tidligere definerte vi fem kolonner på 20% med regelen <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Dette kan forenkles og skrives som <code>grid-template-columns: repeat(5, 20%);</code></p><p>Lag åtte kolonner med en bredde på 12.5% hver ved bruk av <code>grid-template-columns</code> med <code>repeat</code>-funksjonen. På denne måten overvanner du ikke hagen din.</p>',
       'pt-pt': '<p>Especificar uma data de colunas com larguras idênticas pode tornar-se tedioso. Felizmente existe a função <code>repeat</code> para te ajudar.</p><p>Por exemplo, definimos anteriormente cinco colunas com 20% de largura através da regra <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Isto pode simplificar-se como <code>grid-template-columns: repeat(5, 20%);</code></p><p>Utilizando <code>grid-template-columns</code> e a função <code>repeat</code>, cria oito colunas com 12.5% de largura cada. Desta forma não vais inundar a tua horta.</p>',
+      'bg': '<p>Задаването на една и съща стойност на множесто от колони е доста досадно. За късмет функцията <code>repeat</code> ще Ви помогне да избегнете това.</p><p>Например, преди дефинирахме пет колони с по 20% широчина, използвайки <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Това може да бъде опростено от <code>grid-template-columns: repeat(5, 20%);</code></p><p>използвайки <code>grid-template-columns</code> с функцията <code>repeat</code>, за да създадете осем колони с по 12.5% широчина. Така няма да наводните Вашата градина.</p>'
     },
     board: 'c',
     classes: {'#plants': 'grid-template-columns-repeat-8-12'},
@@ -680,6 +701,7 @@ var levels = [
       'ua': '<p><code>grid-template-columns</code> не тільки приймає значення в процентах, але також може приймати значення довжини, такі як пікселі або ems. Ви навіть можете комбінувати різні одиниці виміру.</p><p>Зараз надайте трьом стовпцях значення <code>100px</code>, <code>3em</code> і <code>40%</code> відповідно.</p>',
       'no': '<p><code>grid-template-columns</code> aksepterer ikke bare prosentverdier, men også lengdeenheter som pixler og ems. Du kan også bruke forskjellige enheter samtidig.</p><p>Gi tre kolonner bredder på <code>100px</code>, <code>3em</code>, og <code>40%</code> hver.</p>',
       'pt-pt': '<p>A propriedade <code>grid-template-columns</code> não aceita apenas percentagens, mas também unidades de comprimento como pixels e ems. Podes até misturar diferentes unidades.</p><p>Estabelece três colunas de <code>100px</code>, <code>3em</code>, e <code>40%</code>, respectivamente.</p>',
+      'bg': '<p><code>grid-template-columns</code> не приема само проценти за стойности, а и единици за дължина като <code>px</code> и <code>em</code>. Вие дори можете едновременно да използвате различни единици.</p><p>Задайте стойности за три колони, като използвате съответно<code>100px</code>, <code>3em</code> и <code>40%</code>.</p>'
     },
     board: 'cwc',
     classes: {'#plants': 'grid-template-columns-100px-3em-40p'},
@@ -711,6 +733,7 @@ var levels = [
       'ua': '<p>Grid також вводить нову одиницю виміру, дробовий <code>fr</code>. Кожен <code>fr</code> виділяє одну частину вільного простанства. Наприклад, якщо два елементи мають властивість рівну <code>1fr</code> і <code>3fr</code> відповідно, то тоді простір буде поділено на 4 однакові частини. Перший елемент займе 1/4 а другий 3/4 всього простору, що залишилося.</p><p>Зараз бур\'яни займають ліву 1/6 частину вашого першого рядка, а моркві залишилися 5/6. Створіть два стовпці з такими ж широтами, використовуючи одиниці <code>fr</code>.</p>',
       'no': '<p>CSS grid introduserer også en ny enhet, <code>fr</code>, som står for en brøkdel av den tilgjengelige bredden. For eksempel, hvis to elementer har verdier på <code>1fr</code> og <code>3fr</code> hver, deles plassen opp i fire like deler; det første elementet tar opp 1/4 av plassen og det andre elementet 3/4 av plassen som er igjen.</p><p>Nå tar ugresset opp 1/6 av plassen på den første raden og gulrøttene 5/6 av det som er igjen. Lag to kolonner med disse breddene ved å bruke <code>fr</code>-enheten.</p>',
       'pt-pt': '<p>A CSS Grid também introduz uma nova unidade, o fracionário <code>fr</code>. Cada unidade <code>fr</code> aloca uma porção do espaço disponível. Por exemplo, se dois elementos estão estabelecidos com <code>1fr</code> e <code>3fr</code> respectivamente, o espaço é dividido em 4 porções iguais; o primeiro elemento ocupa 1/4 e o segundo elemento 3/4 do espaço restante.</p><p>Aqui, ervas daninhas ocupam 1/6 da tua primeira linha e as cenouras os 5/6 restantes. Cria duas colunas com estas larguras utilizando a unidade <code>fr</code>.</p>',
+      'bg': '<p>CSS grid също въвежда нова единица за измеренията - дробите <code>fr</code>. Всяка <code>fr</code> единица използва една част от свободното пространство. Например, ako два елемента са  <code>1fr</code> и <code>3fr</code> съответно, пространството е разделено на 4 равни части; първият елемент заема 1/4, а вторият заема 3/4 от всяко свободно пространство.</p><p>В случая, плевелите заемат 1/6 от първия ред, а морковите оставащите 5/6. Създайте две колони с тези широчини, използвайки <code>fr</code> едеиници.</p>'
     },
     board: 'wc',
     classes: {'#plants': 'grid-template-columns-1fr-5fr'},
@@ -742,6 +765,7 @@ var levels = [
       'ua': '<p>Коли одні стовпці визначені за допомогою пікселів, відсотків або ems, а будь-які інші стовпці за допомогою <code>fr</code>, то другі просто розділять увесь можливий простір, що залишився.</p><p>Зараз морква займає 50 пікселів зліва, а бур\'яни 50 пікселів справа. За допомогою <code>grid-template-columns</code>, створіть два стовпці і використовуйте <code>fr</code> щоб зробити ще 3 стовпці, які займуть залишився простір між ними.</p>',
       'no': '<p>Når kolonner har verdier i pixler, prosent eller em, deler andre kolonner som har <code>fr</code>-verdier opp plassen som er igjen.</p><p>Gulrøttene utgjør en kolonne på 50 pixler til venstre, og ugresset en kolonne på 50 pixler til høyre. Lag disse to kolonnene med <code>grid-template-columns</code> og bruk <code>fr</code> til å lage tre kolonner til som tar opp den gjenværende plassen i midten.</p>',
       'pt-pt': '<p>Quando as colunas são estabelecidas com pixels, percentagens, ou ems, quaisquer outras colunas estabelecidas com <code>fr</code> dividirão o espaço restante.</p><p>Aqui as cenouras formam uma coluna de 50 pixels à esquerda, e as ervas daninhas uma coluna de 50 pixels à direita. Com <code>grid-template-columns</code>, cria estas duas colunas, e utiliza <code>fr</code> para criar três colunas adicionais que ocuparão o espaço restante no meio.</p>',
+      'bg': '<p>Когато колоните са опеделени с помощта на пиксели, проценти или ems, всички останали колони определени с помощта на <code>fr</code> ще си разпределят останалото пространство.</p><p>В момента морковите формират 50-пикселова колона от ляво, а плевелите - 50-пикселова колона от дясно. С помощщта на <code>grid-template-columns</code>, създайте тези две колони и използвайте <code>fr</code>, за да създадете още 3 колони за оставащото място по средата.</p>'
     },
     board: 'cw',
     classes: {
@@ -777,6 +801,7 @@ var levels = [
       'ua': '<p>Тепер у нас є стовпець бур\'янів з шириною 75 пікселів на лівій стороні вашого саду. 3/5 простору, що залишилося займає зростаюча морква, коли 2/5 заполонили бур\'яни.</p><p>Використовуйте <code>grid-template-columns</code> з комбінацією <code>px</code> і <code>fr</code> щоб зробити необхідні стовпці.</p>',
       'no': '<p>Nå er det en kolonne på 75 pixler med ugress på venstre side av hagen din. På 3/5 av den gjenværende plassen vokser det gulrøtter, mens 2/5 har blitt overgrodd av ugress.</p><p>Bruk <code>grid-template-columns</code> kombinert med <code>px</code> og <code>fr</code>-enheter for å lage de nødvendige kolonnene.</p>',
       'pt-pt': '<p>Agora há uma coluna de ervas daninhas de 75 pixels no lado esquerdo da tua horta. No espaço restante, em 3/5 crescem cenouras, e ervas daninhas invadiram 2/5.</p><p>Utiliza <code>grid-template-columns</code> com uma combinação de unidades <code>px</code> e <code>fr</code> para criar as colunas necessárias.</p>',
+      'br': '<p>Сега има 75-пикселова колона от плевели от лявата страна на Вашата градина. 3/5 от оставащото място е засадено с моркови, а 2/5 е обрасло с плевели.</p><p>Използвайте <code>grid-template-columns</code> в комбинация с <code>px</code> и <code>fr</code> единици, за да създадете нужните колони.</p>'
     },
     board: 'wcw',
     classes: {'#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p'},
@@ -808,6 +833,7 @@ var levels = [
       'ua': '<p><code>grid-template-rows</code> працює точно так само, як і <code>grid-template-columns</code>.</p><p>Використовуйте <code>grid-template-rows</code> щоб полити все, крім верхніх 50 пікселів вашого саду. Пам\'ятайте, що вода на даний момент заповнює тільки 5-й рядок, так що вам знадобитися створити в сумі 5 рядків.</p>',
       'no': '<p><code>grid-template-rows</code> fungerer mye på samme måte som  <code>grid-template-columns</code>.</p><p>Bruk <code>grid-template-rows</code> til å vanne alt bortsett fra de øverste 50 pixlene av hagen din. Merk at vannet er kun satt til å fylle den femte raden din, så du må lage 5 rader til sammen.</p>',
       'pt-pt': '<p><code>grid-template-rows</code> funciona basicamente como <code>grid-template-columns</code>.</p><p>Utiliza <code>grid-template-rows</code> para regar toda a tua horta excepto os 50 pixels no topo. Observa que a água foi estabelecida para preencher apenas a tua 5ª linha, como tal precisarás de criar 5 linhas no total.</p>',
+      'bg': '<p><code>grid-template-rows</code> работи почти като <code>grid-template-columns</code>.</p><p>Използвайте <code>grid-template-rows</code>, за да полеете цялата градина с изключение на горните 50 пиксела. Обърнете внимание, че водата в момента покрива само 5-ия ред, така че ще Ви се наложи да създадете общо 5 реда.</p>'
     },
     board: 'c',
     classes: {
@@ -842,6 +868,7 @@ var levels = [
       'ua': '<p><code>grid-template</code> є коротким варіантом комбінації <code>grid-template-rows</code> і <code>grid-template-columns</code>.</p><p>Наприклад, <code>grid-template: 50% 50% / 200px;</code> створить grid сітку з 2-ма рядками, по 50% кожна, і одним стовпцем шириною 200 пікселів.</p><p>Спробуйте використовувати <code>grid-template</code> щоб полити зону, що включає в себе верхні 60% і ліві 200 пікселів вашого саду.</p>',
       'no': '<p><code>grid-template</code> er en forkortet egenskap som kombinerer <code>grid-template-rows</code> og <code>grid-template-columns</code>.</p><p>For eksempel, <code>grid-template: 50% 50% / 200px;</code> lager et rutenett med to rader på 50% hver, og en kolonne som er 200 pixler bred.</p><p>Prøv og bruk <code>grid-template</code> til å vanne området som består av 60% fra toppen og 200 pixler fra venstre av hagen din.</p>',
       'pt-pt': '<p><code>grid-template</code> é uma propriedade abreviada que combina <code>grid-template-rows</code> e <code>grid-template-columns</code>.</p><p>Por exemplo, <code>grid-template: 50% 50% / 200px;</code> criará uma grelha com duas linhas ocupando 50% da altura cada, e uma coluna com 200 pixels de largura.</p><p>Experimenta utilizar <code>grid-template</code> para regar uma área que inclui os 60% superiores e 200px desde a esquerda da tua horta.</p>',
+      'bg': '<p><code>grid-template</code> е кратък начин за изписване на комбинацията от <code>grid-template-rows</code> и <code>grid-template-columns</code>.</p><p>Например, <code>grid-template: 50% 50% / 200px;</code> ще създаде grid с два реда по 50% всеки и една колона, която е 200 пиксела.</p><p>Опитайте да използвате <code>grid-template</code>, за да полеете пространство, което покрива горните 60% и левите 200 пиксела от Вашата градина.</p>'
     },
     board: 'c',
     style: {'grid-template': '60% 1fr / 200px 1fr'},
@@ -872,6 +899,7 @@ var levels = [
       'ua': '<p>Ваш сад виглядає чудово. Тут ви залишили 50 піксельний шлях в нижній частині вашого саду і заповнили все що залишилося морквою.</p><p>На жаль, ліві 20% вашої моркви заполонили бур\'яни. Використовуйте CSS Grid в останній раз щоб очистити ваш сад.</p>',
       'no': '<p>Hagen din ser flott ut. Her har du laget en sti på 50 pixler i bunnen av hagen din og fylt resten med gulrøtter.</p><p>Uheldigvis har 20% av gulrøttene dine til venstre blitt overgrodd av ugress. Bruk CSS grid en siste gang for å hjelpe hagen din.</p>',
       'pt-pt': '<p>A tua horta está a ficar genial! Desta vez deixaste um caminho de 50 pixels no fundo da horta, e preencheste o resto com cenouras. Infelizmente, 20% das tuas cenouras à esquerda foram invadidas por ervas daninhas. Utiliza a CSS Grid uma última vez para tratares da tua horta.</p>',
+      'bg': '<p>Вашата градина изглежда прекрасно. Тук сте оставили пътека от 50 пиксела на дъното на Вашата градина, а останалото пространство е покрито с моркови.</p><p>За жалост, левите 20% от Вашите моркови са обраснали с плевели. Използвайте CSS grid още един последен път, за да излекувате Вашата градина.</p>'
     },
     board: 'wc',
     classes: {'#plants': 'grid-template-2'},
@@ -905,6 +933,7 @@ var levelWin = {
     'ua': '<p>Ви виграли! Завдяки силі CSS Grid, ви змогли виростити досить моркви для Froggy щоб спекти його знаменитий 20-морквяний пиріг. Що, ви очікували іншого стрибучого товариша?</p><p>Якщо вам сподобався Grid Garden, подивіться <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> щоб вивчити іншу нову можливість CSS. Ви також можете залишатися в курсі всіх моїх проектів <a href="http://thomaspark.co">мій блог</a> або <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Хочете підтримати Grid Garden? Спробуйте "topnotch" веб-дизайну і курси програмування запропоновані <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Розкажіть своїм друзям і членам сім\'ї про Grid Garden!</p>',
     'no': '<p>Du har vunnet! Ved bruk av CSS grid, har du klart å kultivere nok gulrøtter til at Froggy kan bake sin verdensberømte 20-gulrotskake. Hæ, forventet du en annen hoppende venn?</p><p>Hvis du likte Grid Garden, ta også en titt på <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> for å lære mer om enda en ny og effektiv metode for å lage layouts med CSS. Du kan også holde deg oppdatert på andre projekter jeg holder på med på <a href="http://thomaspark.co">bloggen min</a> eller <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Har du lyst til å støtte Grid Garden? Prøv ut flotte webdesign- og kodekurs tilbudt av <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Og del Grid Garden med venner og familie!</p>',
     'pt-pt': '<p>Ganhaste! Com o poder da CSS Grid, conseguiste cultivar cenouras suficientes para o Froggy fazer o seu mundialmente famoso bolo de 20 cenouras. O quê, esperavas um amigo diferente?</p><p>Se desfrutaste do Grid Garden, visita também o <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> para aprenderes sobre outra nova funcionalidade poderosa dos layouts CSS. Também podes ficar a par dos meus outros projectos no <a href="http://thomaspark.co">meu blog</a> ou <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Queres apoiar o Grid Garden? Experimenta os melhores cursos de web design e programação oferecidos por <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. E mostra aos teus amigos e família o Grid Garden!</p>',
+    'bg': '<p>Вие спечелихте! С помощта на CSS grid, Вие успяхте да отгледате достатъчно моркови за Froggy, таке че той да може да изпече своята популярна 20-морковена торта. Какво, да не би да очаквахте различен скоклив приятел?</p><p>Ако Grid Garden Ви е харесала, поиграйте и <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>, за да научите друга много използвана техника в CSS Layout. Също така можете да следите и останалите ми проекти в <a href="http://thomaspark.co">моя блог</a> или <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Искате да помогнете на Grid Garden? Опитайте първокласните курсове за уеб дизайн и програмиране предложени от <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Кажете и по дума на Вашите приятели и семейство за Grid Garden!</p>'
   },
   board: '',
   classes: {'#garden, #plants, #overlay': 'win'},
