@@ -23,6 +23,7 @@ Thomas Park
 
 My gratitude to these contributors for their translations.
 
+* Bulgarian by [radoAngelov](https://github.com/radoAngelov)
 * Chinese Simplified by [Jin](https://github.com/winar-jin)
 * Chinese Traditional by [Joy Shan-Chun Kuo](https://github.com/joykuotw)
 * Dutch by [Wietse Neven](https://github.com/wietseneven)
@@ -42,7 +43,6 @@ My gratitude to these contributors for their translations.
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 * Turkish by [serdar](https://github.com/yigitserdar)
-* Bulgarian by [radoAngelov](https://github.com/radoAngelov)
 
 Don't see your language on the list? Add it!
 
