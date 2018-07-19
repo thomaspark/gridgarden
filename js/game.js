@@ -1,3 +1,6 @@
+var xhr = new XMLHttpRequest();
+var logger = 'http://129.25.8.18:3080/tasks';
+
 var game = {
   language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
@@ -354,6 +357,17 @@ var game = {
         eventAction: 'correct',
         eventLabel: $('#code').val()
       });
+
+      xhr.open('POST', logger, true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({
+        timeStamp: (new Date()).getTime(),
+        user: game.user,
+        levelName: level.name,
+        changed: game.changed,
+        input: $('#code').val(),
+        result: 'correct'
+      }));
             
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
@@ -368,6 +382,17 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
+
+      xhr.open('POST', logger, true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({
+        timeStamp: (new Date()).getTime(),
+        user: game.user,
+        levelName: level.name,
+        changed: game.changed,
+        input: $('#code').val(),
+        result: 'incorrect'
+      }));
 
       $('#next').addClass('disabled');
     }
