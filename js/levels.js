@@ -3,6 +3,7 @@ var levels = [
     name: 'grid-column-start 1',
     instructions: {
       'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.<img src="http://code.org/api/hour/begin_codepip_grid.png"></p>',
+      'lv': '<p>Laipni lūdzam spēlē Grid Garden. Šeit, rakstot CSS kodu, Tu varēsi izaudzēt savu burkānu dārzu. Lietojot <code>grid-column-start</code> metodi, aplaisti tikai tās dārza daļas, kurās atrodas burkāni.</p><p>Piemēram, <code>grid-column-start: 3;</code> , aplaistīs laukumu sākot not trešās vertikālās "grid" jeb tabulas līnijas.<img src="http://code.org/api/hour/begin_codepip_grid.png"></p>',
       'ro': '<p>Bine ai venit la Grid Garden, unde scrii cod CSS pentru a crește grădina de morcovi! Udă doar zonele care au morcovi folosind proprietatea <code>grid-column-start</code>.</p><p>De exemplu, <code>grid-column-start: 3;</code> va uda zona începând de la a treia linie verticală a gridului, adică a treia linie verticală de la stânga în grid.</p>',
       'zh-cn': '<p>欢迎来到网格花园，在这里你可以通过书写CSS代码来栽种你的胡萝卜花园！使用<code>grid-column-start</code> 属性来给胡萝卜浇水。</p><p>比如说， <code>grid-column-start: 3;</code>将会给第三列的网格开始的区域浇水，这也是描述网格中从左起第三列边界的另一种方法。</p>',
       'zh-tw': '<p>歡迎來到網格花園，在這裡你可以通過書寫 CSS 代碼來栽種你的胡蘿蔔花園！使用 <code>grid-column-start</code> 屬性來給胡蘿蔔澆水。比如說，<code>grid-column-start: 3;</code> 將會給第三行的網格開始的區域澆水，這也是描述網格中從左起第三行邊界的另一種方法。</p>',
@@ -27,7 +28,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: {'grid-column-start': '3'},
+    style: { 'grid-column-start': '3' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -35,6 +36,7 @@ var levels = [
     name: 'grid-column-start 2',
     instructions: {
       'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.</p>',
+      'lv': '<p>Izskatās, ka tava dārza stūrī iemetušās nezāles. Lai noindētu šīs nezāles, lieto <code>grid-column-start</code> Atceries, ka nezāles izaugušas sākot no 5 vertikālās "grid" līnijas.</p>',
       'ro': '<p>Ah, se pare că au început să crească buruieni în colțul grădinii tale. Folosește <code>grid-column-start</code> să le otrăvești. Notează că buruienile încep la a cincea linie verticală din grid.</p>',
       'zh-cn': '<p>哎呀，在你的花园的角落里好像长着一些杂草。用<code>grid-column-start</code>来除掉杂草。注意，杂草从第五个网格列开始。</p>',
       'zh-tw': '<p>哎呀，在你的花園的角落裡好像長著一些雜草。用 <code>grid-column-start</code> 來除掉雜草。注意，雜草從第五行開始。</p>',
@@ -59,7 +61,7 @@ var levels = [
     },
     board: 'w',
     selector: '> :nth-child(1)',
-    style: {'grid-column-start': '5'},
+    style: { 'grid-column-start': '5' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -67,6 +69,7 @@ var levels = [
     name: 'grid-column-end 1',
     instructions: {
       'en': '<p>When <code>grid-column-start</code> is used alone, the grid item by default will span exactly one column. However, you can extend the item across multiple columns by adding the <code>grid-column-end</code> property.</p><p>Using <code>grid-column-end</code>, water all of your carrots while avoiding the dirt. We don\'t want to waste any water! Note that the carrots start at the 1st vertical grid line and end at the 4th.</p>',
+      'lv': '<p>Lietojot <code>grid-column-start</code> vienu pašu, katrs "grid" elements aizņems tieši vienu kolonnu. Taču pievienojot <code>grid-column-end</code> vērtību, tu vari izstiept elementu pa vairākām kolonnām. Lieto <code>grid-column-end</code> un, izvairoties no dubļiem, aplaisti visus savus burkānus. Atceries, ka mēs nevēlamies lieki tērēt ūdeni. Ievēro, ka burkāni aug sākot no pirmās vertikālās "grid" līnijas un vairs neaug sākot no ceturtās.</p>',
       'ro': '<p>Când proprietatea <code>grid-column-start</code> este folosită singură, în mod implicit elementul gridului se va întinde pe o coloană. Poți să extinzi elementul pe mai multe coloane adăugând proprietatea <code>grid-column-end</code>.</p><p>Folosind <code>grid-column-end</code>, udă toți morcovii ocolind pământul. Nu vrem să risipim apă! Notează că morcovii încep la prima linie verticală în grid și se termină la a patra.</p>',
       'zh-cn': '<p>若仅使用<code>grid-column-start</code>，网格默认只占一列。然而，你可以使用<code>grid-column-end</code>属性将网格拓展到多列。</p><p>使用<code>grid-column-end</code>，将你的所有胡萝卜浇水，但不要将水浇到土地上哦，我们要节约用水！注意，胡萝卜从第一列开始，第四列结束。</p>',
       'zh-tw': '<p>若僅使用 <code>grid-column-start</code>，網格默認只佔一列。然而，你可以使用 <code>grid-column-end</code> 屬性將網格拓展到多行。</p><p>使用 <code>grid-column-end</code>，將你的所有胡蘿蔔澆水，但請避免澆到泥土上，我們要節約用水！注意，胡蘿蔔從第一行開始，第四行结束。</p>',
@@ -90,9 +93,9 @@ var levels = [
       'bg': '<p>Когато използвате <code>grid-column-start</code> самостоятелно, grid-елементът по подразбиране ще обхваща точно една колона. Въпреки това, можете да разширите елемента на няколкото колони, използвайки <code>grid-column-end</code> свойството.</p><p>Използвайки <code>grid-column-end</code>, ще полеете всички Ваши моркови, докато избягвате замърсяването. Не искаме да губим каквато и да било вода! Забележете, че морковите започват от 1-вата колона на Вашата решетка и завършват в 4-тата.</p>'
     },
     board: 'c',
-    classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
+    classes: { '#garden > *, #plants > *': 'grid-column-start-1' },
     selector: '> :nth-child(1)',
-    style: {'grid-column-end': '4'},
+    style: { 'grid-column-end': '4' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
     after: "}"
   },
@@ -100,6 +103,7 @@ var levels = [
     name: 'grid-column-end 2',
     instructions: {
       'en': '<p>When pairing <code>grid-column-start</code> and <code>grid-column-end</code>, you might assume that the end value has to be greater than the start value. But this turns out not the case!</p><p>Try setting <code>grid-column-end</code> to a value less than 5 to water your carrots.</p>',
+      'lv': '<p>Lietojot <code>grid-column-start</code> un <code>grid-column-end</code>, sākotnēji varētu likties, ka beigu vērtībai jābūt lielākai nekā sākuma. Taču tā nav.</p></p>Pamēģini piešķirt <code>grid-column-end</code> vērtību, kas mazāka par 5 un tādā veidā aplaistīt savus burkānus</p>',
       'ro': '<p>Când combini <code>grid-column-start</code> și <code>grid-column-end</code>, s-ar putea să presupui că valoarea de la sfârșit trebuie să fie mai mare decât cea de la început. Nu este cazul!</p><p>Încearcă să setezi <code>grid-column-end</code> la o valoare mai mică decât 5 ca să uzi morcovii tăi.</p>',
       'zh-cn': '<p>当将<code>grid-column-start</code>和<code>grid-column-end</code>一起使用时，你也许已经注意到结束的值比起始的值大。但事实证明并非如此！</p><p>尝试设置<code>grid-column-end</code>的值小于5，以此来给胡萝卜浇水。</p>',
       'zh-tw': '<p>當將 <code>grid-column-start</code> 和 <code>grid-column-end</code> 一起使用時，你也許已經注意到結束的值比起始的值大。但事實證明並非如此！</p><p>嘗試設置 <code>grid-column-end</code> 的值小於 5，以此來給胡蘿蔔澆水。</p>',
@@ -123,9 +127,9 @@ var levels = [
       'bg': '<p>Когато използвате заедно <code>grid-column-start</code> и <code>grid-column-end</code>, може да приемете, че крайната стойност трябва да бъде по-голяма от началната. Но това не е съвсем така!</p><p>Пробвайте да зададете стойност на <code>grid-column-end</code> по-малка от 5, за да полеете Вашите моркови.</p>'
     },
     board: 'c',
-    classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
+    classes: { '#garden > *, #plants > *': 'grid-column-start-5' },
     selector: '> :nth-child(1)',
-    style: {'grid-column-end': '2'},
+    style: { 'grid-column-end': '2' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 5;\n",
     after: "}"
   },
@@ -133,6 +137,7 @@ var levels = [
     name: 'grid-column-end 3',
     instructions: {
       'en': '<p>If you want to count grid lines from the right instead of the left, you can give <code>grid-column-start</code> and <code>grid-column-end</code> negative values. For example, you can set it to -1 to specify the first grid line from the right.</p><p>Try setting <code>grid-column-end</code> to a negative value.</p>',
+      'lv': '<p>Ja gadījumā vēlies skaitīt "grid" līnijas no labas puses uz kreisu, tad <code>grid-column-start</code> un <code>grid-column-end</code> piešķir negatīvas vērtības. Piemēram, piešķirot -1 šai vērtībai, norādīsi uz pirmo "grid" līniju no labās puses.</p><p>Pamēģini piešķirt <code>grid-column-end</code> negatīvu vērtību.</p>',
       'ro': '<p>Dacă vrei să numeri liniile gridului de la dreapta în loc de stânga, poți să le dai <code>grid-column-start</code> și <code>grid-column-end</code> valori negative. De exemplu, poți să le setezi -1 pentru a specifica prima linie a gridului din dreapta.</p><p>Încearcă să setezi <code>grid-column-end</code> la o valoare negativă.</p>',
       'zh-cn': '<p>如果你想要从右边数网格的列数而不是从左边数，你可以设置<code>grid-column-start</code>和<code>grid-column-end</code>为负值。比如说，你可以设置它为-1来指定为右边的第一列。</p><p>尝试将<code>grid-column-end</code>设置为负值。</p>',
       'zh-tw': '<p>如果你想要從右邊數網格的行數而不是從左邊數，你可以設置 <code>grid-column-start</code> 和 <code>grid-column-end</code> 為負值。比如說，你可以設置它為 -1 來指定為右邊的第一行。</p><p>嘗試將 <code>grid-column-end</code> 設置為負值。</p>',
@@ -156,9 +161,9 @@ var levels = [
       'bg': '<p>Ако искате да броите grid-линиите от дясно наляво, може да дадете на <code>grid-column-start</code> и <code>grid-column-end</code> отрицателни стойности. Например, стойността -1 ще отговаря на 1-вата grid-линия от дясно наляво.</p><p>Пробвайте да зададете негативна стойност на <code>grid-column-end</code>.</p>'
     },
     board: 'c',
-    classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
+    classes: { '#garden > *, #plants > *': 'grid-column-start-1' },
     selector: '> :nth-child(1)',
-    style: {'grid-column-end': '-2'},
+    style: { 'grid-column-end': '-2' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
     after: "}"
   },
@@ -166,6 +171,7 @@ var levels = [
     name: 'grid-column-start 3',
     instructions: {
       'en': '<p>Now try setting <code>grid-column-start</code> to a negative value.</p>',
+      'lv': '<p>Tagad pamēģini piešķirt <code>grid-column-start</code> negatīvu vērtību.</p>',
       'ro': '<p>Acum încearcă să setezi <code>grid-column-start</code> la o valoare negativă.</p>',
       'zh-cn': '<p>现在尝试设置<code>grid-column-start</code>为负值。</p>',
       'zh-tw': '<p>現在嘗試設置 <code>grid-column-start</code> 為負值。</p>',
@@ -190,7 +196,7 @@ var levels = [
     },
     board: 'w',
     selector: '> :nth-child(1)',
-    style: {'grid-column-start': '-3'},
+    style: { 'grid-column-start': '-3' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -198,6 +204,7 @@ var levels = [
     name: 'grid-column-end 4',
     instructions: {
       'en': '<p>Instead of defining a grid item based on the start and end positions of the grid lines, you can define it based on your desired column width using the <code>span</code> keyword. Keep in mind that <code>span</code> only works with positive values.</p><p>For example, water these carrots with the rule <code>grid-column-end: span 2;</code>.</p>',
+      'lv': '<p>Tā vietā, lai definētu "grid" elementu balstoties uz "grid" līniju sākuma un beigu pozīcijām, tu vari to definēt balstoties uz vēlamo kolonnu platumu. Lai to panāktu, pievieno kodam : <code>span</code>. Atceries, ka <code>span</code> darbojas tikai ar pozitīvām vērtībām</p><p>Piemēram, pamēģini apliekt šos burkānos lietojot <code>grid-column-end: span 2;</code>.</p>',
       'ro': '<p>În loc să definești un element al gridului bazându-te pe pozițiile de început și de sfârșit, poți să le definești bazându-te pe lățimea dorită a coloanei folosind cuvântul cheie <code>span</code>. Ține minte că <code>span</code> funcționează doar cu valori pozitive.</p><p>De exemplu, udă acești morcovi cu proprietatea <code>grid-column-end: span 2;</code>.</p>',
       'zh-cn': '<p>你可以根据网格的开始和结束位置来定义一个网格项，你也可以用<code>span</code>关键词来指定你所要跨越的宽度。请注意<code>span</code>只能是正值。</p><p>比如说，你可以通过<code>grid-column-end: span 2;</code>来给这些胡萝卜浇水。</p>',
       'zh-tw': '<p>你可以根據網格的開始和結束位置來定義一個網格項，你也可以用 <code>span</code> 關鍵詞來指定你所要跨越的寬度。請注意 <code>span</code> 只能是正值。</p><p>比如說，你可以通過 <code>grid-column-end: span 2;</code> 來給這些胡蘿蔔澆水。</p>',
@@ -221,9 +228,9 @@ var levels = [
       'bg': '<p>Вместо да дефинирате grid-елемент според начална и крайна позиция на grid-линиите, може да го направите базирано на желаната широчина на колоната, използвайки ключовата дума <code>span</code>. Не забравяйте, че <code>span</code> работи само с положителни числа.</p><p>Например, полейте тези моркови, използвайки <code>grid-column-end: span 2;</code>.</p>'
     },
     board: 'c',
-    classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
+    classes: { '#garden > *, #plants > *': 'grid-column-start-2' },
     selector: '> :nth-child(1)',
-    style: {'grid-column-end': 'span 2'},
+    style: { 'grid-column-end': 'span 2' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 2;\n",
     after: "}"
   },
@@ -231,6 +238,7 @@ var levels = [
     name: 'grid-column-end 5',
     instructions: {
       'en': '<p>Try using <code>grid-column-end</code> with the <code>span</code> keyword again to water your carrots.</p>',
+      'lv': '<p>Šoreiz, aplejot savu burkānu dārzu, pamēģini pielietot <code>grid-column-end</code> kopā ar <code>span</code>.</p>',
       'ro': '<p>Încearcă să folosești <code>grid-column-end</code> cu <code>span</code> din nou pentru a uda morcovii.</p>',
       'zh-cn': '<p>尝试在<code>grid-column-end</code>属性中使用<code>span</code>关键字来给胡萝卜浇水。</p>',
       'zh-tw': '<p>嘗試在 <code>grid-column-end</code> 屬性中使用 <code>span</code> 關鍵字來給胡蘿蔔澆水。</p>',
@@ -254,9 +262,9 @@ var levels = [
       'bg': '<p>Опитайте да използвате <code>grid-column-end</code> заедно с ключовата дума <code>span</code> отново, за да полеете Вашите моркови.</p>'
     },
     board: 'c',
-    classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
+    classes: { '#garden > *, #plants > *': 'grid-column-start-1' },
     selector: '> :nth-child(1)',
-    style: {'grid-column-end': 'span 5'},
+    style: { 'grid-column-end': 'span 5' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
     after: "}"
   },
@@ -264,6 +272,7 @@ var levels = [
     name: 'grid-column-start 4',
     instructions: {
       'en': '<p>You can also use the <code>span</code> keyword with <code>grid-column-start</code> to set your item\'s width relative to the end position.</p>',
+      'lv': '<p><code>span</code> vari arī lietot kopā ar <code>grid-column-start</code>. Šādā veidā tu norādīsi elemanta platumu attiecībā pret beigu pozīciju.</p>',
       'ro': '<p>Poți folosi, de asemenea, cuvântul cheie <code>span</code> cu <code>grid-column-start</code> pentru a seta lățimea elementului relativă la poziția de sfârșit.</p>',
       'zh-cn': '<p>你也可以将<code>span</code>关键字和<code>grid-column-start</code>一起使用，相对于结束位置来设置其宽度。</p>',
       'zh-tw': '<p>你也可以將 <code>span</code> 關鍵字和 <code>grid-column-start</code> 一起使用，相對於結束位置來設置其寬度。</p>',
@@ -287,9 +296,9 @@ var levels = [
       'bg': '<p>Също така може да използвате ключовата дума <code>span</code> заедно с <code>grid-column-start</code>, за да зададете широчина на елемента релативно на крайната позиция.</p>'
     },
     board: 'c',
-    classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
+    classes: { '#garden > *, #plants > *': 'grid-column-end-6' },
     selector: '> :nth-child(1)',
-    style: {'grid-column-start': 'span 3'},
+    style: { 'grid-column-start': 'span 3' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "  grid-column-end: 6;\n}"
   },
@@ -297,6 +306,7 @@ var levels = [
     name: 'grid-column 1',
     instructions: {
       'en': '<p>Typing both <code>grid-column-start</code> and <code>grid-column-end</code> every time can get tiring. Fortunately, <code>grid-column</code> is a shorthand property that can accept both values at once, separated by a slash.</p><p>For example, <code>grid-column: 2 / 4;</code> will set the grid item to start on the 2nd vertical grid line and end on the 4th grid line.</p>',
+      'lv': '<p>Katru reizi no jauna rakstīt <code>grid-column-start</code> un <code>grid-column-end</code> ir ļoti laikietilpīgi un nogurdinoši. Par laimi ir pastāv <code>grid-column</code>, kas ir saīsinājums un pieņem abas vērtības (atdalītas ar slīpsvītru) vienlaicīgi.<p></p>Piemēram <code>grid-column: 2 / 4;</code> tavu "grid" nostādīs sākot no otrās vertikālās "grid" līnijas līdz ceturtajai.</p>',
       'ro': '<p>Scriind <code>grid-column-start</code> și <code>grid-column-end</code> de fiecare dată poate deveni obositor. Din fericire <code>grid-column</code> este o prescurtare care acceptă ambele valori în același timp, separate de un slash.</p><p>De exemplu, <code>grid-column: 2 / 4;</code> va seta elementul gridului la început pe a doua linie verticală a gridului.</p>',
       'zh-cn': '<p>如果每次都输入<code>grid-column-start</code>和<code>grid-column-end</code>两个属性，我们一定会厌烦的。幸运的是，<code>grid-column</code>是一个缩写形式，它可以一次接受两个值，只要用\'/\'分开就好。</p><p>比如说：<code>grid-column: 2 / 4;</code>就会设置网格项从第二列开始，到第四列结束。</p>',
       'zh-tw': '<p>如果每次都輸入 <code>grid-column-start</code> 和 <code>grid-column-end</code> 兩個屬性，我們一定會厭煩的。幸運地是，<code>grid-column</code> 是一個縮寫屬性，它可以一次接受兩個值，只要用 \'/\' 分開就好。</p><p>比如說：<code>grid-column: 2 / 4;</code> 就會設置網格項從第二行開始，到第四行结束。</p>',
@@ -321,7 +331,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: {'grid-column': '4 / 6'},
+    style: { 'grid-column': '4 / 6' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -329,6 +339,7 @@ var levels = [
     name: 'grid-column 2',
     instructions: {
       'en': '<p>Try using <code>grid-column</code> to water these carrots. The <code>span</code> keyword also works with this shorthand property so give it a try!</p>',
+      'lv': '<p>Lai aplaistītu šos burkānus, pamēģini pielieto <code>grid-column</code>.Atslēgas vārds <code>span</code>  arī strādā kopā ar šo saīsināto metodi, pamēģini pievienot arī to!</p>',
       'ro': '<p>Încearcă să folosești <code>grid-column</code> pentru a uda acești morcovi. Cuvântul cheie <code>span</code> funcționează de asemenea cu această prescurtare așa că încearcă și tu!</p>',
       'zh-cn': '<p>尝试使用<code>grid-column</code>来给胡萝卜浇水。<code>span</code>关键字在这个简写中也是可以使用的，所以你也可以试一下哟！</p>',
       'zh-tw': '<p>嘗試使用 <code>grid-column</code> 來給胡蘿蔔澆水。<code>span</code> 關鍵字在這個縮寫屬性中也是可以使用的，所以你也可以試試！</p>',
@@ -353,7 +364,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: {'grid-column': '2 / 5'},
+    style: { 'grid-column': '2 / 5' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -361,6 +372,7 @@ var levels = [
     name: 'grid-row-start 1',
     instructions: {
       'en': '<p>One of the things that sets CSS grids apart from flexbox is that you can easily position items in two dimensions: columns and rows. <code>grid-row-start</code> works much like <code>grid-column-start</code> except along the vertical axis.</p><p>Use <code>grid-row-start</code> to water these carrots.</p>',
+      'lv': '<p>Viena lieta, kas CSS "grid" atšķirt no "flexbox" ir tas, ka tagad elementu ir viegli novietot divās dimensijās: rindās un kolonnās. <code>grid-row-start</code>  darbojas apmēram kā <code>grid-column-start</code>  tikai uz vertikālās ass.</p><p>Lai aplaistītu šos burkānus, lieto <code>grid-row-start</code></p>',
       'ro': '<p>Unul dintre lucrurile care deosebește CSS grids de flexbox este faptul că poți poziționa ușor elementele în două dimensiuni: coloane și rânduri. <code>grid-row-start</code> funcționează ca <code>grid-column-start</code> dar pe axa verticală.</p><p>Folosește <code>grid-row-start</code> pentru a uda acești morcovi.</p>',
       'zh-cn': '<p>其中一件事情使CSS网格布局和Flex盒布局不同的是，你可以很轻松的在二维的空间里定位一个网格项: 行和列。<code>grid-row-start</code>就像<code>grid-column-start</code>一样，只不过是在垂直方向指定起始位置。</p><p>用<code>grid-row-start</code>来给胡萝卜浇水吧！</p>',
       'zh-tw': '<p>其中一件事情使 CSS 網格佈局和 Flexbox 佈局不同的是，你可以很輕鬆的在二維的空間裡定位一個網格項: 行和列。<code>grid-row-start</code> 就像 <code>grid-column-start</code> 一樣，只不過是在垂直方向指定起始位置。</p><p>用 <code>grid-row-start</code> 來給胡蘿蔔澆水吧！</p>',
@@ -385,7 +397,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: {'grid-row-start': '3'},
+    style: { 'grid-row-start': '3' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -393,6 +405,7 @@ var levels = [
     name: 'grid-row-start 2',
     instructions: {
       'en': '<p>Now give the shorthand property <code>grid-row</code> a try.</p>',
+      'lv': '<p>Izmēģini saīsināto metodi <code>grid-row</code>.</p>',
       'ro': '<p>Acum încearcă și varianta prescurată <code>grid-row</code>.</p>',
       'zh-cn': '<p>现在你可以试一试缩写属性 <code>grid-row</code>。</p>',
       'zh-tw': '<p>現在你可以試一試縮寫屬性 <code>grid-row</code>。</p>',
@@ -417,7 +430,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: {'grid-row': '3 / 6'},
+    style: { 'grid-row': '3 / 6' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -425,6 +438,7 @@ var levels = [
     name: 'grid-column-row 1',
     instructions: {
       'en': '<p>Use <code>grid-column</code> and <code>grid-row</code> at the same time to set position in both dimensions.</p>',
+      'lv': '<p>Pamēģini vienlaicīgi pielietot gan <code>grid-column</code>, gan <code>grid-row</code>.</p>',
       'ro': '<p>Folosește <code>grid-column</code> și <code>grid-row</code> în același timp pentru a seta poziția în ambele dimensiuni.</p>',
       'zh-cn': '<p>同时使用<code>grid-column</code>和<code>grid-row</code>来设置网格项在行和列中的位置。</p>',
       'zh-tw': '<p>同時使用 <code>grid-column</code> 和 <code>grid-row</code> 來設置網格項在行和列的位置。</p>',
@@ -449,7 +463,7 @@ var levels = [
     },
     board: 'w',
     selector: '> :nth-child(1)',
-    style: {'grid-column': '2', 'grid-row': '5'},
+    style: { 'grid-column': '2', 'grid-row': '5' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -457,6 +471,7 @@ var levels = [
     name: 'grid-column-row 2',
     instructions: {
       'en': '<p>You can also use <code>grid-column</code> and <code>grid-row</code> together to span larger areas within the grid. Give it a try!</p>',
+      'lv': '<p>Tāpat vari arī vienlaicīgi pielietot gan <code>grid-column</code>, gan <code>grid-row</code>, kas tev palīdzēs ietvert plašākus laukumus tavā "grid". Pamēģini!</p>',
       'ro': '<p>Poți, de asemenea, folosi <code>grid-column</code> și <code>grid-row</code> împreună pentru a acoperi zone mai mari în grid. Încearcă și tu!</p>',
       'zh-cn': '<p>你也可以使用<code>grid-column</code>和<code>grid-row</code>一起来定义一个较大区域的网格。试一下吧！</p>',
       'zh-tw': '<p>你也可以使用 <code>grid-column</code> 和 <code>grid-row</code> 一起來定義一個較大區域的網格。試一下吧！</p>',
@@ -481,7 +496,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: {'grid-column': '2 / 6', 'grid-row': '1 / 6'},
+    style: { 'grid-column': '2 / 6', 'grid-row': '1 / 6' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -489,6 +504,7 @@ var levels = [
     name: 'grid-area 1',
     instructions: {
       'en': '<p>If typing out both <code>grid-column</code> and <code>grid-row</code> is too much for you, there\'s yet another shorthand for that. <code>grid-area</code> accepts four values separated by slashes: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, followed by <code>grid-column-end</code>.</p><p>One example of this would be <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
+      'lv': '<p>Vienlaicīgi lietot gan <code>grid-column</code>, gan <code>grid-column</code> šķiet pārāk nogurdinoši? Par laimi to atvieglo saīsinātā metode <code>grid-area</code>, kas pieņem četras vērtības (atdalītas ar slīpsvītru):  <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code><p>, <code>grid-column-end</code>.</p><p>Te būs viens piemērs : <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'ro': '<p>Dacă să scrii <code>grid-column</code> și <code>grid-row</code> este prea mult pentru tine, există o prescurtare pentru aceastea. <code>grid-area</code> acceptă patru valori separate de slashuri: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, urmate de <code>grid-column-end</code>.</p><p>Un exemplu pentru aceasta ar fi <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'zh-cn': '<p>如果你觉得同时输入<code>grid-column</code>和<code>grid-row</code>也很复杂，我们还有另一种缩写。<code>grid-area</code>属性接受4个由\'/\'分开的值：<code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, 最后是<code>grid-column-end</code>。</p><p>举个例子如下所示：<code>grid-area: 1 / 1 / 3 / 6;</code>。</p>',
       'zh-tw': '<p>如果你覺得同時輸入 <code>grid-column</code> 和 <code>grid-row</code> 太麻煩，那還有另一種縮寫可用。<code>grid-area</code> 屬性接受 4 個由 \'/\' 分開的值：<code>grid-row-start</code>、<code>grid-column-start</code>、<code>grid-row-end</code>，最後是 <code>grid-column-end</code>。</p><p>舉個例子如下所示：<code>grid-area: 1 / 1 / 3 / 6;</code>。</p>',
@@ -513,7 +529,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: {'grid-area': '1 / 2 / 4 / 6'},
+    style: { 'grid-area': '1 / 2 / 4 / 6' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -521,6 +537,7 @@ var levels = [
     name: 'grid-area 2',
     instructions: {
       'en': '<p>How about multiple items? You can overlap them without any trouble. Use <code>grid-area</code> to define a second area that covers all of the unwatered carrots.</p>',
+      'lv': '<p>Kā būtu ar vairākieim elementiem? Tu vari droši likt tiem pārklāties bez jebkādām problēmām. Pamēģini pielietot <code>grid-area</code>, lai nodefinētu otru laukumu, kas aplaistīs iepriekš neaplaistītos burkānus.</p>',
       'ro': '<p>Ce se întamplă cu elemente multiple? Poți să le suprapui fară nicio problemă. Folosește <code>grid-area</code> pentru a defini o a doua zonă care acoperă toți morcovii care nu sunt udați.</p>',
       'zh-cn': '<p>如果我们有很多个网格项呢？你可以任意覆盖它们不用有任何担心。用<code>grid-area</code>定义第二个网格项为所有未浇水的胡萝卜浇水。</p>',
       'zh-tw': '<p>如果我們有很多個網格項呢？你可以任意覆蓋它們不用有任何擔心。用 <code>grid-area</code> 定義第二個網格項為所有未澆水的胡蘿蔔澆水。</p>',
@@ -544,9 +561,9 @@ var levels = [
       'bg': '<p>Как да се справим с множество от елементи? Можете да ги разположите един над друг без никакви проблеми. Използвайте <code>grid-area</code>, за да дефинирате втора зона, която да покрие всички непокрити моркови с вода.</p>'
     },
     board: 'cc',
-    classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
+    classes: { '#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4' },
     selector: '> :nth-child(1)',
-    style: {'grid-area': '2 / 3 / 5 / 6'},
+    style: { 'grid-area': '2 / 3 / 5 / 6' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water-1 {\n  grid-area: 1 / 4 / 6 / 5;\n}\n\n#water-2 {\n",
     after: "}"
   },
@@ -554,6 +571,7 @@ var levels = [
     name: 'order 1',
     instructions: {
       'en': '<p>If grid items aren\'t explicitly placed with <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., they are automatically placed according to their order in the source code. We can override this using the <code>order</code> property, which is one of the advantages of grid over table-based layout.</p><p>By default, all grid items have an <code>order</code> of 0, but this can be set to any positive or negative value, similar to <code>z-index</code>.</p><p>Right now, the carrots in the second column are being poisoned and the weeds in the last column are being watered. Change the <code>order</code> value of the poison to fix this right away!</p>',
+      'lv': '<p>Ja gadījumā "grid" elementi nav specifiski novietot ar <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, u.c., tie automātiski tiek novietot balsotites uz to oriģinālo kārtību. Taču to var labot, lietojot <code>order</code> metodi. Tā arī ir viena no galvenajām "grid" priekšrocībām attiecībā pret tabulām raksturīgo elementu izvietojumu.</p><p>Sākotnēji visiem "grid" elementiem ir <code>order</code> vērtība 0, bet tā var tikt nomainīta gan uz pozitīvām, gan negatīvām vērtībām, līdzīgi kā <code>z-index</code></p><p>Uz doto brīdi burkāno otrajā kolonnā tiek indēti un nezāles pēdējā kolonā tiek aplaistītas. Atrisin šo problēmu, mainot indes elementu <code>order</code> vērtību.</p>',
       'ro': '<p>Dacă elementele gridului nu sunt așezate explicit in <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, etc., sunt automat așezate conform ordinii din codul sursă. Putem suprascrie ordinea folosind proprietatea <code>order</code>, care este unul din avantajele unui layout grid față de un tabel.</p><p>Implicit, toate elementele gridului au proprietatea <code>order</code> setată la 0, dar aceasta poate fi setată la orice valoare pozitivă sau negativă, similar cu <code>z-index</code>.</p><p>Acum, morcovii în a doua coloană sunt otrăviți și buruienile în ultima coloană sunt udate. Schimbă valoarea proprietății <code>order</code> a otravei pentru a repara acest lucru imediat!</p>',
       'zh-cn': '<p>如果网格项不是以<code>grid-area</code>、<code>grid-column</code>、<code>grid-row</code> 等显示的，它们会自动按照它们在源程序中出现的位置摆放。同样我们也可以使用<code>order</code>属性来重写它的顺序，这也是网格布局优于表格布局的好处之一。</p><p>默认情况下，所有的网格项的<code>order</code>都是0，但是顺序也可以被任意设置为正数或者负数，就像<code>z-index</code>一样。</p><p>现在，看到第二列的胡萝卜中毒了并且最后有杂草的那一列也浇了水。现在就改变中毒的网格项的<code>order</code>的值来修复它们吧！</p>',
       'zh-tw': '<p>如果網格項不是以 <code>grid-area</code>、<code>grid-column</code>、<code>grid-row</code> 等顯示的，它們會自動按照其在原始碼中出現的位置擺放。我們也可以使用 <code>order</code> 屬性來重寫它的順序，這也是網格佈局優於表格佈局的好處之一。</p><p>默認情況下，所有的網格項的 <code>order</code> 都是 0，但是順序也可以被任意設置為正數或者負數，就像 <code>z-index</code> 一樣。</p><p>現在，看到第二行的胡蘿蔔中毒了並且最後有雜草的那一行也澆了水。現在就改變中毒的網格項的 <code>order</code> 值來修復它們吧！</p>',
@@ -578,7 +596,7 @@ var levels = [
     },
     board: 'cwccc',
     selector: '> :nth-child(2)',
-    style: {'order': '2'},
+    style: { 'order': '2' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -586,6 +604,7 @@ var levels = [
     name: 'order 2',
     instructions: {
       'en': '<p>Now the water and poison are alternating, even though all of the weeds are at the start of your garden. Set the <code>order</code> of the poisons to remedy this.</p>',
+      'lv': '<p>Tagad ūdens un inde pārklājās, neskatoties uz to, ka visas nezāles ir tava dārza sākumā. Lai to labotu, nomaini indes elementu <code>order</code> vērtību.</p>',
       'ro': '<p>Acum apa și otrava alternează, chiar dacă toate buruienile sunt la începutul grădinii tale. Schimbă valoarea proprietății <code>order</code> a otravei pentru a repara acest lucru.</p>',
       'zh-cn': '<p>现在水和中毒的土地是交替出现的，并且所有的杂草都出现在每一列的开始。设置中毒土地的正确<code>order</code>值来修复它们吧！</p>',
       'zh-tw': '<p>現在水和中毒的土地是交替出現的，並且所有的雜草都出現在每一行的開始。設置中毒土地的正確 <code>order</code> 值來修復它們吧！</p>',
@@ -610,7 +629,7 @@ var levels = [
     },
     board: 'wcwcwcwcwc',
     selector: '> :nth-child(odd)',
-    style: {'order': '-1'},
+    style: { 'order': '-1' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n.poison {\n",
     after: "}"
   },
@@ -618,6 +637,7 @@ var levels = [
     name: 'grid-template-columns 1',
     instructions: {
       'en': '<p>Up to this point, you\'ve had your garden set up as a grid with five columns, each 20% of the full width, and five rows, each 20% of the full height.</p><p>This was done with the rules <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> and <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Each rule has five values which create five columns, each set to 20% of the overall width of the garden.</p><p>But you can set the grid up however you like. Give <code>grid-template-columns</code> a new value to water your carrots. You\'ll want to set the width of the 1st column to be 50%.',
+      'lv': '<p>Līdz šim, tu savu dārzu veidoji kā "no" piecām kolonnām, kas katra aizņēma 20% no platuma un piecām rindām, kas aizņēma 20% no augstuma.</p><p>Tas tika panākts ar <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> un <code>grid-template-rows: 20% 20% 20% 20% 20%;</code>.Katra no šīm 5 vērtībām, izveido 5 kolonnas, kas katra aizņem 20% no kopējās dārza platības. Taču tas nav vienīgais veids kā vari sadalīt savu "grid". Lai aplaistītu savus burkānus, piešķir <code>grid-template-columns</code> jaunas vērtības. Lai visi burkāni būtu aplaistīti, pirmās kolonnas platumam ir jābūt 50%. </p>',
       'ro': '<p>Până în acest punct, ai avut grădina așezată ca un grid cu 5 coloane, fiecare având 20% din lățimea întreagă, și 5 rânduri, fiecare având 20% din înălțimea întreagă.</p><p>Acest lucru a fost făcut cu valorile <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> și <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Fiecare regulă are 5 valori care creează 5 coloane, fiecare setată la 20% din lățimea grădinii.</p><p>Dar poți să aranjezi grădina cum dorești tu. Schimbă valoarea proprietății <code>grid-template-columns</code> pentru a-ți uda morcovii. Vei dori să setezi lățimea primei coloane la 50%.',
       'zh-cn': '<p>到现在为止，你已经将你的花园设置为5列，每列占总宽度的20%；5行，每行占全部高度的20%。</p><p>这是通过设置<code>grid-template-columns: 20% 20% 20% 20% 20%;</code>和<code>grid-template-rows: 20% 20% 20% 20% 20%;</code>来实现的。每一条规则都有5个值，代表创建了5个列，每一列设置为花园宽度的20%。</p><p>但是你也可以任意设置网格项的宽度。为<code>grid-template-columns</code>设置一个新的值来给你的胡萝卜浇水吧！你想要将第一列的宽度设置为50%。</p>',
       'zh-tw': '<p>到目前為止，你已經將你的花園設置為 5 行，每行佔總寬度的 20%；以及 5 列，每列佔全部高度的 20%。</p><p>這是通過設置 <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> 和 <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> 來實現的。每一條規則都有 5 個值，代表創建了 5 個行，每一行設置為花園寬度的 20%。</p><p>但是你也可以任意設置網格項的寬度。為 <code>grid-template-columns</code> 設置一個新的值來給你的胡蘿蔔澆水吧！你想要將第一行的寬度設置為 50%。</p>',
@@ -641,7 +661,7 @@ var levels = [
       'bg': '<p>До този момент Вие имахте градина разположена в 5 колони от CSS grid-а, всяка по 20% от общата широчина и 5 реда, всеки по 20% от общата височина.</p><p>Това беше така, заради свойствата <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> и <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Всяко свойство притежава 5 стойности, които създават 5 колони, всяка от по 20% от общата широчина на градината.</p><p>Вие можете да определите как да изглежа Вашият CSS grid. Задайте нови стойности на <code>grid-template-columns</code>, така че да покриете морковите с вода. Задайте широчината на първата колона да бъде 50% от общата широчина.'
     },
     board: 'c',
-    style: {'grid-template-columns': '50% 50%'},
+    style: { 'grid-template-columns': '50% 50%' },
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column: 1;\n  grid-row: 1;\n}"
   },
@@ -649,6 +669,7 @@ var levels = [
     name: 'grid-template-columns 2',
     instructions: {
       'en': '<p>Specifying a bunch of columns with identical widths can get tedious. Luckily there\'s a <code>repeat</code> function to help with that.</p><p>For example, we previously defined five 20% columns with the rule <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. This can be simplified as <code>grid-template-columns: repeat(5, 20%);</code></p><p>Using <code>grid-template-columns</code> with the <code>repeat</code> function, create eight columns each with 12.5% width. This way you won\'t overwater your garden.</p>',
+      'lv': '<p>Radīt daudz kolonnas ar vienādiem platumiem ir diezgan nogurdinoši un laikietilpīgi. Par laimi mums ir pieejama <code>repeat</code> funkcija, kas to atvieglos.</p><p>Piemēram, iepriekš, definējot piecas 20% kolonnas, mēs lietojām <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Tas var tikt vienkāršots ar  <code>grid-template-columns: repeat(5, 20%);</code></p><p>Lieto <code>grid-template-columns</code> kopā ar <code>repeat</code> funkciju un izveido astoņas kolonnas, kur katra ir 12.5% plata. Šādā veidā tu izvairīsies no sava dārza pārlaistīšanas.</p>',
       'ro': '<p>Să specifici o grămadă de coloane cu lățimi identice poate fi obositor. Din fericire există funcția <code>repeat</code> pentru a te ajuta.</p><p>De exemplu, noi am predefinit 5 coloane de 20% cu <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Acest lucru poate fi simplificat cu <code>grid-template-columns: repeat(5, 20%);</code></p><p>Folosind <code>grid-template-columns</code> cu funcția <code>repeat</code>, crează 8 coloane, fiecare cu lățimea de 12.5%. In acest fel nu vei inunda grădina.</p>',
       'zh-cn': '<p>指定一些具有相同宽度的网格项会变得很乏味。幸运的是有<code>repeat</code>函数来帮助我们。</p><p>比如说，之前我们使用<code>grid-template-columns: 20% 20% 20% 20% 20%;</code>属性定义了5列，每列占20%。这可以被简写为：<code>grid-template-columns: repeat(5, 20%);</code></p><p>使用<code>grid-template-columns</code>属性以及<code>repeat</code>函数，创建8列，每列占12.5%的宽度。这样你就不会给花园浇过多的水。</p>',
       'zh-tw': '<p>指定一些具有相同寬度的網格項會變得很乏味。幸運地是有 <code>repeat</code> 函數來幫助我們。</p><p>比如說，之前我們使用 <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> 屬性定義了 5 行，每行佔 20%。這可以被簡寫為：<code>grid-template-columns: repeat(5, 20%);</code></p><p>使用 <code>grid-template-columns</code> 屬性以及 <code>repeat</code> 函數，創建 8 行，每行佔 12.5% 的寬度。這樣你就不會給花園澆過多的水。</p>',
@@ -672,8 +693,8 @@ var levels = [
       'bg': '<p>Задаването на една и съща стойност на множесто от колони е доста досадно. За късмет функцията <code>repeat</code> ще Ви помогне да избегнете това.</p><p>Например, преди дефинирахме пет колони с по 20% широчина, използвайки <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Това може да бъде опростено от <code>grid-template-columns: repeat(5, 20%);</code></p><p>използвайки <code>grid-template-columns</code> с функцията <code>repeat</code>, за да създадете осем колони с по 12.5% широчина. Така няма да наводните Вашата градина.</p>'
     },
     board: 'c',
-    classes: {'#plants': 'grid-template-columns-repeat-8-12'},
-    style: {'grid-template-columns': 'repeat(8, 12.5%)'},
+    classes: { '#plants': 'grid-template-columns-repeat-8-12' },
+    style: { 'grid-template-columns': 'repeat(8, 12.5%)' },
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column: 1;\n  grid-row: 1;\n}"
   },
@@ -681,6 +702,7 @@ var levels = [
     name: 'grid-template-columns 4',
     instructions: {
       'en': '<p><code>grid-template-columns</code> doesn\'t just accept values in percentages, but also length units like pixels and ems. You can even mix different units together.</p><p>Here, set three columns to <code>100px</code>, <code>3em</code>, and <code>40%</code> respectively.</p>',
+      'lv': '<p><code>grid-template-columns</code> pieņem vērtības ne tikai procentus, bet arī citās garuma vienībās kā pikseļos un "em". Ir pat iespējams jaukt dažādas vērtības kopā.</p><p>Izveido trīs kolonnas ar šādām vērtībām <code>100px</code>, <code>3em</code>, and <code>40%</code>.</p>',
       'ro': '<p><code>grid-template-columns</code> nu acceptă doar valori în procentaje, ci și alte unități in pixeli și ems. Poți chiar să combini diferite unități.</p><p>Aici, setează 3 coloane la <code>100px</code>, <code>3em</code>, and <code>40%</code> respectiv.</p>',
       'zh-cn': '<p><code>grid-template-columns</code>不仅仅只接受百分比的值，也接受像像素或em这样的长度单位。你甚至可以将不同的长度单位混合使用。</p><p>接下来，分别将列的宽度设置为<code>100px</code>、<code>3em</code>和<code>40%</code>。</p>',
       'zh-tw': '<p><code>grid-template-columns</code> 不僅僅只接受百分比的值，也接受像像素或 em 這樣的長度單位。你甚至可以將不同的長度單位混和使用。</p><p>接下來，分別將行的寬度設置為 <code>100px</code>、<code>3em</code> 和 <code>40%</code>。</p>',
@@ -704,8 +726,8 @@ var levels = [
       'bg': '<p><code>grid-template-columns</code> не приема само проценти за стойности, а и единици за дължина като <code>px</code> и <code>em</code>. Вие дори можете едновременно да използвате различни единици.</p><p>Задайте стойности за три колони, като използвате съответно<code>100px</code>, <code>3em</code> и <code>40%</code>.</p>'
     },
     board: 'cwc',
-    classes: {'#plants': 'grid-template-columns-100px-3em-40p'},
-    style: {'grid-template-columns': '100px 3em 40%;'},
+    classes: { '#plants': 'grid-template-columns-100px-3em-40p' },
+    style: { 'grid-template-columns': '100px 3em 40%;' },
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}"
   },
@@ -713,6 +735,7 @@ var levels = [
     name: 'grid-template-columns 5',
     instructions: {
       'en': '<p>Grid also introduces a new unit, the fractional <code>fr</code>. Each <code>fr</code> unit allocates one share of the available space. For example, if two elements are set to <code>1fr</code> and <code>3fr</code> respectively, the space is divided into 4 equal shares; the first element occupies 1/4 and the second element 3/4 of any leftover space.</p><p>Here, weeds make up the left 1/6 of your first row and carrots the remaining 5/6. Create two columns with these widths using <code>fr</code> units.</p>',
+      'lv': '<p>Bez jau nosauktajām vienībām, "grid" piedāvā savu daļas (fr) vienību (angliski "fractional unit"). Katra <code>fr</code> vienība aizņemt kādu daļu no pieejamā laukuma. Piemēram, ja diviem elementiem ir piešķirtas vērtības <code>1fr</code> un  <code>3fr</code>, tad laukums tiek sadalīts 4 vienādās daļās un pirmais element aizņem 1/4 laukuma, bet otrais 3/4 laukuma.</p><p>Šeit, nezāles aizņem 1/6 no tava dārza pirmās rindas un burkāni atlikušās 5/6. Pielietojot <code>fr</code> vienības, izveido divas kolonnas ar iepriekš norādītajiem platumiem<p>',
       'ro': '<p>Grid introduce și o unitate nouă, fracționalul <code>fr</code>. Fiecare unitate <code>fr</code> alocă o parte din spațiul valabil. De exemplu, dacă 2 elemente sunt setate la <code>1fr</code> și <code>3fr</code> respectiv, spațiul este împarțit în 4 părți egale; primul element ocupă 1/4 și al doilea 3/4 din spațiul rămas.</p><p>Aici, buruienile ocupă 1/6 din primul rând și morcovii restul de 5/6. Creează două coloane cu aceste lățimi folosind unitățile <code>fr</code>.</p>',
       'zh-cn': '<p>网格系统也引入了一个新的单位，分数<code>fr</code>。每一个<code>fr</code>单元分配一个可用的空间。比如说，如果两个元素分别被设置为<code>1fr</code>和<code>3fr</code>，那么空间就会被平均分配为4份；第一个元素占据1/4，第二个元素占据3/4。</p><p>这里，杂草占据了你第一行的左1/6，胡萝卜占据着剩下的5/6。创建两个列，并使用<code>fr</code>单位来定义它们的宽度。</p>',
       'zh-tw': '<p>網格系統也引入了一個新的單位，分數 <code>fr</code>。每一個 <code>fr</code> 單位分配一個可用的空間。比如說，如果兩個元素分別被設置為 <code>1fr</code> 和 <code>3fr</code>，那麼空間就會被分為 4 等份；第一個元素佔 1/4，第二個元素佔 3/4。</p><p>這裡，雜草佔據了你第一列的左 1/6，胡蘿蔔則佔了剩下的 5/6。請創建兩個行，並使用 <code>fr</code> 單位來定義它們的寬度。</p>',
@@ -736,8 +759,8 @@ var levels = [
       'bg': '<p>CSS grid също въвежда нова единица за измеренията - дробите <code>fr</code>. Всяка <code>fr</code> единица използва една част от свободното пространство. Например, ako два елемента са  <code>1fr</code> и <code>3fr</code> съответно, пространството е разделено на 4 равни части; първият елемент заема 1/4, а вторият заема 3/4 от всяко свободно пространство.</p><p>В случая, плевелите заемат 1/6 от първия ред, а морковите оставащите 5/6. Създайте две колони с тези широчини, използвайки <code>fr</code> едеиници.</p>'
     },
     board: 'wc',
-    classes: {'#plants': 'grid-template-columns-1fr-5fr'},
-    style: {'grid-template-columns': '1fr 5fr;'},
+    classes: { '#plants': 'grid-template-columns-1fr-5fr' },
+    style: { 'grid-template-columns': '1fr 5fr;' },
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}"
   },
@@ -745,6 +768,7 @@ var levels = [
     name: 'grid-template-columns 3',
     instructions: {
       'en': '<p>When columns are set with pixels, percentages, or ems, any other columns set with <code>fr</code> will divvy up the space that\'s left over.</p><p>Here the carrots form a 50 pixel column on the left, and the weeds a 50 pixel column on the right. With <code>grid-template-columns</code>, create these two columns, and use <code>fr</code> to make three more columns that take up the remaining space in between.</p>',
+      'lv': '<p>Gadījumos, kad kolonnu izmēri ir uzstādīdi ar pikseļiem, procentiem vai "em" vienībām, citas kolonnas, kuru izmēri ir norādīti ar <code>fr</code> sadalīs atlikušo pieejamo laukumu.</p><p>Šeit burkāni aizņemt 50 pikseļu kolonnu kreisajā pusē, bet nezāles 50 pikseļu kolonnu labajā pusē. Lietojot <code>grid-template-columns</code>, izveido šīs divas kolonnas un pēc tam pielieto<code>fr</code>, lai izveidotu vēl trīs kolonnas, kas aizpilda atlikušo laukumu pa vidu.</p>',
       'ro': '<p>Când coloanele sunt setate în pixeli, procentaj, sau ems, celelalte coloane setate cu <code>fr</code> vor împărți spațiul ocupat.</p><p>Aici morcovii formează o coloană de 50 pixeli în stânga, și buruienile o coloană de 50 pixeli în dreapta. Cu <code>grid-template-columns</code>, creează aceste coloane și folosește <code>fr</code> pentru a face 3 coloane în plus pentru a ocupa restul spațiului.</p>',
       'zh-cn': '<p>当列的宽度采用像素，百分比或者em的单位的时候，其他使用<code>fr</code>单位设置的列将会平分剩下的空间。</p><p>这里的胡萝卜在左边形成了一个50像素的列，并且杂草在右边也占据着50像素的宽度。使用<code>grid-template-columns</code>属性，创建这两个列，使用<code>fr</code>再创建三列，使其平均占据剩下的空间。</p>',
       'zh-tw': '<p>當行的寬度採用像素、百分比或者 em 為單位的時候，其他使用 <code>fr</code> 單位設置的行將會平分剩下的空間。</p><p>這裡的胡蘿蔔在左邊形成了一個 50 像素的行，並且雜草在右邊也佔據 50 像素的寬度。使用 <code>grid-template-columns</code> 屬性，創建這兩個行，使用 <code>fr</code> 再創建三個行，使其平均佔據剩下的空間。</p>',
@@ -773,7 +797,7 @@ var levels = [
       '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-1-1-6-2',
       '#plants > :nth-child(2), #garden > :nth-child(2)': 'grid-area-1-5-6-6'
     },
-    style: {'grid-template-columns': '50px 1fr 1fr 1fr 50px;'},
+    style: { 'grid-template-columns': '50px 1fr 1fr 1fr 50px;' },
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-area: 1 / 1 / 6 / 2;\n}\n\n#poison {\n  grid-area: 1 / 5 / 6 / 6;\n}"
   },
@@ -781,6 +805,7 @@ var levels = [
     name: 'grid-template-columns 6',
     instructions: {
       'en': '<p>Now there is a 75 pixel column of weeds on the left side of your garden. 3/5 of the remaining space is growing carrots, while 2/5 has been overrun with weeds.</p><p>Use <code>grid-template-columns</code> with a combination of <code>px</code> and <code>fr</code> units to make the necessary columns.</p>',
+      'lv': '<p>Tagad kreisejā dārza pusē ir 75 pikseļu kolonna ar nezālēm. 3/5 no atlikušā dārza aug burkāni, kamēr 2/5 ir pārklātas ar nezālēm.</p><p>Lai izveidotu nepieciešamās kolonnas, lieto <code>grid-template-columns</code> un kombinē gan <code>px</code>, gan <code>fr</code>  vienības.</p>',
       'ro': '<p>Acum este o coloană de buruieni de 75 pixeli în partea stângă a grădinii. Pe 3/5 din spațiul rămas cresc morcovi, în timp ce 2/5 a fost invadat de buruieni.</p><p>Folosește <code>grid-template-columns</code> cu o combinație de unități <code>px</code> și <code>fr</code> pentru a face coloanele necesare.</p>',
       'zh-cn': '<p>现在，在你的花园的左边有一列杂草，占据75像素宽。剩余空间的3/5正在长着胡萝卜，剩下的2/5已经杂草泛滥了。</p><p>用<code>grid-template-columns</code>属性，将<code>px</code>和<code>fr</code>单位结合起来，来制作必要的列。</p>',
       'zh-tw': '<p>現在在你的花園的左邊有一行雜草，佔 75 像素寬。剩餘空間的 3/5 正種著胡蘿蔔，而剩下的 2/5 已經雜草叢生。</p><p>用 <code>grid-template-columns</code> 屬性，將 <code>px</code> 和 <code>fr</code> 單位結合起來，來製作必要的行。</p>',
@@ -804,8 +829,8 @@ var levels = [
       'br': '<p>Сега има 75-пикселова колона от плевели от лявата страна на Вашата градина. 3/5 от оставащото място е засадено с моркови, а 2/5 е обрасло с плевели.</p><p>Използвайте <code>grid-template-columns</code> в комбинация с <code>px</code> и <code>fr</code> единици, за да създадете нужните колони.</p>'
     },
     board: 'wcw',
-    classes: {'#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p'},
-    style: {'grid-template-columns': '75px 3fr 2fr;'},
+    classes: { '#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p' },
+    style: { 'grid-template-columns': '75px 3fr 2fr;' },
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 100%;\n}"
   },
@@ -813,6 +838,7 @@ var levels = [
     name: 'grid-template-rows 1',
     instructions: {
       'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.</p>',
+      'lv': '<p><code>grid-template-rows</code> darbojas aptuveni tāpat kā <code>grid-template-columns</code></p><p>Pielieto <code>grid-template-rows</code> un aplaisti visu, izņemto 50 pikseļus dārza augšpusē. Ievēro, ka ūdens pašlaik aplaista tikai 5. rindu. Tā kā tev kopā vajadzēs izveidot 5 rindas.</p>',
       'ro': '<p><code>grid-template-rows</code> funcționează ca <code>grid-template-columns</code>.</p><p>Folosește <code>grid-template-rows</code> pentru a uda toți mai puțin cei 50 pixeli din topul grădinii. Notează faptul că apa este setată să ocupe doar al cincelea rând, deci va trebui să creezi 5 rănduri în total.</p>',
       'zh-cn': '<p><code>grid-template-rows</code>和<code>grid-template-columns</code>的作用大概相同。</p><p>用<code>grid-template-rows</code>属性来为花园中除了顶部50像素之外的所有区域浇水。注意：水被设置为仅填充第五行，所以你总共需要创建5行。</p>',
       'zh-tw': '<p><code>grid-template-rows</code> 和 <code>grid-template-columns</code> 的作用大致相同。</p><p>用 <code>grid-template-rows</code> 屬性來為花園中除了頂部 50 像素之外的所有區域澆水。注意：水被設置為僅填充第五列，所以你總共需要創建 5 列。</p>',
@@ -840,7 +866,7 @@ var levels = [
       '#plants': 'grid-template-rows-50px-0-0-0-1fr',
       '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-5-1-6-6'
     },
-    style: {'grid-template-rows': '1fr 100px;'},
+    style: { 'grid-template-rows': '1fr 100px;' },
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n",
     after: "}\n\n#water {\n  grid-column: 1 / 6;\n  grid-row: 5 / 6;\n}"
   },
@@ -848,6 +874,7 @@ var levels = [
     name: 'grid-template 1',
     instructions: {
       'en': '<p><code>grid-template</code> is a shorthand property that combines <code>grid-template-rows</code> and <code>grid-template-columns</code>.</p><p>For example, <code>grid-template: 50% 50% / 200px;</code> will create a grid with two rows that are 50% each, and one column that is 200 pixels wide.</p><p>Try using <code>grid-template</code> to water an area that includes the top 60% and left 200 pixels of your garden.</p>',
+      'lv': '<p><code>grid-template</code> ir saīsinātā metode, kas sevī ietver <code>grid-template-rows</code> un <code>grid-template-columns</code>.</p><p>Piemāram, <code>grid-template: 50% 50% / 200px;</code> , izveidos "grid" ar divām rinām, kas katra aizņem 50% un vienu kolonnu, kuras platums ir 200 pikseļi.</p><p>Pamēģini pielietot <code>grid-template</code>  un aplaistīt laukumu ,kas sevī ietver augšējos 60% un 200 pikseļu lielu laukumu no kreisās dārza puses.</p>',
       'ro': '<p><code>grid-template</code> este o proprietate prescurtată care combină <code>grid-template-rows</code> și <code>grid-template-columns</code>.</p><p>De exemplu, <code>grid-template: 50% 50% / 200px;</code> va crea un grid cu două rânduri care au fiecare 50%, și o coloană care este 200 pixeli lată.</p><p>Încearcă să folosești <code>grid-template</code> pentru a uda o zonă care include cei 60% din topul grădinii și 200 pixeli din stânga grădinii.</p>',
       'zh-cn': '<p><code>grid-template</code>是<code>grid-template-rows</code>和<code>grid-template-columns</code>的缩写形式。</p><p>比如说，<code>grid-template: 50% 50% / 200px;</code>将创建一个具有两行的网格，每一行占据50%，以及一个200像素宽的列。</p><p>尝试着使用<code>grid-template</code>属性来浇水，需要包括你的花园上部的60%，以及左侧的200像素。</p>',
       'zh-tw': '<p><code>grid-template</code> 是一個結合 <code>grid-template-rows</code> 和 <code>grid-template-columns</code> 的縮寫屬性。</p><p>比如說，<code>grid-template: 50% 50% / 200px;</code> 將創建一個具有兩列的網格，每列佔 50%，以及一個 200 像素寬的行。</p><p>嘗試使用 <code>grid-template</code> 屬性來澆水，需要包括你的花園上部的 60%，以及左側的 200 像素。</p>',
@@ -871,7 +898,7 @@ var levels = [
       'bg': '<p><code>grid-template</code> е кратък начин за изписване на комбинацията от <code>grid-template-rows</code> и <code>grid-template-columns</code>.</p><p>Например, <code>grid-template: 50% 50% / 200px;</code> ще създаде grid с два реда по 50% всеки и една колона, която е 200 пиксела.</p><p>Опитайте да използвате <code>grid-template</code>, за да полеете пространство, което покрива горните 60% и левите 200 пиксела от Вашата градина.</p>'
     },
     board: 'c',
-    style: {'grid-template': '60% 1fr / 200px 1fr'},
+    style: { 'grid-template': '60% 1fr / 200px 1fr' },
     before: "#garden {\n  display: grid;\n",
     after: "}\n\n#water {\n  grid-column: 1;\n  grid-row: 1;\n}"
   },
@@ -879,6 +906,7 @@ var levels = [
     name: 'grid-template 2',
     instructions: {
       'en': '<p>Your garden is looking great. Here you\'ve left a 50 pixel path at the bottom of your garden and filled the rest with carrots.</p><p>Unfortunately, the left 20% of your carrots have been overrun with weeds. Use CSS grid one last time to treat your garden.</p>',
+      'lv': '<p>Tavs burkānu dārzs izskatās lieliski. Apakšā izlēmi atstāt brīvu 50 pikseļu laukumu, bet pārējais ir aizpildīts ar burkāniem. Par nelaimi, kreisajā malā 20% no burkāniem ir apauguši ar nezālēm. Vēl pēdējo reizi pielieto CSS "grid" un saved kārtībā savu burkānu dārzu!</p>',
       'ro': '<p>Grădina ta arată foarte bine. Aici ai lăsat o cale de 50 pixeli în partea de jos a grădinii și ai ocupat restul cu morcovi.</p><p>Din păcate, 20% din morcovii tăi din stânga au fost invadați cu buruieni. Folosește CSS grid pentru ultima oară pentru a trata grădina ta.</p>',
       'zh-cn': '<p>你的花园看起来很棒。现在，你在花园的底部留下了50像素的小路，其他的空间用来种植胡萝卜。</p><p>不幸的是，胡萝卜地的20%已经杂草丛生了，最后一次用CSS网格布局来规划你的花园吧！</p>',
       'zh-tw': '<p>你的花園看起來很棒。現在，你在花園的底部留下了 50 像素的小路，其他的空間用來種植胡蘿蔔。</p><p>不幸地是，胡蘿蔔地的 20% 已經雜草叢生了，最後一次 CSS 網格佈局來規劃你的花園吧！</p>',
@@ -902,8 +930,8 @@ var levels = [
       'bg': '<p>Вашата градина изглежда прекрасно. Тук сте оставили пътека от 50 пиксела на дъното на Вашата градина, а останалото пространство е покрито с моркови.</p><p>За жалост, левите 20% от Вашите моркови са обраснали с плевели. Използвайте CSS grid още един последен път, за да излекувате Вашата градина.</p>'
     },
     board: 'wc',
-    classes: {'#plants': 'grid-template-2'},
-    style: {'grid-template': '1fr 50px / 20% 1fr'},
+    classes: { '#plants': 'grid-template-2' },
+    style: { 'grid-template': '1fr 50px / 20% 1fr' },
     before: "#garden {\n  display: grid;\n",
     after: "}"
   }
@@ -913,6 +941,7 @@ var levelWin = {
   name: 'win',
   instructions: {
     'en': '<p>You win! By the power of CSS grid, you were able to grow enough carrots for Froggy to bake his world famous 20-carrot cake. What, were you expecting a different hoppy friend?</p><p>If you enjoyed Grid Garden, be sure to check out <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> to learn about another powerful new feature of CSS layout. You can also keep up-to-date with my other projects on <a href="http://thomaspark.co">my blog</a> or <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Want to support Grid Garden? Try out the topnotch web design and coding courses offered by <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. And spread the word to your friends and family about Grid Garden!</p>',
+    'lv': '<p>Tu uzvarēji! Izmantojot CSS "grid", tu spēji izaudzēt pietiekami daudz burkānu, lai vardulēns "Froggy" varētu uzcept pasaulē zināmo 20 burkānu kūku. Vai gaidīji citu lēkājošu dzīvnieku šajā apsveikumā?</p><p>Ja tev patika Grid Garden, tad noteikti ievērtē <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> un apgūsti vēl vienu ļoti noderīgu CSS metodi. Seko līdzi citiem maniem projektiem  <a href="http://thomaspark.co">my blog</a> vai <a href="https://twitter.com/thomashpark">Twitter</a></p><p>Vēlies atbalstīt Grid Garden? Pamēģini augstākās klases dizaina un programmēšanas kursus no<a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Kā arī neaizmirsti iepazīstināt savus draugus ar Grid Garden!</p>',
     'ro': '<p>Ai câștigat! Prin puterea CSS grid, ai reușit să crești destui morcovi ca Froggy să-și gătească tortul renumitde 20 de morcovi. Ce, te așteptai la un alt prieten care țopăie?</p><p>Dacă ai savurat Grid Garden, vezi și <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> pentru a învăța un nou feature foarte puternic de CSS layout. Poți de asemenea să fii la curent cu celelalte proiecte ale mele pe <a href="http://thomaspark.co">blogul meu</a> sau <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Vrei să susții Grid Garden? Încearcă cursurile de web design și programare oferite de <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Și împrăștie vestea prietenilor și familiei despre Grid Garden!</p>',
     'zh-cn': '<p>恭喜你赢得了游戏！通过CSS网格的力量，你能够生长足够的胡萝卜给青蛙，让它用来烘焙世界闻名的 20 胡萝卜蛋糕。什么？你期待一个不同的蹦跳的朋友吗？</p><p>如果你喜欢网格花园，一点也要查看<a href="http://flexboxfroggy.com/">Flexbox 青蛙</a>哦，你可以学习另外一种强大的CSS布局方式。你也可以随时查看我最新<a href="http://thomaspark.co">博客</a>或<a href="https://twitter.com/thomashpark">推特</a>上的其他项目。</p><p>想要支持网格花园么？快来体验下<a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>所提供的一流网页设计和编码课程。最后，也欢迎您向您的朋友和家人推荐网格花园！感谢！</p>',
     'zh-tw': '<p>恭喜你贏得了遊戲！通過 CSS 網格的力量，你能夠種出足夠的胡蘿蔔給青蛙來烘焙世界聞名的 20 胡蘿蔔蛋糕。什麼？你期待一個不同的蹦跳的朋友嗎？</p><p>如果你喜歡網格花園，一定也要查看 <a href="http://flexboxfroggy.com/">Flexbox 青蛙</a> 哦，你可以學習另外一種強大的 CSS 佈局方式。你也可以隨時查看我最新<a href="http://thomaspark.co">部落格</a>或<a href="https://twitter.com/thomashpark">推特</a>上的其他專案。</p><p>想要支持網格花園嗎？快來體驗下 <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a> 所提供的一流網頁設計和編碼課程。最後，也歡迎向您的朋友和家人推薦網格花園！</p>',
@@ -936,7 +965,7 @@ var levelWin = {
     'bg': '<p>Вие спечелихте! С помощта на CSS grid, Вие успяхте да отгледате достатъчно моркови за Froggy, таке че той да може да изпече своята популярна 20-морковена торта. Какво, да не би да очаквахте различен скоклив приятел?</p><p>Ако Grid Garden Ви е харесала, поиграйте и <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>, за да научите друга много използвана техника в CSS Layout. Също така можете да следите и останалите ми проекти в <a href="http://thomaspark.co">моя блог</a> или <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Искате да помогнете на Grid Garden? Опитайте първокласните курсове за уеб дизайн и програмиране предложени от <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Кажете и по дума на Вашите приятели и семейство за Grid Garden!</p>'
   },
   board: '',
-  classes: {'#garden, #plants, #overlay': 'win'},
+  classes: { '#garden, #plants, #overlay': 'win' },
   style: {},
   before: "#pond {\n  display: flex;\n",
   after: "}"
