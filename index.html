@@ -18,144 +18,146 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <section id="sidebar">
-      <div>
-        <div id="level-counter">
-          <span class="arrow left">◀</span>
-          <span id="level-indicator">
-            <span id="labelLevel" class="translate">Level</span>
-            <span class="current">1</span>
-            <span id="labelOf" class="translate">of</span>
-            <span class="total">1</span>
-            <span class="caret">▾</span>
-          </span>
-          <span class="arrow right">▶</span>
-          <div id="levelsWrapper" class="tooltip">
-            <div id="levels"></div>
-            <div id="labelReset" class="translate">Reset</div>
+    <div class='container'>
+      <section id="sidebar">
+        <div>
+          <div id="level-counter">
+            <span class="arrow left">◀</span>
+            <span id="level-indicator">
+              <span id="labelLevel" class="translate">Level</span>
+              <span class="current">1</span>
+              <span id="labelOf" class="translate">of</span>
+              <span class="total">1</span>
+              <span class="caret">▾</span>
+            </span>
+            <span class="arrow right">▶</span>
+            <div id="levelsWrapper" class="tooltip">
+              <div id="levels"></div>
+              <div id="labelReset" class="translate">Reset</div>
+            </div>
+          </div>
+          <h1>Grid Garden</h1>
+          <p id="instructions"></p>
+          <p id="docs"></p>
+        </div>
+        <div id="editor">
+          <div id="css">
+            <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14</div>
+            <pre id="before"></pre>
+            <textarea id="code" autofocus></textarea>
+            <pre id="after"></pre>
+          </div>
+          <button id="next" class="translate">Next</button>
+        </div>
+        <div id="share">
+          <p class="social">
+            <span id="tweet">
+              <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://cssgridgarden.com" data-via="thomashpark" data-text="I just beat Grid Garden, a game for learning CSS grid layout!">Tweet</a>
+              <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
+            </span>
+            <span class="fb-like" data-href="http://cssgridgarden.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
+          </p>
+        </div>
+        <div id="credits">
+          <p>
+            <span id="labelFooter" class="translate">Grid Garden is created by</span>
+            <a href="http://thomaspark.co">Thomas Park</a> •
+            <a href="https://github.com/thomaspark/gridgarden/">GitHub</a> •
+            <a href="https://twitter.com/thomashpark">Twitter</a>
+          </p>
+        </div>
+      </section>
+      <section id="view">
+        <div id="board">
+          <div id="overlay">
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+          </div>
+          <div id="plants"></div>
+          <div id="garden"></div>
+          <div id="soil">
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
+            <span class="plot"></span>
           </div>
         </div>
-        <h1>Grid Garden</h1>
-        <p id="instructions"></p>
-        <p id="docs"></p>
-      </div>
-      <div id="editor">
-        <div id="css">
-          <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14</div>
-          <pre id="before"></pre>
-          <textarea id="code" autofocus></textarea>
-          <pre id="after"></pre>
-        </div>
-        <button id="next" class="translate">Next</button>
-      </div>
-      <div id="share">
-        <p class="social">
-          <span id="tweet">
-            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://cssgridgarden.com" data-via="thomashpark" data-text="I just beat Grid Garden, a game for learning CSS grid layout!">Tweet</a>
-            <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
-          </span>
-          <span class="fb-like" data-href="http://cssgridgarden.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
-        </p>
-      </div>
-      <div id="credits">
-        <p>
-          <span id="labelFooter" class="translate">Grid Garden is created by</span>
-          <a href="http://thomaspark.co">Thomas Park</a> •
-          <a href="https://github.com/thomaspark/gridgarden/">GitHub</a> •
-          <a href="https://twitter.com/thomashpark">Twitter</a>
-        </p>
-      </div>
-    </section>
-    <section id="view">
-      <div id="board">
-        <div id="overlay">
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-        </div>
-        <div id="plants"></div>
-        <div id="garden"></div>
-        <div id="soil">
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-          <span class="plot"></span>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://npmcdn.com/parse@1.9.2/dist/parse.min.js"></script>
     <script src="js/levels.js"></script>
