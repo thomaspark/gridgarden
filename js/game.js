@@ -1,6 +1,5 @@
-Parse.initialize("FwVMmzHookZZ5j9F9ILc2E5MT5ufabuV7hCXKSeu");
-Parse.serverURL = 'http://129.25.12.218:1337/parse';
-var Submission = Parse.Object.extend("CSSGridGarden");
+var xhr = new XMLHttpRequest();
+var logger = 'http://129.25.8.18:3080/tasks';
 
 var game = {
   language: window.location.hash.substring(1) || 'en',
@@ -11,6 +10,13 @@ var game = {
   changed: false,
 
   start: function() {
+    // navigator.language can include '-'
+    // ref: https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
+    var requestLang = window.navigator.language.split('-')[0];
+    if (window.location.hash === '' && requestLang !== 'en' && messages.languageActive.hasOwnProperty(requestLang)) {
+      game.language = requestLang;
+      window.location.hash = requestLang;
+    }
     game.translate();
 
     $('#level-counter .total').text(levels.length);
@@ -79,7 +85,7 @@ var game = {
           }
         }
       }
-    }).on('input', game.debounce(game.check, 500))
+    }).on('input', game.debounce(game.check, 200))
     .on('input', function() {
       game.changed = true;
     });
@@ -100,6 +106,25 @@ var game = {
 
         $('.level-marker').removeClass('solved');
       }
+    });
+
+    $('#language .toggle').on('click', function() {
+      $('#levelsWrapper').hide();
+      $('#language .tooltip').toggle();
+    });
+
+    $('#language a').on('click', function() {
+      $('.tooltip').hide();
+      var language = $(this).text();
+      $('#language .toggle').text(language);
+    });
+
+    $('body').on('click', function() {
+      $('.tooltip').hide();
+    });
+
+    $('.tooltip, .toggle, #level-indicator').on('click', function(e) {
+      e.stopPropagation();
     });
 
     $(window).on('beforeunload', function() {
@@ -157,6 +182,7 @@ var game = {
     });
 
     $('#level-indicator').on('click', function() {
+      $('#language .tooltip').hide();
       $('#levelsWrapper').toggle();
     });
 
@@ -297,10 +323,11 @@ var game = {
 
     $('.treatment').each(function() {
       var position = $(this).position();
+
       position.top = Math.floor(position.top);
       position.left = Math.floor(position.left);
-      position.width = Math.floor($(this).width());
-      position.height = Math.floor($(this).height());
+      position.width = Math.floor(parseFloat(window.getComputedStyle(this).width));
+      position.height = Math.floor(parseFloat(window.getComputedStyle(this).height));
 
       var key = JSON.stringify(position);
       var val = $(this).data('color');
@@ -312,8 +339,8 @@ var game = {
 
       position.top = Math.floor(position.top);
       position.left = Math.floor(position.left);
-      position.width = Math.floor($(this).width());
-      position.height = Math.floor($(this).height());
+      position.width = Math.floor(parseFloat(window.getComputedStyle(this).width));
+      position.height = Math.floor(parseFloat(window.getComputedStyle(this).height));
 
       var key = JSON.stringify(position);
       var val = $(this).data('color');
@@ -323,8 +350,6 @@ var game = {
       }
     });
 
-    var submission = new Submission();
-
     if (correct) {
       ga('send', {
         hitType: 'event',
@@ -333,14 +358,16 @@ var game = {
         eventLabel: $('#code').val()
       });
 
-      submission.save({
+      xhr.open('POST', logger, true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({
         timeStamp: (new Date()).getTime(),
         user: game.user,
         levelName: level.name,
         changed: game.changed,
         input: $('#code').val(),
         result: 'correct'
-      });
+      }));
             
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
@@ -356,14 +383,16 @@ var game = {
         eventLabel: $('#code').val()
       });
 
-      submission.save({
+      xhr.open('POST', logger, true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({
         timeStamp: (new Date()).getTime(),
         user: game.user,
         levelName: level.name,
         changed: game.changed,
         input: $('#code').val(),
         result: 'incorrect'
-      });
+      }));
 
       $('#next').addClass('disabled');
     }
@@ -436,7 +465,8 @@ $(document).ready(function() {
   var d = document.documentElement.style;
 
   if (!('gridArea' in d)) {
+    var warning = messages.warningUnsupported[game.language] || messages.warningUnsupported.en;
     $('#editor, #level-counter, #instructions').hide();
-    $('<div>Oh no, Grid Garden doesn\'t work on this browser. It requires a browser that supports CSS grid, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!</div>').insertAfter($('#editor'));
+    $('<div>' + warning + '</div>').insertAfter($('#editor'));
   }
 });
