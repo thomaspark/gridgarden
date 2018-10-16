@@ -28,7 +28,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: { 'grid-column-start': '3' },
+    style: {'grid-column-start': '3'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -61,7 +61,7 @@ var levels = [
     },
     board: 'w',
     selector: '> :nth-child(1)',
-    style: { 'grid-column-start': '5' },
+    style: {'grid-column-start': '5'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -93,9 +93,9 @@ var levels = [
       'bg': '<p>Когато използвате <code>grid-column-start</code> самостоятелно, grid-елементът по подразбиране ще обхваща точно една колона. Въпреки това, можете да разширите елемента на няколкото колони, използвайки <code>grid-column-end</code> свойството.</p><p>Използвайки <code>grid-column-end</code>, ще полеете всички Ваши моркови, докато избягвате замърсяването. Не искаме да губим каквато и да било вода! Забележете, че морковите започват от 1-вата колона на Вашата решетка и завършват в 4-тата.</p>'
     },
     board: 'c',
-    classes: { '#garden > *, #plants > *': 'grid-column-start-1' },
+    classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
     selector: '> :nth-child(1)',
-    style: { 'grid-column-end': '4' },
+    style: {'grid-column-end': '4'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
     after: "}"
   },
@@ -127,9 +127,9 @@ var levels = [
       'bg': '<p>Когато използвате заедно <code>grid-column-start</code> и <code>grid-column-end</code>, може да приемете, че крайната стойност трябва да бъде по-голяма от началната. Но това не е съвсем така!</p><p>Пробвайте да зададете стойност на <code>grid-column-end</code> по-малка от 5, за да полеете Вашите моркови.</p>'
     },
     board: 'c',
-    classes: { '#garden > *, #plants > *': 'grid-column-start-5' },
+    classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
     selector: '> :nth-child(1)',
-    style: { 'grid-column-end': '2' },
+    style: {'grid-column-end': '2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 5;\n",
     after: "}"
   },
@@ -161,9 +161,9 @@ var levels = [
       'bg': '<p>Ако искате да броите grid-линиите от дясно наляво, може да дадете на <code>grid-column-start</code> и <code>grid-column-end</code> отрицателни стойности. Например, стойността -1 ще отговаря на 1-вата grid-линия от дясно наляво.</p><p>Пробвайте да зададете негативна стойност на <code>grid-column-end</code>.</p>'
     },
     board: 'c',
-    classes: { '#garden > *, #plants > *': 'grid-column-start-1' },
+    classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
     selector: '> :nth-child(1)',
-    style: { 'grid-column-end': '-2' },
+    style: {'grid-column-end': '-2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
     after: "}"
   },
@@ -196,7 +196,7 @@ var levels = [
     },
     board: 'w',
     selector: '> :nth-child(1)',
-    style: { 'grid-column-start': '-3' },
+    style: {'grid-column-start': '-3'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -228,9 +228,9 @@ var levels = [
       'bg': '<p>Вместо да дефинирате grid-елемент според начална и крайна позиция на grid-линиите, може да го направите базирано на желаната широчина на колоната, използвайки ключовата дума <code>span</code>. Не забравяйте, че <code>span</code> работи само с положителни числа.</p><p>Например, полейте тези моркови, използвайки <code>grid-column-end: span 2;</code>.</p>'
     },
     board: 'c',
-    classes: { '#garden > *, #plants > *': 'grid-column-start-2' },
+    classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
     selector: '> :nth-child(1)',
-    style: { 'grid-column-end': 'span 2' },
+    style: {'grid-column-end': 'span 2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 2;\n",
     after: "}"
   },
@@ -262,9 +262,9 @@ var levels = [
       'bg': '<p>Опитайте да използвате <code>grid-column-end</code> заедно с ключовата дума <code>span</code> отново, за да полеете Вашите моркови.</p>'
     },
     board: 'c',
-    classes: { '#garden > *, #plants > *': 'grid-column-start-1' },
+    classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
     selector: '> :nth-child(1)',
-    style: { 'grid-column-end': 'span 5' },
+    style: {'grid-column-end': 'span 5'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column-start: 1;\n",
     after: "}"
   },
@@ -296,9 +296,9 @@ var levels = [
       'bg': '<p>Също така може да използвате ключовата дума <code>span</code> заедно с <code>grid-column-start</code>, за да зададете широчина на елемента релативно на крайната позиция.</p>'
     },
     board: 'c',
-    classes: { '#garden > *, #plants > *': 'grid-column-end-6' },
+    classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
     selector: '> :nth-child(1)',
-    style: { 'grid-column-start': 'span 3' },
+    style: {'grid-column-start': 'span 3'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "  grid-column-end: 6;\n}"
   },
@@ -331,7 +331,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: { 'grid-column': '4 / 6' },
+    style: {'grid-column': '4 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -364,7 +364,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: { 'grid-column': '2 / 5' },
+    style: {'grid-column': '2 / 5'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -397,7 +397,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: { 'grid-row-start': '3' },
+    style: {'grid-row-start': '3'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -430,7 +430,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: { 'grid-row': '3 / 6' },
+    style: {'grid-row': '3 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -463,7 +463,7 @@ var levels = [
     },
     board: 'w',
     selector: '> :nth-child(1)',
-    style: { 'grid-column': '2', 'grid-row': '5' },
+    style: {'grid-column': '2', 'grid-row': '5'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -496,7 +496,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: { 'grid-column': '2 / 6', 'grid-row': '1 / 6' },
+    style: {'grid-column': '2 / 6', 'grid-row': '1 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -529,7 +529,7 @@ var levels = [
     },
     board: 'c',
     selector: '> :nth-child(1)',
-    style: { 'grid-area': '1 / 2 / 4 / 6' },
+    style: {'grid-area': '1 / 2 / 4 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n",
     after: "}"
   },
@@ -561,9 +561,9 @@ var levels = [
       'bg': '<p>Как да се справим с множество от елементи? Можете да ги разположите един над друг без никакви проблеми. Използвайте <code>grid-area</code>, за да дефинирате втора зона, която да покрие всички непокрити моркови с вода.</p>'
     },
     board: 'cc',
-    classes: { '#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4' },
+    classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
     selector: '> :nth-child(1)',
-    style: { 'grid-area': '2 / 3 / 5 / 6' },
+    style: {'grid-area': '2 / 3 / 5 / 6'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water-1 {\n  grid-area: 1 / 4 / 6 / 5;\n}\n\n#water-2 {\n",
     after: "}"
   },
@@ -596,7 +596,7 @@ var levels = [
     },
     board: 'cwccc',
     selector: '> :nth-child(2)',
-    style: { 'order': '2' },
+    style: {'order': '2'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n#poison {\n",
     after: "}"
   },
@@ -629,7 +629,7 @@ var levels = [
     },
     board: 'wcwcwcwcwc',
     selector: '> :nth-child(odd)',
-    style: { 'order': '-1' },
+    style: {'order': '-1'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n.water {\n  order: 0;\n}\n\n.poison {\n",
     after: "}"
   },
@@ -661,7 +661,7 @@ var levels = [
       'bg': '<p>До този момент Вие имахте градина разположена в 5 колони от CSS grid-а, всяка по 20% от общата широчина и 5 реда, всеки по 20% от общата височина.</p><p>Това беше така, заради свойствата <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> и <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Всяко свойство притежава 5 стойности, които създават 5 колони, всяка от по 20% от общата широчина на градината.</p><p>Вие можете да определите как да изглежа Вашият CSS grid. Задайте нови стойности на <code>grid-template-columns</code>, така че да покриете морковите с вода. Задайте широчината на първата колона да бъде 50% от общата широчина.'
     },
     board: 'c',
-    style: { 'grid-template-columns': '50% 50%' },
+    style: {'grid-template-columns': '50% 50%'},
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column: 1;\n  grid-row: 1;\n}"
   },
@@ -693,8 +693,8 @@ var levels = [
       'bg': '<p>Задаването на една и съща стойност на множесто от колони е доста досадно. За късмет функцията <code>repeat</code> ще Ви помогне да избегнете това.</p><p>Например, преди дефинирахме пет колони с по 20% широчина, използвайки <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Това може да бъде опростено от <code>grid-template-columns: repeat(5, 20%);</code></p><p>използвайки <code>grid-template-columns</code> с функцията <code>repeat</code>, за да създадете осем колони с по 12.5% широчина. Така няма да наводните Вашата градина.</p>'
     },
     board: 'c',
-    classes: { '#plants': 'grid-template-columns-repeat-8-12' },
-    style: { 'grid-template-columns': 'repeat(8, 12.5%)' },
+    classes: {'#plants': 'grid-template-columns-repeat-8-12'},
+    style: {'grid-template-columns': 'repeat(8, 12.5%)'},
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-column: 1;\n  grid-row: 1;\n}"
   },
@@ -726,8 +726,8 @@ var levels = [
       'bg': '<p><code>grid-template-columns</code> не приема само проценти за стойности, а и единици за дължина като <code>px</code> и <code>em</code>. Вие дори можете едновременно да използвате различни единици.</p><p>Задайте стойности за три колони, като използвате съответно<code>100px</code>, <code>3em</code> и <code>40%</code>.</p>'
     },
     board: 'cwc',
-    classes: { '#plants': 'grid-template-columns-100px-3em-40p' },
-    style: { 'grid-template-columns': '100px 3em 40%;' },
+    classes: {'#plants': 'grid-template-columns-100px-3em-40p'},
+    style: {'grid-template-columns': '100px 3em 40%;'},
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}"
   },
@@ -759,8 +759,8 @@ var levels = [
       'bg': '<p>CSS grid също въвежда нова единица за измеренията - дробите <code>fr</code>. Всяка <code>fr</code> единица използва една част от свободното пространство. Например, ako два елемента са  <code>1fr</code> и <code>3fr</code> съответно, пространството е разделено на 4 равни части; първият елемент заема 1/4, а вторият заема 3/4 от всяко свободно пространство.</p><p>В случая, плевелите заемат 1/6 от първия ред, а морковите оставащите 5/6. Създайте две колони с тези широчини, използвайки <code>fr</code> едеиници.</p>'
     },
     board: 'wc',
-    classes: { '#plants': 'grid-template-columns-1fr-5fr' },
-    style: { 'grid-template-columns': '1fr 5fr;' },
+    classes: {'#plants': 'grid-template-columns-1fr-5fr'},
+    style: {'grid-template-columns': '1fr 5fr;'},
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}"
   },
@@ -797,7 +797,7 @@ var levels = [
       '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-1-1-6-2',
       '#plants > :nth-child(2), #garden > :nth-child(2)': 'grid-area-1-5-6-6'
     },
-    style: { 'grid-template-columns': '50px 1fr 1fr 1fr 50px;' },
+    style: {'grid-template-columns': '50px 1fr 1fr 1fr 50px;'},
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 20% 20% 20% 20% 20%;\n}\n\n#water {\n  grid-area: 1 / 1 / 6 / 2;\n}\n\n#poison {\n  grid-area: 1 / 5 / 6 / 6;\n}"
   },
@@ -829,8 +829,8 @@ var levels = [
       'br': '<p>Сега има 75-пикселова колона от плевели от лявата страна на Вашата градина. 3/5 от оставащото място е засадено с моркови, а 2/5 е обрасло с плевели.</p><p>Използвайте <code>grid-template-columns</code> в комбинация с <code>px</code> и <code>fr</code> единици, за да създадете нужните колони.</p>'
     },
     board: 'wcw',
-    classes: { '#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p' },
-    style: { 'grid-template-columns': '75px 3fr 2fr;' },
+    classes: {'#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p'},
+    style: {'grid-template-columns': '75px 3fr 2fr;'},
     before: "#garden {\n  display: grid;\n",
     after: "  grid-template-rows: 100%;\n}"
   },
@@ -866,7 +866,7 @@ var levels = [
       '#plants': 'grid-template-rows-50px-0-0-0-1fr',
       '#plants > :nth-child(1), #garden > :nth-child(1)': 'grid-area-5-1-6-6'
     },
-    style: { 'grid-template-rows': '1fr 100px;' },
+    style: {'grid-template-rows': '1fr 100px;'},
     before: "#garden {\n  display: grid;\n  grid-template-columns: 20% 20% 20% 20% 20%;\n",
     after: "}\n\n#water {\n  grid-column: 1 / 6;\n  grid-row: 5 / 6;\n}"
   },
@@ -898,7 +898,7 @@ var levels = [
       'bg': '<p><code>grid-template</code> е кратък начин за изписване на комбинацията от <code>grid-template-rows</code> и <code>grid-template-columns</code>.</p><p>Например, <code>grid-template: 50% 50% / 200px;</code> ще създаде grid с два реда по 50% всеки и една колона, която е 200 пиксела.</p><p>Опитайте да използвате <code>grid-template</code>, за да полеете пространство, което покрива горните 60% и левите 200 пиксела от Вашата градина.</p>'
     },
     board: 'c',
-    style: { 'grid-template': '60% 1fr / 200px 1fr' },
+    style: {'grid-template': '60% 1fr / 200px 1fr'},
     before: "#garden {\n  display: grid;\n",
     after: "}\n\n#water {\n  grid-column: 1;\n  grid-row: 1;\n}"
   },
@@ -930,8 +930,8 @@ var levels = [
       'bg': '<p>Вашата градина изглежда прекрасно. Тук сте оставили пътека от 50 пиксела на дъното на Вашата градина, а останалото пространство е покрито с моркови.</p><p>За жалост, левите 20% от Вашите моркови са обраснали с плевели. Използвайте CSS grid още един последен път, за да излекувате Вашата градина.</p>'
     },
     board: 'wc',
-    classes: { '#plants': 'grid-template-2' },
-    style: { 'grid-template': '1fr 50px / 20% 1fr' },
+    classes: {'#plants': 'grid-template-2'},
+    style: {'grid-template': '1fr 50px / 20% 1fr'},
     before: "#garden {\n  display: grid;\n",
     after: "}"
   }
@@ -965,7 +965,7 @@ var levelWin = {
     'bg': '<p>Вие спечелихте! С помощта на CSS grid, Вие успяхте да отгледате достатъчно моркови за Froggy, таке че той да може да изпече своята популярна 20-морковена торта. Какво, да не би да очаквахте различен скоклив приятел?</p><p>Ако Grid Garden Ви е харесала, поиграйте и <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>, за да научите друга много използвана техника в CSS Layout. Също така можете да следите и останалите ми проекти в <a href="http://thomaspark.co">моя блог</a> или <a href="https://twitter.com/thomashpark">Twitter</a>.</p><p>Искате да помогнете на Grid Garden? Опитайте първокласните курсове за уеб дизайн и програмиране предложени от <a href="http://treehouse.7eer.net/c/371033/228915/3944?subId1=gridgarden">Treehouse</a>. Кажете и по дума на Вашите приятели и семейство за Grid Garden!</p>'
   },
   board: '',
-  classes: { '#garden, #plants, #overlay': 'win' },
+  classes: {'#garden, #plants, #overlay': 'win'},
   style: {},
   before: "#pond {\n  display: flex;\n",
   after: "}"
