@@ -119,19 +119,55 @@ a:hover {
   vertical-align: top;
 }
 
-.img-next {
-  text-align: center;
-}
-
-.img-next img {
+.next {
   display: inline-block;
-  margin: 1em;
   width: 200px;
-  opacity: 0.9;
+  height: 200px;
+  margin: 1em;
+  text-decoration: none;
+  background-size: cover;
 }
 
-.img-next img:hover {
-  opacity: 1;
+.next div {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.next button {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Autour One', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.next button:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.next.flexboxfroggy {
+  background-image: url('../images/next-flexboxfroggy.png');
+}
+
+.next.flexboxfroggy button {
+  background-color: #288A2B;
+}
+
+.next.flexboxfroggy button:hover {
+  background-color: #3FA142;
+}
+
+.next.treehouse {
+  background-image: url('../images/next-treehouse.png');
+}
+
+.next.treehouse button {
+  background-color: #AE7347;
+}
+
+.next.treehouse button:hover {
+  background-color: #C88551;
 }
 
 #editor {
