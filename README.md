@@ -34,6 +34,7 @@ My gratitude to these contributors for their translations.
 * Italian by [sirLisko](https://github.com/sirLisko)
 * Japanese by [shuuji3](https://github.com/shuuji3)
 * Korean by [YunHak Kwon](https://github.com/tienne)
+* Latvian by [Arturs Kirtovskis](https://github.com/Akirtovskis)
 * Norwegian by [Victoria Bergquist](https://github.com/vicbergquist)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)

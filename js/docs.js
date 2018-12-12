@@ -1,6 +1,7 @@
 var docs = {
   'grid-area': {
     'en': '<p>Specifies a grid item\'s position and size within the grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'lv': '<p>Norāda "grid" elementa/u pozīciju un izmēru tavā "grid".</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ro': '<p>Specifică poziția și mărimea unui element al gridului în grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'fr': '<p>Définit la position et la taille d\'un élément dans la grille.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'de': '<p>Bestimmt die Position und Grösse eines Elements im Raster.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -25,6 +26,7 @@ var docs = {
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'lv': '<p>Norāda "grid" elementa/u pozīciju tavā "grid" kolonnā.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ro': '<p>Specifică poziția unui element al gridului în coloanele gridului.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'fr': '<p>Définit la position d\'un élément de la grille sur les colonnes de la grille.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'zh-cn': '<p>在网格列中指定每一个网格的位置。</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code>',
@@ -49,6 +51,7 @@ var docs = {
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'lv': '<p>Norāda "grid" elementa/u beigu pozīciju tavās "grid" kolonnās.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ro': '<p>Specifică poziția de sfârșit a unui element al gridului în coloanele gridului.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fr': '<p>Définit la position de fin d\'un élément de la grille sur les colonnes de la grille.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'zh-cn': '<p>在网格列中指定每一个网格的最终位置。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -73,6 +76,7 @@ var docs = {
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'lv': '<p>Norāda "grid" elementa/u sākuma pozīciju tavās "grid" kolonnās.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ro': '<p>Specifică poziția de început a unui element al gridului în coloanele gridului.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'zh-cn': '<p>在网格列中指定每一个网格的起始位置。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'zh-tw': '<p>在網格行中指定每一個網格的起始位置。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -97,6 +101,7 @@ var docs = {
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'lv': '<p>Norāda "grid" elementa/u pozīciju tavās "grid" rindās.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ro': '<p>Specifică poziția unui element al gridului în rândurile gridului.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'zh-cn': '<p>在网格行中指定每一个网格的位置。</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'zh-tw': '<p>在網格列中指定每一個網格的位置。</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -121,6 +126,7 @@ var docs = {
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'lv': '<p>Norāda "grid elementa/u beigu pozīciju tavās "grid" rindās.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ro': '<p>Specifică poziția de sfârșit a unui element al gridului în rândurile gridului./p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'zh-cn': '<p>在网格行中指定每一个网格的最终位置。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'zh-tw': '<p>在網格列中指定每一個網格的最終位置。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -145,6 +151,7 @@ var docs = {
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'lv': '<p>Norāda "grid" elemanta/u sākuma pozīciju tavās "grid" rindās.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ro': '<p>Specifică poziția de început a unui element al gridului în rândurile gridului.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'zh-cn': '<p>在网格行中指定每一个网格的起始位置。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'zh-tw': '<p>在網格列中指定每一個網格的起始位置。</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -169,6 +176,7 @@ var docs = {
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'lv': '<p>Norāda "grid" rindu un kolonnu izmērus un nosaukumus.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ro': '<p>Specifică mărimea și numele rândurilor și coloanelor gridului.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'fr': '<p>Définit le dimensionnement et les noms des lignes et des colonnes de la grille.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'zh-cn': '<p>指定网格的行和列的大小以及名称。</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -193,6 +201,7 @@ var docs = {
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'lv': '<p>Norāda "grid" zonu nosaukumus.</p><p><code>&lt;grid-name&gt;</code></p>',
     'ro': '<p>Specifică zonele numite ale gridului.</p><p><code>&lt;grid-name&gt;</code></p>',
     'zh-cn': '<p>指定被命名的网格区域。</p><p><code>&lt;grid-name&gt;</code></p>',
     'zh-tw': '<p>指定被命名的網格區域。</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -217,6 +226,7 @@ var docs = {
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'lv': '<p>Norāda "grid" kolonnu nosaukumus un izmērus.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ro': '<p>Specifică mărimea și numele coloanelor gridului.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'fr': '<p>Définit le dimensionnement et les noms des colonnes de la grille.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'zh-cn': '<p>指定网格中列的大小和名称。</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -241,6 +251,7 @@ var docs = {
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'lv': '<p>Norāda "grid" rindu nosaukumus un izmērus.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ro': '<p>Specifică mărimea și numele rândurilor gridului.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'zh-cn': '<p>指定网格中行的大小和名称。</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'zh-tw': '<p>指定網格中列的大小和名稱。</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -265,6 +276,7 @@ var docs = {
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
+    'lv': '<p>Norāda "grid" elementu secību.</p><p><code>&lt;integer&gt;</code></p>',
     'ro': '<p>Specifică ordinea elementului în grid.</p><p><code>&lt;integer&gt;</code></p>',
     'zh-cn': '<p>指定每一个网格的顺序。</p><p><code>&lt;integer&gt;</code></p>',
     'zh-tw': '<p>指定每一個網格的順序。</p><p><code>&lt;integer&gt;</code></p>',

@@ -1,6 +1,3 @@
-var xhr = new XMLHttpRequest();
-var logger = 'http://129.25.8.18:3080/tasks';
-
 var game = {
   language: window.location.hash.substring(1) || 'en',
   level: parseInt(localStorage.level, 10) || 0,
@@ -324,10 +321,10 @@ var game = {
     $('.treatment').each(function() {
       var position = $(this).position();
 
-      position.top = Math.round(position.top);
-      position.left = Math.round(position.left);
-      position.width = Math.round(parseFloat(window.getComputedStyle(this).width));
-      position.height = Math.round(parseFloat(window.getComputedStyle(this).height));
+      position.top = Math.floor(position.top);
+      position.left = Math.floor(position.left);
+      position.width = Math.floor(parseFloat(window.getComputedStyle(this).width));
+      position.height = Math.floor(parseFloat(window.getComputedStyle(this).height));
 
       var key = JSON.stringify(position);
       var val = $(this).data('color');
@@ -337,10 +334,10 @@ var game = {
     $('.plant').each(function() {
       var position = $(this).position();
 
-      position.top = Math.round(position.top);
-      position.left = Math.round(position.left);
-      position.width = Math.round(parseFloat(window.getComputedStyle(this).width));
-      position.height = Math.round(parseFloat(window.getComputedStyle(this).height));
+      position.top = Math.floor(position.top);
+      position.left = Math.floor(position.left);
+      position.width = Math.floor(parseFloat(window.getComputedStyle(this).width));
+      position.height = Math.floor(parseFloat(window.getComputedStyle(this).height));
 
       var key = JSON.stringify(position);
       var val = $(this).data('color');
@@ -357,17 +354,6 @@ var game = {
         eventAction: 'correct',
         eventLabel: $('#code').val()
       });
-
-      xhr.open('POST', logger, true);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(JSON.stringify({
-        timeStamp: (new Date()).getTime(),
-        user: game.user,
-        levelName: level.name,
-        changed: game.changed,
-        input: $('#code').val(),
-        result: 'correct'
-      }));
             
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
@@ -382,17 +368,6 @@ var game = {
         eventAction: 'incorrect',
         eventLabel: $('#code').val()
       });
-
-      xhr.open('POST', logger, true);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(JSON.stringify({
-        timeStamp: (new Date()).getTime(),
-        user: game.user,
-        levelName: level.name,
-        changed: game.changed,
-        input: $('#code').val(),
-        result: 'incorrect'
-      }));
 
       $('#next').addClass('disabled');
     }
