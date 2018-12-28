@@ -621,7 +621,7 @@ var levels = [
       'it': '<p>Ora l\'acqua e il diserbante (poison) sono alternati, anche se tutte le erbacce sono all\'inizio del tuo giardino. Imposta l\'<code>order</code> del diserbante per sistemare le cose.</p>',
       'ko': '<p>모든 잡초가 정원의 맨앞에 위치해 있으며, 물과 독은 교대로 위치해 있습니다. poison의 <code>order</code>를 변경하여 정원을 정리해봅시다.</p>',
       'el': '<p>Τώρα το νερό και το δηλητήριο εναλλάσσονται, παρόλο που όλα τα ζιζάνια βρίσκονται στην αρχή του κήπου σας. Ορίστε το <code>order</code> των δηλητηρίων για να το διορθώσετε.</p>',
-      'ja': '<p>今度は水と毒の場所が反対になっているため、このままでは雑草がガーデン獣に広がってしまいます。毒の <code>order</code> を変更してニンジンを回復させましょう。</p>',
+      'ja': '<p>今度は水と毒の場所が反対になっているため、このままでは雑草がガーデン中に広がってしまいます。毒の <code>order</code> を変更してニンジンを回復させましょう。</p>',
       'ua': '<p>Тепер вода і отрута міняються місцями, хоча всі бур\'яни знаходяться на початку саду. Дайте правильне значення <code>order</code> отрути так, щоб виправити це.</p>',
       'no': '<p>Nå alternerer giften og vannet, selv om alt ugresset er i begynnelsen av hagen din. Angi <code>order</code> for å fikse dette.</p>',
       'pt-pt': '<p>Agora a água e o veneno alternam, no entanto todas as ervas daninhas estão no começo da tua horta. Estabelece a <code>order</code> dos venenos para solucionar isto.</p>',
