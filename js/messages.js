@@ -294,5 +294,6 @@ var messages = {
     'no': 'Lyst til å lære deg CSS flexbox? Spill',
     'pt-pt': 'Queres aprender CSS flexbox? Joga',
     'bg': 'Искаш да научиш CSS flexbox? Играй',
+    'pl': 'Chcesz nauczyć się CSS flexbox? Zagraj w'
   },
 };
