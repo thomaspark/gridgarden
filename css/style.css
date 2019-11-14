@@ -433,11 +433,14 @@ button:not(.disabled):hover {
 }
 
 #board {
-  position: relative;
+  position: sticky;
+  top: 1em;
   width: 50vw;
   height: 50vw;
   min-width: 300px;
   min-height: 300px;
+  max-width: calc(100vh - 2em);
+  max-height: calc(100vh - 2em);
   overflow: hidden;
   border: 12px solid #6D5720;
   border-radius: 12px;
