@@ -208,7 +208,7 @@ var docs = {
     'he': '<p>קובע את הגודל והשמות של השורות והעמודות של הסריג.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
-    'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
     'lv': '<p>Norāda "grid" zonu nosaukumus.</p><p><code>&lt;grid-name&gt;</code></p>',
     'ro': '<p>Specifică zonele numite ale gridului.</p><p><code>&lt;grid-name&gt;</code></p>',
     'zh-cn': '<p>指定被命名的网格区域。</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -231,7 +231,7 @@ var docs = {
     'no': '<p>Spesifiserer navngitte områder på rutenettet.</p><p><code>&lt;grid-name&gt;</code></p>',
     'pt-pt': '<p>Especifica as áreas nomeadas da grelha.</p><p><code>&lt;grid-name&gt;</code></p>',
     'bg': '<p>Определя наименованите зони от решетката.</p><p><code>&lt;grid-name&gt;</code></p>',
-    'he': '<p>קובע את אזורי הסריג שנקבעו.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'he': '<p>קובע את אזורי הסריג שנקבעו.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
