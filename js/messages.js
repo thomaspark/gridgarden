@@ -269,7 +269,7 @@ var messages = {
     'no': 'Er du sikker på at du vil tilbakestille spillet?\n\nFremgangen din vil gå tapt og du må starte spillet helt på nytt.',
     'pt-pt': 'Tens a certeza que queres reiniciar o jogo?\n\nO teu progresso irá perder-se e voltarás ao início do jogo.',
     'he': 'האם אתה בטוח שאתה רוצה לאתחל את המשחק?n\n ההתקדמות שלך תמחק ואתה תשלח להתחלת המשחק.',
-    'es': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progres es perdrà i seràs enviat a l\'inici del joc.',
+    'ca': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progres es perdrà i seràs enviat a l\'inici del joc.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
