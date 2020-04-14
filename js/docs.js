@@ -24,6 +24,7 @@ var docs = {
     'pt-pt': '<p>Especifica a posição e o tamanho de um elemento na grelha.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'bg': '<p>Определя позицията и размера на grid-елемента в решетката.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'he': '<p>קובע את מקומו ואת גודלו של grid-item בתוך הסריג.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ca': '<p>Defineix la posició i la mida d\'un element en la quadrícula.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -50,6 +51,7 @@ var docs = {
     'pt-pt': '<p>Especifica a posição de um elemento em respeito às colunas da grelha.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'bg': '<p>Определя позицията на grid-елемента в колоните на решетката.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'he': '<p>קובע את מקומו של הgrid-item בתוך עמודות הסריג.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ca': '<p>Defineix la posició d\'un element respecte les columnes de la quadrícula.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -76,6 +78,7 @@ var docs = {
     'pt-pt': '<p>Especifica a posição final de um elemento em respeito às colunas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'bg': '<p>Определя крайната позиция на grid-елемента в колоните на решетката.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'he': '<p>קובע את מיקומו הסופי של grid-item.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ca': '<p>Defineix la posició final d\'un element respecte les columnes de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -102,6 +105,7 @@ var docs = {
     'pt-pt': '<p>Especifica a posição inicial de um elemento em respeito às colunas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'bg': '<p>Определя началната позиция на grid-елемента в колоните на решетката.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'he': '<p>קובע את המיקום ההתחלתי של הgrid-item בתוך עמודות הסריג.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ca': '<p>Defineix la posició inicial d\'un element respecte les columnes de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -128,6 +132,7 @@ var docs = {
     'pt-pt': '<p>Especifica a posição de um elemento em respeito às linhas da grelha.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'bg': '<p>Определя позицията на grid-елемента в редовете на решетката.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'he': '<p>קובע את מקומו של grid-item בתוך שורות הסריג.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'ca': '<p>Defineix la posició d\'un element respecte les files de la quadrícula.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -154,6 +159,7 @@ var docs = {
     'pt-pt': '<p>Especifica a posição final de um elemento em respeito às linhas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'bg': '<p>Определя крайната позиция на grid-елемента в редовете на решетката.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'he': '<p>קובע את המיקום הסופי של grid-item בתוך שורות הסריג.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ca': '<p>Defineix la posició final d\'un element respecte les files de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -180,6 +186,7 @@ var docs = {
     'pt-pt': '<p>Especifica a posição inicial de um elemento em respeito às linhas da grelha.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'bg': '<p>Определя началната позиция на grid-елемента в редовете на решетката.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'he': '<p>קובע את המיקום ההתחלתי של grid-item בתוך שורות הסריג.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ca': '<p>Defineix la posició inicial d\'un element respecte les files de la quadrícula.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -206,6 +213,7 @@ var docs = {
     'pt-pt': '<p>Especifica as dimensões e nomes das linhas e colunas da grelha.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'bg': '<p>Определя размера и имената на редовете и колоните на решетката.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'he': '<p>קובע את הגודל והשמות של השורות והעמודות של הסריג.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'ca': '<p>Defineix la mida i noms de les files i les columnes de la quadrícula.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -232,6 +240,7 @@ var docs = {
     'pt-pt': '<p>Especifica as áreas nomeadas da grelha.</p><p><code>&lt;grid-name&gt;</code></p>',
     'bg': '<p>Определя наименованите зони от решетката.</p><p><code>&lt;grid-name&gt;</code></p>',
     'he': '<p>קובע את אזורי הסריג שנקבעו.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'ca': '<p>Defineix les àrees de la quadrícula anomenades.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -258,6 +267,7 @@ var docs = {
     'pt-pt': '<p>Especifica as dimensões e nomes das colunas da grelha.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'bg': '<p>Определя размера и имената на колоните на решетката.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'he': '<p>קובע את הגדלים ואת השמות של עמודות הסריג.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ca': '<p>Especifica la mida i els noms de les columnes de la quadrícula.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -284,6 +294,7 @@ var docs = {
     'pt-pt': '<p>Especifica as dimensões e nomes das linhas da grelha.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'bg': '<p>Определя размера и имената на редовете на решетката.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'he': '<p>קובע את הגדלים והשמות של שורות הסריג.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ca': '<p>Defineix la mida i elsnnom de les files de la quadrícula.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -310,5 +321,6 @@ var docs = {
     'pt-pt': '<p>Especifica a ordem do elemento da grelha.</p><p><code>&lt;integer&gt;</code></p>',
     'bg': '<p>Определя подредбата на grid-елемента.</p><p><code>&lt;integer&gt;</code></p>',
     'he': '<p>קובע את הסדר של הgrid-item.</p><p><code>&lt;integer&gt;</code></p>',
+    'ca': '<p>Defineix l\'ordre de l\'element de la quadrícula.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
