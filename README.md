@@ -24,6 +24,7 @@ Thomas Park
 My gratitude to these contributors for their translations.
 
 * Bulgarian by [radoAngelov](https://github.com/radoAngelov)
+* Catalan by [Xavier Gaya](https://github.com/xavigaya)
 * Chinese Simplified by [Jin](https://github.com/winar-jin)
 * Chinese Traditional by [Joy Shan-Chun Kuo](https://github.com/joykuotw)
 * Dutch by [Wietse Neven](https://github.com/wietseneven)
