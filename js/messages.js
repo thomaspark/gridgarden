@@ -294,6 +294,7 @@ var messages = {
     'bg': 'О не, Grid Garden не работи във Вашия браузър. Играта изисква <a href="http://caniuse.com/#feat=css-grid">браузърът Ви да поддържа CSS grid</a>, както последните версии на <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, или <a href="http://www.apple.com/safari/">Safari</a>. Използвайте една от тях, за да започнете с градинарството!',
     'he': 'אוי לא, Grid Garden לא עובד בדפדפן זה. הוא דורש <a href="http://caniuse.com/#feat=css-grid"> דפדפן שתומך בCSS grid</a>, כמו הגרסה האחרונה של <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>,או <a href="http://www.apple.com/safari/">Safari</a>. השתמש באחד מהם על מנת להתחיל לגדל!',
     'ca': 'Oh no, Grid Garden no funciona en aquest navegador. Requereix <a href="http://caniuse.com/#feat=css-grid">un navegador compatible amb CSS Grid</a>, com per exemple l\'última versió de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Utilitza un d\'aquests per començar amb la jardineria.',
+    'vi': 'Ôi không!, Grid không thể hoạt động được trên trình duyệt này. Grid yêu cầu <a href="http://caniuse.com/#feat=css-grid">trình duyệt hỗ trợ CSS Grid</a>, ở các phiên bản <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, hoặc <a href="http://www.apple.com/safari/">Safari</a>. Hãy sử dụng các trình duyệt này để bắt đầu khu vườn của minh!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -315,5 +316,6 @@ var messages = {
     'pl': 'Chcesz nauczyć się CSS flexbox? Zagraj w',
     'he': 'רוצה ללמוד על CSS flexbox? שחק',
     'ca': 'Vols aprendre CSS flexbox? Juguem',
+    'vi': 'Cậu muốn tìm hiểu thêm về CSS flexbox? Thử tại đây',
   },
 };
