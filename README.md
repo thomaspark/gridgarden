@@ -45,6 +45,7 @@ My gratitude to these contributors for their translations.
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 * Turkish by [serdar](https://github.com/yigitserdar)
+* Vietnamese by [Duy Phan](https://github.com/duyphanz)
 
 Don't see your language on the list? Add it!
 
