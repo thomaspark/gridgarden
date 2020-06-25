@@ -249,7 +249,7 @@ var docs = {
     'bg': '<p>Определя наименованите зони от решетката.</p><p><code>&lt;grid-name&gt;</code></p>',
     'he': '<p>קובע את אזורי הסריג שנקבעו.</p><p><code>&lt;grid-name&gt;</code></p>',
     'ca': '<p>Defineix les àrees de la quadrícula anomenades.</p><p><code>&lt;grid-name&gt;</code></p>',
-    'en': '<p>Xác định vùng grid được đặt tên.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'vi': '<p>Xác định vùng grid được đặt tên.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
