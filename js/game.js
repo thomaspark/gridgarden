@@ -405,7 +405,9 @@ var game = {
   translate: function() {
     document.title = messages.title[game.language] || messages.title.en;
     $('html').attr('lang', game.language);
-
+    if(game.language == "ar"){
+      $('#instructions').attr('dir', 'rtl');
+    }
     var level = levels[game.level];
     var instructions = level.instructions[game.language] || level.instructions.en;
     $('#instructions').html(instructions);
