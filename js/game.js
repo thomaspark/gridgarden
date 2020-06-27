@@ -408,6 +408,9 @@ var game = {
     if(game.language == "ar"){
       $('#instructions').attr('dir', 'rtl');
     }
+    else{
+      $('#instructions').attr('dir', 'ltr');
+    }
     var level = levels[game.level];
     var instructions = level.instructions[game.language] || level.instructions.en;
     $('#instructions').html(instructions);
