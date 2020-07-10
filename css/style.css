@@ -641,14 +641,36 @@ button:not(.disabled):hover {
   100% { background-position: 0 calc(10vw - 4px); }
 }
 
-@media only screen and (max-width: 767px)  {
+@media only screen and (max-width: 767px) {
+  body {
+    flex-direction: column-reverse;
+    align-items: center;
+    min-width: 100vw;
+  }
 
   body,
   #sidebar {
     font-size: 13px;
   }
 
+  #sidebar {
+    width: 100%;
+  }
+
+  #view {
+    position: relative;
+    min-height: 0;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
   .title {
     font-size: 26px;
+  }
+
+  #labelFooter {
+    display: none;
   }
 }
