@@ -504,11 +504,6 @@ button:not(.disabled):hover {
   background-size: calc(10vw - 4px);
 }
 
-.treatment .bg {
-  border: 5px solid rgba(255, 255, 255, 0.4);
-  border-width: 3px 5px 5px 3px;
-}
-
 .plant.carrot .bg {
   background-image: url("../images/carrots.svg");
 }
