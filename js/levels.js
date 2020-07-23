@@ -609,7 +609,7 @@ var levels = [
       'bg': '<p>Как да се справим с множество от елементи? Можете да ги разположите един над друг без никакви проблеми. Използвайте <code>grid-area</code>, за да дефинирате втора зона, която да покрие всички непокрити моркови с вода.</p>',
       'ca': '<p>I què tal múltiples elements? Pots superposar-los sense problema. Utilitza <code>grid-area</code> per definir una segona àrea que cobreixi totes les pastanagues que estàn sense regar.</p>',
       'vi': '<p>Khi chúng ta có nhiều đối tượng bên trong grid? Cậu hoàn toàn có thể xếp chồng các đối tượng này lên nhau. Hãy dùng <code>grid-area</code> để định nghĩa thêm một khu vực khác phủ lên vùng trồng cà-rốt đã được tưới nước.</p>',
-      'en': '<p>ماذا عن عناصر متعددة ؟ يمكنك ان تجعل العناصر متتداخلة دون اي مشاكل. استخدم <code>grid-area</code> لتحديد منطقة ثانية تغطي كل الجزر غير المروي</p>',
+      'ar': '<p>ماذا عن عناصر متعددة ؟ يمكنك ان تجعل العناصر متتداخلة دون اي مشاكل. استخدم <code>grid-area</code> لتحديد منطقة ثانية تغطي كل الجزر غير المروي</p>',
     },
     board: 'cc',
     classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
