@@ -670,7 +670,7 @@ var levels = [
       'ru': '<p>Теперь вода и яд меняются местами, хотя все сорняки находятся в начале сада. Присвойте правильное значение <code>order</code> для яда, чтобы исправить это.</p>',
       'pl': '<p>Teraz woda i trucizna występują na przemian, chociaż wszystkie chwasty są na początku Twojego ogrodu. Ustaw właściwość <code>order</code> trucizny aby temu zaradzić temu.</p>',
       'es': '<p>Ahora el veneno y el agua se alternan, a pesar de que todas las malas hierbas están al comienzo de tu jardín. Cambia el valor de <code>order</code> de los venenos para solucionar esto.</p>',
-      'sv': '<p>Nu alternerar gift och vatten äve om allt ogräs är på första raden. Sätt <code>order</code> för giftet för att lösa det här.</p>',
+      'sv': '<p>Nu alternerar gift och vatten även om allt ogräs är på första raden. Sätt <code>order</code> för giftet för att lösa det här.</p>',
       'fa': '<p>حالا آب و سموم با هم جابجا شده اند در حالی که همه ی علف های هرز در ابتدای باغ شما هستند. مقدار <code>order</code> را برای سموم تغییر دهید و چاره ای بیندیشید.</p>',
       'it': '<p>Ora l\'acqua e il diserbante (poison) sono alternati, anche se tutte le erbacce sono all\'inizio del tuo giardino. Imposta l\'<code>order</code> del diserbante per sistemare le cose.</p>',
       'ko': '<p>모든 잡초가 정원의 맨앞에 위치해 있으며, 물과 독은 교대로 위치해 있습니다. poison의 <code>order</code>를 변경하여 정원을 정리해봅시다.</p>',
