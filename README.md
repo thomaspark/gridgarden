@@ -23,6 +23,7 @@ Thomas Park
 
 My gratitude to these contributors for their translations.
 
+* Arabic by [Basel Akasha](https://github.com/baselakasha)
 * Bulgarian by [radoAngelov](https://github.com/radoAngelov)
 * Catalan by [Xavier Gaya](https://github.com/xavigaya)
 * Chinese Simplified by [Jin](https://github.com/winar-jin)
