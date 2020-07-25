@@ -9,11 +9,7 @@ html, body {
 html[lang="fa"] #docs,
 html[lang="fa"] #instructions,
 html[lang="fa"] #credits .translate,
-a[href="#fa"] {
-  direction: rtl;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
-}
-
+a[href="#fa"],
 html[lang="ar"] #docs,
 html[lang="ar"] #instructions,
 html[lang="ar"] #credits .translate,
