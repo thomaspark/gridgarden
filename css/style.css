@@ -627,8 +627,8 @@ button:not(.disabled):hover {
   grid-template-columns: 50px 1fr 1fr 1fr 50px !important;
 }
 
-.grid-template-rows-50px-0-0-0-1fr {
-  grid-template-rows: 50px 0 0 0 1fr !important;
+.grid-template-rows-40px-0-0-0-1fr {
+  grid-template-rows: 40px 0 0 0 1fr !important;
 }
 
 .grid-template-rows-100p {
