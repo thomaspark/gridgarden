@@ -31,6 +31,7 @@ My gratitude to these contributors for their translations.
 * Dutch by [Wietse Neven](https://github.com/wietseneven)
 * Farsi by [leonine90](https://github.com/leonine90)
 * French by [Forresst](https://github.com/forresst)
+* Finnish by [Minna N.](https://github.com/minna-xD)
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
 * Greek by [lmintmate](https://github.com/lmintmate)
 * Italian by [sirLisko](https://github.com/sirLisko)
