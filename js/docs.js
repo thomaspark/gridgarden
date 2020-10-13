@@ -28,6 +28,7 @@ var docs = {
     'vi': '<p>Xác định vị trí và kích thước của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ar' : '<p> تحدد الموضع  والحجم لعنصر جريد </p> <p dir="ltr"><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p> ',
     'fi': '<p>Määrittää elementin sijainnin ja koon ruudukossa.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'hu': '<p>Meghatározza egy rácselem pozícióját és méretét.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -58,6 +59,7 @@ var docs = {
     'vi': '<p>Xác định vị trí của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ar': '<p> تحدد الموضع لعنصر  ضمن اعمدة الجريد </p> <p dir="ltr"> <code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code> </p> ',
     'fi': '<p>Määrittää elementin sijainnin ruudukon pystyriveillä.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'hu': '<p>Meghatározza egy rácselem pozícióját a rács oszlopai közt.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -88,6 +90,7 @@ var docs = {
     'vi': '<p>Xác định vị trí kết thúc của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ar': '<p> تحدد موضع نهاية عنصر ضمن اعمدة لجريد </p> <p dir="ltr"> <code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code> </p>',
     'fi': '<p>Määrittää elementin lopetuskohdan ruudukon pystyriveillä.</p><p><code>&lt;kokonaisluku&gt;</code> <code>span &lt;kokonaisluku&gt;</code></p>',
+    'hu': '<p>Meghatározza egy rácselem vég pozícióját a rács oszlopai közt.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -118,6 +121,7 @@ var docs = {
     'vi': '<p>Xác định vị trí bắt đầu của một đối tượng bên trong grid theo cột.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ar': '<p> تحدد موضع بداية عنصر ضمن اعمدة لجريد </p> <p dir="ltr"> <code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code> </p>',
     'fi': '<p>Määrittää elementin aloituskohdan ruudukon pystyriveillä.</p><p><code>&lt;kokonaisluku&gt;</code> <code>span &lt;kokonaisluku&gt;</code></p>',
+    'hu': '<p>Meghatározza egy rácselem kezdő pozícióját a rács oszlopai közt.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -148,6 +152,7 @@ var docs = {
     'vi': '<p>Xác định vị trí của một đối tượng bên trong grid theo hàng.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ar': '<p> تحدد موقع العنصر من خلال صفوف الجريد </p><p dir="ltr"><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'fi': '<p>Määrittää elementin sijainnin ruudukon vaakariveillä.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'hu': '<p>Meghatározza egy rácselem pozícióját a rács sorai közt.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -178,6 +183,7 @@ var docs = {
     'vi': '<p>Xác định vị trí kết thúc của một đối tượng bên trong grid theo hàng.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ar': '<p> تحدد موضع نهاية عنصر ضمن صفوف لجريد </p> <p dir="ltr"> <code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code> </p>',
     'fi': '<p>Määrittää elementin lopetuskohdan ruudukon vaakariveillä.</p><p><code>&lt;kokonaisluku&gt;</code> <code>span &lt;kokonaisluku&gt;</code></p>',
+    'hu': '<p>Meghatározza egy rácselem vég pozícióját a rács sorai közt.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -208,6 +214,7 @@ var docs = {
     'vi': '<p>Xác định vị trí bắt đầu của một đối tượng bên trong grid theo hàng.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ar': '<p> تحدد موضع بداية عنصر ضمن صفوف لجريد </p> <p dir="ltr"> <code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code> </p>',
     'fi': '<p>Määrittää elementin aloituskohdan ruudukon vaakariveillä.</p><p><code>&lt;kokonaisluku&gt;</code> <code>span &lt;kokonaisluku&gt;</code></p>',
+    'hu': '<p>Meghatározza egy rácselem kezdő pozícióját a rács sorai közt.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -238,6 +245,7 @@ var docs = {
     'vi': '<p>Xác định kích thước và tên các cột, hàng bên trong grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ar': '<p> تحدد احجام واسامي صفوف اعمدة الجريد</p><p dir="ltr"><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'fi': '<p>Määrittää ruudukon vaaka- ja pystyrivien koot ja nimet.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'hu': '<p>Meghatározza a rács oszlopainak és sorainak méretét és elnevezésüket.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -268,6 +276,7 @@ var docs = {
     'vi': '<p>Xác định vùng grid được đặt tên.</p><p><code>&lt;grid-name&gt;</code></p>',
     'ar': '<p>تحدد عناصر الجريد المسماة</p><p dir="ltr"><code>&lt;grid-name&gt;</code></p>',
     'fi': '<p>Määrittää nimetyt ruudukkoalueet.</p><p><code>&lt;ruudukon-nimi&gt;</code></p>',
+    'hu': '<p>Meghatározza egy elnevezett rács területet.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -298,6 +307,7 @@ var docs = {
     'vi': '<p>Xác định kích thước và tên các cột bên trong grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ar': '<p>تحدد المقاسات والاسامي لاعمدة الشبكة </p><p dir="ltr"><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'fi': '<p>Määrittää ruudukon pystyrivien koot ja nimet.</p><p><code>&lt;pituusyksikkö&gt;</code> <code>&lt;prosenttiarvo&gt;</code> <code>&lt;fr-yksikkö&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'hu': '<p>Meghatározza a rács oszlopainak méretét és nevét.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -328,6 +338,7 @@ var docs = {
     'vi': '<p>Xác định kích thước và tên các hàng bên trong grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ar': '<p>تحدد المقاسات والاسامي لصفوف الشبكة </p><p dir="ltr"><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'fi': '<p>Määrittää ruudukon vaakarivien koon ja nimet.</p><p><code>&lt;pituusyksikkö&gt;</code> <code>&lt;prosenttiarvo&gt;</code> <code>&lt;fr-yksikkö&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'hu': '<p>Meghatározza a rács sorainak méretét és nevét.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -358,5 +369,6 @@ var docs = {
     'vi': '<p>Xác định thứ tự của đối tượng bên trong grid.</p><p><code>&lt;integer&gt;</code></p>',
     'ar': '<p>تحدد ترتيب العنصر في الجريد.</p><p dir="ltr"><code>&lt;integer&gt;</code></p>',
     'fi': '<p>Määrittää ruudukkoelementin järjestyksen.</p><p><code>&lt;kokonaisluku&gt;</code></p>',
+    'hu': '<p>Meghatározza a rácselem sorrendjét.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
