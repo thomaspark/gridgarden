@@ -300,6 +300,14 @@ var game = {
     var level = levels[game.level];
     var code = $('#code').val();
     var selector = level.selector || '';
+
+    if (level.name === 'grid-column-end 5') {
+      var splitCode = code.split(' ');
+      if (splitCode.indexOf('span') < 0) {
+         return;
+      }
+    }
+
     $('#garden ' +  selector).attr('style', code);
 
     if (!selector) {
