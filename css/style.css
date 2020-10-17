@@ -9,7 +9,11 @@ html, body {
 html[lang="fa"] #docs,
 html[lang="fa"] #instructions,
 html[lang="fa"] #credits .translate,
-a[href="#fa"] {
+a[href="#fa"],
+html[lang="ar"] #docs,
+html[lang="ar"] #instructions,
+html[lang="ar"] #credits .translate,
+a[href="#ar"] {
   direction: rtl;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
@@ -19,7 +23,7 @@ body {
   min-width: 600px;
   margin: 0;
   background-color: #5DA449;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -180,14 +184,14 @@ pre {
   font-family: 'Source Code Pro', monospace;
   font-size: 15px;
   line-height: 1.5;
-  color: #aaa;
+  color: #777;
 }
 
 #css {
   height: 375px;
   position: relative;
   padding: 10px 10px 10px 40px;
-  background-color: #ddd;
+  background-color: #e0e0e0;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -308,9 +312,9 @@ pre {
 }
 
 .arrow {
-  display: inline-block;
-  font-family: 'Comic Sans MS';
-  padding: 0.25em 0.4em 0.2em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25em 0.5em 0.2em;
   cursor: pointer;
 }
 
@@ -331,6 +335,22 @@ pre {
 
 .arrow.disabled {
   opacity: 0.5;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent; 
+}
+
+.left .triangle {
+  border-right: 11px solid rgba(255, 255, 255, 0.7);; 
+}
+
+.right .triangle {
+  border-left: 11px solid rgba(255, 255, 255, 0.7);; 
 }
 
 button {
@@ -382,7 +402,7 @@ button:not(.disabled):hover {
   line-height: 1.5em;
   text-align: center;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #language {
@@ -502,11 +522,6 @@ button:not(.disabled):hover {
   height: 100%;
   background-position: left top;
   background-size: calc(10vw - 4px);
-}
-
-.treatment .bg {
-  border: 5px solid rgba(255, 255, 255, 0.4);
-  border-width: 3px 5px 5px 3px;
 }
 
 .plant.carrot .bg {
@@ -646,14 +661,36 @@ button:not(.disabled):hover {
   100% { background-position: 0 calc(10vw - 4px); }
 }
 
-@media only screen and (max-width: 767px)  {
+@media only screen and (max-width: 767px) {
+  body {
+    flex-direction: column-reverse;
+    align-items: center;
+    min-width: 100vw;
+  }
 
   body,
   #sidebar {
     font-size: 13px;
   }
 
+  #sidebar {
+    width: 100%;
+  }
+
+  #view {
+    position: relative;
+    min-height: 0;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
   .title {
     font-size: 26px;
+  }
+
+  #labelFooter {
+    display: none;
   }
 }

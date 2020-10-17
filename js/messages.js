@@ -32,6 +32,8 @@ var messages = {
     'pt-pt': 'Português (Portugal)',
     'he': 'עברית',
     'ca': 'Català',
+    'ar' : 'العربية',
+    'fi' : 'Suomi',
   },
   next: {
     'en': 'Next',
@@ -66,6 +68,8 @@ var messages = {
     'pt-pt': 'Seguinte',
     'he': 'הבא',
     'ca': 'Següent',
+    'ar' : 'التالي',
+    'fi' : 'Seuraava',
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
@@ -100,6 +104,8 @@ var messages = {
     'pt-pt': 'Grid Garden é uma criação de',
     'he': 'Grid Garden נוצר על ידי',
     'ca': 'Grid Garden és una creació de',
+    'ar' :  'حديقة الجريد صُنِعَت بواسطة',
+    'fi': 'Grid Gardenin on tehnyt',
   },
   labelLevel: {
     'en': 'Level',
@@ -134,6 +140,8 @@ var messages = {
     'pt-pt': 'Nível',
     'he': 'שלב',
     'ca': 'Nivell',
+    'ar': 'مرحلة',
+    'fi': 'Kenttä',
   },
   labelOf: {
     'en': 'of',
@@ -168,6 +176,8 @@ var messages = {
     'pt-pt': 'de',
     'he': 'של',
     'ca': 'de',
+    'ar' : 'من',
+    'fi': '/',
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -202,6 +212,8 @@ var messages = {
     'pt-pt': 'Grid Garden - Um jogo para aprender CSS Grid',
     'he': 'Grid Garden - משחק שנועד כדי ללמוד CSS grid',
     'ca': 'Grid Garden - Un joc per aprende CSS grid',
+    'ar' : 'حديقة الجريد - لعبة لتعلم سي اس اس جريد',
+    'fi': 'Grid Garden – Peli, jossa opit CSS grid -asettelun',
   },
   labelReset: {
     'en': 'Reset',
@@ -236,6 +248,8 @@ var messages = {
     'pt-pt': 'Reiniciar',
     'he': 'אתחל',
     'ca': 'Reiniciar',
+    'ar': 'اعادة تعيين',
+    'fi': 'Aloita alusta',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -270,6 +284,8 @@ var messages = {
     'pt-pt': 'Tens a certeza que queres reiniciar o jogo?\n\nO teu progresso irá perder-se e voltarás ao início do jogo.',
     'he': 'האם אתה בטוח שאתה רוצה לאתחל את המשחק?n\n ההתקדמות שלך תמחק ואתה תשלח להתחלת המשחק.',
     'ca': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progres es perdrà i seràs enviat a l\'inici del joc.',
+    'ar': 'هل انت متاكد انك تريد اعادة اللعبة؟ \n\n سوف تخسر تقدمك باللعبة وسوف يتم ارسالك الى البداية.',
+    'fi': 'Haluatko varmasti aloittaa pelin alusta?\n\nTallennettu edistyminen menetetään, ja palaat ensimmäiseen kenttään.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -277,6 +293,7 @@ var messages = {
     'zh-cn': '抱歉，Grid Garden无法在此浏览器运行。你需要在支持<a href="http://caniuse.com/#feat=css-grid">CSS grid</a>的浏览器中运行，比如最新版本的<a href="https://www.mozilla.org/firefox/">Firefox</a>、<a href="https://www.google.com/chrome/">Chrome</a>或者<a href="http://www.apple.com/safari/">Safari</a>。快使用以上这些浏览器开始游戏吧！',
     'zh-tw': '抱歉，Grid Garden無法在此瀏覽器運行，你需要在支持<a href="http://caniuse.com/#feat=css-grid">CSS grid</a>的瀏覽器中運行，比如最新版本的<a href="https://www.mozilla.org/firefox/">Firefox</a>、<a href="https://www.google.com/chrome/">Chrome</a>或者<a href="http://www.apple.com/safari/">Safari</a>。快使用以上這些瀏覽器開始遊戲吧！',
     'tr': 'Hayır! Grid Garden bu tarayıcıda çalışmıyor. <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ya da <a href="http://www.apple.com/safari/">Safari</a> gibi son sürümlere sahip olan ve <a href="http://caniuse.com/#feat=css-grid">CSS Grid destekleyen</a> bir internet tarayıcıya ihtiyaç duyuyor.',
+    'de': 'Oje! Grid Garden funktioniert nicht in diesem Browser. Es benötigt <a href="http://caniuse.com/#feat=css-grid">einen Browser, der CSS Grid unterstützt</a>, wie z.B. die aktuelle Version von <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> oder <a href="http://www.apple.com/safari/">Safari</a>. Benutze einen davon, um zu gärtnern!',
     'fr': 'Oh non, Grid Garden ne fonctionne pas avec ce navigateur. Il nécessite <a href="http://caniuse.com/#feat=css-grid">un navigateur compatible avec grid CSS</a>, telle que la dernière version de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> ou <a href="http://www.apple.com/safari/">Safari</a>. Utilisez un de cela pour faire du jardinage !',
     'pt-br': 'Ah não! Grid Garden não tem suporte para esse navegador. É necessário <a href="http://caniuse.com/#feat=css-grid">um navegador com suporte a CSS grid</a>, assim como a última versão do <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ou <a href="http://www.apple.com/safari/">Safari</a>. Use um deles para começar a fazer a horta.',
     'ru': 'О нет, Grid Garden не работает в вашем браузере. Для полноценной работы вам необходим <a href="http://caniuse.com/#feat=css-grid">браузер, который поддерживает CSS grid</a>, такой, как последняя версия <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> или <a href="http://www.apple.com/safari/">Safari</a>. Используйте один из них, чтобы начать садоводство!',
@@ -294,6 +311,10 @@ var messages = {
     'bg': 'О не, Grid Garden не работи във Вашия браузър. Играта изисква <a href="http://caniuse.com/#feat=css-grid">браузърът Ви да поддържа CSS grid</a>, както последните версии на <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, или <a href="http://www.apple.com/safari/">Safari</a>. Използвайте една от тях, за да започнете с градинарството!',
     'he': 'אוי לא, Grid Garden לא עובד בדפדפן זה. הוא דורש <a href="http://caniuse.com/#feat=css-grid"> דפדפן שתומך בCSS grid</a>, כמו הגרסה האחרונה של <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>,או <a href="http://www.apple.com/safari/">Safari</a>. השתמש באחד מהם על מנת להתחיל לגדל!',
     'ca': 'Oh no, Grid Garden no funciona en aquest navegador. Requereix <a href="http://caniuse.com/#feat=css-grid">un navegador compatible amb CSS Grid</a>, com per exemple l\'última versió de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Utilitza un d\'aquests per començar amb la jardineria.',
+    'vi': 'Ôi không!, Grid không thể hoạt động được trên trình duyệt này. Grid yêu cầu <a href="http://caniuse.com/#feat=css-grid">trình duyệt hỗ trợ CSS Grid</a>, ở các phiên bản <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, hoặc <a href="http://www.apple.com/safari/">Safari</a>. Hãy sử dụng các trình duyệt này để bắt đầu khu vườn của minh!',
+    'ar': ' <a href="http://caniuse.com/#feat=css-grid">متصفح يدعم نظام الجريد</a>ياللاسف , لعبة حديقة الجريد لاتعمل على هذا المتصفح. اللعبة تتطلب',
+    'fi': 'Voi ei! Grid Garden ei toimi tässä selaimessa. Tarvitset <a href="http://caniuse.com/#feat=css-grid">selaimen, joka tukee CSS grid -ominaisuutta</a>, kuten <a href="https://www.mozilla.org/firefox/">Firefoxin</a> uusimman version, <a href="https://www.google.com/chrome/">Chromen</a> tai <a href="http://www.apple.com/safari/">Safarin</a>. Pääset puutarhahommiin jollakin näistä selaimista!',
+    'hu': 'Jaj, ne, Grid Garden nem működik ebben a böngészőben. Olyan <a href="http://caniuse.com/#feat=css-grid">böngészőt igényel, ami támogatja a CSS grid-et</a>, mint például a <a href="https://www.mozilla.org/firefox/">Firefox</a> legújabb verziója, <a href="https://www.google.com/chrome/">Chrome</a>, vagy <a href="http://www.apple.com/safari/">Safari</a>. Használd ezek valamelyikét a kertészkedéshez!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -301,6 +322,7 @@ var messages = {
     'zh-cn': '想学习CSS Flexbox布局么？那就快开始吧',
     'zh-tw': '想學習CSS Flexbox佈局嗎？那就快開始吧！',
     'tr': 'CSS flexbox öğrenmek ister misin? Oyna',
+    'de': 'Du möchtest CSS Flexbox lernen? Spiele',
     'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à',
     'it': 'Vuoi imparare CSS flexbox? Gioca a',
     'ko': 'CSS flexbox를 배워볼려면? 여기를 클릭',
@@ -315,5 +337,9 @@ var messages = {
     'pl': 'Chcesz nauczyć się CSS flexbox? Zagraj w',
     'he': 'רוצה ללמוד על CSS flexbox? שחק',
     'ca': 'Vols aprendre CSS flexbox? Juguem',
+    'vi': 'Cậu muốn tìm hiểu thêm về CSS flexbox? Thử tại đây',
+    'ar': 'تريد تعلم سي اس اس  فلكس بوكس؟ العب',
+    'fi': 'Haluatko oppia CSS flexbox -asettelun? Kokeile peliä',
+    'hu': 'Megakarod tanulni a CSS flexbox alkalmazását? Játsz!',
   },
 };

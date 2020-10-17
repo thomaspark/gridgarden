@@ -23,6 +23,7 @@ Thomas Park
 
 My gratitude to these contributors for their translations.
 
+* Arabic by [Basel Akasha](https://github.com/baselakasha)
 * Bulgarian by [radoAngelov](https://github.com/radoAngelov)
 * Catalan by [Xavier Gaya](https://github.com/xavigaya)
 * Chinese Simplified by [Jin](https://github.com/winar-jin)
@@ -30,8 +31,10 @@ My gratitude to these contributors for their translations.
 * Dutch by [Wietse Neven](https://github.com/wietseneven)
 * Farsi by [leonine90](https://github.com/leonine90)
 * French by [Forresst](https://github.com/forresst)
+* Finnish by [Minna N.](https://github.com/minna-xD)
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
 * Greek by [lmintmate](https://github.com/lmintmate)
+* Hungarian by [Krisztian Papp](https://github.com/pehsa)
 * Italian by [sirLisko](https://github.com/sirLisko)
 * Japanese by [shuuji3](https://github.com/shuuji3)
 * Korean by [YunHak Kwon](https://github.com/tienne)
@@ -45,6 +48,7 @@ My gratitude to these contributors for their translations.
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 * Turkish by [serdar](https://github.com/yigitserdar)
+* Vietnamese by [Duy Phan](https://github.com/duyphanz)
 
 Don't see your language on the list? Add it!
 
