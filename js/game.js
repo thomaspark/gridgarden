@@ -137,7 +137,7 @@ var game = {
       game.translate();
 
       $('#tweet iframe').remove();
-      var html = '<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://cssgridgarden.com" data-via="thomashpark" data-text="I just beat Grid Garden, a game for learning CSS grid layout!">Tweet</a> ' +
+      var html = '<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="https://cssgridgarden.com" data-via="thomashpark" data-text="I just beat Grid Garden, a game for learning CSS grid layout!">Tweet</a> ' +
                  '<a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>';
       $('#tweet').html(html);
       twttr.widgets.load();
