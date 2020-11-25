@@ -962,7 +962,7 @@ var levels = [
   {
     name: 'grid-template-rows 1',
     instructions: {
-      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.</p>',
+      'en': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to <b>fill only your last and 5th row</b>, so you\'ll need to create 5 rows in total.</p>',
       'lv': '<p><code>grid-template-rows</code> darbojas aptuveni tāpat kā <code>grid-template-columns</code></p><p>Pielieto <code>grid-template-rows</code> un aplaisti visu, izņemto 50 pikseļus dārza augšpusē. Ievēro, ka ūdens pašlaik aplaista tikai 5. rindu. Tā kā tev kopā vajadzēs izveidot 5 rindas.</p>',
       'ro': '<p><code>grid-template-rows</code> funcționează ca <code>grid-template-columns</code>.</p><p>Folosește <code>grid-template-rows</code> pentru a uda toți mai puțin cei 50 pixeli din topul grădinii. Notează faptul că apa este setată să ocupe doar al cincelea rând, deci va trebui să creezi 5 rănduri în total.</p>',
       'zh-cn': '<p><code>grid-template-rows</code>和<code>grid-template-columns</code>的作用大概相同。</p><p>用<code>grid-template-rows</code>属性来为花园中除了顶部50像素之外的所有区域浇水。注意：水被设置为仅填充第五行，所以你总共需要创建5行。</p>',
