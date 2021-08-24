@@ -34,6 +34,7 @@ var messages = {
     'ca': 'Català',
     'ar' : 'العربية',
     'fi' : 'Suomi',
+    'id': 'Indonesian',
   },
   next: {
     'en': 'Next',
@@ -70,6 +71,7 @@ var messages = {
     'ca': 'Següent',
     'ar' : 'التالي',
     'fi' : 'Seuraava',
+    'id': 'Selanjutnya',
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
@@ -106,6 +108,7 @@ var messages = {
     'ca': 'Grid Garden és una creació de',
     'ar' :  'حديقة الجريد صُنِعَت بواسطة',
     'fi': 'Grid Gardenin on tehnyt',
+    'id': 'Grid Garden diciptakan oleh',
   },
   labelLevel: {
     'en': 'Level',
@@ -142,6 +145,7 @@ var messages = {
     'ca': 'Nivell',
     'ar': 'مرحلة',
     'fi': 'Kenttä',
+    'id': 'Level',
   },
   labelOf: {
     'en': 'of',
@@ -178,6 +182,7 @@ var messages = {
     'ca': 'de',
     'ar' : 'من',
     'fi': '/',
+    'id': 'dari'
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -214,6 +219,7 @@ var messages = {
     'ca': 'Grid Garden - Un joc per aprende CSS grid',
     'ar' : 'حديقة الجريد - لعبة لتعلم سي اس اس جريد',
     'fi': 'Grid Garden – Peli, jossa opit CSS grid -asettelun',
+    'id': 'Grid Garden - Sebuah game untuk mempelajari grid CSS',
   },
   labelReset: {
     'en': 'Reset',
@@ -250,6 +256,7 @@ var messages = {
     'ca': 'Reiniciar',
     'ar': 'اعادة تعيين',
     'fi': 'Aloita alusta',
+    'id': 'Atur ulang',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -286,6 +293,7 @@ var messages = {
     'ca': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progres es perdrà i seràs enviat a l\'inici del joc.',
     'ar': 'هل انت متاكد انك تريد اعادة اللعبة؟ \n\n سوف تخسر تقدمك باللعبة وسوف يتم ارسالك الى البداية.',
     'fi': 'Haluatko varmasti aloittaa pelin alusta?\n\nTallennettu edistyminen menetetään, ja palaat ensimmäiseen kenttään.',
+    'id': 'Apakah kamu yakin ingin mengatur ulang permainan?\n\nKemajuan Anda yang tersimpan akan hilang dan Anda akan dikirim ke awal permainan.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="https://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -315,6 +323,7 @@ var messages = {
     'ar': ' <a href="https://caniuse.com/#feat=css-grid">متصفح يدعم نظام الجريد</a>ياللاسف , لعبة حديقة الجريد لاتعمل على هذا المتصفح. اللعبة تتطلب',
     'fi': 'Voi ei! Grid Garden ei toimi tässä selaimessa. Tarvitset <a href="https://caniuse.com/#feat=css-grid">selaimen, joka tukee CSS grid -ominaisuutta</a>, kuten <a href="https://www.mozilla.org/firefox/">Firefoxin</a> uusimman version, <a href="https://www.google.com/chrome/">Chromen</a> tai <a href="https://www.apple.com/safari/">Safarin</a>. Pääset puutarhahommiin jollakin näistä selaimista!',
     'hu': 'Jaj, ne, Grid Garden nem működik ebben a böngészőben. Olyan <a href="https://caniuse.com/#feat=css-grid">böngészőt igényel, ami támogatja a CSS grid-et</a>, mint például a <a href="https://www.mozilla.org/firefox/">Firefox</a> legújabb verziója, <a href="https://www.google.com/chrome/">Chrome</a>, vagy <a href="https://www.apple.com/safari/">Safari</a>. Használd ezek valamelyikét a kertészkedéshez!',
+    'id': 'Oh tidak, Grid Garden tidak berfungsi di browser ini. Membutuhkan <a href="https://caniuse.com/#feat=css-grid">browser yang mendukung grid CSS</a>, seperti versi terbaru dari <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, atau <a href="https://www.apple.com/safari/">Safari</a>. Gunakan salah satunya untuk mulai berkebun!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -341,5 +350,6 @@ var messages = {
     'ar': 'تريد تعلم سي اس اس  فلكس بوكس؟ العب',
     'fi': 'Haluatko oppia CSS flexbox -asettelun? Kokeile peliä',
     'hu': 'Megakarod tanulni a CSS flexbox alkalmazását? Játsz!',
+    'id': 'Ingin belajar CSS flexbox? Bermain',
   },
 };
