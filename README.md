@@ -35,6 +35,7 @@ My gratitude to these contributors for their translations.
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
 * Greek by [lmintmate](https://github.com/lmintmate)
 * Hungarian by [Krisztian Papp](https://github.com/pehsa)
+* Indonesia by [I Putu Cahya Adi Ganesha](https://github.com/Ipcagr1d)
 * Italian by [sirLisko](https://github.com/sirLisko)
 * Japanese by [shuuji3](https://github.com/shuuji3)
 * Korean by [YunHak Kwon](https://github.com/tienne)
