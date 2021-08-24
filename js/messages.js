@@ -34,7 +34,7 @@ var messages = {
     'ca': 'Català',
     'ar' : 'العربية',
     'fi' : 'Suomi',
-    'id': 'Indonesian',
+    'id': 'Bahasa Indonesia',
   },
   next: {
     'en': 'Next',
