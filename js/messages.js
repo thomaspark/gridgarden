@@ -35,6 +35,7 @@ var messages = {
     'ar' : 'العربية',
     'fi' : 'Suomi',
     'id': 'Bahasa Indonesia',
+    'tl': 'Tagalog',
   },
   next: {
     'en': 'Next',
@@ -72,6 +73,7 @@ var messages = {
     'ar' : 'التالي',
     'fi' : 'Seuraava',
     'id': 'Selanjutnya',
+    'tl': 'Sunod',
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
@@ -109,6 +111,7 @@ var messages = {
     'ar' :  'حديقة الجريد صُنِعَت بواسطة',
     'fi': 'Grid Gardenin on tehnyt',
     'id': 'Grid Garden diciptakan oleh',
+    'tl': 'Ang Grid Garden ay ginawa ng',
   },
   labelLevel: {
     'en': 'Level',
@@ -146,6 +149,7 @@ var messages = {
     'ar': 'مرحلة',
     'fi': 'Kenttä',
     'id': 'Level',
+    'tl': 'Level',
   },
   labelOf: {
     'en': 'of',
@@ -182,7 +186,8 @@ var messages = {
     'ca': 'de',
     'ar' : 'من',
     'fi': '/',
-    'id': 'dari'
+    'id': 'dari',
+    'tl': 'ng',
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -220,6 +225,7 @@ var messages = {
     'ar' : 'حديقة الجريد - لعبة لتعلم سي اس اس جريد',
     'fi': 'Grid Garden – Peli, jossa opit CSS grid -asettelun',
     'id': 'Grid Garden - Sebuah game untuk mempelajari grid CSS',
+    'tl': 'Grid Garden - Laro para mag-aral ng CSS Grid',
   },
   labelReset: {
     'en': 'Reset',
@@ -257,6 +263,7 @@ var messages = {
     'ar': 'اعادة تعيين',
     'fi': 'Aloita alusta',
     'id': 'Atur ulang',
+    'tl': 'Ulitin',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -294,6 +301,7 @@ var messages = {
     'ar': 'هل انت متاكد انك تريد اعادة اللعبة؟ \n\n سوف تخسر تقدمك باللعبة وسوف يتم ارسالك الى البداية.',
     'fi': 'Haluatko varmasti aloittaa pelin alusta?\n\nTallennettu edistyminen menetetään, ja palaat ensimmäiseen kenttään.',
     'id': 'Apakah kamu yakin ingin mengatur ulang permainan?\n\nKemajuan Anda yang tersimpan akan hilang dan Anda akan dikirim ke awal permainan.',
+    'tl': 'Sigurado ka na gusto mo ulitin ang laro?\n\nMawawala ang naka-save na progress sa \'yo tapos mapupunta ka uli sa simula ng laro.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="https://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -324,6 +332,7 @@ var messages = {
     'fi': 'Voi ei! Grid Garden ei toimi tässä selaimessa. Tarvitset <a href="https://caniuse.com/#feat=css-grid">selaimen, joka tukee CSS grid -ominaisuutta</a>, kuten <a href="https://www.mozilla.org/firefox/">Firefoxin</a> uusimman version, <a href="https://www.google.com/chrome/">Chromen</a> tai <a href="https://www.apple.com/safari/">Safarin</a>. Pääset puutarhahommiin jollakin näistä selaimista!',
     'hu': 'Jaj, ne, Grid Garden nem működik ebben a böngészőben. Olyan <a href="https://caniuse.com/#feat=css-grid">böngészőt igényel, ami támogatja a CSS grid-et</a>, mint például a <a href="https://www.mozilla.org/firefox/">Firefox</a> legújabb verziója, <a href="https://www.google.com/chrome/">Chrome</a>, vagy <a href="https://www.apple.com/safari/">Safari</a>. Használd ezek valamelyikét a kertészkedéshez!',
     'id': 'Oh tidak, Grid Garden tidak berfungsi di browser ini. Membutuhkan <a href="https://caniuse.com/#feat=css-grid">browser yang mendukung grid CSS</a>, seperti versi terbaru dari <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, atau <a href="https://www.apple.com/safari/">Safari</a>. Gunakan salah satunya untuk mulai berkebun!',
+    'tl': 'Hala, hindi gumagana ang Grid Garden sa browser na \'to. Kailangan ng <a href="https://caniuse.com/#feat=css-grid">browser na may support ng CSS grid</a>, gaya ng latest version ng <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o ng <a href="https://www.apple.com/safari/">Safari</a>. Gamitin ang kahit alin dito para makapaghardin!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -351,5 +360,6 @@ var messages = {
     'fi': 'Haluatko oppia CSS flexbox -asettelun? Kokeile peliä',
     'hu': 'Megakarod tanulni a CSS flexbox alkalmazását? Játsz!',
     'id': 'Ingin belajar CSS flexbox? Bermain',
+    'tl': 'Gusto mo ba na mag-aral ng CSS flexbox? Maglaro ng',
   },
 };
