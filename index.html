@@ -72,6 +72,9 @@
           <span class="fb-like" data-href="https://cssgridgarden.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
         </p>
       </div>
+      
+      <div id="custom-inline"></div>
+
       <div class="credits">
         <span id="labelFooter" class="translate">Grid Garden is created by</span>
         <a href="https://codepip.com">Codepip</a> •
@@ -231,5 +234,25 @@
       js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1820320434958041";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script src="//m.servedby-buysellads.com/monetization.custom.js"></script>
+    <script>
+    (function() {
+      if (typeof _bsa !== 'undefined' && _bsa) {
+        _bsa.init('custom', 'CESIC537', 'placement:cssgridgardencom',
+        {
+          target: '#custom-inline',
+          template: `
+      <a href="##link##" class="native-link" rel="sponsored noopener" target="_blank" title="##company## — ##tagline##">
+        <img src="##image##" style="background-color: ##backgroundColor##" class="native-img">
+        <div class="native-text"><span class="native-company">##company##</span> ##description##</div>
+      </a>
+      <a href="##ad_via_link##" class="native-ad">AD</a>
+        `
+            }
+          );
+      }
+    })();
+    </script>
   </body>
 </html>
