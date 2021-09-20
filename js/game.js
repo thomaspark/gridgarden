@@ -322,10 +322,10 @@ var game = {
     var correct = true;
 
     $('.treatment').each(function() {
-      var position = $(this).position();
+      var position = {};
 
-      position.top = Math.floor(position.top);
-      position.left = Math.floor(position.left);
+      position.top = Math.round(this.getBoundingClientRect().top);
+      position.left = Math.round(this.getBoundingClientRect().left);
       position.width = Math.floor(parseFloat(window.getComputedStyle(this).width));
       position.height = Math.floor(parseFloat(window.getComputedStyle(this).height));
 
@@ -335,10 +335,10 @@ var game = {
     });
 
     $('.plant').each(function() {
-      var position = $(this).position();
+      var position = {};
 
-      position.top = Math.floor(position.top);
-      position.left = Math.floor(position.left);
+      position.top = Math.round(this.getBoundingClientRect().top);
+      position.left = Math.round(this.getBoundingClientRect().left);
       position.width = Math.floor(parseFloat(window.getComputedStyle(this).width));
       position.height = Math.floor(parseFloat(window.getComputedStyle(this).height));
 
