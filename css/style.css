@@ -705,24 +705,27 @@ button:not(.disabled):hover {
 #custom-inline #_custom_ {
   position: relative;
   display: flex;
+  align-items: center;
   margin: 2em 0 .5em;
   padding: 8px 18px 8px 0;
   border-radius: 4px;
-  background-color: hsla(0, 0%, 94%, .5);
+  background-color: hsla(0, 0%, 0%, .1);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-
-  align-items: center;
 }
 
 #custom-inline .native-link {
   position: relative;
   display: flex;
-
   align-items: center;
 }
 
 #custom-inline a {
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
+}
+
+#custom-inline a:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 #custom-inline .native-img {
@@ -739,9 +742,8 @@ button:not(.disabled):hover {
 
 #custom-inline .native-text {
   margin-right: 10px;
-  margin-left: 24px;
-  color: #111;
-  font-size: 14px;
+  margin-left: 32px;
+  font-size: 12px;
   line-height: 1.35;
 }
 
