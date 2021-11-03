@@ -36,7 +36,7 @@ var messages = {
     'fi' : 'Suomi',
     'id': 'Bahasa Indonesia',
     'tl': 'Tagalog',
-    'al': 'Albanian',
+    'al': 'Shqip',
   },
   next: {
     'en': 'Next',
