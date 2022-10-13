@@ -24,6 +24,7 @@ My gratitude to these contributors for their translations.
 * Chinese Simplified by [Jin](https://github.com/winar-jin)
 * Chinese Traditional by [Joy Shan-Chun Kuo](https://github.com/joykuotw)
 * Dutch by [Wietse Neven](https://github.com/wietseneven)
+* Estonian by [Sten Leinasaar](https://github.com/StenLeinasaar)
 * Farsi by [leonine90](https://github.com/leonine90)
 * French by [Forresst](https://github.com/forresst)
 * Finnish by [Minna N.](https://github.com/minna-xD)
@@ -46,7 +47,6 @@ My gratitude to these contributors for their translations.
 * Tagalog by [goriio](https://github.com/goriio)
 * Turkish by [serdar](https://github.com/yigitserdar)
 * Vietnamese by [Duy Phan](https://github.com/duyphanz)
-* Estonian by [Sten Leinasaar](https://github.com/StenLeinasaar)
 
 Don't see your language on the list? Add it!
 
