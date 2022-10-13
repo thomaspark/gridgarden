@@ -318,7 +318,7 @@ var messages = {
     'id': 'Apakah kamu yakin ingin mengatur ulang permainan?\n\nKemajuan Anda yang tersimpan akan hilang dan Anda akan dikirim ke awal permainan.',
     'tl': 'Sigurado ka na gusto mo ulitin ang laro?\n\nMawawala ang naka-save na progress sa \'yo tapos mapupunta ka uli sa simula ng laro.',
     'al': 'A jeni të sigurtë që doni ta rifilloni lojën?\n\nProgresi i ruajtur do të humbasë dhe ju\'do të dërgoheni në fillimin e lojës',
-     ee': 'Kas olete kindel, et soovite uuesti alustada?\n\nTeie salvestatud saavutused lähevad kaotsi ja teid saadetakse mängu algusesse.',
+    'ee': 'Kas olete kindel, et soovite uuesti alustada?\n\nTeie salvestatud saavutused lähevad kaotsi ja teid saadetakse mängu algusesse.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="https://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
