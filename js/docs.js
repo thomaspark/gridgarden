@@ -32,6 +32,7 @@ var docs = {
     'id': '<p>Menentukan letak dan ukuran item grid di dalam grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa position ng grid item at and size nito sa loob ng grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'al': '<p>Specifikon pozicionin dhe madhësinë e një grid item brenda në grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse asukoha ja suuruse ruudustikus.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -66,6 +67,7 @@ var docs = {
     'id': '<p>Menentukan letak item grid di dalam kolom grid.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa position ng grid item sa loob ng mga column ng grid.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'al': '<p>Specifikon pozicionin e një grid item brenda kolonave të gird.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse asukoha ruudustiku veergudes.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -100,6 +102,7 @@ var docs = {
     'id': '<p>Menentukan letak akhir item grid di dalam kolom grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa end position ng grid item sa loob ng mga column ng grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'al': '<p>Specifikon pozicionin ne fund të një grid item brenda kolonave të grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse lõppasendi ruudustiku veergudes.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -134,6 +137,7 @@ var docs = {
     'id': '<p>Menentukan letak awal item grid di dalam kolom grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa start position ng grid item sa loob ng mga column ng grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'al': '<p>Specifikon pozicionin në fillim të një grid item brenda kolonave te grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse alguspositsiooni ruudustiku veergudes.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -168,6 +172,7 @@ var docs = {
     'id': '<p>Menentukan letak item grid di dalam baris grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa position ng grid item sa loob ng mga row ng grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'al': '<p>Specifikon pozicionin brenda rrjeshtave të grid të një grid item.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse asukoha ruudustiku ridades.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
    
   },
   'grid-row-end': {
@@ -203,6 +208,7 @@ var docs = {
     'id': '<p>Menentukan letak akhir item grid di dalam baris grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa end position ng grid item sa loob ng mga row ng grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'al': '<p>Specifikon pozicionin në fund brenda rrjeshtave të grid të një grid item.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse lõppasendi ruudustiku ridades.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -237,6 +243,7 @@ var docs = {
     'id': '<p>Menentukan letak awal item grid di dalam baris grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa start position ng grid item sa loob ng mga row ng grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'al': '<p>Specifikon pozicionin fillestar të një gird item brenda rrjeshatve të grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse alguskoha ruudustiku ridades.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -271,6 +278,7 @@ var docs = {
     'id': '<p>Menentukan ukuran dan nama dari baris dan kolom grid.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa sukat at pangalan ng rows at columns ng grid.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'al': '<p>Specifikon madhësitë dhe emrat e rrjeshtave dhe kolonave të grid.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku ridade ja veergude suuruse ja nimed.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -305,6 +313,7 @@ var docs = {
     'id': '<p>Menentukan area dari grid yang telah diberi nama.</p><p><code>&lt;grid-name&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa mga nilagyan ng name na grid area.</p><p><code>&lt;grid-name&gt;</code></p>',
     'al': '<p>Specifikon zonat e emëruara të grid.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'ee': '<p>Määrab nimetatud ruudustiku alad.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -339,6 +348,7 @@ var docs = {
     'id': '<p>Menentukan ukuran dan nama kolom dari grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'tl': '<p>Tumutukoy ito sa sukat at pangalan ng columns ng grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'al': '<p>Specifikon madhesitë dhe emrat e kolonave të grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ee': '<p>Määrab ruudustiku veergude suuruse ja nimed.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -373,6 +383,7 @@ var docs = {
     'id': '<p>Menentukan ukuran dan nama baris dari grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'tl': '<p>Tumutukoy ito sa sukat at pangalan ng rows ng grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'al': '<p>Specifikon madhesitë dhe emrat e rrjeshtave të grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ee': '<p>Määrab ruudustiku ridade suuruse ja nimed.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -407,5 +418,6 @@ var docs = {
     'id': '<p>Menentukan urutan dari item grid.</p><p><code>&lt;integer&gt;</code></p>',
     'tl': '<p>Tumutukoy ito sa order ng grid item.</p><p><code>&lt;integer&gt;</code></p>',
     'al': '<p>Specifikon rregullin e një grid item.</p><p><code>&lt;integer&gt;</code></p>',
+    'ee': '<p>Määrab ruudustiku üksuse järjestuse.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
