@@ -37,7 +37,7 @@ var messages = {
     'id': 'Bahasa Indonesia',
     'tl': 'Tagalog',
     'al': 'Shqip',
-    'et': 'Estonian',
+    'et': 'Eesti',
     
   },
   next: {
