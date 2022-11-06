@@ -46,6 +46,7 @@ My gratitude to these contributors for their translations.
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 * Tagalog by [goriio](https://github.com/goriio)
 * Turkish by [serdar](https://github.com/yigitserdar)
+* Ukrainian by [Igor Klimchuk](mailto:igor.klimchuk@tstechpro.com)
 * Vietnamese by [Duy Phan](https://github.com/duyphanz)
 
 Don't see your language on the list? Add it!
