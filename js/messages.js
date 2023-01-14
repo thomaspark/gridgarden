@@ -119,7 +119,7 @@ var messages = {
     'id': 'Grid Garden diciptakan oleh',
     'tl': 'Ang Grid Garden ay ginawa ng',
     'al': 'Grid Garden është krijuar nga',
-    'en': 'Grid Garden autorid on',
+    'et': 'Grid Garden autorid on',
     'th': 'Grid Garden ถูกสร้างโดย',
   },
   labelLevel: {
