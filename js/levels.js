@@ -76,7 +76,7 @@ var levels = [
       'id': '<p>Uh oh, sepertinya rumput liar tumbuh di sudut kebunmu. Gunakan <code>grid-column-start</code> untuk meracuninya. Perhatikan bahwa rumput liarnya bermula di garis vertikal grid ke-5.</p>',
       'tl': '<p>Awit, mukhang may mga damo na tumutubo sa sulok ng hardin mo. Gamitin ang <code>grid-column-start</code> para lasunin sila. Tandaan na ang mga damo ay nasisimula sa panglimang linya sa vertical grid.</p>',
       'al': '<p>Oh jo, si duket shkurret po rriten në cep të kopështit tuaj. Përdor <code>grid-column-start</code> për ti helmuar. Ki parasysh se shkurret fillojnë në vijën e pestë vertikale të grid.</p>',
-      'et': '<p>Tere tulemast Grid Gardeni, kus kirjutate oma porgandiaia kasvatamiseks CSS-koodi! Kastke ainult neid piirkondi, kus on porgandeid, kasutades <code>grid-column-start</code> property.</p><p>Näiteks, <code>grid-column-start: 3;</code> kastab ala alates 3. vertikaalsest ruudustiku joonest, mis on sama kui öelda ruudustiku kolmas vertikaalne joon vasakult.<img src="https://code.org/api/hour/begin_codepip_grid.png"></p>',
+      'et': '<p>Tere tulemast Grid Gardeni, kus kirjutate oma porgandiaia kasvatamiseks CSS-koodi! Kastke ainult neid piirkondi, kus on porgandeid, kasutades <code>grid-column-start</code> property.</p><p>Näiteks, <code>grid-column-start: 3;</code> kastab ala alates 3. vertikaalsest ruudustiku joonest, mis on sama kui öelda ruudustiku kolmas vertikaalne joon vasakult.</p>',
       'th': '<p>แย่แล้ว, ดูเหมือนวัชพืชจะโตขึ้นมาตรงมุมของสวนของคุณ ใช้คุณสมบัติ <code>grid-column-start</code> ไปใส่ยาฆ่าวัชพืชเลย สังเกตว่าวัชพืชจะเริ่มจากเส้นแนวตั้งที่ 5 ของ grid</p>',
     },
     board: 'w',
