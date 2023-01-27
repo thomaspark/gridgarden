@@ -371,6 +371,7 @@ var messages = {
     'fr': 'Vous voulez apprendre CSS FlexBox ? Jouer à',
     'it': 'Vuoi imparare CSS flexbox? Gioca a',
     'ko': 'CSS flexbox를 배워볼려면? 여기를 클릭',
+    'sv': 'Vill du lära dig CSS flexbox? Spela',
     'lv': 'Vēlies iemācīties CSS "flexbox"? Pamēģini',
     'nl': 'Wil je CSS Flexbox leren? Speel',
     'el': 'Θέλετε να μάθετε CSS Flexbox; Παίξτε',
