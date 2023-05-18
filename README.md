@@ -19,6 +19,7 @@ My gratitude to these contributors for their translations.
 
 * Albanian by [Enea Muskaj](https://github.com/eneamuskaj)
 * Arabic by [Basel Akasha](https://github.com/baselakasha)
+* Azerbaijani by [jalalbmnf](https://github.com/jalalbmnf)
 * Bulgarian by [radoAngelov](https://github.com/radoAngelov)
 * Catalan by [Xavier Gaya](https://github.com/xavigaya)
 * Chinese Simplified by [Jin](https://github.com/winar-jin)
