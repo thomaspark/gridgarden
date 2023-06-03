@@ -31,6 +31,7 @@ My gratitude to these contributors for their translations.
 * Finnish by [Minna N.](https://github.com/minna-xD)
 * German by [Rafael Schwemmer](https://github.com/schwemmer)
 * Greek by [lmintmate](https://github.com/lmintmate)
+* Hindi by [Ayush Chauhan](https://github.com/ayushchauhan101)
 * Hungarian by [Krisztian Papp](https://github.com/pehsa)
 * Indonesia by [I Putu Cahya Adi Ganesha](https://github.com/Ipcagr1d)
 * Italian by [sirLisko](https://github.com/sirLisko)
