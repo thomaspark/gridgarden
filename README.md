@@ -51,6 +51,7 @@ My gratitude to these contributors for their translations.
 * Turkish by [serdar](https://github.com/yigitserdar)
 * Ukrainian by [Igor Klimchuk](mailto:igor.klimchuk@tstechpro.com)
 * Vietnamese by [Duy Phan](https://github.com/duyphanz)
+* Yoruba by [Koleaje Olayinka](https://github.com/koleajeolayinka)
 
 Don't see your language on the list? Add it!
 
