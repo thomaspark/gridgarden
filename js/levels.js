@@ -38,6 +38,8 @@ var levels = [
       'et': '<p>Tere tulemast Grid Gardeni, kus kirjutate oma porgandiaia kasvatamiseks CSS-koodi! Kastke ainult neid piirkondi, kus on porgandeid, kasutades<code>grid-column-start</code> omadusi.</p><p>Näiteks, <code>grid-column-start: 3;</code> kastab ala alates kolmandast vertikaalsest ruudustiku joonest alates<img src="https://code.org/api/hour/begin_codepip_grid.png"></p>',
       'th': '<p>ยินดีต้อนรับเข้าสู่ Grid Garden, ที่ๆคุณเขียนคำสั่ง CSS สำหรับปลูกสวนแครอท! รดน้ำเฉพาะพื้นที่ที่มีแครอท โดยใช้คุณสมบัติ <code>grid-column-start</code></p><p>ตัวอย่างเช่น, <code>grid-column-start: 3;</code> จะรดน้ำพื้นที่เริ่มตั้งแต่ เส้นแนวตั้งที่ 3 เป็นต้นไป, หรือจะเรียกอีกอย่างว่า เส้นขอบแนวตั้งที่ 3 จากด้านซ้ายมือของ grid ก็ได้ <img src="https://code.org/api/hour/begin_codepip_grid.png"></p>',
       'yo': '<p>Kaabọ si Ọgba Grid, nibiti o ti kọ koodu CSS lati dagba ọgba karọọti rẹ! Omi nikan awọn agbegbe ti o ni awọn Karooti nipa lilo awọn <code>grid-column-start</code> ohun ini.</p><p>Fun apere, <code>grid-column-start: 3;</code> yoo fun omi ni agbegbe ti o bẹrẹ ni laini grid inaro ẹkẹta, eyiti o jẹ ọna miiran ti sisọ aala inaro ẹkẹta lati apa osi ni grid.<img src="https://code.org/api/hour/begin_codepip_grid.png"></p>',
+      'ta': '<p>உங்கள் கேரட் தோட்டத்தை வளர்க்க CSS குறியீட்டை எழுதும் கிரிட் கார்டனுக்கு வரவேற்கிறோம்! கேரட் உள்ள பகுதிகளுக்கு மட்டுமே தண்ணீர் ஊற்றவும் <code>grid-column-start</code> உடமைகள்.</p><p>உதாரணத்திற்கு, <code>grid-column-start: 3;</code> இது மூன்றாவது செங்குத்து கட்டக் கோட்டில் தொடங்கும் பகுதிக்கு நீர்ப்பாசனம் செய்யும், இது கட்டத்தின் இடதுபுறத்தில் இருந்து மூன்றாவது செங்குத்து எல்லையை வரையறுக்கும் மற்றொரு வழியாகும்.<img src="https://code.org/api/hour/begin_codepip_grid.png"></p>',
+
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -84,6 +86,8 @@ var levels = [
       'et': '<p>Tere tulemast Grid Gardeni, kus kirjutate oma porgandiaia kasvatamiseks CSS-koodi! Kastke ainult neid piirkondi, kus on porgandeid, kasutades <code>grid-column-start</code> property.</p><p>Näiteks, <code>grid-column-start: 3;</code> kastab ala alates 3. vertikaalsest ruudustiku joonest, mis on sama kui öelda ruudustiku kolmas vertikaalne joon vasakult.</p>',
       'th': '<p>แย่แล้ว, ดูเหมือนวัชพืชจะโตขึ้นมาตรงมุมของสวนของคุณ ใช้คุณสมบัติ <code>grid-column-start</code> ไปใส่ยาฆ่าวัชพืชเลย สังเกตว่าวัชพืชจะเริ่มจากเส้นแนวตั้งที่ 5 ของ grid</p>',
       'yo': '<p>Ah oh, o dabi pe awọn èpo ti n dagba ni igun ọgba rẹ. Lo <code>grid-column-start</code> lati majele fun wọn. Ṣe akiyesi pe awọn èpo bẹrẹ ni laini grid inaro ikarun.</p>',
+      'ta': '<p>அடடா, உங்கள் தோட்டத்தின் மூலையில் களைகள் வளர்வது போல் தெரிகிறது. அவற்றை விஷமாக்க <code>grid-column-start</code> ஐப் பயன்படுத்தவும். களைகள் 5 வது செங்குத்து கட்டக் கோட்டில் தொடங்குகின்றன என்பதை நினைவில் கொள்க.</p>',
+
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -130,6 +134,8 @@ var levels = [
       'et': '<p>Kui <code>grid-column-start</code> on kasutatud üksi, siis ruudustiku üksus hõlmab vaikimisi täpselt ühte veergu. Sa saad laiendada üksust mitmele veerule, lisades <code>grid-column-end</code> omaduse.</p><p>Using <code>grid-column-end</code>, kasta kõik porgandid, vältides samal ajal mulda. Me ei taha vett raisata! Pane tähele, et porgandid algavad esimese vertikaalse ruudustiku joonega ja lõpevad neljanda kohal.</p>',
       'th': '<p>เมื่อใช้คุณสมบัติ <code>grid-column-start</code> อย่างเดียว, grid item จะขยายไป 1 column เท่านั้น แต่ว่าคุณสามารถขยาย item ออกไปหลายๆ column โดยเพิ่มคุณสมบัติ <code>grid-column-end</code></p><p>ใช้คุณสมบัติ <code>grid-column-end</code>, ไปรดน้ำแครอทของคุณทั้งหมด แต่หลีกเลี่ยงดินเปล่าๆนะ เราไม่อยากเปลืองน้ำ! สังเกตว่าต้นแครอทจะเริ่มที่เส้นแนวตั้งที่ 1 และจบที่เส้นแนวตั้งที่ 4</p>',
       'yo': '<p>Nigba ti <code>grid-column-start</code> ba jẹ lilo nikan, ohun grid nipasẹ aiyipada yoo gun ni deede iwe kan. Sibẹsibẹ, o le fa ohun naa kọja awọn ọwọn pupọ nipa fifi <code>grid-column-end</code> ohun-ini.</p><p> Lilo <code>grid-column-end</code>, omi gbogbo rẹ. ti awọn Karooti rẹ lakoko ti o yago fun idoti. A ko fẹ lati sọ omi eyikeyi nu! Ṣe akiyesi pe awọn Karooti bẹrẹ ni laini akoj inaro 1 o si pari ni 4th.</p>',
+      'ta': '<p><code>grid-column-start</code> தனியாகப் பயன்படுத்தப்படும்போது, ​​இயல்பாகவே கட்டம் உருப்படியானது சரியாக ஒரு நெடுவரிசையில் இருக்கும். இருப்பினும், <code>grid-column-end</code> பண்புகளைச் சேர்ப்பதன் மூலம் உருப்படியை பல நெடுவரிசைகளில் நீட்டிக்கலாம்.</p><p><code>grid-column-end</code> ஐப் பயன்படுத்தி, அனைத்தையும் நீரேற்றவும். அழுக்கு தவிர்க்கும் போது உங்கள் கேரட். நாங்கள் தண்ணீரை வீணாக்க விரும்பவில்லை! கேரட் 1 வது செங்குத்து கட்டக் கோட்டில் தொடங்கி 4 வது இடத்தில் முடிவடைகிறது என்பதை நினைவில் கொள்க.</p>',
+
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -177,6 +183,8 @@ var levels = [
       'et': '<p>Sidudes <code>grid-column-start</code> ja <code>grid-column-end</code>, sa võibolla eeldada, et lõppväärtus peab olema suurem kui algväärtus. Kuid selgub, et see ei ole nõnda!</p><p>Proovi seadistada <code>grid-column-end</code> väärtusele väikesm kui viis, et porgandeid kasta.</p>',
       'th': '<p>เมื่อใช้ <code>grid-column-start</code> และ <code>grid-column-end</code> คู่กัน, คุณอาจจะคิดว่าค่าสุดท้ายจะต้องมากกว่าค่าเริ่มต้นเสมอ แต่จริงๆแล้วไม่ใช่อย่างนั้น!</p><p>ลองตั้งค่า <code>grid-column-end</code> เป็นค่าที่น้อยกว่า 5 เพื่อรดน้ำให้ต้นแครอทของคุณ</p>',
       'yo': '<p>Nigbati a ba so pọ <code> grid-column-start</code> ati <code>grid-column-end</code>, o le ro pe iye ipari ni lati tobi ju ibẹrẹ lọ iye. Ṣugbọn eyi kii ṣe ọran naa!</p><p>Gbiyanju ṣeto <code>grid-column-end</code> si iye ti o kere ju 5 lati fun omi Karooti rẹ.</p>',
+      'ta': '<p><code>grid-column-start</code> மற்றும் <code>grid-column-end</code> ஆகியவற்றை இணைக்கும்போது, ​​தொடக்க மதிப்பை விட இறுதி மதிப்பு அதிகமாக இருக்க வேண்டும் என்று நீங்கள் கருதலாம். ஆனால் இது அப்படியல்ல!</p><p>உங்கள் கேரட்டுக்கு தண்ணீர் பாய்ச்ச, <code>grid-column-end</code>ஐ 5க்கும் குறைவான மதிப்புக்கு அமைக்க முயற்சிக்கவும்.</p>',
+
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
@@ -224,6 +232,8 @@ var levels = [
       'et': '<p>Kui soovite ruudustiku jooni lugeda paremalt, mitte vasakult, võite anda<code>grid-column-start</code> ja <code>grid-column-end</code> negatiivsed väärtused. Näiteks saate määrata selle väärtuseks -1, et määrata esimene ruudustiku rida paremalt.</p><p>Proovi muuta <code>grid-column-end</code> negatiivseks väärtuseks.</p>',
       'th': '<p>ถ้าคุณอยากจะนับเส้น grid เร่ิมจากด้านขวา แทนที่จะเร่ิมจากด้านซ้าย, คุณสามารถให้ค่า <code>grid-column-start</code> และ <code>grid-column-end</code> เป็นค่าติดลบได้ด้วย ยกตัวอย่างเช่น, คุณสามารถกำหนดค่าเป็น -1 เพื่อกำหนดให้นับเส้น grid เส้นแรกจากทางขวา</p><p>ลองกำหนดค่า <code>grid-column-end</code> เป็นค่าติดลบดู</p>',
       'yo': '<p>Ti o ba fẹ ka awọn laini grid lati ọtun dipo osi, o le fun <code> grid-column-start</code> ati <code>grid-column-end</code> awọn iye odi. Fun apẹẹrẹ, o le ṣeto si -1 lati pato laini grid akọkọ lati apa ọtun.</p><p>Gbiyanju ṣeto <code>grid-column-end</code> si iye odi.</p>',
+      'ta': '<p>இடதுபுறத்திற்குப் பதிலாக வலதுபுறத்தில் இருந்து கட்டக் கோடுகளை எண்ண விரும்பினால், <code>grid-column-start</code> மற்றும் <code>grid-column-end</code> எதிர்மறை மதிப்புகளைக் கொடுக்கலாம். எடுத்துக்காட்டாக, வலதுபுறத்தில் இருந்து முதல் கட்டக் கோட்டைக் குறிப்பிட நீங்கள் அதை -1 என அமைக்கலாம்.</p><p><code>grid-column-end</code> ஐ எதிர்மறை மதிப்புக்கு அமைக்க முயற்சிக்கவும்.</p>',
+
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -271,6 +281,8 @@ var levels = [
       'et': '<p>Nüüd proovi muuta <code>grid-column-start</code> negatiivseks väärtuseks.</p>',
       'th': '<p>คราวนี้ลองกำหนดค่า <code>grid-column-start</code> เป็นค่าติดลบบ้าง</p>',
       'yo': '<p>Nisisiyi gbiyanju lati ṣeto <code>grid-column-start</code> si iye odi kan.</p>',
+      'ta': '<p>இப்போது <code>grid-column-start</code> ஒரு எதிர்மறை மதிப்புக்கு அமைக்க முயற்சிக்கவும்.</p>',
+
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -317,6 +329,8 @@ var levels = [
       'et': '<p>Selle asemel, et määrata ruudustiku üksus ruudustiku joonte algus- ja lõppasendi põhjal, saad selle määrata soovitud veeru laiuse alusel, kasutades <code>span</code> märksõna. Pea meeles, et <code>span</code> toimib ainult positiivsete väärtustega.</p><p>Kasta need porganid õpitud reegliga.<code>grid-column-end: span 2;</code>.</p>',
       'th': '<p>แทนที่จะกำหนดค่า grid item จากจุดเริ่มต้นและจุดสิ้นสุดของเส้น grid, คุณยังสามารถกำหนดจากความกว้างของ column ที่คุณต้องการได้ด้วยคำสั่ง <code>span</code> จำไว้ว่าค่าของ <code>span</code> ใช้ได้กับเลขบวกเท่านั้น</p><p>ตัวอย่างเช่น, รดน้ำแครอทเหล่านี้ด้วยคุณสมบัติ <code>grid-column-end: span 2;</code></p>',
       'yo': '<p>Dipo titumo nkan grid item kan ti o da lori ibẹrẹ ati awọn ipo ipari ti awọn laini grid, o le ṣalaye rẹ da lori iwọn iwe ti o fẹ nipa lilo ọrọ-ọrọ <code>span</code>. Ranti pe <code>span</code> n ṣiṣẹ pẹlu awọn iye to dara nikan.</p><p>Fun apẹẹrẹ, fun omi awọn Karooti wọnyi pẹlu ofin <code>grid-column-end: span 2;</code> .</p>',
+      'ta': '<p>கட்டக் கோடுகளின் தொடக்க மற்றும் இறுதி நிலைகளின் அடிப்படையில் கட்டம் உருப்படியை வரையறுப்பதற்குப் பதிலாக, <code>span</code> முக்கிய சொல்லைப் பயன்படுத்தி நீங்கள் விரும்பிய நெடுவரிசை அகலத்தின் அடிப்படையில் அதை வரையறுக்கலாம். <code>span</code> நேர்மறை மதிப்புகளுடன் மட்டுமே செயல்படும் என்பதை நினைவில் கொள்ளவும்.</p><p>உதாரணமாக, <code>grid-column-end: span 2;</code> விதியுடன் இந்த கேரட்டுகளுக்கு தண்ணீர் கொடுங்கள் .</p>',
+
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-2'},
@@ -364,6 +378,8 @@ var levels = [
       'et': '<p>Proovi kasutada <code>grid-column-end</code> koos <code>span</code> märksõnaga uuest, et porgandeid kasta.</p>',
       'th': '<p>ลองใช้ <code>grid-column-end</code> กับคำสั่ง <code>span</code> อีกครั้งเพื่อรดน้ำแครอทของคุณ</p>',
       'yo': '<p>Gbiyanju lilo <code>grid-column-end</code> pẹlu <code>span</code> ọrọ-ọrọ lẹẹkansi lati fun awọn Karooti rẹ.</p>',
+      'ta': '<p>உங்கள் கேரட்டுக்குத் தண்ணீர் பாய்ச்ச, மீண்டும் <code>span</code> முக்கிய சொல்லுடன் <code>grid-column-end</code> ஐப் பயன்படுத்தவும்.</p>',
+
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
@@ -411,6 +427,8 @@ var levels = [
       'et': '<p>Sa võid kasutada ka <code>span</code> märksõna koos <code>grid-column-start</code>, et määrata ruudu laius lõppasendi suhtes.</p>',
       'th': '<p>คุณสามารถใช้คำสั่ง <code>span</code> กับคุณสมบัติ <code>grid-column-start</code> เพื่อกำหนดความกว้างของ item นับจากจุดสิ้นสุด</p>',
       'yo': '<p>O tun le lo <code>span</code> pẹlu ọrọ-ọrọ <code>grid-column-start</code> lati ṣeto iwọn ohun rẹ ni ibatan si ipo ipari.< /p>',
+      'ta': '<p>உங்கள் பொருளின் அகலத்தை இறுதி நிலைக்கு ஏற்ப அமைக்க, <code>span</code> முக்கிய சொல்லை <code>grid-column-start</code> பயன்படுத்தலாம்.</p>',
+
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
@@ -458,6 +476,8 @@ var levels = [
       'et': '<p>Lisades mõlemad <code>grid-column-start</code> ja <code>grid-column-end</code> iga kord muutub tüütuks. Õnneks, <code>grid-column</code> on lühendatud omadus, mis aktsepteerib mõlemad väärtused koos, eraldatud kaldkriipsuga.</p><p>Näiteks, <code>grid-column: 2 / 4;</code> seab ruudustiku elemendi alguse teise vertikaalse ruudustiku jooneks ja lõpu neljanda ruudustiku jooneks.</p>',
       'th': '<p>พิมพ์ทั้งคุณสมบัติ <code>grid-column-start</code> และ <code>grid-column-end</code> บ่อยๆก็เหนื่อยได้ โชคดีที่คุณสมบัติ <code>grid-column</code> เป็นคุณสมบัติย่อที่รับค่าของทั้งสองคุณสมบัติในครั้งเดียว, แยกกันด้วยเครื่องหมาย slash</p><p>ตัวอย่างเช่น, <code>grid-column: 2 / 4;</code> จะกำหนดค่า grid item ให้เริ่มต้นที่เส้นแนวตั้งที่ 2 และสิ้นสุดที่เส้นแนวตั้งที่ 4</p>',
       'yo': '<p>Titẹ mejeeji <code> grid-column-start</code> ati <code>grid-column-end</code> ni gbogbo igba le jẹ ki o rẹwẹsi. O da Oriire, <code>grid-column</code> jẹ ohun-ini kukuru ti o le gba awọn iye mejeeji ni ẹẹkan, ti a ya sọtọ nipasẹ slash.</p><p>Fun apẹẹrẹ, <code>grid-column: 2/4; </code> yoo ṣeto ohun kan grid lati bẹrẹ lori ila grid inaro keji ati pari lori laini grid 4th.</p>',
+      'ta': '<p>ஒவ்வொரு முறையும் <code>grid-column-start</code> மற்றும் <code>grid-column-end</code> இரண்டையும் தட்டச்சு செய்வது சோர்வடையலாம். அதிர்ஷ்டவசமாக, <code>grid-column</code> என்பது ஒரு சுருக்கெழுத்து பண்பு ஆகும், இது இரண்டு மதிப்புகளையும் ஒரே நேரத்தில் ஏற்றுக்கொள்ளும், ஒரு சாய்வால் பிரிக்கப்பட்டது.</p><p>உதாரணமாக, <code>grid-column: 2 / 4; </code> கட்டம் உருப்படியை 2வது செங்குத்து கிரிட் லைனில் தொடங்கி 4வது கிரிட் லைனில் முடியும்படி அமைக்கும்.</p>',
+
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -504,6 +524,8 @@ var levels = [
       'et': '<p>Proovi kasutada <code>grid-column</code>, et oma porgandeid kasta. <code>span</code> märksõna töötab ka lühendatud omadusega. Tee proovi!</p>',
       'th': '<p>ลองใช้คุณสมบัติ <code>grid-column</code> เพื่อรดน้ำแครอทเหล่านี้ คำสั่ง <code>span</code> ก็ใช้ได้กับคุณสมบัติย่อนี้ ลองใช้ดู!</p>',
       'yo': '<p>Gbìyànjú láti lo <code>grid-column</code> láti fi omi sí àwọn kọ́rọ́ọ̀tì wọ̀nyí. <code>span</code> Ọrọ-ọrọ  náà tún ń ṣiṣẹ́ pẹ̀lú ohun ìní ọwọ́ kéékèèké yìí nítorí náà gbìyànjú rẹ̀!</p> ',
+      'ta': '<p>இந்த கேரட்டுகளுக்கு தண்ணீர் பாய்ச்ச <code>grid-column</code> ஐப் பயன்படுத்தவும். <code>span</code> முக்கிய வார்த்தையும் இந்த சுருக்கெழுத்து பண்புடன் வேலை செய்கிறது, எனவே இதை முயற்சிக்கவும்!</p>',
+
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -550,6 +572,8 @@ var levels = [
       'et': '<p>Üks asi, mis eristab CSS-ruudustikku flexboxist, on see, et saate hõlpsasti paigutada üksusi kahes mõõtmes: veergudes ja ridades. <code>grid-row-start</code> töötab sarnaselt <code>grid-column-start</code> kuid pikki vertikaaltelge.</p><p>Kasuta <code>grid-row-start</code>, et oma porgandeid kasta.</p>',
       'th': '<p>หนึ่งสิ่งที่ CSS grids แตกต่างจาก flexbox คือคุณสามารถกำหนดตำแหน่งของ items ในสองมิติได้อย่างง่ายดาย: columns และ rows <code>grid-row-start</code> ทำงานเหมือนกับ <code>grid-column-start</code> ยกเว้นถูกใช้ในแกนตั้ง</p><p>ใช้คุณสมบัติ <code>grid-row-start</code> เพื่อรดน้ำแครอทเหล่านี้</p>',
       'yo': '<p>Ọkan ninu awọn ohun ti o ṣeto awọn grids CSS yatọ si Flexbox ni pe o le ni irọrun gbe awọn ohun kan si awọn iwọn meji: awọn ọwọn ati awọn ori ila. <code>grid-row-start</code> ṣiṣẹ pupọ bii <code>grid-row-start</code> ayafi lẹgbẹẹ ipo inaro.</p><p>Lo <code>grid-row-start</code> lati fun omi awọn Karooti wọnyi.</p>',
+      'ta': '<p>CSS கட்டங்களை ஃப்ளெக்ஸ்பாக்ஸிலிருந்து வேறுபடுத்தும் விஷயங்களில் ஒன்று, நீங்கள் பொருட்களை இரண்டு பரிமாணங்களில் எளிதாக வைக்கலாம்: நெடுவரிசைகள் மற்றும் வரிசைகள். <code>grid-row-start</code> போன்ற வேலை செய்கிறது <code>grid-column-start</code> செங்குத்து அச்சில் தவிர.</p><p>பயன்படுத்தவும் <code>grid-row-start</code> கேரட்டுக்கு நீர்ப்பாசனம் செய்ய</p>',
+
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -596,6 +620,8 @@ var levels = [
       'et': '<p>Nüüd proodiv lühendatud omadust! <code>grid-row</code></p>',
       'th': '<p>จากนั้นลองใช้คุณสมบัติย่อ <code>grid-row</code> ดูสิ</p>',
       'yo': '<p>Nisisiyi fun ohun-ini kukuru ni <code> grid-row</code> gbiyanju e.</p>',
+      'ta': '<p>இப்போது சுருக்கெழுத்து பண்பு <code>grid-row</code> ஐ முயற்சிக்கவும்.</p>',
+
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -642,6 +668,8 @@ var levels = [
       'et': '<p>Kasuta <code>grid-column</code> ja <code>grid-row</code> koos, et määrata positsioon kahes dimensioonis.</p>',
       'th': '<p>ใช้คุณสมบัติ <code>grid-column</code> และ <code>grid-row</code> ในเวลาเดียวกันเพื่อกำหนดตำแหน่งในทั้งสองมิติ</p>',
       'yo': '<p>Lo <code>grid-column</code> ati <code>grid-row</code> ni akoko kanna lati ṣeto ipo ni awọn iwọn mejeeji.</p>',
+      'ta': '<p>இரு பரிமாணங்களிலும் நிலையை அமைக்க, ஒரே நேரத்தில் <code>grid-column</code> மற்றும்  <code>grid-row</code> ஆகியவற்றைப் பயன்படுத்தவும்.</p>',
+
     },
     board: 'w',
     selector: '> :nth-child(1)',
@@ -688,6 +716,8 @@ var levels = [
       'et': '<p>Sa võid ka kasutada <code>grid-column</code> ja <code>grid-row</code> koostogether ruudustiku suuremate alade katmiseks. Tee proovi!</p>',
       'th': '<p>คุณสามารถใช้คุณสมบัติ <code>grid-column</code> และ <code>grid-row</code> ร่วมกันเพื่อขยายพื้นที่ภายใน grid ให้กว้างขึ้น ลองใช้ดูสิ!</p>',
       'yo': '<p>O tun le lo <code>grid-column</code> ati <code>grid-row</code> papọ lati tan (span) awọn agbegbe nla laarin grid. Gbiyanju E wo!</p>',
+      'ta': '<p>கட்டத்திற்குள் பெரிய பகுதிகளை விரிவுபடுத்த, <code>grid-column</code> மற்றும் <code>grid-row</code> ஆகியவற்றைப் பயன்படுத்தலாம். ஒரு முறை முயற்சி செய்!</p>',
+
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -734,6 +764,8 @@ var levels = [
       'et': '<p>Kui mõlemad välja kirjutada <code>grid-column</code> ja <code>grid-row</code> on liiast, siis siin on ka lühendomadus olemas. <code>grid-area</code> aktsepteerib neli väärtust eraldatud kaldkriipsudega: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, järgnedes <code>grid-column-end</code>.</p><p>Üks näides oleks <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'th': '<p>ถ้าพิมพ์คุณสมบัติทั้ง <code>grid-column</code> และ <code>grid-row</code> มันมากเกินไปสำหรับคุณ, ยังมีคุณสมบัติย่ออีกตัวหนึ่ง <code>grid-area</code> รับค่าสี่ค่าแยกกันด้วยเครื่องหมาย slash: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, ตามด้วย <code>grid-column-end</code>.</p><p>ตัวอย่างหนึ่งของคุณสมบัตินี้จะเป็น <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
       'yo': '<p>Ti titẹ mejeeji <code>grid-column</code> ati <code>grid-row</code> ti pọ ju fun ọ, ọna kukuru miiran tun wa fun iyẹn. <code>grid-area</code> gba awọn iye mẹrin ti a ya sọtọ nipasẹ awọn gige: <code>grid-row-start</code>, <code> grid-column-start</code>, <code>grid-row-end</code>, atẹle nipa <code>grid-column-end</code>.</p><p>Apẹẹrẹ eyi yoo jẹ <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
+      'ta': '<p><code>Grid-column</code> மற்றும் <code>grid-row</code> இரண்டையும் தட்டச்சு செய்வது உங்களுக்கு அதிகமாக இருந்தால், அதற்கு இன்னும் ஒரு சுருக்கெழுத்து உள்ளது. <code>grid-area</code> நான்கு மதிப்புகளை ஸ்லாஷ்களால் பிரிக்கிறது: <code>grid-row-start</code>, <code>grid-column-start</code>, <code>grid-row-end</code>, அதைத் தொடர்ந்து <code>grid-column-end</code>.</p><p>இதற்கு ஒரு எடுத்துக்காட்டு <code>grid-area: 1 / 1 / 3 / 6;</code>.</p>',
+
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -780,6 +812,8 @@ var levels = [
       'et': '<p>Kuidas oleks mitme ruuduga? Saate neid ilma probleemideta üksteisega katta. Kasuta <code>grid-area</code>, et defineerida teine ala, mis kataks kõik kastmata porgandid.</p>',
       'th': '<p>ถ้ามีหลาย items ล่ะ? คุณสามารถซ้อน item กันได้ไม่มีปัญหา ใช้คุณสมบัติ <code>grid-area</code> เพื่อกำหนดพื้นที่ที่สองที่ครอบคลุมแครอทที่ยังไม่ได้รดน้ำทั้งหมด</p>',
       'yo': '<p>Bawo ni nipa ọpọlọpọ awọn ohun kan? O le ni lekan wọn lai eyikeyi wahala. Lo <code>grid-area</code> lati ṣalaye agbegbe keji ti o bo gbogbo awọn Karooti ti ko ni omi.</p>',
+      'ta': '<p>பல பொருட்கள் எப்படி? நீங்கள் எந்த பிரச்சனையும் இல்லாமல் அவற்றை ஒன்றுடன் ஒன்று சேர்க்கலாம். நீரற்ற கேரட்கள் அனைத்தையும் உள்ளடக்கிய இரண்டாவது பகுதியை வரையறுக்க <code>grid-area</code> ஐப் பயன்படுத்தவும்.</p>',
+
     },
     board: 'cc',
     classes: {'#garden > :nth-child(2), #plants > :nth-child(2)': 'grid-column-4'},
@@ -827,6 +861,8 @@ var levels = [
       'et': '<p>Kui ruudustiku üksused ei ole selgelt paigutatud <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, jne, siis need paigutatakse automaatselt vastavalt nende järjestusele lähtekoodis. Me saame selle tühistada kasutades<code>order</code> omadust, mis on ruudustiku üks eeliseid tabelipõhise paigutuse ees.</p><p>Kõikidel ruudustiku üksustel on vaikimisi <code>order</code> määratud 0, kuid selle saab määrata mis tahes positiivsele või negatiivsele väärtusele, sarnaselt <code>z-index</code>.</p><p> Praegu mürgitatakse teise veeru porgandeid ja kastetakse viimase veeru umbrohtu. Muuda mürgi <code>order</code> väärtus, et see koheselt parandada!</p>',
       'th': '<p>ถ้า grid items ไม่ถูกวางตำแหน่งโดย <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, มันจะถูกวางอัตโนมัติให้อยู่ตามลำดับของมันใน source code เราสามารถกำหนดตำแหน่งใหม่โดยใช้คุณสมบัติ <code>order</code>, ซึ่งเป็นข้อดีอย่างหนึ่งของ grid เทียบกับการใช้วางแบบด้วย table</p><p>โดยเริ่มต้น grid items ทั้งหมดจะมีค่า <code>order</code> เป็น 0, แต่สามารถกำหนดค่าให้เป็นค่าบวกหรือค่าลบก็ได้, เหมือนกับคุณสมบัติ <code>z-index</code></p><p>ในตอนนี้แครอทใน column ที่สองโดนยาฆ่าวัชพืชอยู่ และวัชพืชใน column สุดท้ายกลับถูกรดน้ำ เปลี่ยนค่าของคุณสมบัติ <code>order</code> ของยาฆ่าวัชพืชเพื่อแก้ไขปัญหานี้!</p>',
       'yo': '<p>Ti awọn nkan grid items ko ba ti fi sii ni pato pẹlu <code>grid-area</code>, <code>grid-column</code>, <code>-grid-row</code> , ati bẹbẹ lọ, a gbe wọn laifọwọyi ni ibamu si aṣẹ wọn ni koodu orisun. A le fopin si eyi nipa lilo ohun-ini <code>order</code>, eyiti o jẹ ọkan ninu awọn anfani grid lori ipilẹ tabili.</p><p>Nipa aiyipada, gbogbo awọn nkan grid ni <code>order</code> ti 0, ṣugbọn eyi le ṣee ṣeto si eyikeyi rere tabi iye odi, ti o jọra si <code>z-index</code>.</p><p>Ni bayi, awọn Karooti ti o wa ninu iwe keji ti wa ni majele. ati awọn èpo ti o wa ni ọwọn ti o kẹhin ti wa ni omi. Yi iye <code>order</code> ti majele pada lati ṣatunṣe eyi lẹsẹkẹsẹ!</p>',
+      'ta': '<p>கிரிட் உருப்படிகள் வெளிப்படையாக வைக்கப்படவில்லை என்றால் <code>grid-area</code>, <code>grid-column</code>, <code>grid-row</code>, முதலியன, மூலக் குறியீட்டில் அவற்றின் வரிசைப்படி அவை தானாகவே வைக்கப்படும். இதைப் பயன்படுத்தி நாம் மேலெழுதலாம் <code>order</code> சொத்து, இது அட்டவணை அடிப்படையிலான அமைப்பை விட கட்டத்தின் நன்மைகளில் ஒன்றாகும்.</p><p>இயல்பாக, அனைத்து கட்ட உருப்படிகளும் 0 இன் <code>order</code> ஐக் கொண்டிருக்கும், ஆனால் இது <code>z-index</code> போன்ற நேர்மறை அல்லது எதிர்மறை மதிப்பிற்கு அமைக்கப்படலாம்.</p><p>இப்போதே, இரண்டாவது நெடுவரிசையில் உள்ள கேரட் விஷம் மற்றும் கடைசி நெடுவரிசையில் உள்ள களைகளுக்கு தண்ணீர் பாய்ச்சுகிறது. இதை உடனே சரிசெய்ய விஷத்தின் <code>order</code> மதிப்பை மாற்றவும்!</p>',
+
     },
     board: 'cwccc',
     selector: '> :nth-child(2)',
@@ -919,6 +955,8 @@ var levels = [
       'et': '<p>Siiamaani on sinu aed olnud ruudustikuna, mis koosneb viiest veerust, millest igaüks on 20% täislaiusest ja viis rida, millest igaüks on 20% täiskõrgusest.</p><p>See loodi reeglitega <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> ja <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> Igal reeglil on viis väärtust, mis loovad viis veergu, millest igaüks on seatud 20% aia üldlaiusest.</p><p>Kuid sa võid ruudustiku seadistada nii, nagu soovid. Anna <code>grid-template-columns</code> uus väärtus, et oma porgandeid kasta. Sa soovid määrata esimese veeru laiuseks 50%.',
       'th': '<p>จนถึงจุดนี้ คุณได้ทำการวางแผนสวนของคุณในรูปแบบตารางที่มี 5 columns, แต่ละ column มีความกว้าง 20%, และ 5 rows, แต่ละ row มีความสูง 20%</p><p>ซึ่งทำโดยคำสั่ง <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> และ <code>grid-template-rows: 20% 20% 20% 20% 20%;</code> แต่ละคำสั่งมีค่า 5 ค่าซึ่งสร้าง 5 columns, แต่ละ column มีความกว้าง 20% ของความกว้างทั้งหมดของสวน</p><p>แต่คุณสามารถกำหนด grid ตามแต่ที่คุณต้องการได้ ลองกำหนดค่า <code>grid-template-columns</code> ด้วยค่าใหม่ เพื่อรดน้ำแครอทของคุณ คุณอยากจะกำหนดให้ความกว้างของ column แรกเป็น 50%',
       'yo': '<p>Titi di aaye yii, o ti ṣeto ọgba rẹ gẹgẹbi grid pẹlu awọn ọwọn marun, ọkọọkan 20% ti iwọn kikun, ati awọn ila marun, ọkọọkan 20% ti giga kikun.</p><p>Eyi ni a ṣe pẹlu awọn ofin <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> ati <code>grid-template-rows: 20% 20% 20% 20% 20% 20%;</code> Òfin kọ̀ọ̀kan ní iye márùn-ún tí ó ṣẹ̀dá àwọn ọ̀wọ̀n márùn-ún, ọ̀kọ̀ọ̀kan wọn ṣètò sí 20% àpapọ̀ ìwọ̀n ọgbà náà.</p><p>Ṣùgbọ́n o lè ṣètò grid náà bí o bá fẹ́. Fún <code>àwọn ọ̀wọ̀n grid-template-columns</code> ní iye tuntun láti fún àwọn kọ́rọ́ọ̀tì rẹ ní omi. Êé áí å÷åé êüëõ÷é ìå 1 ìéóèïò êáé 50%.',
+      'ta': '<p>களைகள் அனைத்தும் உங்கள் தோட்டத்தின் தொடக்கத்தில் இருந்தாலும், இப்போது தண்ணீரும் விஷமும் மாறி மாறி வருகின்றன. இதை நிவர்த்தி செய்ய விஷங்களின் <code>order</code> அமைக்கவும்.</p>',
+
     },
     board: 'c',
     style: {'grid-template-columns': '50% 50%'},
@@ -964,6 +1002,8 @@ var levels = [
       'et': '<p>Ühesuguse laiusega veergude määramine võib olla tüütu. Õnneks on <code>repeat</code> funktsioon, mis sellega aitab.</p><p>Näiteks määratlesime reegliga eelnevalt viis 20% veergu<code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Selle saab lihtsustada <code>grid-template-columns: repeat(5, 20%);</code></p><p> Kasutades <code>grid-template-columns</code> koos <code>repeat</code> funktsiooniga, loo kaheksa veergu 12.5% laiusega. Nõndaviisi sa ei kasta oma aeda liialt palju.</p>',
       'th': '<p>การกำหนดหลายๆ column ให้มีค่าความกว้างเดียวกัน บางทีก็น่าเบื่อ โชคดีที่มีคำสั่ง <code>repeat</code> ที่ช่วยในเรื่องนี้</p><p>ตัวอย่างเช่น, เราเคยกำหนด columns 5 ครั้งด้วยค่า 20% ด้วยคำสั่ง <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. เราสามารถเขียนให้ง่ายขึ้นโดย <code>grid-template-columns: repeat(5, 20%);</code></p><p>ใช้คุณสมบัติ <code>grid-template-columns</code> กับคำสั่ <code>repeat</code> สร้าง 8 columns โดยให้แต่ละ column มีความกว้าง 12.5% แบบนี้เราก็จะไม่รดน้ำในสวนมากเกินไป</p>',
       'yo': '<p>Písọtọ́ ìdìpọ̀ àwọn ọwọ̀n pẹ̀lú ìbú tó jọra lè gbani lọ́kàn. Ni Oriire iṣẹ <code>tun ṣe</code> wa lati ṣe iranlọwọ pẹlu iyẹn.</p><p>Fun apẹẹrẹ, a ti ṣalaye tẹlẹ 20% awọn ọwọn marun pẹlu ofin <code>grid-template-columns: 20% 20% 20% 20% 20%;</code>. Eyi le jẹ irọrun bi <code>awọn ọwọn-apẹrẹ-grid: tun ṣe (5, 20%);</code></p><p>Lilo <code>grid-template-columns</code> pẹlu <code >repeat</code>, ṣẹda awọn ọwọn mẹjọ kọọkan pẹlu iwọn 12.5%. Ni ọna yii iwọ kii yoo bomi bo ọgba rẹ.</p>',
+      'ta': '<p>ஒரே மாதிரியான அகலங்களைக் கொண்ட நெடுவரிசைகளின் தொகுப்பைக் குறிப்பிடுவது கடினமானதாக இருக்கும். அதிர்ஷ்டவசமாக, அதற்கு உதவ <code>repeat</code> செயல்பாடு உள்ளது.</p><p>எடுத்துக்காட்டாக, <code>grid-template-columns: 20% 20% 20% 20% 20%;</code> என்ற விதியுடன் ஐந்து 20% நெடுவரிசைகளை நாங்கள் முன்பு வரையறுத்துள்ளோம். இதை <code>grid-template-columns: repeat(5, 20%);</code> என எளிமைப்படுத்தலாம்.</p><p><code>repeat</code> செயல்பாட்டுடன் <code>grid-template-columns</code> பயன்படுத்துதல், ஒவ்வொன்றும் 12.5% ​​அகலத்துடன் எட்டு நெடுவரிசைகளை உருவாக்கவும். இந்த வழியில் நீங்கள் உங்கள் தோட்டத்திற்கு தண்ணீர் விடமாட்டீர்கள்.</p>',
+
     },
     board: 'c',
     classes: {'#plants': 'grid-template-columns-repeat-8-12'},
@@ -1010,6 +1050,8 @@ var levels = [
       'et': '<p><code>grid-template-columns</code> ei aktsepteeri ainult väärtusi protsentides, vaid ka pikkuseühikuid, nagu pikslid ja ems. Saate isegi erinevaid üksusi omavahel segada.</p><p>Siin määrakse kolm veergu <code>100px</code>, <code>3em</code>, and <code>40%</code></p>',
       'th': '<p>คุณสมบัติ <code>grid-template-columns</code> ไม่ได้รับค่าเป็นเปอร์เซ็นต์ได้อย่างเดียว, แต่ยังสามารถรับหน่วยความยาวอื่นๆเช่น pixel และ em คุณสามารถผสมหน่วยที่แตกต่างกันเข้าด้วยกันได้ด้วย</p><p>ทีนี้กำหนดค่า 3 columns ให้เป็น <code>100px</code>, <code>3em</code>, และ <code>40%</code> ตามลำดับ</p>',
       'yo': '<p><code>grid-template-columns</code> ko kan gba awọn iye ni awọn ipin ogorun, ṣugbọn tun awọn iwọn gigun bii awọn piksẹli ati ems. O le paapaa dapọ awọn oriṣiriṣi oriṣiriṣi papọ.</p><p>Nibi, ṣeto awọn ọwọn mẹta si <code>100px</code>, <code>3em</code>, ati <code>40%</code> lẹsẹsẹ .</p>',
+      'ta': '<p><code>grid-template-columns</code> வெறும் சதவீதங்களில் மதிப்புகளை ஏற்காது, ஆனால் பிக்சல்கள் மற்றும் ems போன்ற நீள அலகுகளையும் ஏற்காது. நீங்கள் வெவ்வேறு அலகுகளை ஒன்றாக கலக்கலாம்.</p><p>இங்கே, மூன்று நெடுவரிசைகளை முறையே <code>100px</code>, <code>3em</code> மற்றும் <code>40%</code> என அமைக்கவும்.</p>',
+   
     },
     board: 'cwc',
     classes: {'#plants': 'grid-template-columns-100px-3em-40p'},
@@ -1056,6 +1098,8 @@ var levels = [
       'et': '<p>Grid tutvustab ka uue ühiku, murdosa<code>fr</code>. Iga <code>fr</code> ühik määrab ühe osa kogu vabast alast. Näiteks kui kaks elementi on seatud väärtusele <code>1fr</code> ja <code>3fr</code>, ruum on jagatud 4 võrdseks osaks; esimene element hõivab 1/4 ja teine element 3/4 ülejäänud ruumist.</p><p>Siin moodustavad umbrohud 1/6 teie esimesest reast ja porgandid ülejäänud 5/6. Looge nende laiustega kaks veergu kasutades<code>fr</code> ühikuid.</p>',
       'th': '<p>Grid ยังแนะนำหน่วยความยาวใหม่อีกด้วย, สัดส่วน (fractional) <code>fr</code>. แต่ละหน่วย <code>fr</code> จะได้รับแบ่งพื้นที่หนึ่งส่วนจากพื้นที่ที่เหลืออยู่ ยกตัวอย่างเช่น, ถ้ามี 2 elements ที่มีค่าเป็น <code>1fr</code> และ <code>3fr</code> ตามลำดับ, พื้นที่จะถูกแบ่งออกเป็น 4 ส่วนเท่าๆกัน; element จะได้พื้นที่ 1/4 และ element ที่สองจะได้พื้นที่ 3/4 ของพื้นที่ที่เหลือทั้งหมด</p><p>ทีนี้วัชพืชเติบโตขึ้นในพื้นที่ด้านซ้ายขนาด 1/6 ของแถวแรกและแครอทโตในพื้นที่ 5/6 ที่เหลือ สร้างพื้นที่สอง columns โดยกำหนดความกว้างจากหน่วย <code>fr</code></p>',
       'yo': '<p>Grid tun ṣafihan ẹyọ tuntun kan, ida <code>fr</code>. Ẹka <code>fr</code> kọọkan n pin ipin kan ti aaye to wa. Fun apẹẹrẹ, ti awọn eroja meji ba ṣeto si <code>1fr</code> ati <code>3fr</code> lẹsẹsẹ, aaye naa ti pin si awọn ipin 4 dogba; ipin akọkọ jẹ 1/4 ati ipin keji 3/4 ti aaye eyikeyi ti o ku.</p><p>Nibi, awọn èpo ṣe apa osi 1/6 ti ila akọkọ rẹ ati Karooti ti o ku 5/6. Ṣẹda awọn ọwọn meji pẹlu awọn iwọn wọnyi nipa lilo awọn ẹyọ <code>fr</code>.</p>',
+      'ta': '<p>கட்டம் ஒரு புதிய அலகு, பின்னம் <code>fr</code> அறிமுகப்படுத்துகிறது. ஒவ்வொரு <code>fr</code> அலகு கிடைக்கக்கூடிய இடத்தில் ஒரு பங்கை ஒதுக்குகிறது. எடுத்துக்காட்டாக, இரண்டு உறுப்புகள் முறையே <code>1fr</code> மற்றும் <code>3fr</code> என அமைக்கப்பட்டால், அந்த இடம் 4 சம பங்குகளாக பிரிக்கப்படும்; முதல் உறுப்பு 1/4ஐயும், இரண்டாவது உறுப்பு 3/4ஐயும் எஞ்சியுள்ள இடத்தில் ஆக்கிரமித்துள்ளது.</p><p>இங்கே, களைகள் உங்கள் முதல் வரிசையின் இடது 1/6 மற்றும் மீதமுள்ள 5/6 கேரட் ஆகும். <code>fr</code> அலகுகளைப் பயன்படுத்தி இந்த அகலங்களைக் கொண்ட இரண்டு நெடுவரிசைகளை உருவாக்கவும்.</p>',
+
     },
     board: 'wc',
     classes: {'#plants': 'grid-template-columns-1fr-5fr'},
@@ -1101,7 +1145,9 @@ var levels = [
       'al': '<p>Kur kolonat janë vendosur me pixel, përqindje, apo ems, cdo kolonë tjetër e vendosur me <code>fr</code> do të zërë hapësirën e ngelur.</p><p>Këtu karotat formojnë një kolonë 50 pixel në të majtë, dhe shkurret një kolonë 50 pixel në të djathtë. Me <code>grid-template-columns</code>, krijoni këto dy kolona, dhe përdorni <code>fr</code> për të bërë tre kolona më shumë që zënë hapësirën në mes.</p>',
       'et': '<p>Kui veerud on seatud pikslite, protsentide või ems-iga, siis veerud, mis kasutavad <code>fr</code> jagavad ülejäänud vaba ruumi.</p><p>Siin moodustavad porgandid vasakul 50 pikslilise veeru ja umbrohud paremal 50 pikslise veeru. Kasutades <code>grid-template-columns</code>, loo need kaks veerguö ja kasuta<code>fr</code>, et luua veel kolm veergu, mis kasutavad kogu vaba ala nende kahe veeru vahel.</p>',
       'th': '<p>เมื่อ columns ถูกกำหนดความกว้างด้วยหน่วยพิกเซล, เปอร์เซ็นต์, หรือ em, columns อื่นๆที่กำหนดด้วยหน่วย <code>fr</code> จะถูกแบ่งเนื้อที่ที่เหลือให้</p><p>คราวนี้แครอทโตในพื้นที่ 50 พิกเซลด้านซ้ายมือ, และวัชพืชโตในพื้นที่ 50 พิกเซลด้านขวามือ ใช้คุณสมบัติ <code>grid-template-columns</code> สร้าง columns ทั้งสองนี้ขึ้น, และใช้หน่วย <code>fr</code> เพื้อสร้างอีก 3 columns ที่ใช้เนื้อที่ที่เหลือของพื้นที่ตรงกลางสวน</p>',
-      'yo': '<p>Nigbati a ba ṣeto awọn ọwọn pẹlu awọn piksẹli, ipin ogorun, tabi ems, eyikeyi awọn ọwọn miiran ti a ṣeto pẹlu <code>fr</code> yoo tu aaye ti o ku silẹ.</p> p>Nibi awọn Karooti ṣe apẹrẹ iwe-piksẹli 50 ni apa osi, ati awọn èpo ni ọwọn 50 pixel ni apa ọtun. Pẹlu <code>grid-template-columns</code>, ṣẹda awọn ọwọn meji wọnyi, ki o lo <code>fr</code> lati ṣe awọn ọwọn mẹta diẹ sii ti o gba aaye to ku laarin.</p>'
+      'yo': '<p>Nigbati a ba ṣeto awọn ọwọn pẹlu awọn piksẹli, ipin ogorun, tabi ems, eyikeyi awọn ọwọn miiran ti a ṣeto pẹlu <code>fr</code> yoo tu aaye ti o ku silẹ.</p> p>Nibi awọn Karooti ṣe apẹrẹ iwe-piksẹli 50 ni apa osi, ati awọn èpo ni ọwọn 50 pixel ni apa ọtun. Pẹlu <code>grid-template-columns</code>, ṣẹda awọn ọwọn meji wọnyi, ki o lo <code>fr</code> lati ṣe awọn ọwọn mẹta diẹ sii ti o gba aaye to ku laarin.</p>',
+      'ta': '<p>நெடுவரிசைகள் பிக்சல்கள், சதவீதங்கள் அல்லது ems உடன் அமைக்கப்படும் போது, ​​<code>fr</code> உடன் அமைக்கப்பட்ட வேறு எந்த நெடுவரிசைகளும் மீதமுள்ள இடத்தை பிரிக்கும்.</p><p>இங்கே கேரட் இடதுபுறத்தில் 50 பிக்சல் நெடுவரிசையையும், களைகள் வலதுபுறத்தில் 50 பிக்சல் நெடுவரிசையையும் உருவாக்குகின்றன. <code>grid-template-columns</code> உடன், இந்த இரண்டு நெடுவரிசைகளை உருவாக்கவும், மேலும் மூன்று நெடுவரிசைகளை உருவாக்க <code>fr</code> பயன்படுத்தவும்.</p>',
+
     },
     board: 'cw',
     classes: {
@@ -1152,6 +1198,7 @@ var levels = [
       'et': '<p>Nüüd on su aia vasakus servas 75 piksline umbrohtude sammas. Ülejäänud ruumist 3/5 kasvatab porgandeid, 2/5 aga umbrohtu.</p><p>Kasuta <code>grid-template-columns</code> koos <code>px</code> ja <code>fr</code> ühikute kombinatsiooniga, et luua vajalik veerg.</p>',
       'th': '<p>ในตอนนี้มี column วัชพืชขนาด 75 พิกเซลทางด้านซ้ายมือของสวนคุณ พื้นที่ 3/5 ที่เหลือเป็นแครอท, ในขณะที่อีก 2/5 มีวัชพืชปกคลุมเต็มไปหมด</p><p>ใช้คุณสมบัติ <code>grid-template-columns</code> โดยรวมหน่วยของทั้ง <code>px</code> และ <code>fr</code> เข้าด้วยกันเพื่อสร้าง columns เหล่านี้</p>',
       'yo': '<p>Nisisiyi ọwọn awọn èpo 75 pixel wa ni apa osi ọgba rẹ. 3/5 ti aaye ti o ku jẹ awọn Karooti ti n dagba, nigba ti 2/5 ti a ti bori pẹlu awọn èpo.</p><p>Lo <code>grid-template-columns</code> pẹlu apapo <code>px</code> ati awọn ẹyọ <code>fr</code> lati ṣe awọn ọwọn pataki.</p>',
+      'ta': '<p>இப்போது உங்கள் தோட்டத்தின் இடது பக்கத்தில் 75 பிக்சல் நெடுவரிசையில் களைகள் உள்ளன. மீதமுள்ள இடத்தில் 3/5 கேரட் வளரும், 2/5 களைகளால் அதிகமாக உள்ளது.</p><p>தேவையான நெடுவரிசைகளை உருவாக்க, <code>px</code> மற்றும் <code>fr</code> அலகுகளின் கலவையுடன் <code>grid-template-columns</code> ஐப் பயன்படுத்தவும்.</p>',
     },
     board: 'wcw',
     classes: {'#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p'},
@@ -1198,6 +1245,8 @@ var levels = [
       'et': '<p><code>grid-template-rows</code> töötab sarnaselt kui <code>grid-template-columns</code>.</p><p>Kasuta <code>grid-template-rows</code>,etkasta aia kõik peale 50 ülemise piksli. Pane tähele, et vesi on seatud täitma ainult viiendat rida, seega pead kokku looma 5 rida.</p>',
       'th': '<p>คุณสมบัติ <code>grid-template-rows</code> ใช้งานเหมือนกันกับ <code>grid-template-columns</code>.</p><p>ใช้คุณสมบัติ <code>grid-template-rows</code> เพื่อรดน้ำพื้นที่ของสวนทั้งหมดยกเว้นพื้นที่ 50 พิกเซลด้านบนสุด สังเกตว่าน้ำจะไหลไปเฉพาะ row ที่ 5 ของคุณเท่านั้น, ดังนั้นคุณจะต้องสร้าง row ทั้งหมด 5 rows</p>',
       'yo': '<p><code>grid-template-rows</code> ṣiṣẹ pupọ bii <code>grid-template-columns</code>.</p><p>Lo <code>grid-template-rows</code>lati fun ni omi gbogbo e ṣugbọn awọn piksẹli 50 oke ti ọgba rẹ. Ṣe akiyesi pe a ṣeto omi lati kun oju ila karun nikan, nitorinaa o nilo lati ṣẹda awọn ori ila 5 lapapọ.</p>',
+      'ta': '<p><code>grid-template-rows</code> <code>grid-template-columns</code> போலவே செயல்படுகிறது.</p><p> <code>grid-template-rows</code> ஐ பயன்படுத்தி உங்கள் தோட்டத்தின் முதல் 50 பிக்சல்களைத் தவிர மற்ற அனைத்திற்கும் தண்ணீர் ஊற்றவும். உங்கள் 5 வது வரிசையை மட்டுமே நிரப்ப தண்ணீர் அமைக்கப்பட்டுள்ளது என்பதை நினைவில் கொள்ளவும், எனவே நீங்கள் மொத்தம் 5 வரிசைகளை உருவாக்க வேண்டும்.</p>',
+
     },
     board: 'c',
     classes: {
@@ -1247,6 +1296,8 @@ var levels = [
       'et': '<p><code>grid-template</code> on lühend omadus, mis ühendab <code>grid-template-rows</code> ja <code>grid-template-columns</code>.</p><p>Näiteks, <code>grid-template: 50% 50% / 200px;</code> öloob ruudustiku kahe 50% reaga, ja ühe veeru, mis on 200 pikslit lai.</p><p>Proovi kasutada <code>grid-template</code> kasta ala, mis hõlmab teie aia ülemist 60% ja vasakut 200 pikslit.</p>',
       'th': '<p><code>grid-template</code> เป็นคุณสมบัติย่อที่รวมคุณสมบัติ <code>grid-template-rows</code> และ <code>grid-template-columns</code> เข้าด้วยกัน</p><p>ยกตัวอย่างเช่น <code>grid-template: 50% 50% / 200px;</code> จะสร้าง grid ที่มี 2 rows ที่มีความสูงแต่ละตัว 50%, และ 1 column ที่มีความกว้างขนาด 200 พิกเซล</p><p>ลองใช้คุณสมบัติ <code>grid-template</code> เพื่อรดน้ำพื้นที่ที่รวม 60% จากด้านบนสุด และ 200 พิกเซลจากด้านซ้ายสุดของสวนของคุณ</p>',
       'yo': '<p><code>grid-template</code> jẹ́ ohun-ìní ọwọ́ kúkúrú tí ó ṣopọ̀ <code>grid-template-rows</code> àti <code> grid-template-columns</code>. </p><p>Fun apẹẹrẹ, <code>grid-template: 50% 50% / 200px;</code> yoo ṣẹda grid pẹlu awọn ori ila meji ti o jẹ 50% kọọkan, ati iwe kan ti o jẹ 200 pixels fifẹ. </p><p>Gbiyanju lilo <code>grid-template</code> lati fun omi agbegbe ti o ni oke 60% ati osi 200 pixels ti ọgba rẹ.</p>',
+      'ta': '<p><code>grid-template</code> என்பது <code>grid-template-rows</code> மற்றும் <code>grid-template-columns</code> ஆகியவற்றை இணைக்கும் ஒரு சுருக்கெழுத்து சொத்து.</p><p>எடுத்துக்காட்டாக, <code>grid-template: 50% 50% / 200px;</code> ஆனது இரண்டு வரிசைகள் ஒவ்வொன்றும் 50% மற்றும் ஒரு நெடுவரிசை 200 பிக்சல்கள் அகலம் கொண்ட கட்டத்தை உருவாக்கும்.</p><p>உங்கள் தோட்டத்தின் மேல் 60% மற்றும் இடதுபுறம் 200 பிக்சல்களை உள்ளடக்கிய பகுதிக்கு தண்ணீர் வழங்க <code>grid-template</code> பயன்படுத்தவும்.</p>',
+
     },
     board: 'c',
     style: {'grid-template': '60% 1fr / 200px 1fr'},
@@ -1292,6 +1343,8 @@ var levels = [
       'et': '<p>Su aed näeb hea välja. Siin olete jätnud oma aia alumisse ossa 50 pikslise tee ja täitnud ülejäänud osa porganditega.</p><p>Kahjuks on teie porgandi vasakpoolne 20% umbrohuga koormatud. Kasutage oma aia töötlemiseks viimast korda CSS-ruudustikku.</p>',
       'th': '<p>สวนของคุณดูดีทีเดียว คุณเหลือที่ขนาด 50 พิกเซลด้านล่างของสวน และที่เหลือเต็มไปด้วยแครอท</p><p>แต่โชคร้ายที่ 20% ของด้านซ้ายถูกวัชพืชขึ้นปกคลุม ใช้คุณสมบัติ CSS grid อีกครั้งเพื่อดูแลรักษาสวนของคุณ</p>',
       'yo': '<p>Ọgbà rẹ wú. Nibi o ti fi ọna piksẹli 50 silẹ ni isalẹ ọgba rẹ ti o si kun iyoku pẹlu awọn Karooti.</p><p> Ó ṣeni láàánú, 20% osi ti awọn Karooti rẹ ti bori pẹlu awọn èpo. Lo grid CSS ni igba ikẹhin lati tọju ọgba rẹ.</p>',
+      'ta': '<p>உங்கள் தோட்டம் அழகாக இருக்கிறது. இங்கே நீங்கள் உங்கள் தோட்டத்தின் அடிப்பகுதியில் 50 பிக்சல் பாதையை விட்டுவிட்டு மீதியை கேரட்டால் நிரப்பியுள்ளீர்கள்.</p><p>துரதிர்ஷ்டவசமாக, உங்கள் கேரட்டில் இடது 20% களைகளால் அதிகமாக உள்ளது. உங்கள் தோட்டத்திற்கு சிகிச்சை அளிக்க CSS கட்டத்தைப் பயன்படுத்தவும்.</p>',
+
     },
     board: 'wc',
     classes: {'#plants': 'grid-template-2'},
@@ -1340,6 +1393,8 @@ var levelWin = {
     'et': '<p>Palju õnne, sa võitsid! CSS-võrgu abil suutsite kasvatada piisavalt porgandeid, et Froggy saaks küpsetada oma maailmakuulsa kahekümne porgandi porgandikoogi. Mis? Kas sa ootasid teistsugust hüppavat sõpra?</p><p>Kui sulle meeldis Grid Garden, mine vaata <a href="https://codepip.com/games/flexbox-froggy/">Flexbox Froggy</a> et tutvuda veel ühe võimsa uue CSS-i paigutuse funktsiooniga. Uusi progammeerimise mänge leiate ka aadressilt <a href="https://codepip.com">Codepip</a>.</p><p>Tahad Grid Gardeni toetada? Tutvusta Grid Gardeni oma sõpradele ja perele!</p>',
     'th': '<p>คุณชนะ! ด้วยความสามารถของ CSS grid, คุณสามารถปลูกแครอทพอที่ให้เจ้ากบ Froggy เอาไปอบเค้กแครอทที่โด่งดังไปทั่วโลกของมัน อะไรนะ คุณคาดว่าจะมีเพื่อนตัวอื่นโผล่มาเหรอ?</p><p>ถ้าคุณชอบเล่น Grid Garden, คุณต้องไม่พลาด <a href="https://codepip.com/games/flexbox-froggy/">Flexbox Froggy</a> เพื่อเรียนรู้เกี่ยวกับความสามารถอีกตัวของ CSS layout คุณยังสามารถหาเกมการเขียนโค้ดอื่นๆได้ที่ <a href="https://codepip.com">Codepip</a>.</p><p>อยากจะสนับสนุน Grid Garden? กระจายข่าวไปให้เพื่อนๆและครอบครัวของคุณเกี่ยวกับ Grid Garden!</p>',
     'yo': '<p>O ṣẹgun! Nipa agbara CSS grid, o ni anfani lati dagba awọn Karooti to fun Froggy lati ṣe akara oyinbo 20 olokiki olokiki agbaye rẹ. Kini, ṣe o n reti ọrẹ alarinrin ti o yatọ?</p><p>Ti o ba gbadun Grid Garden, rii daju lati ṣayẹwo <a href="https://codepip.com/games/flexbox-froggy/">Flexbox Froggy</a>lati kọ ẹkọ nipa ẹya tuntun ti o lagbara miiran ti ifilelẹ CSS. O tun le wa awọn ere ifaminsi tuntun ni <a href="https://codepip.com">Codepip</a>.</p><p>Fẹ lati ṣe atilẹyin Grid Garden? Tan ọrọ naa si awọn ọrẹ ati ẹbi rẹ nipa Grid Garden!</p>',
+    'ta': '<p>நீ வெற்றி பெற்றாய்! CSS கட்டத்தின் சக்தியால், ஃப்ரோகி தனது உலகப் புகழ்பெற்ற 20-கேரட் கேக்கைச் சுடுவதற்கு போதுமான கேரட்டை உங்களால் வளர்க்க முடிந்தது. என்ன, நீங்கள் ஒரு வித்தியாசமான மகிழ்ச்சியான நண்பரை எதிர்பார்த்தீர்களா?</p><p>நீங்கள் கிரிட் கார்டனை ரசித்திருந்தால், பார்க்கவும்<a href="https://codepip.com/games/flexbox-froggy/">Flexbox Froggy</a> CSS தளவமைப்பின் மற்றொரு சக்திவாய்ந்த புதிய அம்சத்தைப் பற்றி அறிய. புதிய குறியீட்டு கேம்களையும் நீங்கள் காணலாம் <a href="https://codepip.com">Codepip</a>.</p><p>கிரிட் கார்டனை ஆதரிக்க வேண்டுமா? கிரிட் கார்டன் பற்றி உங்கள் நண்பர்கள் மற்றும் குடும்பத்தினருக்குப் பரப்புங்கள்!</p>',
+
   },
   board: '',
   classes: {'#garden, #plants, #overlay': 'win'},
