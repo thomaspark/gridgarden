@@ -41,6 +41,7 @@ var messages = {
     'et': 'Eesti',
     'th': 'ภาษาไทย',
     'yo': 'Yorùbá',
+    'sk': 'Slovenčina',
   },
   next: {
     'en': 'Next',
@@ -84,6 +85,7 @@ var messages = {
     'et': 'Järgmine',
     'th': 'ถัดไป',
     'yo': 'Èyí tí ó kàn',
+    'sk': 'Pokračovať',
 
   },
   labelFooter: {
@@ -128,6 +130,7 @@ var messages = {
     'et': 'Grid Garden autorid on',
     'th': 'Grid Garden ถูกสร้างโดย',
     'yo': 'Grid Garden ti ṣẹda nipasẹ',
+    'sk': 'Grid Garden vytvoril',
   },
   labelLevel: {
     'en': 'Level',
@@ -171,6 +174,7 @@ var messages = {
     'et': 'Tase',
     'th': 'เลเวล',
     'yo': 'Ipele',
+    'sk': 'Úroveň',
   },
   labelOf: {
     'en': 'of',
@@ -214,6 +218,7 @@ var messages = {
     'et': '/',
     'th': '/',
     'yo': 'ti',
+    'sk': 'z',
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -257,6 +262,7 @@ var messages = {
     'et': 'Grid Garden - Mäng CSS-ruudustiku õppimiseks',
     'th': 'Grid Garden - เกมสำหรับเรียนรู้ CSS grid',
     'yo': 'Grid Garden - Ere kan fun kikọ CSS grid',
+    'sk': 'Grid Garden - Hra na učenie CSS grid',
   },
   labelReset: {
     'en': 'Reset',
@@ -299,7 +305,8 @@ var messages = {
     'al': 'Rifillo',
     'et': 'Alusta algusest',
     'th': 'เริ่มใหม่',
-    'yo': 'Tunto'
+    'yo': 'Tunto',
+    'sk': 'Reštart',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -343,6 +350,7 @@ var messages = {
     'et': 'Kas olete kindel, et soovite uuesti alustada?\n\nTeie salvestatud saavutused lähevad kaotsi ja teid saadetakse mängu algusesse.',
     'th': 'คุณแน่ใจหรือไม่ว่าจะเริ่มเกมใหม่?\n\nความคืบหน้าที่เก็บไว้ของคุณจะหายไป และคุณจะกลับไปที่จุดเริ่มต้นของเกม',
     'yo': 'Ṣe o da ọ loju pe o fẹ tun ere naa ṣe?\n\nIlọsiwaju rẹ ti o fipamọ yoo sọnu ati pe iwọ yoo firanṣẹ si ibẹrẹ ere naa.',
+    'sk': 'Určite chcete resetovať hru?\n\nVáš uložený postup sa stratí a budete poslaní na začiatok hry.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="https://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -380,6 +388,7 @@ var messages = {
     'et': 'Oh ei, Grid Garden ei tööta selles browseris. Grid Garden nõuab <a href="https://caniuse.com/#feat=css-grid">browserit, mis toetab CSS Gridi</a>, uusim versioon <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, või <a href="https://www.apple.com/safari/">Safari</a>. kasuta ühte neist, et Grid Garderni kasutada!',
     'th': 'แย่แล้ว, Grid Garden ใช้งานไม่ได้บนบราวเซอร์นี้ มันต้องใช้กับ <a href="https://caniuse.com/#feat=css-grid">บราวเซอร์ที่รองรับการใช้งาน CSS grid</a>, อย่างเช่นเวอร์ชันล่าสุดของ <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, หรือ <a href="https://www.apple.com/safari/">Safari</a>. ใช้หนึ่งในนั้นเพื่อเริ่มทำสวน!',
     'yo': 'Oh Bẹẹkọ, Grid Garden ko ṣiṣẹ lori ẹrọ aṣawakiri yii. O nilo <a href="https://caniuse.com/#feat=css-grid">aṣàwákiri ti o ṣe atilẹyin CSS grid</a>, gẹgẹbi ẹya tuntun ti  <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Lo ọkan ninu awọn lati gba ogba!',
+    'sk': 'Ale nie, Grid Garden v tomto prehliadači nefunguje. Vyžaduje prehliadač, <a href="https://caniuse.com/#feat=css-grid">ktorý podporuje CSS grid</a>, napríklad najnovšiu verziu prehliadača <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> alebo <a href="https://www.apple.com/safari/">Safari</a>. Použite niektorý z nich a pustite sa do záhradkárčenia!',
 
   },
   flexboxFroggy: {
@@ -416,5 +425,6 @@ var messages = {
     'et': 'Kas soovite õppida CSS flexboxi? Mängi',
     'th': 'อยากเรียนรู้การใช้ CSS flexbox? เล่นเลย',
     'yo': 'Ṣe o fẹ kọ CSS flexbox? Ṣi ere',
+    'sk': 'Chcete sa naučiť CSS flexbox? Zahrajte si',
   },
 };
