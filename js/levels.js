@@ -620,7 +620,7 @@ var levels = [
       'et': '<p>Nüüd proodiv lühendatud omadust! <code>grid-row</code></p>',
       'th': '<p>จากนั้นลองใช้คุณสมบัติย่อ <code>grid-row</code> ดูสิ</p>',
       'yo': '<p>Nisisiyi fun ohun-ini kukuru ni <code> grid-row</code> gbiyanju e.</p>',
-      'sk': '<p>Najnovšie vyskúšajte skrátenú vlastnosť <code>grid-row</code>.</p>'
+      'sk': '<p>Najnovšie vyskúšajte skrátenú vlastnosť <code>grid-row</code>.</p>',
       'ta': '<p>இப்போது சுருக்கெழுத்து பண்பு <code>grid-row</code> ஐ முயற்சிக்கவும்.</p>',
     },
     board: 'c',
