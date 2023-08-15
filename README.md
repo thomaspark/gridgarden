@@ -44,6 +44,7 @@ My gratitude to these contributors for their translations.
 * Portuguese (Portugal) by [João Bagio](https://github.com/jbagio)
 * Romanian by [Vlad](https://github.com/pckltr)
 * Russian by [Zaurbek Zhakupov](https://github.com/zzhakupov)
+* Slovak by [Joe Henthorn](https://github.com/jjhen99)
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 * Tagalog by [goriio](https://github.com/goriio)
