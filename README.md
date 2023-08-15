@@ -47,6 +47,7 @@ My gratitude to these contributors for their translations.
 * Spanish by [Ezequiel Pequeño Calvar](https://github.com/Remohir)
 * Swedish by [Johannes Holmberg](https://github.com/johannesholmberg)
 * Tagalog by [goriio](https://github.com/goriio)
+* Tamil by [Thamizh](https://github.com/ThisisThamizh)
 * Thai by [Anurat Chapanond](https://github.com/anurat)
 * Turkish by [serdar](https://github.com/yigitserdar)
 * Ukrainian by [Igor Klimchuk](mailto:igor.klimchuk@tstechpro.com)
