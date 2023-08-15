@@ -909,6 +909,8 @@ var levels = [
       'et': '<p>Nüüd on vesi ja mürk vaheldumisi, kuigi kõik umbrohud on teie aia alguses. Muuda mürgi <code>order</code> väärtus, et see viga parandada.</p>',
       'th': '<p>ตอนนี้ น้ำและยาฆ่าวัชพืชอยู่สลับกัน, แต่ว่าวัชพืชทั้งหมดอยู่ที่จุดเริ่มต้นของสวนของคุณ กำหนดค่าคุณสมบัติ <code>order</code> ของยาฆ่าวัชพืชเพื่อแก้ปัญหานี้</p>',
       'yo': '<p>Nisin omi ati majele ti n yipo, bi o tilẹ jẹ pe gbogbo awọn èpo wa ni ibẹrẹ ọgba rẹ. Ṣeto <code>order</code> ti awọn majele lati ṣe atunṣe eyi.</p>',
+      'ta': '<p>களைகள் அனைத்தும் உங்கள் தோட்டத்தின் தொடக்கத்தில் இருந்தாலும், இப்போது தண்ணீரும் விஷமும் மாறி மாறி வருகின்றன. இதை நிவர்த்தி செய்ய விஷங்களின் <code>order</code> அமைக்கவும்.</p>',
+
     },
     board: 'wcwcwcwcwc',
     selector: '> :nth-child(odd)',
