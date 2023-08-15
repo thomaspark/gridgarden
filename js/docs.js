@@ -37,8 +37,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse asukoha ja suuruse ruudustikus.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'th': '<p>กำหนดค่าตำแหน่งของ grid item และขนาดภายใน grid</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó ipò grid item\'s àti ìwọ̀n rẹ̀ láàrín grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'sk': '<p>Určuje polohu a veľkosť prvku mriežky v rámci mriežky.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ta': '<p>கட்டத்திற்குள் கட்டம் உருப்படியின் நிலை மற்றும் அளவைக் குறிப்பிடுகிறது.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
-
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -77,8 +77,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse asukoha ruudustiku veergudes.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'th': '<p>กำหนดค่าตำแหน่งของ grid item ภายใน grid columns</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó ipò àwọn nkan grid nínú àwọn ìlà grid.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'sk': '<p>Určuje polohu prvku mriežky v rámci stĺpcov mriežky.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்குள் கட்ட உறுப்புகளின் நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
-
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -118,8 +118,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse lõppasendi ruudustiku veergudes.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'th': '<p>กำหนดค่าตำแหน่งสุดท้ายของ grid item ภายใน grid columns</p><p><code>&lt;เลขจำนวนเต็ม&gt;</code> <code>span &lt;เลขจำนวนเต็ม&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó ipò òpin grid item\'s láàrin àwọn ìlà grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sk': '<p>Určuje koncovú pozíciu prvku mriežky v rámci stĺpcov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் இறுதி நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
-
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -159,8 +159,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse alguspositsiooni ruudustiku veergudes.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'th': '<p>กำหนดค่าตำแหน่งเร่ิมต้นของ  grid item ภายใน grid columns</p><p><code>&lt;เลขจำนวนเต็ม&gt;</code> <code>span &lt;เลขจำนวนเต็ม&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó ipò ìbẹ̀rẹ̀ grid item\'s láàrin àwọn ìlà grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sk': '<p>Určuje počiatočnú pozíciu prvku mriežky v rámci stĺpcov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் தொடக்க நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
-
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -200,8 +200,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse asukoha ruudustiku ridades.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'th': '<p>กำหนดค่าตำแหน่งของ grid item ภายใน grid rows</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó ipò grid item\'s láàrin àwọn ìlà grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'sk': '<p>Určuje polohu prvku mriežky v rámci riadkov mriežky.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
-
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -241,8 +241,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse lõppasendi ruudustiku ridades.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'th': '<p>กำหนดค่าตำแหน่งสุดท้ายของ grid item ภายใน grid rows</p><p><code>&lt;เลขจำนวนเต็ม&gt;</code> <code>span &lt;เลขจำนวนเต็ม&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó ipò grid item\'s láàrin àwọn ìlà grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sk': '<p>Určuje koncovú pozíciu prvku mriežky v rámci riadkov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
-
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -282,8 +282,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse alguskoha ruudustiku ridades.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'th': '<p>กำหนดค่าตำแหน่งเริ่มต้นของ grid item ภายใน grid rows</p><p><code>&lt;เลขจำนวนเต็ม&gt;</code> <code>span &lt;เลขจำนวนเต็ม&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó ipò ìbẹ̀rẹ̀ grid item\'s láàrin àwọn ìlà grid.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'sk': '<p>Určuje počiatočnú pozíciu prvku mriežky v rámci riadkov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் தொடக்க நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
-
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -323,8 +323,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku ridade ja veergude suuruse ja nimed.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'th': '<p>กำหนดค่าขนาดและชื่อของ grid rows และ columns</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'yo': '<p>Sọ ní pàtó awon afihan awọn iwọn ati awọn orukọ ti awọn ila grid\'s ati awọn ọwọn.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'sk': '<p>Určuje veľkosť a názvy riadkov a stĺpcov mriežky.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ta': '<p>கட்டத்தின் வரிசைகள் மற்றும் நெடுவரிசைகளின் காட்டி அளவுகள் மற்றும் பெயர்களைக் குறிப்பிடவும்.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
-
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -364,8 +364,8 @@ var docs = {
     'et': '<p>Määrab nimetatud ruudustiku alad.</p><p><code>&lt;grid-name&gt;</code></p>',
     'th': '<p>กำหนดค่าชื่อของ grid areas</p><p><code>&lt;grid-name&gt;</code></p>',
     'yo': '</p>Sọ ní pàtó àwọn agbègbè grid.<p><code>&lt;grid-name&gt;</code></p>',
+    'sk': '<p>Určuje pomenované oblasti mriežky.</p><p><code>&lt;grid-name&gt;</code></p>',
     'ta': '</p>கட்டப் பகுதிகளைக் குறிப்பிடவும்.<p><code>&lt;grid-name&gt;</code></p>',
-
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -405,8 +405,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku veergude suuruse ja nimed.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'th': '<p>กำหนดค่าขนาดและชื่อของ grid columns</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'yo': '<p>Sọ ní pàtó ìwọ̀n àti orúkọ àwọn ọ̀wọ̀n grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'sk': '<p>Určuje veľkosť a názvy stĺpcov mriežky.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ta': '<p>கட்ட நெடுவரிசைகளின் அளவு மற்றும் பெயரைக் குறிப்பிடவும்.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
-
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -446,8 +446,8 @@ var docs = {
     'et': '<p>Määrab ruudustiku ridade suuruse ja nimed.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'th': '<p>กำหนดค่าขนาดและชื่อของ grid rows</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'yo': '<p>Sọ ní pàtó awọn ìwọ̀n ati awọn orukọ ti awọn ila grid.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'sk': '<p>Určuje veľkosť a názvy riadkov mriežky.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ta': '<p>கட்டக் கோடுகளின் அளவுகள் மற்றும் பெயர்களைக் குறிப்பிடவும்.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
-
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -487,7 +487,7 @@ var docs = {
     'et': '<p>Määrab ruudustiku üksuse järjestuse.</p><p><code>&lt;integer&gt;</code></p>',
     'th': '<p>กำหนดค่าอันดับของ grid item</p><p><code>&lt;เลขจำนวนเต็ม&gt;</code></p>',
     'yo': '<p>Sọ pàtó àṣẹ (order) èròjà grid item náà.</p><p><code>&lt;integer&gt;</code></p>',
+    'sk': '<p>Určuje poradie položky mriežky.</p><p><code>&lt;integer&gt;</code></p>',
     'ta': '<p>கட்டம் உருப்படியின் வரிசையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code></p>',
-
   },
 };
