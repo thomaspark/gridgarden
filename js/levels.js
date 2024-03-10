@@ -1310,7 +1310,7 @@ var levels = [
   {
     name: 'grid-template 2',
     instructions: {
-      'en': '<p>Your garden is looking great. Here you\'ve left a 50 pixel path at the bottom of your garden and filled the rest with carrots.</p><p>Unfortunately, the left 20% of your carrots have been overrun with weeds. Use CSS grid one last time to treat your garden.</p>',
+      'en': '<p>Your garden is looking great. Here you\'ve left a 50 pixel path at the bottom of your garden and filled the rest with carrots.</p><p>Unfortunately, the left 20% of your carrots have been overrun with weeds. The poison is on first column, the water is on the second column. Use CSS grid one last time to treat your garden.</p>',
       'hi': '<p>आपका बगीचा बहुत अच्छा लग रहा है। यहां आपने अपने बगीचे के निचले हिस्से में 50 पिक्सेल का पथ छोड़ा है और बाकी को गाजर से भर दिया है। अपने बगीचे के उपचार के लिए सीएसएस ग्रिड का आखिरी बार उपयोग करें।</p>',
       'lv': '<p>Tavs burkānu dārzs izskatās lieliski. Apakšā izlēmi atstāt brīvu 50 pikseļu laukumu, bet pārējais ir aizpildīts ar burkāniem. Par nelaimi, kreisajā malā 20% no burkāniem ir apauguši ar nezālēm. Vēl pēdējo reizi pielieto CSS "grid" un saved kārtībā savu burkānu dārzu!</p>',
       'ro': '<p>Grădina ta arată foarte bine. Aici ai lăsat o cale de 50 pixeli în partea de jos a grădinii și ai ocupat restul cu morcovi.</p><p>Din păcate, 20% din morcovii tăi din stânga au fost invadați cu buruieni. Folosește CSS grid pentru ultima oară pentru a trata grădina ta.</p>',
