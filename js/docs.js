@@ -43,7 +43,7 @@ var docs = {
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
-    'bn': '<p>grid কলামগুলির মধ্যে একটি grid item এর অবস্থান নির্দেশ করে।</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'bn': '<p>grid column গুলির মধ্যে একটি grid item এর অবস্থান নির্দেশ করে।</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'lv': '<p>Norāda "grid" elementa/u pozīciju tavā "grid" kolonnā.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ro': '<p>Specifică poziția unui element al gridului în coloanele gridului.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'fr': '<p>Définit la position d\'un élément de la grille sur les colonnes de la grille.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -84,7 +84,7 @@ var docs = {
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
-    'bn': '<p>grid column এর মধ্যে একটি grid item এর শেষের অবস্থান নির্দেশ করে।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'bn': '<p>grid column গুলোর মধ্যে একটি grid item এর শেষের অবস্থান নির্দেশ করে।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'hi': '<p>ग्रिड कॉलम में ग्रिड आइटम की स्थिति निर्दिष्ट करता है।</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'lv': '<p>Norāda "grid" elementa/u beigu pozīciju tavās "grid" kolonnās.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ro': '<p>Specifică poziția de sfârșit a unui element al gridului în coloanele gridului.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -252,7 +252,7 @@ var docs = {
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
-    'bn': '<p>grid row গুলির মধ্যে একটি grid item এর শুরুর অবস্থান নির্দেশ করে।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'bn': '<p>grid row গুলোর মধ্যে একটি grid item এর শুরুর অবস্থান নির্দেশ করে।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'hi': '<p>ग्रिड पंक्तियों के भीतर ग्रिड आइटम की प्रारंभ स्थिति निर्दिष्ट करता है।</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'lv': '<p>Norāda "grid" elemanta/u sākuma pozīciju tavās "grid" rindās.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ro': '<p>Specifică poziția de început a unui element al gridului în rândurile gridului.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
