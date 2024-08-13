@@ -323,7 +323,7 @@ var messages = {
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
-    'bn': 'আপনি কি নিশ্চিত গেইমটি রিসেট করতে? আপনার সেইভ করা অংশ হারিয়ে যাবে এবং আপনাকে গেইমের একদম শুরুতে পাঠানো হবে।',
+    'bn': 'আপনি কি নিশ্চিত গেইমটি রিসেট করতে?\n\n আপনার সেইভ করা অংশ হারিয়ে যাবে এবং আপনাকে গেইমের একদম শুরুতে পাঠানো হবে।',
     'hi': 'आप खेल रीसेट करना चाहते हैं, क्या आप निश्चित हैं?\n\nआपकी सुरक्षित प्रगति मिटा दी जाएगी एवं आप इस खेल की शुरुआत में भेज दिये जायेंगे।',
     'ro': 'Ești sigur(ă) că vrei să resetezi jocul?\n\nProgresul tău salvat va fi pierdut și vei începe jocul de la primul nivel',
     'sr': 'Да ли сте сигурни да желите да ресетујете игру?\n\nВаш сачувани прогрес ће бити изгубљен и бићете враћени на почетак игре.',
