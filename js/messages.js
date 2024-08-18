@@ -44,6 +44,7 @@ var messages = {
     'yo': 'Yorùbá',
     'sk': 'Slovenčina',
     'ta': 'தமிழ்',
+    'ur': 'اردو',
   },
   next: {
     'en': 'Next',
@@ -90,6 +91,7 @@ var messages = {
     'yo': 'Èyí tí ó kàn',
     'sk': 'Pokračovať',
     'ta': 'அடுத்த ஒன்று',
+    'ur': 'اگلا',
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
@@ -136,6 +138,7 @@ var messages = {
     'yo': 'Grid Garden ti ṣẹda nipasẹ',
     'sk': 'Grid Garden vytvoril',
     'ta': 'கிரிட் கார்டன் உருவாக்கப்பட்டது',
+    'ur': 'گرڈ گارڈن کے تخلیق کار ہیں',
   },
   labelLevel: {
     'en': 'Level',
@@ -182,6 +185,7 @@ var messages = {
     'yo': 'Ipele',
     'sk': 'Úroveň',
     'ta': 'நிலை',
+    'ur': 'لیول',
   },
   labelOf: {
     'en': 'of',
@@ -228,6 +232,7 @@ var messages = {
     'yo': 'ti',
     'sk': 'z',
     'ta': 'இன்',
+    'ur': 'کی',
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -274,6 +279,7 @@ var messages = {
     'yo': 'Grid Garden - Ere kan fun kikọ CSS grid',
     'sk': 'Grid Garden - Hra na učenie CSS grid',
     'ta': 'Grid Garden - CSS கட்டம் கற்கும் ஒரு விளையாட்டு',
+    'ur': 'گرڈ گارڈن - CSS  گرڈ سیکھنے کے لیے ایک کھیل',
   },
   labelReset: {
     'en': 'Reset',
@@ -320,6 +326,7 @@ var messages = {
     'yo': 'Tunto',
     'sk': 'Reštart',
     'ta': 'மீட்டமை',
+    'ur': 'ری سیٹ',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -366,6 +373,7 @@ var messages = {
     'yo': 'Ṣe o da ọ loju pe o fẹ tun ere naa ṣe?\n\nIlọsiwaju rẹ ti o fipamọ yoo sọnu ati pe iwọ yoo firanṣẹ si ibẹrẹ ere naa.',
     'sk': 'Určite chcete resetovať hru?\n\nVáš uložený postup sa stratí a budete poslaní na začiatok hry.',
     'ta': 'நிச்சயமாக விளையாட்டை மீண்டும் தொடங்க விரும்புகிறீர்களா?\n\nஉங்கள் சேமித்த முன்னேற்றம் இழக்கப்பட்டு, கேமின் தொடக்கத்திற்கு அனுப்பப்படுவீர்கள்.',
+    'ur': 'کیا آپ واقعی کھیل کو ری سیٹ کرنا چاہتے ہیں؟\n\nآپ کی محفوظ کردہ پیشرفت ضائع ہو جائے گی اور آپ کو کھیل کے آغاز پر بھیج دیا جائے گا۔',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="https://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -406,6 +414,7 @@ var messages = {
     'yo': 'Oh Bẹẹkọ, Grid Garden ko ṣiṣẹ lori ẹrọ aṣawakiri yii. O nilo <a href="https://caniuse.com/#feat=css-grid">aṣàwákiri ti o ṣe atilẹyin CSS grid</a>, gẹgẹbi ẹya tuntun ti  <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Lo ọkan ninu awọn lati gba ogba!',
     'sk': 'Ale nie, Grid Garden v tomto prehliadači nefunguje. Vyžaduje prehliadač, <a href="https://caniuse.com/#feat=css-grid">ktorý podporuje CSS grid</a>, napríklad najnovšiu verziu prehliadača <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a> alebo <a href="https://www.apple.com/safari/">Safari</a>. Použite niektorý z nich a pustite sa do záhradkárčenia!',
     'ta': 'இல்லை, இந்த உலாவியில் Grid Garden வேலை செய்யாது. உங்களுக்கு இது தேவை <a href="https://caniuse.com/#feat=css-grid">aṣàwákiri ti o ṣe atilẹyin CSS grid</a>, gẹgẹbi ẹya tuntun ti  <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.apple.com/safari/">Safari</a>. Lo ọkan ninu awọn lati gba ogba!',
+    'ur': 'اوہ نہیں، گرڈ گارڈن اس براؤزر پر کام نہیں کرتا۔ اس کے لیے <a href="https://caniuse.com/#feat=css-grid">ایک ایسا براؤزر چاہیے جو CSS گرڈ کو سپورٹ کرتا ہو</a>، جیسے کہ <a href="https://www.mozilla.org/firefox/">فائر فاکس</a>، <a href="https://www.google.com/chrome/">کروم</a>، یا <a href="https://www.apple.com/safari/">سفاری</a> کا تازہ ترین ورژن۔ ان میں سے کسی ایک کا استعمال کریں تاکہ آپ باغبانی کر سکیں!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -444,5 +453,6 @@ var messages = {
     'yo': 'Ṣe o fẹ kọ CSS flexbox? Ṣi ere',
     'sk': 'Chcete sa naučiť CSS flexbox? Zahrajte si',
     'ta': 'CSS flexbox கற்க விரும்புகிறீர்களா? விளையாட்டைத் திறக்கவும்',
+    'ur': 'سیکھنا چاہتے ہیں؟ کھیلیں CSS flexbox کیا آپ',
   },
 };
