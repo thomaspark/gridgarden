@@ -512,6 +512,6 @@ var docs = {
     'yo': '<p>Sọ pàtó àṣẹ (order) èròjà grid item náà.</p><p><code>&lt;integer&gt;</code></p>',
     'sk': '<p>Určuje poradie položky mriežky.</p><p><code>&lt;integer&gt;</code></p>',
     'ta': '<p>கட்டம் உருப்படியின் வரிசையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code></p>',
-    'en': '<p>گرڈ آئٹم کی ترتیب کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code></p>',
+    'ur': '<p>گرڈ آئٹم کی ترتیب کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
