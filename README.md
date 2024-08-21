@@ -53,6 +53,7 @@ My gratitude to these contributors for their translations.
 * Thai by [Anurat Chapanond](https://github.com/anurat)
 * Turkish by [serdar](https://github.com/yigitserdar)
 * Ukrainian by [Igor Klimchuk](mailto:igor.klimchuk@tstechpro.com)
+* Urdu by [Asfandiyar Khan](https://github.com/asfand-dev)
 * Vietnamese by [Duy Phan](https://github.com/duyphanz)
 * Yoruba by [Koleaje Olayinka](https://github.com/koleajeolayinka)
 
