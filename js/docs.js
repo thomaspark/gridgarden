@@ -41,6 +41,7 @@ var docs = {
     'sk': '<p>Určuje polohu a veľkosť prvku mriežky v rámci mriežky.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ta': '<p>கட்டத்திற்குள் கட்டம் உருப்படியின் நிலை மற்றும் அளவைக் குறிப்பிடுகிறது.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ur': '<p>گرڈ کے اندر ایک گرڈ آئٹم کی پوزیشن اور سائز کو متعین کرتا ہے۔</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ps': '<p>په ګریډ کې د ګریډ ایټم موقعیت او اندازه مشخص کوي.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -83,6 +84,7 @@ var docs = {
     'sk': '<p>Určuje polohu prvku mriežky v rámci stĺpcov mriežky.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்குள் கட்ட உறுப்புகளின் நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ur': '<p>گرڈ کالموں کے اندر ایک گرڈ آئٹم کی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ps': '<p>د گرډ کالمونو کې د گرډ توکي موقعیت مشخص کوي.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -126,6 +128,7 @@ var docs = {
     'sk': '<p>Určuje koncovú pozíciu prvku mriežky v rámci stĺpcov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் இறுதி நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ur': '<p>گرڈ کالموں کے اندر ایک گرڈ آئٹم کی اختتامی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ps': '<p>د گرډ کالمونو کې د گرډ توکي د پای موقعیت مشخصوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -169,6 +172,7 @@ var docs = {
     'sk': '<p>Určuje počiatočnú pozíciu prvku mriežky v rámci stĺpcov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் தொடக்க நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ur': '<p>گرڈ کالموں کے اندر ایک گرڈ آئٹم کی ابتدائی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ps': '<p>د گرډ کالمونو کې د گرډ توکي د پیل موقعیت مشخص کوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -212,6 +216,7 @@ var docs = {
     'sk': '<p>Určuje polohu prvku mriežky v rámci riadkov mriežky.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ur': '<p>گرڈ قطاروں کے اندر ایک گرڈ آئٹم کی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'ps': '<p>د گرډ په قطارونو کې د گرډ توکي موقعیت مشخص کوي.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -255,6 +260,7 @@ var docs = {
     'sk': '<p>Určuje koncovú pozíciu prvku mriežky v rámci riadkov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ur': '<p>گرڈ قطاروں کے اندر ایک گرڈ آئٹم کی اختتامی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ps': '<p>د گرډ په قطارونو کې د گرډ توکي د پای موقعیت مشخص کوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -298,6 +304,7 @@ var docs = {
     'sk': '<p>Určuje počiatočnú pozíciu prvku mriežky v rámci riadkov mriežky.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ta': '<p>கட்டக் கோடுகளுக்கு இடையில் கட்டம் உருப்படியின் தொடக்க நிலையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ur': '<p>گرڈ قطاروں کے اندر ایک گرڈ آئٹم کی ابتدائی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ps': '<p>د گرډ په قطارونو کې د گرډ توکي د پیل موقعیت مشخص کوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -341,6 +348,7 @@ var docs = {
     'sk': '<p>Určuje veľkosť a názvy riadkov a stĺpcov mriežky.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ta': '<p>கட்டத்தின் வரிசைகள் மற்றும் நெடுவரிசைகளின் காட்டி அளவுகள் மற்றும் பெயர்களைக் குறிப்பிடவும்.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ur': '<p>گرڈ کی قطاروں اور کالموں کے سائز اور ناموں کو متعین کرتا ہے۔</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'ps': '<p>د گرډ د قطارونو او کالمونو اندازه او نومونه مشخص کوي.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -384,6 +392,7 @@ var docs = {
     'sk': '<p>Určuje pomenované oblasti mriežky.</p><p><code>&lt;grid-name&gt;</code></p>',
     'ta': '</p>கட்டப் பகுதிகளைக் குறிப்பிடவும்.<p><code>&lt;grid-name&gt;</code></p>',
     'ur': '<p>نامزد کردہ گرڈ ایریاز کی وضاحت کرتا ہے۔</p><p><code>&lt;grid-name&gt;</code></p>',
+    'ps': '<p>نومول شوي گرډ ساحې مشخصوي.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -427,6 +436,7 @@ var docs = {
     'sk': '<p>Určuje veľkosť a názvy stĺpcov mriežky.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ta': '<p>கட்ட நெடுவரிசைகளின் அளவு மற்றும் பெயரைக் குறிப்பிடவும்.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ur': '<p>گرڈ کے کالموں کے سائز اور ناموں کی وضاحت کرتا ہے۔</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ps': '<p>د گرډ د کالمونو اندازه او نومونه مشخص کوي.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -470,6 +480,7 @@ var docs = {
     'sk': '<p>Určuje veľkosť a názvy riadkov mriežky.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ta': '<p>கட்டக் கோடுகளின் அளவுகள் மற்றும் பெயர்களைக் குறிப்பிடவும்.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ur': '<p>گرڈ کی قطاروں کے سائز اور ناموں کی وضاحت کرتا ہے۔</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ps': '<p>د گرډ د قطارونو اندازه او نومونه مشخص کوي.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -513,5 +524,6 @@ var docs = {
     'sk': '<p>Určuje poradie položky mriežky.</p><p><code>&lt;integer&gt;</code></p>',
     'ta': '<p>கட்டம் உருப்படியின் வரிசையைக் குறிப்பிடவும்.</p><p><code>&lt;integer&gt;</code></p>',
     'ur': '<p>گرڈ آئٹم کی ترتیب کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code></p>',
+    'ps': '<p>د گرډ توکي ترتیب ټاکي.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
