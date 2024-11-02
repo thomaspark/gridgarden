@@ -426,7 +426,7 @@ var messages = {
     'ps': 'اوهو، د Grid Garden په دې براوزر کې کار نه کوي. دا د <a href="https://caniuse.com/#feat=css-grid">CSS grid ملاتړ لرونکي براوزر</a> ته اړتیا لري، لکه د <a href="https://www.mozilla.org/firefox/">Firefox</a> وروستی نسخه، <a href="https://www.google.com/chrome/">Chrome</a>، یا <a href="https://www.apple.com/safari/">Safari</a>. د دې لپاره له دې براوزرونو څخه یو وکاروئ ترڅو باغباني پیل کړئ!'
   },
   flexboxFroggy: {
-    'en': 'Want to learn CSS flexbox? Play',
+    'en': 'Want to learn more CSS? Play',
     'bn': 'CSS flexbox শিখতে চান?তাহলে খেলুন',
     'hi': 'Want to learn CSS flexbox? खेलें',
     'ro': 'Vrei să înveți CSS flexbox? Joacă',
