@@ -756,6 +756,6 @@ button:not(.disabled):hover {
   background-color: #e6e1d3;
   color: #fff;
   font-weight: 600;
-  font-size: 9px;
+  font-size: 9px ;
   line-height: 1;
 }
