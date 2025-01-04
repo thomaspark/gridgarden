@@ -57,7 +57,7 @@ var levels = [
       'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.</p>',
       'bn': '<p>অহ ওহ, মনে হচ্ছে আপনার বাগানের কোনায় আগাছা জন্মাচ্ছে. এদের কে বিষ দিতে ব্যবহার করুন <code>grid-column-start</code>. লক্ষ করুন যে আগাছা গুলো শুরু হয়েছে উলম্ব/ভার্টিক্যাল অক্ষ বরাবর ৫ম নাম্বার grid লাইন থেকে।</p>',
       'hi': '<p>ओह ओ, ऐसा लगता है कि आपके बगीचे के कोने में खरबूजे उग रहे हैं। प्रयोग करना <code>grid-column-start</code>का उन्हें जहर देने के लिए। ध्यान दें कि खरपतवार 5वीं ऊर्ध्वाधर ग्रिड लाइन से शुरू होते हैं।</p>',
-      'lt': '<p>Vaje!, atrodo, kad tavo sodo kampelyje auga piktžolės. Naudok <code>grid-column-start</code>, kad jas nunuodyti. Atkreipk dėmesį, kad piktžolės prasideda nuo penktosios vertikaliosios grid-linijos.</p>',
+      'lt': '<p>Vaje! Atrodo, kad tavo sodo kampelyje auga piktžolės. Naudok <code>grid-column-start</code>, kad jas nunuodyti. Atkreipk dėmesį, kad piktžolės prasideda nuo penktosios vertikaliosios grid-linijos.</p>',
       'lv': '<p>Izskatās, ka tava dārza stūrī iemetušās nezāles. Lai noindētu šīs nezāles, lieto <code>grid-column-start</code> Atceries, ka nezāles izaugušas sākot no 5 vertikālās "grid" līnijas.</p>',
       'ro': '<p>Ah, se pare că au început să crească buruieni în colțul grădinii tale. Folosește <code>grid-column-start</code> să le otrăvești. Notează că buruienile încep la a cincea linie verticală din grid.</p>',
       'zh-cn': '<p>哎呀，在你的花园的角落里好像长着一些杂草。用<code>grid-column-start</code>来除掉杂草。注意，杂草从第五个网格列开始。</p>',

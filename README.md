@@ -57,6 +57,7 @@ My gratitude to these contributors for their translations.
 * Pashto by [Muhammad Shafiq](https://github.com/shafiq-techmentors)
 * Vietnamese by [Duy Phan](https://github.com/duyphanz)
 * Yoruba by [Koleaje Olayinka](https://github.com/koleajeolayinka)
+* Lithuanian by [Daniilas Komogorcevas](https://github.com/UvvUmi)
 
 Don't see your language on the list? Add it!
 
