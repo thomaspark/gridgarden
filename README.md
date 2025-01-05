@@ -39,6 +39,7 @@ My gratitude to these contributors for their translations.
 * Japanese by [shuuji3](https://github.com/shuuji3)
 * Korean by [YunHak Kwon](https://github.com/tienne)
 * Latvian by [Arturs Kirtovskis](https://github.com/Akirtovskis)
+* Lithuanian by [Daniilas Komogorcevas](https://github.com/UvvUmi)
 * Norwegian by [Victoria Bergquist](https://github.com/vicbergquist)
 * Polish by [Jawa the Cat](https://github.com/jaworek)
 * Portuguese (Brazil) by [Gabriel](https://github.com/gcacars)
@@ -57,7 +58,6 @@ My gratitude to these contributors for their translations.
 * Pashto by [Muhammad Shafiq](https://github.com/shafiq-techmentors)
 * Vietnamese by [Duy Phan](https://github.com/duyphanz)
 * Yoruba by [Koleaje Olayinka](https://github.com/koleajeolayinka)
-* Lithuanian by [Daniilas Komogorcevas](https://github.com/UvvUmi)
 
 Don't see your language on the list? Add it!
 
