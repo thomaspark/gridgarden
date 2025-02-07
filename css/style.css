@@ -105,7 +105,7 @@ a:hover {
   height: 0; 
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 12px solid #2c3e50;
+  border-bottom: 12px solid #4699ec;
 }
 
 .tooltip code {
@@ -146,12 +146,12 @@ a:hover {
   right: 0;
   top:  0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(224, 52, 52, 0.3);
   transition: background-color 0.2s;
 }
 
 .games a:hover::before {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(239, 44, 44, 0.1);
 }
 
 .games a::after {
@@ -254,7 +254,7 @@ pre {
   height: 30px;
   margin: 2px;
   line-height: 26px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border: 2px solid transparent;
   border-radius: 50%;
   text-align: center;
@@ -267,7 +267,7 @@ pre {
 }
 
 .level-marker.solved {
-  background-color: #228B24;
+  background-color: #515651;
   background-color: #5DA449;
 }
 
@@ -275,7 +275,7 @@ pre {
 .arrow {
   float: left;
   height: 30px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(18, 7, 7, 0.2);
 }
 
 #level-indicator {
@@ -314,12 +314,12 @@ pre {
 }
 
 .arrow.left {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(243, 4, 4, 0.2);
   border-radius: 4px 0 0 4px;
 }
 
 .arrow.right {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(4, 2, 2, 0.2);
   border-radius: 0 4px 4px 0;
 }
 
@@ -351,7 +351,7 @@ pre {
 button {
   display: inline-block;
   padding: 0.4em 0.8em;
-  background-color: #D11606;
+  background-color: #975f5a;
   background-color: #DA931E;
   border: none;
   border-radius: 4px;
@@ -704,7 +704,7 @@ button:not(.disabled):hover {
   margin: 2em 0 .5em;
   padding: 8px 18px 8px 0;
   border-radius: 4px;
-  background-color: hsla(0, 0%, 0%, .1);
+  background-color: hsla(0, 38%, 8%, 0.1);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -753,9 +753,9 @@ button:not(.disabled):hover {
   padding: 4px 6px;
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  background-color: #6e5821;
+  background-color: #e6e1d3;
   color: #fff;
   font-weight: 600;
-  font-size: 9px;
+  font-size: 9px ;
   line-height: 1;
 }
