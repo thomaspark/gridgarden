@@ -76,8 +76,6 @@
           <span class="fb-like" data-href="https://cssgridgarden.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
         </p>
       </div>
-      
-      <div id="custom-inline"></div>
 
       <div class="credits">
         <span id="labelFooter" class="translate">Grid Garden is created by</span>
@@ -252,24 +250,34 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <script src="//m.servedby-buysellads.com/monetization.custom.js"></script>
+    <script src="//m.servedby-buysellads.com/monetization.js"></script>
     <script>
-    (function() {
-      if (typeof _bsa !== 'undefined' && _bsa) {
-        _bsa.init('custom', 'CESIC537', 'placement:cssgridgardencom',
-        {
-          target: '#custom-inline',
-          template: `
-      <a href="##link##" class="native-link" rel="sponsored noopener" target="_blank" title="##company## — ##tagline##">
-        <img src="##image##" style="background-color: ##backgroundColor##" class="native-img">
-        <div class="native-text"><span class="native-company">##company##</span> ##description##</div>
+      (function () {
+        if (typeof _bsa !== 'undefined' && _bsa) {
+          _bsa.init(
+            'custom',
+            'CW7I5KQM',
+            'placement:flexboxfroggycom-icon-bar',
+            {
+              target: '#iconBarJs',
+              template: `
+    <div class="iconBarFlex">
+      <a href="##statlink##" class="iconBarLink" rel="sponsored noopener" target="_blank" title="##company## — ##tagline##">
+        <div class="iconBarImage" style="background-color: ##backgroundColor##;">
+          <img height="30" width="30" src="##image##" alt="##company## logo">
+        </div>
+        <div class="iconBarText">
+          <div class="iconBarTagline">##companyTagline##</div>
+          <div class="iconBarDescription">##description##</div>
+        </div>
       </a>
-      <a href="##ad_via_link##" class="native-ad">AD</a>
-        `
+      <a href="##ad_via_link##" class="iconBarVia" rel="sponsored noopener" target="_blank">ads via BuySellAds</a>
+    </div>
+        `,
             }
           );
-      }
-    })();
+        }
+      })();
     </script>
   </body>
 </html>
