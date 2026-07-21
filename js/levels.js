@@ -208,7 +208,7 @@ var levels = [
       'ta': '<p><code>grid-column-start</code> மற்றும் <code>grid-column-end</code> ஆகியவற்றை இணைக்கும்போது, ​​தொடக்க மதிப்பை விட இறுதி மதிப்பு அதிகமாக இருக்க வேண்டும் என்று நீங்கள் கருதலாம். ஆனால் இது அப்படியல்ல!</p><p>உங்கள் கேரட்டுக்கு தண்ணீர் பாய்ச்ச, <code>grid-column-end</code>ஐ 5க்கும் குறைவான மதிப்புக்கு அமைக்க முயற்சிக்கவும்.</p>',
       'ur': '<p>جب آپ <code>grid-column-start</code> اور <code>grid-column-end</code> کو جوڑتے ہیں، تو آپ فرض کر سکتے ہیں کہ اختتامی قدر کو شروعاتی قدر سے زیادہ ہونا چاہیے۔ لیکن یہ ضروری نہیں ہے!</p><p>اپنی گاجروں کو پانی دینے کے لیے <code>grid-column-end</code> کی قدر 5 سے کم کرنے کی کوشش کریں۔</p>',
       'ps': '<p>کله چې <code>grid-column-start</code> او <code>grid-column-end</code> یوځای وکارول شي، تاسو ښايي فکر وکړئ چې د پای ارزښت باید د پیل ارزښت څخه لوی وي. مګر دا حقیقت نه دی!</p><p>د خپلو ګازرو د اوبو ورکولو لپاره، هڅه وکړئ چې <code>grid-column-end</code> ته د ۵ څخه لږ ارزښت ورکړئ.</p>',
-      'ka': '<p>When pairing <code>grid-column-start</code> and <code>grid-column-end</code>, you might assume that the end value has to be greater than the start value. But this turns out not the case!</p><p>Try setting <code>grid-column-end</code> to a value less than 5 to water your carrots.</p>',
+      'ka': '<p>როდესაც <code>grid-column-start</code>-სა და <code>grid-column-end</code>-ს კომბინირებულად იყენებთ, შესაძლოა იფიქროთ, რომ საბოლოო მნიშვნელობა საწყისზე მეტი უნდა იყოს. თუმცა როგორც ირკვევა, ეს ასე არ არის!</p><p>სტაფილოს მოსარწყავად სცადეთ <code>grid-column-end</code> თვისებისთვის 5-ზე ნაკლები მნიშვნელობის მინიჭება.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-5'},
