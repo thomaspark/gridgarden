@@ -482,7 +482,7 @@ var levels = [
       'ta': '<p>உங்கள் பொருளின் அகலத்தை இறுதி நிலைக்கு ஏற்ப அமைக்க, <code>span</code> முக்கிய சொல்லை <code>grid-column-start</code> பயன்படுத்தலாம்.</p>',
       'ur': '<p>آپ <code>span</code> کلیدی لفظ کو <code>grid-column-start</code> کے ساتھ بھی استعمال کر سکتے ہیں تاکہ آئٹم کی چوڑائی کو اختتامی پوزیشن کے لحاظ سے سیٹ کیا جا سکے۔</p>',
       'ps': '<p>تاسو کولی شئ د <code>span</code> کیلي سره د <code>grid-column-start</code> څخه هم استفاده وکړئ ترڅو خپل توکي د پای موقعیت سره نسبت کړئ.</p>',
-      'ka': '<p>You can also use the <code>span</code> keyword with <code>grid-column-start</code> to set your item\'s width relative to the end position.</p>',
+      'ka': '<p><code>span</code> საკვანძო სიტყვის გამოყენება <code>grid-column-start</code> თვისებასთანაც შეგიძლიათ, რათა ელემენტის სიგანე საბოლოო წერტილთან მიმართებით განსაზღვროთ.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-end-6'},
