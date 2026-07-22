@@ -591,7 +591,7 @@ var levels = [
       'ta': '<p>இந்த கேரட்டுகளுக்கு தண்ணீர் பாய்ச்ச <code>grid-column</code> ஐப் பயன்படுத்தவும். <code>span</code> முக்கிய வார்த்தையும் இந்த சுருக்கெழுத்து பண்புடன் வேலை செய்கிறது, எனவே இதை முயற்சிக்கவும்!</p>',
       'ur': '<p>ان گاجروں کو پانی دینے کے لیے <code>grid-column</code> کا استعمال کرنے کی کوشش کریں۔ یہ شارٹ ہینڈ پراپرٹی کے ساتھ <code>span</code> کلیدی لفظ بھی کام کرتا ہے، لہذا اسے آزمائیں!</p>',
       'ps': '<p>د دې گاجرونو د اوبو ورکولو لپاره <code>grid-column</code> وکاروئ. د <code>span</code> کلیدي کلمه د دې لنډې ملکیت سره هم کار کوي نو هڅه وکړئ!</p>',
-      'ka': '<p>Try using <code>grid-column</code> to water these carrots. The <code>span</code> keyword also works with this shorthand property so give it a try!</p>',
+      'ka': '<p>სცადეთ <code>grid-column</code> თვისების გამოყენება მოცემული სტაფილოს ნათესების მოსარწყავად. <code>span</code> საკვანძო სიტყვა ამ შემოკლებულ თვისებასთანაც მუშაობს; თავად მოსინჯეთ!</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
