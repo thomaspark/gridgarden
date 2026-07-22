@@ -318,7 +318,7 @@ var levels = [
       'ta': '<p>இப்போது <code>grid-column-start</code> ஒரு எதிர்மறை மதிப்புக்கு அமைக்க முயற்சிக்கவும்.</p>',
       'ur': '<p>اب <code>grid-column-start</code> کو منفی قدر پر سیٹ کرنے کی کوشش کریں۔</p>',
       'ps': '<p>اوس هڅه وکړئ چې <code>grid-column-start</code> ته منفي ارزښت ورکړئ.</p>',
-      'ka': '<p>Now try setting <code>grid-column-start</code> to a negative value.</p>',
+      'ka': '<p>ახლა კი <code>grid-column-start</code> თვისებისთვის სცადეთ უარყოფითი მნიშვნელობის მინიჭება.</p>',
     },
     board: 'w',
     selector: '> :nth-child(1)',
