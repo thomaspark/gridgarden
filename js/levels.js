@@ -1185,7 +1185,7 @@ var levels = [
       'ta': '<p><code>grid-template-columns</code> வெறும் சதவீதங்களில் மதிப்புகளை ஏற்காது, ஆனால் பிக்சல்கள் மற்றும் ems போன்ற நீள அலகுகளையும் ஏற்காது. நீங்கள் வெவ்வேறு அலகுகளை ஒன்றாக கலக்கலாம்.</p><p>இங்கே, மூன்று நெடுவரிசைகளை முறையே <code>100px</code>, <code>3em</code> மற்றும் <code>40%</code> என அமைக்கவும்.</p>',
       'ur': '<p><code>grid-template-columns</code> صرف فیصد میں ہی نہیں بلکہ پیکسلز اور ای ایمز جیسے لمبائی کے یونٹس کو بھی قبول کرتا ہے۔ آپ مختلف یونٹس کو ایک ساتھ ملا بھی سکتے ہیں۔</p><p>یہاں تین کالمز کو ترتیب دیں: پہلے کو <code>100px</code>, دوسرے کو <code>3em</code>, اور تیسرے کو <code>40%</code> پر۔</p>',
       'ps': '<p><code>grid-template-columns</code> یوازې په سلنې ارزښتونو کې نه، بلکې په پیسکلونو او ایمونو لکه اوږدوالی واحدونو کې هم ارزښتونه مني. تاسو حتی کولی شئ بېلابېل واحدونه یو ځای هم وکاروئ.</p><p>دلته، درې کالمونه په ترتیب سره <code>100px</code>، <code>3em</code>، او <code>40%</code> ته وټاکئ.</p>',
-      'ka': '<p><code>grid-template-columns</code> doesn\'t just accept values in percentages, but also length units like pixels and ems. You can even mix different units together.</p><p>Here, set three columns to <code>100px</code>, <code>3em</code>, and <code>40%</code> respectively.</p>',
+      'ka': '<p><code>grid-template-columns</code> იღებს მნიშვნელობებს არა მხოლოდ პროცენტებში, არამედ სიგრძის ერთეულებშიც, როგორებიცაა <code>px</code> და <code>em</code>. სხვადასხვა ერთეულების შერევაც კი შეგიძლიათ.</p><p>მიანიჭეთ სამ სვეტს შესაბამისად <code>100px</code>, <code>3em</code> და <code>40%</code> მნიშვნელობები.</p>',
     },
     board: 'cwc',
     classes: {'#plants': 'grid-template-columns-100px-3em-40p'},
