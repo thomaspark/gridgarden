@@ -807,7 +807,7 @@ var levels = [
       'ta': '<p>கட்டத்திற்குள் பெரிய பகுதிகளை விரிவுபடுத்த, <code>grid-column</code> மற்றும் <code>grid-row</code> ஆகியவற்றைப் பயன்படுத்தலாம். ஒரு முறை முயற்சி செய்!</p>',
       'ur': '<p>آپ گرڈ کے اندر بڑے علاقوں پر محیط ہونے کے لیے <code>grid-column</code> اور <code>grid-row</code> کو ایک ساتھ استعمال کر سکتے ہیں۔ اسے آزما کر دیکھیں!</p>',
       'ps': '<p>تاسو کولی شئ <code>grid-column</code> او <code>grid-row</code> یو ځای وکاروئ تر څو د گرډ دننه لویې سیمې وپوښئ. هڅه وکړئ!</p>',
-      'ka': '<p>You can also use <code>grid-column</code> and <code>grid-row</code> together to span larger areas within the grid. Give it a try!</p>',
+      'ka': '<p><code>grid-column</code> და <code>grid-row</code> თვისებების კომბინირებული გამოყენებით Grid-ბადეში უფრო დიდი სივრცის ათვისებაც შეგიძლიათ. თავად მოსინჯეთ!</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
