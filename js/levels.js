@@ -753,7 +753,7 @@ var levels = [
       'ta': '<p>இரு பரிமாணங்களிலும் நிலையை அமைக்க, ஒரே நேரத்தில் <code>grid-column</code> மற்றும்  <code>grid-row</code> ஆகியவற்றைப் பயன்படுத்தவும்.</p>',
       'ur': '<p>دونوں جہتوں میں پوزیشن سیٹ کرنے کے لیے <code>grid-column</code> اور <code>grid-row</code> کو ایک ساتھ استعمال کریں۔</p>',
       'ps': '<p>د <code>grid-column</code> او <code>grid-row</code> په یو وخت کې وکاروئ تر څو موقعیت په دواړو ابعادو کې وټاکئ.</p>',
-      'ka': '<p>Use <code>grid-column</code> and <code>grid-row</code> at the same time to set position in both dimensions.</p>',
+      'ka': '<p>გამოიყენეთ <code>grid-column</code> და <code>grid-row</code> თვისებები ერთდროულად, რათა ელემენტის პოზიცია ორივე განზომილებაში განსაზღვროთ.</p>',
     },
     board: 'w',
     selector: '> :nth-child(1)',
