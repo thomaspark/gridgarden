@@ -427,7 +427,7 @@ var levels = [
       'ta': '<p>உங்கள் கேரட்டுக்குத் தண்ணீர் பாய்ச்ச, மீண்டும் <code>span</code> முக்கிய சொல்லுடன் <code>grid-column-end</code> ஐப் பயன்படுத்தவும்.</p>',
       'ur': '<p>اپنی گاجروں کو پانی دینے کے لیے <code>span</code> کلیدی لفظ کے ساتھ <code>grid-column-end</code> کا دوبارہ استعمال کرنے کی کوشش کریں۔</p>',
       'ps': '<p>د خپلو ګازرو اوبه کولو لپاره بیا هڅه وکړئ چې د <code>span</code> کیلي سره <code>grid-column-end</code> وکاروئ.</p>',
-      'ka': '<p>Try using <code>grid-column-end</code> with the <code>span</code> keyword again to water your carrots.</p>',
+      'ka': '<p>სცადეთ <code>grid-column-end</code> თვისების გამოყენება კიდევ ერთხელ <code>span</code> საკვანძო სიტყვასთან ერთად სტაფილოს მოსარწყავად.</p>',
     },
     board: 'c',
     classes: {'#garden > *, #plants > *': 'grid-column-start-1'},
