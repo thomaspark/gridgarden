@@ -699,7 +699,7 @@ var levels = [
       'ta': '<p>இப்போது சுருக்கெழுத்து பண்பு <code>grid-row</code> ஐ முயற்சிக்கவும்.</p>',
       'ur': '<p>اب شارٹ ہینڈ پراپرٹی <code>grid-row</code> کو آزما کر دیکھیں۔</p>',
       'ps': '<p>اوس د لنډیز ځانګړتیا <code>grid-row</code> هڅه وکړئ.</p>',
-      'ka': '<p>Now give the shorthand property <code>grid-row</code> a try.</p>',
+      'ka': '<p>ახლა კი მოსინჯეთ შემოკლებული თვისება <code>grid-row</code>.</p>',
     },
     board: 'c',
     selector: '> :nth-child(1)',
