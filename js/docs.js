@@ -278,7 +278,7 @@ var docs = {
     'ur': '<p>گرڈ قطاروں کے اندر ایک گرڈ آئٹم کی اختتامی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ps': '<p>د گرډ په قطارونو کې د گرډ توکي د پای موقعیت مشخص کوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento pabaigos poziciją "Grid" eilutėse.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
-    'ka': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის დასრულების წერტილის პოზიციას Grid-ბადის მწკრივებთან მიმართებით.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
