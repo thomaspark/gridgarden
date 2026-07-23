@@ -44,7 +44,7 @@ var docs = {
     'ur': '<p>گرڈ کے اندر ایک گرڈ آئٹم کی پوزیشن اور سائز کو متعین کرتا ہے۔</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ps': '<p>په ګریډ کې د ګریډ ایټم موقعیت او اندازه مشخص کوي.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento poziciją ir dydį "Grid" tinklelyje.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
-    'ka': '<p>Specifies a grid item\'s position and size within the grid.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის პოზიციასა და ზომას Grid-ბადეში.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
