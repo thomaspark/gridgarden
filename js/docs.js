@@ -419,7 +419,7 @@ var docs = {
     'ur': '<p>نامزد کردہ گرڈ ایریاز کی وضاحت کرتا ہے۔</p><p><code>&lt;grid-name&gt;</code></p>',
     'ps': '<p>نومول شوي گرډ ساحې مشخصوي.</p><p><code>&lt;grid-name&gt;</code></p>',
     'lt': '<p>Nurodo pavadintas "Grid" zonas.</p><p><code>&lt;grid-name&gt;</code></p>',
-    'ka': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს სახელდებულ Grid-არეალებს.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
