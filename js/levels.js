@@ -1405,7 +1405,7 @@ var levels = [
       'ta': '<p><code>grid-template-rows</code> <code>grid-template-columns</code> போலவே செயல்படுகிறது.</p><p> <code>grid-template-rows</code> ஐ பயன்படுத்தி உங்கள் தோட்டத்தின் முதல் 50 பிக்சல்களைத் தவிர மற்ற அனைத்திற்கும் தண்ணீர் ஊற்றவும். உங்கள் 5 வது வரிசையை மட்டுமே நிரப்ப தண்ணீர் அமைக்கப்பட்டுள்ளது என்பதை நினைவில் கொள்ளவும், எனவே நீங்கள் மொத்தம் 5 வரிசைகளை உருவாக்க வேண்டும்.</p>',
       'ur': '<p><code>grid-template-rows</code> بالکل <code>grid-template-columns</code> کی طرح کام کرتا ہے۔</p><p>اپنے باغ کے اوپری 50 پکسلز کے علاوہ باقی سب کو پانی دینے کے لیے <code>grid-template-rows</code> کا استعمال کریں۔ یاد رکھیں کہ پانی صرف آپ کی پانچویں قطار کو بھرنے کے لیے سیٹ کیا گیا ہے، لہذا آپ کو کل 5 قطاریں بنانی ہوں گی۔</p>',
       'ps': '<p><code>grid-template-rows</code> د <code>grid-template-columns</code> په څیر کار کوي.</p><p>د <code>grid-template-rows</code> وکاروئ ترڅو ټول باغ ته اوبه ورکړئ پرته له هغه ۵۰ پکسلونو چې په سر کې دي. په یاد ولرئ چې اوبه یوازې ستاسو ۵م قطار ته ورکړل شوې ده، نو تاسو باید ټول ۵ قطارونه جوړ کړئ.</p>',
-      'ka': '<p><code>grid-template-rows</code> works much the same as <code>grid-template-columns</code>.</p><p>Use <code>grid-template-rows</code> to water all but the top 50 pixels of your garden. Note that the water is set to fill only your 5th row, so you\'ll need to create 5 rows in total.</p>',
+      'ka': '<p><code>grid-template-rows</code> თითქმის ისევე მუშაობს, როგორც <code>grid-template-columns</code>.</p><p>გამოიყენეთ <code>grid-template-rows</code> თვისება ზედა 50 პიქსელის გარდა მთელი ბოსტნის მოსარწყავად. გაითვალისწინეთ, რომ წყალი მხოლოდ მე-5 მწკრივს ავსებს, ასე რომ, საჭიროა ბოსტანი 5 მწკრივად დაიყოს.</p>',
     },
     board: 'c',
     classes: {
