@@ -90,7 +90,7 @@ var docs = {
     'ur': '<p>گرڈ کالموں کے اندر ایک گرڈ آئٹم کی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ps': '<p>د گرډ کالمونو کې د گرډ توکي موقعیت مشخص کوي.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento poziciją "Grid" stulpeliuose.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
-    'ka': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის პოზიციას Grid-ბადის სვეტებთან მიმართებით.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
