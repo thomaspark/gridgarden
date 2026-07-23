@@ -44,6 +44,7 @@ var docs = {
     'ur': '<p>گرڈ کے اندر ایک گرڈ آئٹم کی پوزیشن اور سائز کو متعین کرتا ہے۔</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'ps': '<p>په ګریډ کې د ګریډ ایټم موقعیت او اندازه مشخص کوي.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento poziciją ir dydį "Grid" tinklelyje.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის პოზიციასა და ზომას Grid-ბადეში.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -89,6 +90,7 @@ var docs = {
     'ur': '<p>گرڈ کالموں کے اندر ایک گرڈ آئٹم کی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'ps': '<p>د گرډ کالمونو کې د گرډ توکي موقعیت مشخص کوي.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento poziciją "Grid" stulpeliuose.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის პოზიციას Grid-ბადის სვეტებთან მიმართებით.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -135,6 +137,7 @@ var docs = {
     'ur': '<p>گرڈ کالموں کے اندر ایک گرڈ آئٹم کی اختتامی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ps': '<p>د گرډ کالمونو کې د گرډ توکي د پای موقعیت مشخصوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento pabaigos poziciją "Grid" stulpeliuose.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის დასრულების წერტილის პოზიციას Grid-ბადის სვეტებთან მიმართებით.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -181,6 +184,7 @@ var docs = {
     'ur': '<p>گرڈ کالموں کے اندر ایک گرڈ آئٹم کی ابتدائی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ps': '<p>د گرډ کالمونو کې د گرډ توکي د پیل موقعیت مشخص کوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento pradžios poziciją "Grid" stulpeliuose.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის დაწყების წერტილის პოზიციას Grid-ბადის სვეტებთან მიმართებით.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -227,6 +231,7 @@ var docs = {
     'ur': '<p>گرڈ قطاروں کے اندر ایک گرڈ آئٹم کی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'ps': '<p>د گرډ په قطارونو کې د گرډ توکي موقعیت مشخص کوي.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento poziciją "Grid" eilutėse.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის პოზიციას Grid-ბადის მწკრივებთან მიმართებით.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -273,6 +278,7 @@ var docs = {
     'ur': '<p>گرڈ قطاروں کے اندر ایک گرڈ آئٹم کی اختتامی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ps': '<p>د گرډ په قطارونو کې د گرډ توکي د پای موقعیت مشخص کوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento pabaigos poziciją "Grid" eilutėse.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის დასრულების წერტილის პოზიციას Grid-ბადის მწკრივებთან მიმართებით.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -319,6 +325,7 @@ var docs = {
     'ur': '<p>گرڈ قطاروں کے اندر ایک گرڈ آئٹم کی ابتدائی پوزیشن کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'ps': '<p>د گرډ په قطارونو کې د گرډ توکي د پیل موقعیت مشخص کوي.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento pradžios poziciją "Grid" eilutėse.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის დაწყების წერტილის პოზიციას Grid-ბადის მწკრივებთან მიმართებით.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
@@ -365,6 +372,7 @@ var docs = {
     'ur': '<p>گرڈ کی قطاروں اور کالموں کے سائز اور ناموں کو متعین کرتا ہے۔</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ps': '<p>د گرډ د قطارونو او کالمونو اندازه او نومونه مشخص کوي.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" eilučių ir stulpelių dydžius, pavadinimus.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ბადის მწკრივებისა და სვეტების ზომებსა და სახელებს.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
@@ -411,6 +419,7 @@ var docs = {
     'ur': '<p>نامزد کردہ گرڈ ایریاز کی وضاحت کرتا ہے۔</p><p><code>&lt;grid-name&gt;</code></p>',
     'ps': '<p>نومول شوي گرډ ساحې مشخصوي.</p><p><code>&lt;grid-name&gt;</code></p>',
     'lt': '<p>Nurodo pavadintas "Grid" zonas.</p><p><code>&lt;grid-name&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს სახელდებულ Grid-არეალებს.</p><p><code>&lt;grid-name&gt;</code></p>',
   },
   'grid-template-columns': {
     'en': '<p>Specifies the sizing and names of the grid\'s columns.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -457,6 +466,7 @@ var docs = {
     'ur': '<p>گرڈ کے کالموں کے سائز اور ناموں کی وضاحت کرتا ہے۔</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ps': '<p>د گرډ د کالمونو اندازه او نومونه مشخص کوي.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'lt': '<p>Nurodo "Grid" stulpelių dydžius ir pavadinimus.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ბადის სვეტების ზომებსა და სახელებს.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'grid-template-rows': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
@@ -503,6 +513,7 @@ var docs = {
     'ur': '<p>گرڈ کی قطاروں کے سائز اور ناموں کی وضاحت کرتا ہے۔</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'ps': '<p>د گرډ د قطارونو اندازه او نومونه مشخص کوي.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
     'lt': '<p>Nurodo "Grid" eilučių dydžius ir pavadinimus.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ბადის მწკრივების ზომებსა და სახელებს.</p><p><code>&lt;length&gt;</code> <code>&lt;percentage&gt;</code> <code>&lt;flex&gt;</code> <code>max-content</code> <code>min-content</code> <code>minmax(min, max)</code></p>',
   },
   'order': {
     'en': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
@@ -549,5 +560,6 @@ var docs = {
     'ur': '<p>گرڈ آئٹم کی ترتیب کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code></p>',
     'ps': '<p>د گرډ توکي ترتیب ټاکي.</p><p><code>&lt;integer&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento tvarką.</p><p><code>&lt;integer&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის რიგითობას.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
