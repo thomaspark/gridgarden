@@ -1351,7 +1351,7 @@ var levels = [
       'ta': '<p>இப்போது உங்கள் தோட்டத்தின் இடது பக்கத்தில் 75 பிக்சல் நெடுவரிசையில் களைகள் உள்ளன. மீதமுள்ள இடத்தில் 3/5 கேரட் வளரும், 2/5 களைகளால் அதிகமாக உள்ளது.</p><p>தேவையான நெடுவரிசைகளை உருவாக்க, <code>px</code> மற்றும் <code>fr</code> அலகுகளின் கலவையுடன் <code>grid-template-columns</code> ஐப் பயன்படுத்தவும்.</p>',
       'ur': '<p>اب آپ کے باغ کے بائیں جانب 75 پکسلز کا ایک کالم جڑی بوٹیوں کا ہے۔ باقی جگہ کے 3/5 حصے میں گاجریں اُگ رہی ہیں، جبکہ 2/5 حصے پر جڑی بوٹیاں قبضہ کر چکی ہیں۔</p><p>ضروری کالمز بنانے کے لیے <code>grid-template-columns</code> کا استعمال کرتے ہوئے <code>px</code> اور <code>fr</code> یونٹس کا مجموعہ استعمال کریں۔</p>',
       'ps': '<p>اوس د ستاسو باغ په کیڼ اړخ کې ۷۵ پکسل کالم د خوره دی. پاتې ځای ۳/۵ برخه د ګازرو لپاره دی، پداسې حال کې چې ۲/۵ برخه د خوره سره ډک شوې ده.</p><p>د <code>grid-template-columns</code> سره د <code>px</code> او <code>fr</code> واحدونو ترکیب وکاروئ ترڅو اړین کالمونه جوړ کړئ.</p>',
-      'ka': '<p>Now there is a 75 pixel column of weeds on the left side of your garden. 3/5 of the remaining space is growing carrots, while 2/5 has been overrun with weeds.</p><p>Use <code>grid-template-columns</code> with a combination of <code>px</code> and <code>fr</code> units to make the necessary columns.</p>',
+      'ka': '<p>ბოსტნის მარცხენა მხარეს სარეველას 75-პიქსელიანი სვეტია. დარჩენილი სივრცის 3/5-ზე სტაფილო ხარობს, 2/5-ზე კი ისევ სარეველაა მოდებული.</p><p>სვეტებისთვის საჭირო ზომების განსასაზღვრად გამოიყენეთ <code>grid-template-columns</code> თვისება <code>px</code> და <code>fr</code> ერთეულებთან ერთად.</p>',
     },
     board: 'wcw',
     classes: {'#plants': 'grid-template-columns-6', '#garden, #overlay': 'grid-template-rows-100p'},
