@@ -372,7 +372,7 @@ var docs = {
     'ur': '<p>گرڈ کی قطاروں اور کالموں کے سائز اور ناموں کو متعین کرتا ہے۔</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'ps': '<p>د گرډ د قطارونو او کالمونو اندازه او نومونه مشخص کوي.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" eilučių ir stulpelių dydžius, pavadinimus.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
-    'ka': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ბადის მწკრივებისა და სვეტების ზომებსა და სახელებს.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
   },
   'grid-template-areas': {
     'en': '<p>Specifies named grid areas.</p><p><code>&lt;grid-name&gt;</code></p>',
