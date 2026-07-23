@@ -560,6 +560,6 @@ var docs = {
     'ur': '<p>گرڈ آئٹم کی ترتیب کو متعین کرتا ہے۔</p><p><code>&lt;integer&gt;</code></p>',
     'ps': '<p>د گرډ توکي ترتیب ټاکي.</p><p><code>&lt;integer&gt;</code></p>',
     'lt': '<p>Nurodo "Grid" elemento tvarką.</p><p><code>&lt;integer&gt;</code></p>',
-    'ka': '<p>Specifies the order of the grid item.</p><p><code>&lt;integer&gt;</code></p>',
+    'ka': '<p>განსაზღვრავს Grid-ელემენტის რიგითობას.</p><p><code>&lt;integer&gt;</code></p>',
   },
 };
